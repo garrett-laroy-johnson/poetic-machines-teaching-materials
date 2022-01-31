@@ -4,16 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.84.0">
+    <meta name="author" content="Garrett Johnson">
+
     <title>Intro to Programming for the Arts: Spring 2022</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sidebars/">
 
 
 
-    <!-- Bootstrap core CSS -->
-<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -31,11 +28,18 @@
       }
     </style>
 
+        <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 
+
+        <script src = "js/display.js"></script>
+
+        <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="sidebars.css" rel="stylesheet">
+    <link href="css/sidebars.css" rel="stylesheet">
 
-    <script src = "js/display.js"></script>
+        <link href="css/style.css" rel="stylesheet">
+
 
   </head>
   <body>
@@ -54,17 +58,22 @@
 
             <!-- <li><a href="#" class="link-dark rounded" onclick="loadDoc(''); return false"></a></li> -->
             <li class="mb-1">
-              <button class="btn align-items-center rounded collapsed" aria-expanded="false" onclick="loadDoc('html/about.html'); return false">
+              <button class="btn align-items-center rounded collapsed" aria-expanded="false" onclick="loadDoc('about','main-window'); return false">
               this.class
               </button>
             </li>
             <li class="mb-1">
-              <button class="btn align-items-center rounded collapsed" aria-expanded="false" onclick="loadDoc('html/week1.html'); return false">
+              <button class="btn align-items-center rounded collapsed" aria-expanded="false" onclick="loadDoc('week1', 'main-window'); return false">
               Week 1
               </button>
             </li>
 
             <li class="mb-1">
+              <button class="btn align-items-center rounded collapsed" aria-expanded="false" onclick="loadDoc('week2', 'main-window'); return false">
+              Week 2
+              </button>
+            </li>
+            <!-- <li class="mb-1">
               <button class="btn align-items-center rounded collapsed" aria-expanded="false" onclick="loadDoc('about'); return false">
               About
               </button>
@@ -83,12 +92,7 @@
               <button class="btn align-items-center rounded collapsed" aria-expanded="false" onclick="loadDoc('about'); return false">
               About
               </button>
-            </li>
-            <li class="mb-1">
-              <button class="btn align-items-center rounded collapsed" aria-expanded="false" onclick="loadDoc('about'); return false">
-              About
-              </button>
-            </li>
+            </li> -->
 
           </ul>
         </div>
@@ -99,7 +103,7 @@
 
   <div class="col-xs-12 col-sm-9">
 
-      <iframe id = "main-window" scrolling="yes" style = "width:100%; height:100vh; z-index: 1; overflow: scroll" allow="camera; microphone"></iframe>
+      <div id = "main-window"></div>
 
 
 
@@ -109,8 +113,6 @@
 
 
 
-
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
       <script src="sidebars.js"></script>
   </body>

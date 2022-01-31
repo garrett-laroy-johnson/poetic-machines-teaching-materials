@@ -1,13 +1,24 @@
-// let projects = {
-//   about : "https://editor.p5js.org/gjohns13-spectacular/full/fhAKFBn-Y",
-// }
 
 
-function loadDoc(name) {
+  function loadDoc(name, dest, type) {
 
-// let proj = JSON.parse(projects);
-// let projLink =
-//let link = projects[name];
-let iframe = document.getElementById('main-window');
-iframe.setAttribute("src", name)
+if (dest ==="main-window"){
+window.scrollTo(0,0);
+}
+
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+     if (this.readyState == 4 && this.status == 200) {
+       document.getElementById(dest).innerHTML =
+       this.responseText;
+     }
+
+}
+
+
+  xhttp.open("GET", `../html/${name}.html`, true);
+
+  xhttp.send();
+
+
 }
