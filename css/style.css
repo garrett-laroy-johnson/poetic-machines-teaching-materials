@@ -1,5 +1,19 @@
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+
+p, button {
+  font-family: 'Noto Serif', serif;
+}
+
+h1, h2, h3, h4, h5, span {
+  font-family: 'Silkscreen', cursive;
+}
+
 body {
-  background-color: "#b0c7bd";
+  /* background-color: "#b0c7bd"; */
 }
 
 
