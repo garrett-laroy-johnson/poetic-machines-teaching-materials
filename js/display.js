@@ -1,6 +1,6 @@
 
 
-  function loadDoc(name, dest, type) {
+function loadDoc(name, dest, type) {
 
 if (dest ==="main-window"){
 window.scrollTo(0,0);
@@ -12,6 +12,9 @@ window.scrollTo(0,0);
        document.getElementById(dest).innerHTML =
        this.responseText;
      }
+
+
+
 
 }
 
