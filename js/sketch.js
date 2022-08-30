@@ -49,4 +49,5 @@ class Walker {
 
 function hookToProcessing(){
   remove();
+  splash += 1; 
 }

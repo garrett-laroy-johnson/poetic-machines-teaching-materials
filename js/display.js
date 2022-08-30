@@ -1,5 +1,7 @@
 let state = 0;
 
+let splash = 0;
+
 function darkMode() {
   var element = document.body;
   element.classList.toggle("dark-mode");
@@ -31,9 +33,9 @@ function darkMode() {
 
 
 function loadDoc(name, dest, type) {
-  
+if (splash<1){
 hookToProcessing();
-
+}
 
 if (dest ==="main-window"){
 window.scrollTo(0,0);
