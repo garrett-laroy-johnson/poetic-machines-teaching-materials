@@ -62,21 +62,18 @@
 </div>
 <!--/.row-->
 
-<script>
-  $(".course").click(function() {
-  window.location = $(this).find("a").attr("href");
-  return false;
-});
-  </script>
-
-
-
-
 
   </body>
-<script type="text/javascript">
+
+  <script defer>
   $('#ats').bigtext();
     $('#creative').bigtext();
-</script>
+  </script>
+  <script defer>
+    $(".course").click(function() {
+    window.location = $(this).find("a").attr("href");
+    return false;
+  });
+    </script>
 
 </html>
