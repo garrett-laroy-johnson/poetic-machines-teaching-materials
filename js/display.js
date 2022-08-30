@@ -31,6 +31,9 @@ function darkMode() {
 
 
 function loadDoc(name, dest, type) {
+  
+hookToProcessing();
+
 
 if (dest ==="main-window"){
 window.scrollTo(0,0);
