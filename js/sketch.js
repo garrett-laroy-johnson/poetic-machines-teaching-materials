@@ -52,3 +52,7 @@ function hookToProcessing(){
   remove();
   splash += 1;
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
