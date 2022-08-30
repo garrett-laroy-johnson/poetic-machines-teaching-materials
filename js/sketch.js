@@ -1,6 +1,7 @@
 
 let walkers = [];
 
+let bg = "white";
 
 function setup() {
   createCanvas(window.innerWidth, window.innerHeight).parent("#splash");
@@ -12,7 +13,7 @@ function setup() {
 
 function draw() {
 
-  background(255);
+  background(bg);
  //translate (width/2, height/2);
 
   for (a=0;a<walkers.length;a++){
@@ -49,5 +50,5 @@ class Walker {
 
 function hookToProcessing(){
   remove();
-  splash += 1; 
+  splash += 1;
 }

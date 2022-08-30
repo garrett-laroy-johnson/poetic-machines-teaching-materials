@@ -2,6 +2,7 @@ let state = 0;
 
 let splash = 0;
 
+
 function darkMode() {
   var element = document.body;
   element.classList.toggle("dark-mode");
@@ -14,17 +15,17 @@ function darkMode() {
   var butt = document.getElementById("darkToggle");
 
 
-  if (state>1){
-    state == 0;
-  }
+
   butt.classList.toggle("btn-light");
   butt.classList.toggle("btn-dark");
 
-  if (state == 1){
+  if (state % 2 == 1){
   butt.innerHTML = "Dark";
+  bg = "white";
   }
   else {
     butt.innerHTML = "Light";
+    bg = "black";
   }
 
   state += 1;
