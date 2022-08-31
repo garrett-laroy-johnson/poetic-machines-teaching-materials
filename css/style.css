@@ -4,7 +4,7 @@
 }
 
 
-p, button {
+p, button, body {
   font-family: 'Noto Serif', serif;
 }
 
@@ -16,6 +16,14 @@ body {
   /* background-color: "#b0c7bd"; */
 }
 
+a {
+  color:#be2ed6;
+}
+
+
+a:hover{
+color:"#4c00b0"
+}
 
 .nav-butt {
 text-align: left;
