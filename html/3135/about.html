@@ -5,27 +5,39 @@
 <h3>description</h3>
 <p>This studio course investigates the creative possibilities in programming, from interactivity to information visualization. Students explore interactive narratives and games, software art, simulations and emergent behaviors, and other code-based forms. Lectures and demonstrations provide a conceptual, aesthetic and technical foundation in programming as a creative practice. Techniques and concepts are presented through the open-source programming environment <span style = "text-decoration: line-through">Processing</span> p5*js, with an introduction to advanced topics <span style = "text-decoration: line-through">such as C++ and OpenFrameworks</span> such as server side programming and computer vision.</p>
 
-<h3>What?</h3>
-<p>What is at the intersection of art and technology? What does technology help us understand about art? How does art deepen our understanding of technology? Is all art technological?</p>
-<p>These questions undergird art and technology practices and studies. In this course, we'll begin to approach these generative problems by beginning to develop our technical facility and expressivity with a creative coding tool.</p>
 
-<p>Glancing at the <a href = "https://www.saic.edu/academics/departments/art-and-technology-studies/courses">ATS Studies course offerings</a>, we will find that Art and Technology Studies is much more diverse and broad than digital art (generative art, interactive art, games, simulation, and machine learning): neon fabrication, light art, robotics, bioart and biodesign, olfactory art, holography... Why then are we focusing on a single skillset?</p>
-
-<p>First let's talk about where our technical focus will be. We will work with a programming environment called p5*js. p5 is a version of <a href = "https://processingfoundation.org/">Processing</a>, a toolkit made for artists by artists. p5 is technically a <code>library</code> for the programming language JavaScript. One nice thing you will soon discover is that JavaScript is used in programming for the web, and so it will be very easy for us to share our creations with each other. This also means we will identify clear pathways from this work into netart, interactive art, generative art and more utilitarian skills like website building. Interactive installation, digital-physical computing, performance, games, experimental electronic literature, and simulations will not be far off either.</p>
 <div class="alert alert-secondary" role="alert">
-Check out some recent & diverse examples of how beginning, intermediate, and advanced practitioners are using p5*js in their art and design practice: <a href = "https://showcase.p5js.org/#/2021-All">2021 p5*js Showcase</a>
-</div>
-<p>If the appeal of art and technology is that we are untethered from specific media, why focus on p5, which is ostensibly a language for produing images? In short, your journey has to start somewhere. In the past I have experimented with versions of this course where we dip our toes into physical computing and games. While these arguably provide a better introduction to the breadth of skills within SAIC's ATS department, the courses were we focus on one toolkit allows students to get to a satisfying level of expertise by the end of the semester.</p>
 
-<p>What's more, p5 will build your <A href = "https://en.wikipedia.org/wiki/Computational_thinking">computational thinking</a> skills. That means that you'll have both a basis for programming that will transfer over to other media processing systems (python, max/msp, touch designer, adobe, etc.) as well as the analytic capacity for understanding the technologies than envelop us and scaffold our communities.
-</p>
+<ul>
+  <li><a href = "https://derivative.ca/">TouchDesigner</a>
+  <li><a href = "https://cycling74.com/products/max">Max/MSP/Jitter</a>
+  <li><a href = "https://troikatronix.com/">Isadora</a>
+  <li><a href = "https://processing.org/">Processing</a>
+  <li><a href = "https://puredata.info/">Pure Data</a>
+    <li><a href = "https://www.unity.com">Unity</a>
+
+</ul> </div>
+
+<h3>Ext. description</h3>
+<p>What is at the intersection of art and technology? What does technology help us understand about art? How does art deepen our understanding of technology? Is all art technological? These questions undergird art and technology practices and studies. This course deals with simulation and games, with networked play and interactive art -- these genres of work point out a key affordance of creative media practices: its worldbuilding power.</p>
+
+<p>In this course, we'll begin to approach these generative problems by beginning to develop our technical facility and expressivity with a creative coding tool. We will get started with a refresher of "beginner" p5*js before continuing to build out an extended toolkit for creating interactive and generative artworks. Your guide here will be the textbook <b>Getting Started with p5*js</b> (see PDF included in materials).You'll work in a small group to develop a tutorial on two key concept/techniques in p5. After a few weeks, we'll bring it all together in a teach-in.</p>
+
+<p>We will look at some artistic examples of <emph>visualization</emph> as well as its sensory sisters sonification and haptic display. After learning how to integrate live data streams via APIs into our sketches, your first project will be display visually (or otherwise) the remaining <a href = "https://github.com/OlafVal/CO2Budget.js>">carbon budgeted</a> before a global increase in temperature of 1.5 or 2 degrees Celsius. We'll read the introduction to McKenzie Wark's Molecular Red, in particular her emphasis of the concept of the <a href = "https://wiki.p2pfoundation.net/Carbon_Liberation_Front">"Carbon Liberation Front"</a>. The CLF generates a view of the anthropocene and the climate crisis that radically decenters our own perspectives. How can visualization and art practice make an analogous move?</p>
+
+ <p>In <b>Unit 2</b> we'll dive into  advanced functionality for keeping track of position, direction, speed, acceleration -- the groundwork of a physics engine -- through the <a href = "https://p5js.org/reference/#/p5.Vector">p5.Vector</a>. This will allow us to build towards creating <emph>simulations</emph> of complex group activity (think of a flock of birds, or a table with a thousand marbles). We will use the <b>Nature of Code</b> text by Daniel Schiffman (PDF also in materials) to walk us through the code, and Baudrillard and Ian Cheng to think through simulation as a world-building technique, which you'll sum up in your second project.</p>
+
+<p><b>Unit 3</b> brings things online. We'll look at the library <a href = "https://p5party.netlify.app/">p5.Party</a> which will allow us to write code that shares data over a common server: networked <b>interaction</b>. This means you can code interactions between two or more computers -- whether they're in the same building or across the world. We'll show some other techniques in <emph>computer vision</emph> here using a library called <A href = "https://google.github.io/mediapipe/">MediaPipe</a> that will allow for camera based sensing of movement. This approach to sensing activity proffers a more deeply embodied interaction scheme that greatly exceeds the complexity of keyboard or mouse interactions which we know from everyday. In your project, you'll put that together with two or more computers with our p5.party library.</p>
+
+  <p>This "multiplayer" interaction segues elegantly into our last unit: <b>games</b>. Our approach to games will be heavily indebt to the concept of play and the immersion of role-play. Table-top roleplaying games offer a technical basis for thinking through the structurations and narrativizations in games and play. We'll leverage that simplicity in this unit, since we may also wish to combine other techniques from the preceding units in our <b>project 4</b>.</p>
+
 
 <h3>Who?</h3>
 <p>Instructor bio: Garrett Laroy Johnson [he/they] is a media art-researcher. He is interested in the relationship between creative media practices and contemporary subjectivity and affects. They use responsive computational media in installations, performances, workshops, and events to speculate about new modes of collectivizing and producing subjectivities. [www.garrettlaroyjohnson.com]</p>
 
 <p>And: you! I'm looking forward to learning more about your work and interests in art and technology.</p>
 
-<p>With the exception of the presentation, you will submit assignments on your own. That said, you're highly encouraged to work together to understand concepts, for troubleshooting, and other things that might arise.</p>
+<p>Speaking of you: you're highly encouraged to work together to understand concepts, for troubleshooting, and other things that might arise.</p>
 
 <h3>When?</h3>
 <p>This class will meet Tuesdays from 6-9pm Chicago time. As your instructor, I will work to make space in class for you to get started on your assignments. However (!), you'll need to create time in your weekly schedule to work on the readings and assignments for this class. Programming is a challenging skill and requires practice -- like playing an instrument or practicing a sport. What will your routine look like? Late Thursday nights, drum and bass in the headphones, tucked into a library corner? Or Sunday afternoon with a cup of coffee or tea, and lofi chill beats? Make time and space for these assignments and not only will you succeed in the class, your abilities will support your expressive ambitions in impressive ways.</p>
@@ -33,8 +45,7 @@ Check out some recent & diverse examples of how beginning, intermediate, and adv
 <p>This class will meet online through Zoom during our scheduled meeting time.</p>
 <p>Office hours will also take place on Zoom. Generally I have time before or after class for ad-hoc meetings. For bigger questions or troubleshooting let's make an appointment.</p>
 <p>Your final exhibition will be a web exhibition you can share with your friends.</p>
-<h3>How?</h3>
-<p>This site will outline each week and assign a reading and a code sketch. You will submit your code sketch on your course's learning management system. The text is <b><a href = "../pdf/gettingstarted.pdf">Getting Started with p5*js</a></b> by Lauren McCarthy, Ben Fry, and Casey Reas. I highly recommend purchasing a physical copy since much of this class will involve staring at a screen. Otherwise, you can find inexpensive (<$10) eBook versions online.</p>
+
 </div>
 <div class = "col-6">
 <blockquote class="twitter-tweet border"><p lang="en" dir="ltr">i’m doing a meme <a href="https://t.co/IEIZk2dKDw"><img class = "img-fluid" src = "../img/meme1.jpg"></a></p>&mdash; Billy Gomberg (@billygomberg) <a href="https://twitter.com/billygomberg/status/1192245992583647232?ref_src=twsrc%5Etfw">November 7, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
