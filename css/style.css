@@ -3,6 +3,9 @@
   color: white;
 }
 
+cb:after {
+  background-color:#4c00b0
+}
 
 p, button, body {
   font-family: 'Noto Serif', serif;
@@ -22,9 +25,15 @@ a {
 
 
 a:hover{
-color:"#4c00b0"
+color:#4c00b0
 }
 
 .nav-butt {
 text-align: left;
+}
+
+ul.no-bullets {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
 }

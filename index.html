@@ -1,79 +1,68 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Garrett Johnson">
 
-    <title>SAIC Art and Technology Studies Practices: Fall 2022</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Garrett Johnson">
 
-    <style>
-      <!-- .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
+  <title>SAIC Art and Technology Studies Practices: Fall 2022</title>
+
+  <style>
+    <!-- .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
       }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
+    }
 
 
-    </style>
-    <script
-     src="https://code.jquery.com/jquery-3.6.1.slim.min.js"
-     integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA="
-     crossorigin="anonymous"></script>
-       <script src = "js/bigtext.js"></script>
+    </style><script src="https://code.jquery.com/jquery-3.6.1.slim.min.js"
+    integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA="
+    crossorigin="anonymous"></script><script src="js/bigtext.js"></script>< !-- Bootstrap core CSS
+    -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/sidebars.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/splash.css" rel="stylesheet">
 
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Silkscreen&display=swap" rel="stylesheet">
+</head>
+<body onload="localSettings()">
+  <div id="ats" class="course">
+    <div class="child">ATS 2101</div>
+    <div class="child">art & technology practices</div>
+    <a href="2101/index.html"></a>
+  </div>
+  <div id="creative" class="course">
+    <div class="child">ATS 3135</div>
+    <div class="child">interactive art & creative code</div>
+    <a href="3135/index.html"></a>
+  </div>
+</body>
 
-        <!-- Bootstrap core CSS -->
-        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <!-- Custom styles for this template -->
-        <link href="css/sidebars.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
-    <link href="css/splash.css" rel="stylesheet">
-
-
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Silkscreen&display=swap" rel="stylesheet">
-  </head>
-  <body>
-
-
-<div id = "ats" class = "course">
-  <div class = "child">ATS 2101</div>
-<div class = "child">art & technology practices</div>
-<a href = "2101/index.html"></a>
-</div>
-<div id = "creative" class = "course">
-<!--
-<a id = "#3135" href = "3135/index.html"> -->
-    <div class = "child">ATS 3135</div>
-    <div class = "child">interactive art & creative code</div>
-<a href = "3135/index.html"></a>
-</div>
-<!--/.row-->
-
-
-  </body>
-  <script async>
+<script async>
   $('#ats').bigtext();
-    $('#creative').bigtext();
-  </script>
+  $('#creative').bigtext();
+</script>
 
-  <script defer>
-    $(".course").click(function() {
+<script defer>
+  $(".course").click(function() {
     window.location = $(this).find("a").attr("href");
     return false;
   });
-    </script>
+</script>
 
 </html>

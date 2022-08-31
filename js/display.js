@@ -2,6 +2,9 @@ let state = 0;
 
 let splash = 0;
 
+function localSettings (){
+ state = localStorage.getItem("state");
+}
 
 function darkMode() {
   var element = document.body;
@@ -19,7 +22,7 @@ function darkMode() {
   butt.classList.toggle("btn-light");
   butt.classList.toggle("btn-dark");
 
-  if (state % 2 == 1){
+  if (state % 2){
   butt.innerHTML = "Dark";
   bg = "white";
   }
@@ -29,7 +32,7 @@ function darkMode() {
   }
 
   state += 1;
-
+  localStorage.setItem("state", state);
 }
 
 
