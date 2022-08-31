@@ -29,6 +29,8 @@
     integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA="
     crossorigin="anonymous"></script><script src="js/bigtext.js"></script>
 
+
+
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom styles for this template -->
   <link href="css/sidebars.css" rel="stylesheet">
@@ -40,7 +42,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Silkscreen&display=swap" rel="stylesheet">
 </head>
-<body onload="localSettings()">
+<body>
   <div id="ats" class="course">
     <div class="child">ATS 2101</div>
     <div class="child">art & technology practices</div>
@@ -53,12 +55,12 @@
   </div>
 </body>
 
-<script async>
+<script defer>
   $('#ats').bigtext();
   $('#creative').bigtext();
 </script>
 
-<script defer>
+<script>
   $(".course").click(function() {
     window.location = $(this).find("a").attr("href");
     return false;
