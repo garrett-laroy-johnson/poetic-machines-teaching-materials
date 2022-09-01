@@ -1,103 +1,30 @@
 <div class="row">
   <div class="col-sm-9">
-    <h2>Week 3: Variables and For Loops</h2>
+    <h2>Week 3: p5*js continued</h2>
 
   <p>Goals:</p>
-    <ol>
-      <li>Say hello & check-in (take attendance!)
-      <li>Share and Discuss <code>Coding Sketch #2</code>
-      <li>Clarify or Demo any coding concepts unclear from <code>Coding Sketch #2</code> (break)
-      <li>Intro Interactivity: Mouse clicks, drags, and mobile touch gestures
-      <li>Start work on <code>Coding Sketch #3</code>
-    </ol>
+    <ul class = "no-bullets">
+      <li><input type="checkbox" class = "cb"> Turn on Zoom captions!
+      <li><input type="checkbox" class = "cb"> Say hello & check-in (take attendance!)
+      <li><input type="checkbox" class = "cb"> p5*js 101 pt. 2 presentations
+        <li><input type="checkbox" class = "cb"> Intro to Data via "Carbon Liberation Front"
+        <li><input type="checkbox" class = "cb"> Discussion via "Carbon Liberation Front"
 
-    <h3>Homework</h3>
-    <h4>Readings</h4>
-    <p>Prepare and Code along: <b>Getting Started with p5.js // Chapters 4: Variables</b></p>
-    <p>Review and fiddle with in-class code example. Comment and uncomment the different steps to see how <code>for loops</code> structure drawing in space. See how <code>variables</code> such as <code>rand, concent, drawProb</code> and the
-      <code>random</code> function interact to control different kinds of variation.</p>
-
-    <img class="img-fluid" src="../img/vera1.jpg"></img>
-    <caption>Original by Vera Molnar (b. 1924) <i>(des)ordres</i>, 1974</caption>
-    <br>
-    <img class="img-fluid" src="../img/gari-vera.jpg"></img>
-    <caption>Garrett's imitation in p5.js. <a href="https://editor.p5js.org/gjohns13-spectacular/sketches/fXjII012Y">Link to code.</a></caption>
-
-    <br><br>
-    <h4>Coding Sketch #2: Shape Grids + Creative Riff</h4>
-
-
-    <h5>Part 1: Draw Shapes in Rows and Columns</h5>
-
-    <p>Use a <code>for loop</code> to draw a row of squares, circles, or other 2D primitive. Then, use a nested loop to draw multiple rows that fill the canvas. You will need to consult the text or our in-class demos.</p>
-
-
-    <p>Here is some <a href="https://editor.p5js.org/gjohns13-spectacular/sketches/38jUV3uoD">starting code</a> which may be helpful since it starts with a few handy variables already declared.</p>
-
-    <div class="row">
-      <div class="col-sm-6">
-        <img class="img-fluid" src="img/vera2.jpg">
-        <caption>#1</caption>
-      </div>
-      <div class="col-sm-6">
-        <img class="img-fluid" src="img/vera4.jpg">
-        <caption>#2</caption>
-      </div>
-    </div>
-
-    <h5>Part 1 BONUS: Expert Mode! Vera Molnar imitation</h5>
-    <p>This bonus is much more challenging and involves combining the drawing of shapes in a grid with new functions. This is a bonus and can be skipped, or returned to later!</p>
-
-    <p>Create an imitation of the <b>ONE of TWO</b> of the Vera Molnar works above. You will need to use nested <code>for loops</code> to iterate through shapes, as well as the <code>random</code> function to introduce variation.</p>
-
-
-    <h5>Part 2: Creative Riff</h5>
-
-    <p>Let's use part 1 as a framework for making something of your own. Let's have some fun with it! Make sure you've saved your first copy, and then duplicate your sketch. Now, how can you use this nested <code>for loop</code> concept to create  your own work? What other features (color, stroke, stroke weight, etc.) can you use to change the look and feel of this piece? If you've added randomness in the bonus section: how can randomness make a return and enliven the feel?</p>
-
-    <h5>Tips for success</h5>
-    <p>Don't try to do everything at once. Break things down. Follow these steps below if it is helpful.
-    <ul>
-      <li>Before you get started, open your p5 editor and the <a href="../pdf/gettingstarted.pdf">Getting Started"</a> text. Work through Chapter 4, example by example. This seems tedious, but it will build up comprehension.
-      <li>When you're ready to begin the code sketch: First, draw a single shape. Familiarize yourself with what arguments do what. Will you draw a square, a circle, or a different 2d primitive shape? What argument will you need to use? How many arguments do you need? What does what (position, size, etc.)?
-      <li>Now, create a row of shapes with a <code>for loop</code> inside your <code>draw loop</code>. Insert your shape code into the <code>for loop</code> and use the loop's variable (i or s or whatever you choose) to <b>multiply</b> the x value
-        and push it to the right.
-
-      <li>Not sure what this means? Check the reference for <code>for loop</code>. Watch the videos below. Read the section in the book on <code>for loop</code> again -- you'll see this in action!
-      <li>Then, put that <code>for loop</code> inside a new <code>for loop</code>. Make sure the new loop has a different variable than the first. Use this variable to alter the y position of the shape (use multiplication again), and hence to draw
-        consecutive rows at different heights in the Canvas. Get this working before you move on!
-<li>Still stuck? Email your prof and ask for a quick appointment to talk through the issue. Check the reference and other materials. Phone a friend in your group and see if they are stuck too.</li>
-      <li><b>If you are attempting the bonus:</b> you'll need to use the <code>random()</code> function to introduce variation to the code. What elements are randomized? What is the range of randomization? How will you use arithmetic to integrate the random number into your
-        shape's coordinates? Now is a good time to insert <code>noLoop()</code> into your code so that you are only getting one drawing per "play".
 
     </ul>
-    </p>
+<br>
+    <h3>Homework</h3>
+    <p>p5*js 101 presentations pt. 1:</p>
+    <ul>
+      <li>media (images, fonts)</li>
+      <li>movement</li>
+      <li>functions</li>
+      <li>JS objects</li>
+      <li>arrays</li>
+</ul>
 
-    <h5>In-Class Demo</h5>
-    <p>In class during week 2, I stepped through imitating another of Vera Molnar's work. You will find video on your learning management system (either Canvas or Moodle). You may also use the <a
-        href="https://editor.p5js.org/gjohns13-spectacular/sketches/38jUV3uoD">starting code</a> and code along with this before adapting it to the assignment.</p>
-
-
-
-    <h4>Other Materials</h4>
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/POn4cZ0jL-o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen></iframe>
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/cnRD9o6odjk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen></iframe>
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/1c1_TMdf8b8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen></iframe>
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/O5G4SoWBoao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen></iframe>
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/6UUB2kplKOU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen></iframe>
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/BCZNNZGz5YI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen></iframe>
+        <h3>Readings</h3>
+        <p>Introduction to (Carbon Liberation Front) to <i>Molecular Red</i> by McKenzie Wark</p>
 
   </div>
 </div>

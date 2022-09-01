@@ -1,3 +1,5 @@
+// built starting from Daniel Schiffman's Vector youtube series: https://www.youtube.com/watch?v=bKEaK7WNLzM
+
 
 let walkers = [];
 
