@@ -136,7 +136,6 @@ class Crawler {
     }
     let sum = this.area.reduce((partialSum, a) => partialSum + a, 0);
     if (sum == 9) {
-      console.log("died")
       let ex = Math.floor(random(res));
       let why = Math.floor(random(res));
       if (this.grid.total < 1) {
@@ -191,7 +190,6 @@ return;
       this.grid.board[this.pos.x][this.pos.y] = 1;
       painted++;
       this.show();
-      console.log(painted);
     }
 
   }
