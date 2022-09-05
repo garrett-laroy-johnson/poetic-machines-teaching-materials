@@ -12,7 +12,6 @@ class mat {
       subbing -= sum;
     }
     this.total = subbing;
-    console.log("this is the total " +this.total + " and the number of crawlers is " + crawlers.length)
     if (this.total <= 0){
       console.log("sim over");
       noLoop();
