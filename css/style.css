@@ -7,6 +7,11 @@ cb:after {
   background-color:#4c00b0
 }
 
+blockquote {
+  border-width: 10px;
+  border-color: black;
+}
+
 p, button, body {
   font-family: 'Noto Serif', serif;
 }

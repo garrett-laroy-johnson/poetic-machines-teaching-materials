@@ -51,16 +51,7 @@ window.scrollTo(0,0);
        document.getElementById(dest).innerHTML =
        this.responseText;
      }
-
-
-
-
 }
-
-
   xhttp.open("GET", `../html/${name}.html`, true);
-
   xhttp.send();
-
-
 }

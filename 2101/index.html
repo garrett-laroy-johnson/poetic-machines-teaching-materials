@@ -1,190 +1,194 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Garrett Johnson">
 
-    <title>SAIC Art and Technology Studies Practices: Fall 2022</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Garrett Johnson">
 
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
+  <title>SAIC Art and Technology Studies Practices: Fall 2022</title>
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
       }
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.js"></script>
+  <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../js/display.js"></script>
+  <!-- Bootstrap core CSS -->
+  <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="../css/sidebars.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-       <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.js"></script>
-       <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
-       <script src = "../js/display.js"></script>
-        <!-- Bootstrap core CSS -->
-        <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <!-- Custom styles for this template -->
-        <link href="../css/sidebars.css" rel="stylesheet">
-        <link href="../css/style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Silkscreen&display=swap" rel="stylesheet">
+</head>
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Silkscreen&display=swap" rel="stylesheet">
-  </head>
-  <body>
+<body>
 
 
-    <!-- main area -->
-  <div class = "row" id = "sidebar">
+  <!-- main area -->
+  <div class="row" id="sidebar">
 
-  <div class="col-xs-12 col-sm-3" style = "z-index: 2">
-  <div class="flex-shrink-0 p-3" style="width: 100%;">
+    <div class="col-xs-12 col-sm-3" style="z-index: 2">
+      <div class="flex-shrink-0 p-3" style="width: 100%;">
 
 
-    <h4 class="fs-5 fw-semibold" style = "margin-left: 10px">SAIC Art and Technology Studies:<br>ATS Practices<br>Fall 2022</h4>
+        <h4 class="fs-5 fw-semibold" style="margin-left: 10px">SAIC Art and Technology Studies:<br>ATS Practices<br>Fall 2022</h4>
 
-    <ul class="list-unstyled ps-0">
+        <ul class="list-unstyled ps-0">
 
-            <!-- <li><a href="#" class="link-dark rounded" onclick="loadDoc(''); return false"></a></li> -->
-            <li class="mb-1">
-              <a href="#about">
-              <button class="btn align-items-left rounded collapsed nav-butt" style ="text-align:left" aria-expanded="false" onclick="loadDoc('about','main-window'); return false">
-              About
+          <!-- <li><a href="#" class="link-dark rounded" onclick="loadDoc(''); return false"></a></li> -->
+          <li class="mb-1">
+            <a href="#about">
+              <button class="btn align-items-left rounded collapsed nav-butt" style="text-align:left" aria-expanded="false" onclick="loadDoc('2101/about','main-window'); return false">
+                About
               </button>
             </a>
-            </li>
-            <li class="mb-1">
-              <button class="btn align-items-left rounded collapsed nav-butt" style ="text-align:left" aria-expanded="false" onclick="loadDoc('schedule','main-window'); return false">
+          </li>
+          <li class="mb-1">
+            <button class="btn align-items-left rounded collapsed nav-butt" style="text-align:left" aria-expanded="false" onclick="loadDoc('2101/schedule','main-window'); return false">
               Schedule
-              </button>
-            </li>
-            <li class="mb-1">
-              <button class="btn align-items-left rounded collapsed nav-butt" aria-expanded="false" onclick="loadDoc('policies','main-window'); return false">
+            </button>
+          </li>
+          <li class="mb-1">
+            <button class="btn align-items-left rounded collapsed nav-butt" aria-expanded="false" onclick="loadDoc('2101/policies','main-window'); return false">
               Policies
-              </button>
-            </li>
-            <li class="mb-1">
-              <button class="btn align-items-left rounded collapsed nav-butt" aria-expanded="false" onclick="loadDoc('materials','main-window'); return false">
+            </button>
+          </li>
+          <li class="mb-1">
+            <button class="btn align-items-left rounded collapsed nav-butt" aria-expanded="false" onclick="loadDoc('2101/materials','main-window'); return false">
               Course Materials
-              </button>
-            </li>
-            <li class="mb-1">
-              <button class="btn align-items-left rounded collapsed nav-butt" aria-expanded="false" onclick="loadDoc('presentation','main-window'); return false">
+            </button>
+          </li>
+          <li class="mb-1">
+            <button class="btn align-items-left rounded collapsed nav-butt" aria-expanded="false" onclick="loadDoc('2101/presentation','main-window'); return false">
               Group Presentation
-              </button>
-            </li>
-            <li class="">
-              <button class="btn align-items-left rounded collapsed nav-butt" aria-expanded="false" onclick="loadDoc('week1', 'main-window'); return false">
+            </button>
+          </li>
+          <li class="">
+            <button class="btn align-items-left rounded collapsed nav-butt" aria-expanded="false" onclick="loadDoc('2101/week1', 'main-window'); return false">
               Week 1: Intro
-              </button>
-            </li>
+            </button>
+          </li>
 
-            <li class="mb-1">
-              <button class="btn align-items-left rounded collapsed nav-butt" aria-expanded="false" onclick="loadDoc('week2', 'main-window'); return false">
+          <li class="mb-1">
+            <button class="btn align-items-left rounded collapsed nav-butt" aria-expanded="false" onclick="loadDoc('2101/week2', 'main-window'); return false">
               Week 2: 2D Shapes
-              </button>
-            </li>
-            <li class="mb-1">
-              <button class="btn align-items-left rounded collapsed nav-butt" aria-expanded="false" onclick="loadDoc('week3', 'main-window'); return false">
+            </button>
+          </li>
+          <li class="mb-1">
+            <button class="btn align-items-left rounded collapsed nav-butt" aria-expanded="false" onclick="loadDoc('2101/week3', 'main-window'); return false">
               Week 3: Variables + For Loops
-              </button>
-            </li>
-            <li class="mb-1">
-              <button class="btn align-items-left rounded collapsed nav-butt" aria-expanded="false" onclick="loadDoc('week4', 'main-window'); return false">
+            </button>
+          </li>
+          <li class="mb-1">
+            <button class="btn align-items-left rounded collapsed nav-butt" aria-expanded="false" onclick="loadDoc('2101/week4', 'main-window'); return false">
               Week 4: Interactivity
-              </button>
-            </li>
-            <li class="mb-1">
-              <button class="btn align-items-left rounded collapsed nav-butt" aria-expanded="false" onclick="loadDoc('week5', 'main-window'); return false">
+            </button>
+          </li>
+          <li class="mb-1">
+            <button class="btn align-items-left rounded collapsed nav-butt" aria-expanded="false" onclick="loadDoc('2101/week5', 'main-window'); return false">
               Week 5: Prep Project 1
-              </button>
-            </li>
-            <li class="mb-1">
-              <button class="btn align-items-left rounded collapsed nav-butt" aria-expanded="false" onclick="loadDoc('week6', 'main-window'); return false">
+            </button>
+          </li>
+          <li class="mb-1">
+            <button class="btn align-items-left rounded collapsed nav-butt" aria-expanded="false" onclick="loadDoc('2101/week6', 'main-window'); return false">
               Week 6: Project 1
-              </button>
-            </li>
-            <li class="mb-1">
-              <button class="btn align-items-left rounded collapsed nav-butt" aria-expanded="false" onclick="loadDoc('week7', 'main-window'); return false">
+            </button>
+          </li>
+          <li class="mb-1">
+            <button class="btn align-items-left rounded collapsed nav-butt" aria-expanded="false" onclick="loadDoc('2101/week7', 'main-window'); return false">
               Week 7: Transformations
-            </li>
-            <li class="mb-1">
-              <button class="btn align-items-left rounded collapsed nav-butt" aria-expanded="false" onclick="loadDoc('week8', 'main-window'); return false">
+          </li>
+          <li class="mb-1">
+            <button class="btn align-items-left rounded collapsed nav-butt" aria-expanded="false" onclick="loadDoc('2101/week8', 'main-window'); return false">
               Week 8: Motion
-              </button>
-            </li>
-            <li class="mb-1">
-              <button class="btn align-items-left rounded collapsed nav-butt" aria-expanded="false" onclick="loadDoc('week9', 'main-window'); return false">
+            </button>
+          </li>
+          <li class="mb-1">
+            <button class="btn align-items-left rounded collapsed nav-butt" aria-expanded="false" onclick="loadDoc('2101/week9', 'main-window'); return false">
               Week 9: Functions
-              </button>
-            </li>
-            <li class="mb-1">
-              <button class="btn align-items-left rounded collapsed nav-butt" aria-expanded="false" onclick="loadDoc('week10', 'main-window'); return false">
+            </button>
+          </li>
+          <li class="mb-1">
+            <button class="btn align-items-left rounded collapsed nav-butt" aria-expanded="false" onclick="loadDoc('2101/week10', 'main-window'); return false">
               Week 10: Prep Project 2
-              </button>
-            </li>
-            <li class="mb-1">
-              <button class="btn align-items-left rounded collapsed nav-butt" aria-expanded="false" onclick="loadDoc('week11', 'main-window'); return false">
+            </button>
+          </li>
+          <li class="mb-1">
+            <button class="btn align-items-left rounded collapsed nav-butt" aria-expanded="false" onclick="loadDoc('2101/week11', 'main-window'); return false">
               Week 11: Project 2
-              </button>
-            </li>
-            <li class="mb-1">
-              <button class="btn align-items-left rounded collapsed nav-butt" aria-expanded="false" onclick="loadDoc('week12', 'main-window'); return false">
+            </button>
+          </li>
+          <li class="mb-1">
+            <button class="btn align-items-left rounded collapsed nav-butt" aria-expanded="false" onclick="loadDoc('2101/week12', 'main-window'); return false">
               Week 12: Objects
-              </button>
-            </li>
-            <li class="mb-1">
-              <button class="btn align-items-left rounded collapsed nav-butt" aria-expanded="false" onclick="loadDoc('week13', 'main-window'); return false">
+            </button>
+          </li>
+          <li class="mb-1">
+            <button class="btn align-items-left rounded collapsed nav-butt" aria-expanded="false" onclick="loadDoc('2101/week13', 'main-window'); return false">
               Week 13: Arrays
-              </button>
-            </li>
-            <li class="mb-1">
-              <button class="btn align-items-left rounded collapsed nav-butt" aria-expanded="false" onclick="loadDoc('week14', 'main-window'); return false">
+            </button>
+          </li>
+          <li class="mb-1">
+            <button class="btn align-items-left rounded collapsed nav-butt" aria-expanded="false" onclick="loadDoc('2101/week14', 'main-window'); return false">
               Week 14: Prep Project 3
-              </button>
-            </li>
-            <li class="mb-1">
-              <button class="btn align-items-left rounded collapsed nav-butt" aria-expanded="false" onclick="loadDoc('week15', 'main-window'); return false">
+            </button>
+          </li>
+          <li class="mb-1">
+            <button class="btn align-items-left rounded collapsed nav-butt" aria-expanded="false" onclick="loadDoc('2101/week15', 'main-window'); return false">
               Week 15: Project 3
-              </button>
-            </li>
-            <li style = "padding-left:10px">
-    <button type="button" class="btn btn-dark" id = "darkToggle" onclick="darkMode(); return false">Dark</button>
-  </li>
-  <li>
-<!--
+            </button>
+          </li>
+          <li style="padding-left:10px">
+            <button type="button" class="btn btn-dark" id="darkToggle" onclick="darkMode(); return false">Dark</button>
+          </li>
+          <li>
+            <!--
     <button type="button" class="btn btn-dark">Dark</button></li> -->
-          </ul>
+        </ul>
+      </div>
+
+
+    </div>
+
+
+    <div class="col-xs-12 col-sm-9">
+
+      <div id="main-window">
+        <div id="splash">
         </div>
+      </div>
 
 
+
+    </div><!-- /.col-xs-12 main -->
   </div>
-
-
-  <div class="col-xs-12 col-sm-9">
-
-      <div id = "main-window">
-      <div id = "splash">
-      </div>
-      </div>
-
-
-
-  </div><!-- /.col-xs-12 main -->
-</div><!--/.row-->
+  <!--/.row-->
 
 
 
 
 
-      <script src="../sidebars.js"></script>
+  <script src="../sidebars.js"></script>
 
-      <script src = "../js/sketch.js"></script>
+  <script src="../js/sketch.js"></script>
 
-  </body>
+</body>
+
 </html>
