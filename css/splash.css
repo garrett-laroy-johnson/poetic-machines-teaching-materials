@@ -14,14 +14,13 @@ div {
 div.course {
   pointer-events: auto;
   width: 100vw;
-
 }
 
 div.child {
     pointer-events: none;
     background-color: inherit;
     color: inherit;
-  
+
 }
 
 div.course:hover {
