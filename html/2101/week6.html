@@ -1,32 +1,72 @@
-<div class = "row">
-  <div class = "col-sm-9">
-<h2>Week 6: Project 1</h2>
-<p>Goals:</p>
-<ul class = "no-bullets">
-  <li><input type="checkbox" class = "cb"> Turn on Zoom captions
-    <li><input type="checkbox" class = "cb"> Say hello & check-in (take attendance!)
-  <li><input type="checkbox" class = "cb"> Project Presentations and Critiques</li>
-  <li><input type="checkbox" class = "cb"> Introduce "Transformations and Movement" for Week 7</li>
-</ul>
+<div class="row">
+  <div class="col-sm-9">
+    <h2>Week 6: Project 1</h2>
+    <p>Goals:</p>
+    <ul class="no-bullets">
+      <li><input type="checkbox" class="cb"> Turn on Zoom captions
+      <li><input type="checkbox" class="cb"> Say hello & check-in (take attendance!)
+      <li><input type="checkbox" class="cb"> Project Presentations and Critiques</li>
+      <li><input type="checkbox" class="cb"> Introduce "Transformations and Movement" for Week 7</li>
+    </ul>
 
-<h3>Project 1</h3>
+    <h3>Project 1</h3>
 
-<p>Using p5*js, use the canvas to create an interactive artwork. It may be a short comic or animation, cubistic and abstract. It my be inspired by some of the works we've seen before, or completely your own.</p>
-<h5>Required Elements</h5>
-<p>The following elements *must* be in your piece</p>
+    <div class="row">
+      <div class="col-6">
+        <img class="img-fluid" src="../img/vera1.jpg"></img>
+        <caption>Original by Vera Molnar (b. 1924) <i>(des)ordres</i>, 1974</caption>
+        <br>
+      </div>
+      <div class="col-6">
+        <img class="img-fluid" src="../img/gari-vera.jpg"></img>
+        <caption>Garrett's imitation in p5.js. <a href="https://editor.p5js.org/gjohns13-spectacular/sketches/fXjII012Y">Link to code.</a></caption>
+      </div>
+
+    </div>
+
+
+<br><br>
+
+<h5>Part 1: Study Vera Molnar imitation</h5>
+<p>Have a look at the 7 steps outlined in <a href="https://editor.p5js.org/gjohns13-spectacular/sketches/fXjII012Y">this sketch</a>. Uncomment each step and study how it works. Notice how they scale in complexity. Notice in particular:
+
+  <ul>
+    <li>nested <code>for loops</code> to move the computer's drawing position from left to right, top to bottom.</li>
+    <li>a third <code>for loop</code> nesting inside which draws several shapes on top each other at the drawing position</li>
+    <li>the arithmatic and variables used in combination with <code>random()</code> in order to create variation in how each shape is drawn.</li>
+  </ul>
+</p>
+
+
+
+
+<h5>Part 2: Creative Riff</h5>
+
+<p>Let's use part 1 as a framework for making something of your own. Let's have some fun with it! Make sure you've saved your first copy, and then duplicate your sketch. Now, how can you use this nested <code>for loop</code> concept to create your
+  own work? What other features (color, stroke, stroke weight, etc.) can you use to change the look and feel of this piece? If you've added randomness in the bonus section: how can randomness make a return and enliven the feel?</p>
+
+<h5>Tips for success</h5>
+<p>Don't try to do everything at once. Break things down. Follow these steps below if it is helpful.
 <ul>
-  <li><code>if/else</code> to structure interaction
-  <li><code>mouseX, mouseY</code> to drive interaction
-  <li>At least (2) *types* of 2D primitives
-    <li>A <code>for loop</code>
-      </ul>
+  <li>Before you get started, open your p5 editor and the <a href="../pdf/gettingstarted.pdf">Getting Started"</a> text. Work through Chapter 4, example by example. This seems tedious, but it will build up comprehension.
+  <li>When you're ready to begin the code sketch: First, draw a single shape. Familiarize yourself with what arguments do what. Will you draw a square, a circle, or a different 2d primitive shape? What argument will you need to use? How many
+    arguments do you need? What does what (position, size, etc.)?
+  <li>Now, create a row of shapes with a <code>for loop</code> inside your <code>draw loop</code>. Insert your shape code into the <code>for loop</code> and use the loop's variable (i or s or whatever you choose) to <b>multiply</b> the x value
+    and push it to the right.
 
-<h5>Tips</h5>
-<p>Start by getting all your elements to work inside a single sketch. Use <code>print()</code> or <code>console.log()</code> to test that things are working.</p>
-<p>It doesn't need to be a masterpiece -- think of it as a study.</p>
-<p>Consider how you use the interactivity. The example of interactivity from the page was pretty simple. How can the interactivity help to drive the narrative or drama of your piece?</p>
+  <li>Not sure what this means? Check the reference for <code>for loop</code>. Watch the videos below. Read the section in the book on <code>for loop</code> again -- you'll see this in action!
+  <li>Then, put that <code>for loop</code> inside a new <code>for loop</code>. Make sure the new loop has a different variable than the first. Use this variable to alter the y position of the shape (use multiplication again), and hence to draw
+    consecutive rows at different heights in the Canvas. Get this working before you move on!
+  <li>Still stuck? Email your prof and ask for a quick appointment to talk through the issue. Check the reference and other materials. Phone a friend in your group and see if they are stuck too.</li>
+  <li><b>If you are attempting the bonus:</b> you'll need to use the <code>random()</code> function to introduce variation to the code. What elements are randomized? What is the range of randomization? How will you use arithmetic to integrate the
+    random number into your
+    shape's coordinates? Now is a good time to insert <code>noLoop()</code> into your code so that you are only getting one drawing per "play".
 
-<p>We've used <code>for loop</code>s to draw rows and columns. You could do that, or you could break out of the grid. The <code>random()</code>function may be your friend here.</p>
+</ul>
+</p>
+<!-- <h5>In-Class Demo</h5>
+    <p>In class during week 2, I stepped through imitating another of Vera Molnar's work. You will find video on your learning management system (either Canvas or Moodle). You may also use the <a
+        href="https://editor.p5js.org/gjohns13-spectacular/sketches/38jUV3uoD">starting code</a> and code along with this before adapting it to the assignment.</p> -->
 
 <h4>Other Materials</h4>
 <p>Review assignments, readings, and videos from weeks 2-4.</p>
