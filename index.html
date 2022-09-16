@@ -29,14 +29,12 @@
 
     <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js"
     integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA="
-    crossorigin="anonymous"></script><script src="js/bigtext.js"></script>
+    crossorigin="anonymous"></script>
+
+    <script src="js/bigtext.js"></script>
 
 
 
-  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Custom styles for this template -->
-  <link href="css/sidebars.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
   <link href="css/splash.css" rel="stylesheet">
 
 
@@ -44,7 +42,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Silkscreen&display=swap" rel="stylesheet">
 </head>
-<body style = "width:100vw;">
+<body style = "width:100vw" onLoad="bigTextLoad()">
   <div id="ats" class="course">
     <div class="child">ATS 2101</div>
     <div class="child">art & technology practices</div>
@@ -57,7 +55,7 @@
   </div>
 </body>
 
-<script defer>
+<!-- <script>
   $('#ats').bigtext();
   $('#creative').bigtext();
 //  let b = document.querySelectorAll("body");
@@ -65,9 +63,9 @@
 // for (i=0;i<b.length;i++){
 //   b[i].style.width = "100vw";
 // }
-  </script>
+  </script> -->
 
-<script async>
+<script defer>
   $(".course").click(function() {
     window.location = $(this).find("a").attr("href");
     return false;
