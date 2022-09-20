@@ -8,9 +8,7 @@
       <li><input type="checkbox" class="cb"> Project Presentations and Critiques</li>
       <li><input type="checkbox" class="cb"> Introduce "Transformations and Movement" for Week 7</li>
     </ul>
-
     <h3>Project 1</h3>
-
     <div class="row">
       <div class="col-6">
         <img class="img-fluid" src="../img/vera1.jpg"></img>
@@ -21,56 +19,67 @@
         <img class="img-fluid" src="../img/gari-vera.jpg"></img>
         <caption>Garrett's imitation in p5.js. <a href="https://editor.p5js.org/gjohns13-spectacular/sketches/fXjII012Y">Link to code.</a></caption>
       </div>
-
     </div>
-
-
-<br><br>
-
-<h5>Part 1: Study Vera Molnar imitation</h5>
-<p>Have a look at the 7 steps outlined in <a href="https://editor.p5js.org/gjohns13-spectacular/sketches/fXjII012Y">this sketch</a>. Uncomment each step and study how it works. Notice how they scale in complexity. Notice in particular:
-
-  <ul>
-    <li>nested <code>for loops</code> to move the computer's drawing position from left to right, top to bottom.</li>
-    <li>a third <code>for loop</code> nesting inside which draws several shapes on top each other at the drawing position</li>
-    <li>the arithmatic and variables used in combination with <code>random()</code> in order to create variation in how each shape is drawn.</li>
-  </ul>
-</p>
-
-
-
-
-<h5>Part 2: Creative Riff</h5>
-
-<p>Let's use part 1 as a framework for making something of your own. Let's have some fun with it! Make sure you've saved your first copy, and then duplicate your sketch. Now, how can you use this nested <code>for loop</code> concept to create your
-  own work? What other features (color, stroke, stroke weight, etc.) can you use to change the look and feel of this piece? If you've added randomness in the bonus section: how can randomness make a return and enliven the feel?</p>
-
-<h5>Tips for success</h5>
-<p>Don't try to do everything at once. Break things down. Follow these steps below if it is helpful.
-<ul>
-  <li>Before you get started, open your p5 editor and the <a href="../pdf/gettingstarted.pdf">Getting Started"</a> text. Work through Chapter 4, example by example. This seems tedious, but it will build up comprehension.
-  <li>When you're ready to begin the code sketch: First, draw a single shape. Familiarize yourself with what arguments do what. Will you draw a square, a circle, or a different 2d primitive shape? What argument will you need to use? How many
-    arguments do you need? What does what (position, size, etc.)?
-  <li>Now, create a row of shapes with a <code>for loop</code> inside your <code>draw loop</code>. Insert your shape code into the <code>for loop</code> and use the loop's variable (i or s or whatever you choose) to <b>multiply</b> the x value
-    and push it to the right.
-
-  <li>Not sure what this means? Check the reference for <code>for loop</code>. Watch the videos below. Read the section in the book on <code>for loop</code> again -- you'll see this in action!
-  <li>Then, put that <code>for loop</code> inside a new <code>for loop</code>. Make sure the new loop has a different variable than the first. Use this variable to alter the y position of the shape (use multiplication again), and hence to draw
-    consecutive rows at different heights in the Canvas. Get this working before you move on!
-  <li>Still stuck? Email your prof and ask for a quick appointment to talk through the issue. Check the reference and other materials. Phone a friend in your group and see if they are stuck too.</li>
-  <li><b>If you are attempting the bonus:</b> you'll need to use the <code>random()</code> function to introduce variation to the code. What elements are randomized? What is the range of randomization? How will you use arithmetic to integrate the
-    random number into your
-    shape's coordinates? Now is a good time to insert <code>noLoop()</code> into your code so that you are only getting one drawing per "play".
-
-</ul>
-</p>
-<!-- <h5>In-Class Demo</h5>
+    <br><br>
+    <h5>Part 1: Study Vera Molnar imitation</h5>
+    <p>Have a look at the 7 steps outlined in <a href="https://editor.p5js.org/gjohns13-spectacular/sketches/fXjII012Y">this sketch</a>. Uncomment each step and study how it works. Notice how they scale in complexity. Notice in particular:
+    <ul>
+      <li>nested <code>for loops</code> to move the computer's drawing position from left to right, top to bottom.</li>
+      <li>a third <code>for loop</code> nesting inside which draws several shapes on top each other at the drawing position</li>
+      <li>the arithmatic and variables used in combination with <code>random()</code> in order to create variation in how each shape is drawn.</li>
+    </ul>
+    </p>
+    <h5>Part 2: Creative Riff</h5>
+    <p>Let's use part 1 as a framework for making something of your own. Let's have some fun with it! Make sure you've saved your first copy, and then duplicate your sketch. Now, how can you use this nested <code>for loop</code> concept to create
+      your own work? What other features (color, stroke, stroke weight, etc.) can you use to change the look and feel of this piece? If you've added randomness in the bonus section: how can randomness make a return and enliven the feel?</p>
+    <h5>Tips for success</h5>
+    <p>Don't try to do everything at once. Break things down. Follow these steps below if it is helpful.
+    <ul>
+      <li>Before you get started, open your p5 editor and the <a href="../pdf/gettingstarted.pdf">Getting Started"</a> text. Work through Chapter 4, example by example. This seems tedious, but it will build up comprehension.
+      <li>When you're ready to begin the code sketch: First, draw a single shape. Familiarize yourself with what arguments do what. Will you draw a square, a circle, or a different 2d primitive shape? What argument will you need to use? How many
+        arguments do you need? What does what (position, size, etc.)?
+      <li>Now, create a row of shapes with a <code>for loop</code> inside your <code>draw loop</code>. Insert your shape code into the <code>for loop</code> and use the loop's variable (i or s or whatever you choose) to <b>multiply</b> the x value
+        and push it to the right.
+      <li>Not sure what this means? Check the reference for <code>for loop</code>. Watch the videos below. Read the section in the book on <code>for loop</code> again -- you'll see this in action!
+      <li>Then, put that <code>for loop</code> inside a new <code>for loop</code>. Make sure the new loop has a different variable than the first. Use this variable to alter the y position of the shape (use multiplication again), and hence to draw
+        consecutive rows at different heights in the Canvas. Get this working before you move on!
+      <li>Still stuck? Email your prof and ask for a quick appointment to talk through the issue. Check the reference and other materials. Phone a friend in your group and see if they are stuck too.</li>
+      <li><b>If you are attempting the bonus:</b> you'll need to use the <code>random()</code> function to introduce variation to the code. What elements are randomized? What is the range of randomization? How will you use arithmetic to integrate the
+        random number into your shape's coordinates? Now is a good time to insert <code>noLoop()</code> into your code so that you are only getting one drawing per "play".
+    </ul>
+    </p>
+    <h5>Part 3: Plotter Ready</h5>
+    <p>This is exciting: your work will be displayed on the 4th Floor of Maclean in the display booth outside ATS! How will it be displayed? That's an important question!</p>
+    <p>p5*js allows us to think about many different ways to install our work: as net art, a mobile application, performances, LCD and projection installations... Here we're going to look into a "print" based application. In the style of Vera
+      Molnar's work, you will prepare your "part 2: creative riff" for the plotter. See the embedded video below to get an idea of how a plotter works.</p>
+    <p>Since this is an online class, your instructor will run the plotter based on files you've created. Here are some things to keep in mind: </p>
+    <ul>
+      <li>I will only use one stylus for all the drawings. The color will be black.</li>
+      <li>I am aiming to have these drawn at 10"x10".</li>
+      <li>Using <code>randomSeed()</code> will allow you to designate a specific random number sequence. Use this to try out your code and select your favorite for plotting.</li>
+      <li></li>
+    </ul>
+    <div class="embed-responsive responsive-16by9">
+      <iframe class="embed-responsive-item" width="100%" height="500" src="https://www.youtube.com/embed/sIjClOaeBmg" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <script src="https://unpkg.com/p5.js-svg@1.3.1"></script>
+    <div class="embed-responsive responsive-16by9">
+      <iframe class="embed-responsive-item" width="100%" height="500" src="https://p5js.org/showcase/featuring/roni-cantor.html" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+    <p>Dan from "Seeking Outside" Tutorial for p5*js to <a href="https://www.seekingoutside.com/how-to-make-generative-art-bookmarks-with-p5-js-and-the-silhouette-cameo-as-a-pen-plotter-using-multiple-pens-code-video-included/">plotter workflow</a>
+    </p>
+    <!-- <h5>In-Class Demo</h5>
     <p>In class during week 2, I stepped through imitating another of Vera Molnar's work. You will find video on your learning management system (either Canvas or Moodle). You may also use the <a
         href="https://editor.p5js.org/gjohns13-spectacular/sketches/38jUV3uoD">starting code</a> and code along with this before adapting it to the assignment.</p> -->
-
-<h4>Other Materials</h4>
-<p>Review assignments, readings, and videos from weeks 2-4.</p>
-
-
-</div>
+    <h4>Other Materials</h4>
+    <p>Review assignments, readings, and videos from weeks 2-4.</p>
+    <iframe width="100%" height="500" src="https://www.youtube.com/embed/BCZNNZGz5YI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+    <iframe width="100%" height="500" src="https://www.youtube.com/embed/O5G4SoWBoao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+    <iframe width="100%" height="500" src="https://www.youtube.com/embed/ZnP-83OUP_M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </div>
 </div>
