@@ -7,13 +7,8 @@ div {
   color:black;
 }
 
-
-
-
-
 div.course {
   pointer-events: auto;
-  width: 100vw;
 }
 
 div.child {
