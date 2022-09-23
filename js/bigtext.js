@@ -6,6 +6,8 @@
 function bigTextLoad(){
  $('#ats').bigtext();
  $('#creative').bigtext();
+
+ $('#glj').bigtext();
 //  let b = document.querySelectorAll("body");
 // let b = document.getElementsByClassName("course");
 // for (i=0;i<b.length;i++){

@@ -23,3 +23,8 @@ div.course:hover {
   color:white;
   z-index: -1;
 }
+
+#glj {
+  position:fixed;
+  bottom:0;
+}
