@@ -3,7 +3,7 @@ let walkers = [];
 
 function setup() {
   let w = window.innerWidth * 3 / 4;
-  createCanvas(w, window.innerHeight*2).parent("#sidebar");
+  createCanvas(w, window.innerHeight * 2).parent("#splash");
   for (i = 0; i < 50; i++) {
     let b = new Walker(width / 2, height / 2);
     walkers.push(b);
