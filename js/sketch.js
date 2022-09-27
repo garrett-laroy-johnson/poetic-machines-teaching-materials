@@ -1,10 +1,9 @@
 // built starting from Daniel Schiffman's Vector youtube series: https://www.youtube.com/watch?v=bKEaK7WNLzM
 let walkers = [];
-let bg = "white";
 
 function setup() {
   let w = window.innerWidth * 3 / 4;
-  createCanvas(w, window.innerHeight).parent("#splash");
+  createCanvas(w, window.innerHeight*2).parent("#sidebar");
   for (i = 0; i < 50; i++) {
     let b = new Walker(width / 2, height / 2);
     walkers.push(b);

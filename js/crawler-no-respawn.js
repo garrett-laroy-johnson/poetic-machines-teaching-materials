@@ -9,6 +9,9 @@ class Crawler {
   getArea() {
     let counter = 0;
     //edge cases
+
+
+    
     if (this.pos.y < 1 && this.pos.x >= res - 1) { //if crawler is on top right corner
       for (let h = -1; h < 2; h++) {
         for (let w = -1; w < 2; w++) {

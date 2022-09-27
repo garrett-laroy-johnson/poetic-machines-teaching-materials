@@ -1,6 +1,8 @@
 body {
   /* min-height: 100vh; */
   min-height: -webkit-fill-available;
+
+    background-color: transparent;
 }
 
 html {
@@ -8,6 +10,7 @@ html {
 }
 
 main {
+  background-color: transparent;
   display: flex;
   flex-wrap: nowrap;
   /* height: 100vh; */
@@ -15,6 +18,10 @@ main {
   max-height: 100vh;
   overflow-x: auto;
   overflow-y: hidden;
+}
+
+#sidebar {
+  background-color: transparent;
 }
 
 .b-example-divider {

@@ -5,7 +5,7 @@ let crawlers = [];
 let crawInit = 1; // initial number of crawlers
 let painted = 0; // number of squares painted
 function setup() {
-  noStroke();
+
   frameRate(timestep);
   res = window.innerWidth;
   createCanvas(window.innerWidth * 0.75, window.innerHeight).parent("#splash")
@@ -17,10 +17,15 @@ function setup() {
   // }
   background(bg);
   textSize(30);
-  text("[click & drag]", width / 4, height / 2)
+  text("[click & drag]", width / 4, height / 2);
+    noStroke();
 }
 
 function mousePressed() {
+if(mouseX<0||mouseX>width||mouseY<0||mouseY>height){
+
+}
+else{
   if (painted < 1) {
     background(bg);
   }
@@ -28,9 +33,17 @@ function mousePressed() {
   crawlers.push(b);
 }
 
+
+}
+
 function mouseDragged() {
+  if(mouseX<0||mouseX>width||mouseY<0||mouseY>height){
+
+  }
+  else{
   let b = new Crawler(Math.floor((mouseX / width) * res), Math.floor((mouseY / width) * res), matrix);
   crawlers.push(b);
+}
 }
 
 function draw() {
