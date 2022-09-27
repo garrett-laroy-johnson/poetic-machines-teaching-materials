@@ -1,5 +1,6 @@
 let state;
 let splash = 0;
+let bg = "white";
 
 function initDark() {
   state = getItem('dark');
