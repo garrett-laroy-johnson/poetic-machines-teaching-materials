@@ -59,9 +59,6 @@ class Walker {
   explode() {
     this.vel.mult(random(4));
   }
-  show() {
-    ellipse(this.pos.x, this.pos.y, 20);
-  }
 }
 
 function mousePressed() {
