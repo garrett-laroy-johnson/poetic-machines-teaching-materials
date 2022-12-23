@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "bash": "^0.0.1",
+    "bootstrap": "^5.2.3",
+    "eleventy": "^1.0.6",
+    "ffmpeg": "^0.0.4",
+    "graphicsmagick": "^0.0.1",
+    "jq": "^1.7.2"
+  },
+  "name": "f22-ats3135",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garrett-laroy-johnson/f22-ats3135.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garrett-laroy-johnson/f22-ats3135/issues"
+  },
+  "homepage": "https://github.com/garrett-laroy-johnson/f22-ats3135#readme",
+  "description": ""
+}
