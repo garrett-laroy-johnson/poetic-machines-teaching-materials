@@ -1,0 +1,128 @@
+---
+layout: base.njk
+pagination:
+  data: atsp.schedule
+  size: 1
+permalink: "week/{{ pagination.pageNumber + 1 }}/index.html"  
+---
+
+<div class="row">
+    <!-- sidebar -->
+      <div class="col-xs-12 col-sm-3" style="z-index: 2">
+        <div class="flex-shrink-0 p-3" style="width: 100%;">
+          <h4 class="fs-5 fw-semibold" style="margin-left: 10px">SAIC Art and Technology Studies:<br>ATS Practices<br>Fall 2022</h4>
+           <ul class="list-unstyled ps-0">
+            <!-- <li><a href="#" class="link-dark rounded" onclick="loadDoc(''); return false"></a></li> -->
+            <li class="mb-1">
+              <a href="/main/about/">
+                <button class="btn align-items-left rounded collapsed nav-butt" style="text-align:left" aria-expanded="false"> About </button>
+              </a>
+            </li>
+            <li class="mb-1">
+              <a href = "/main/schedule">
+              <button class="btn align-items-left rounded collapsed nav-butt" style="text-align:left" aria-expanded="false"> Schedule </button>
+            </a>
+            </li>
+            <li class="mb-1">
+              <a href = "/main/policies">
+              <button class="btn align-items-left rounded collapsed nav-butt" style="text-align:left" aria-expanded="false"> Policies </button>
+            </a>
+            </li>
+        
+            <li class="mb-1">
+              <a href = "/main/materials">
+              <button class="btn align-items-left rounded collapsed nav-butt" style="text-align:left" aria-expanded="false"> Course Materials </button>
+            </a>
+            </li>
+            <li class="mb-1">
+              <a href = "/main/presentation">
+              <button class="btn align-items-left rounded collapsed nav-butt" style="text-align:left" aria-expanded="false"> Group Presentation </button>
+            </a>
+            </li>
+              {% for p in pagination.pages%}
+            <li class="mb-1">
+              <a href = "{{ pagination.hrefs[ loop.index0 ] }}">
+              <button class="btn align-items-left rounded collapsed nav-butt" aria-expanded="false"> Week {{ loop.index }}: {{pagination.pages[ loop.index0 ].title}} </button>
+               </a>
+            </li>
+            {% endfor %}
+
+
+            <li style="padding-left:10px">
+              <button type="button" class="btn btn-dark" id="darkToggle" onclick="darkMode(); return false">Dark</button>
+            </li>
+          </ul> 
+         </div>
+      </div>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="col-sm-9">
+<ol>
+  {%- for item in pagination.items %}
+  <h1> Week {{pagination.pageNumber + 1}} : {{ item.title }}</h1>
+    <ul class="no-bullets">In-Class Goals:
+  {% for g in item.goals %} 
+    <li><input type="checkbox" class = "cb"> {{ g }}</li>
+  {% endfor %}
+  </ul>
+
+
+  <h2>Homework</h2>
+
+  
+  {% if item.sketch %}
+  <h3>Coding Sketch #1</h3>
+  <p>{{ item.sketch}}</p>
+  {% endif %}
+
+  {% if item.readings %}
+  <h3>Readings</h3>
+  <p> {{ item.readings}}</p>
+
+  {% endif %}
+  
+    
+  {% if item.other %}
+  <h3>Other Materials</h3>
+  <div class = "row">
+  {% for o in item.other%}
+  {% if o.type == "youtube" %}
+  <div class = "col-md-6" style = "padding: 10px">
+  <div class="ratio ratio-16x9">
+  <iframe
+  src="https://youtube.com/embed/{{ o.id }} "
+   frameborder="0"
+  allow="fullscreen"
+  allowfullscreen
+></iframe>
+  </div>
+</div>
+{% endif%}
+  {% endfor%}
+</div>
+  {% endif %}
+
+  
+  {%if page.url != pagination.href.first %}
+  <p><a href = {{pagination.href.previous}}>previous week: {{pagination.pageNumber}}. {{pagination.page.previous.title}} </p>
+  {% endif %}
+  {%if page.url != pagination.href.last %}
+  <p><a href = {{pagination.href.next}}>next week: 1. {{ pagination.pageNumber + 2 }}. {{pagination.page.next.title}} </p>
+  {% endif %}
+  {% endfor -%}
+</ol>
+
+
+</div>
+</div>
