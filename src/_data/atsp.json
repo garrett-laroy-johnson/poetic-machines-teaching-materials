@@ -12,8 +12,19 @@
         "Make our first sketch",
         "Get started on homework"
       ],
+      "concepts": [
+        "html: hypertext markup language",
+        "css: cascading style sheets",
+        "js: javascript",
+        "p5*js",
+        "processing"
+      ],
+      "functions": ["function setup ()", "function draw()"],
       "readings": "Getting Started with p5.js // Chapters 1 and 2. Pages 1-17.",
-      "sketch": "Here is where an assignment would be if it were due today. Since it's the first day of class, we won't expect anything here. Take a look at week 2 for your assignment.",
+      "sketch": {
+        "title": "Coding Sketch",
+        "text": "Here is where an assignment would be if it were due today. Since it's the first day of class, we won't expect anything here. Take a look at week 2 for your assignment."
+      },
       "other": [
         {
           "type": "youtube",
@@ -45,6 +56,27 @@
           "Bonus for using more advanced 2D primitives -- quads, arcs, and I encourage you to lookup how to use Vertexes!"
         ]
       },
+      "concepts": [
+        "x and y coordinates / position",
+        "randomness",
+        "RGB color",
+        "pixels"
+      ],
+      "functions": [
+        "stroke",
+        "strokeWeight",
+        "fill",
+        "noStroke",
+        "noFill()",
+        "line(x1,y1,x2,y2)",
+        "point(x,y)",
+        "square(x,y,w)",
+        "rect(x1,y1,x2,y2)",
+        "circle(x,y,w)",
+        "circle(x,y,h,w)",
+        "triangle(x1,y1,x2,y2,x3,y3)",
+        "random(min,max)"
+      ],
       "other": [
         {
           "type": "youtube",
@@ -53,6 +85,59 @@
         {
           "type": "youtube",
           "id": "amGsNYDt-D0"
+        }
+      ]
+    },
+    {
+      "title": "Variables and For Loops",
+      "goals": [
+        "Turn on Zoom captions",
+        "Announce David Hockney exhibition at ARTIC this semester",
+        "Say hello & check-in (take attendance!)",
+        "Share and Discuss Coding Sketch #1",
+        "Clarify or Demo any coding concepts unclear from Coding Sketch #1 (break)",
+        "Introduce Group Presentation and Create Groups (break)",
+        "Intro Variables and For Loops",
+        "Start work on Coding Sketch #3"
+      ],
+      "readings": "Getting Started with p5.js // Chapters 4: Variables",
+      "sketch": {
+        "title": "Coding Sketch #2: For Loop Remix",
+        "text": [
+          "Remix the for loop examples in the book (ex. 4-5 through 4-9) to create something original. See how you can incorporate color, strokeWeight(), and different shapes from the previous week."
+        ]
+      },
+      "concepts": [
+        "for loop",
+        "nested for loop",
+        "variables: let, const",
+        "scope"
+      ],
+      "functions": [
+        "stroke(r,g,b)",
+        "strokeWeight(p)",
+        "fill(r,g,b)",
+        "noStroke()",
+        "noFill()",
+        "square(x,y,w)",
+        "rect(x1,y1,x2,y2)",
+        "circle(x,y,w)",
+        "circle(x,y,h,w)",
+        "triangle(x1,y1,x2,y2,x3,y3)",
+        "random(min,max)"
+      ],
+      "other": [
+        {
+          "type": "youtube",
+          "id": "POn4cZ0jL-o"
+        },
+        {
+          "type": "youtube",
+          "id": "cnRD9o6odjk"
+        },
+        {
+          "type": "youtube",
+          "id": "1c1_TMdf8b8"
         }
       ]
     }

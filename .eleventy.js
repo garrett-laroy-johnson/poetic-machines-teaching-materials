@@ -9,7 +9,6 @@ module.exports = function (eleventyConfig) {
     "./node_modules/bootstrap/dist/css/bootstrap.min.css":
       "/assets/css/bootstrap.css",
   });
-
   return {
     dir: {
       input: "src",
