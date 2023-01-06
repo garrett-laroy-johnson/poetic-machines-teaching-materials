@@ -19,11 +19,13 @@
         "p5*js",
         "processing"
       ],
-      "functions": ["function setup ()", "function draw()"],
+      "functions": ["setup", "draw"],
       "readings": "Getting Started with p5.js // Chapters 1 and 2. Pages 1-17.",
       "sketch": {
         "title": "Coding Sketch",
-        "text": "Here is where an assignment would be if it were due today. Since it's the first day of class, we won't expect anything here. Take a look at week 2 for your assignment."
+        "text": [
+          "Here is where an assignment would be if it were due today. Since it's the first day of class, we won't expect anything here. Take a look at week 2 for your assignment."
+        ]
       },
       "other": [
         {
@@ -67,15 +69,15 @@
         "strokeWeight",
         "fill",
         "noStroke",
-        "noFill()",
-        "line(x1,y1,x2,y2)",
-        "point(x,y)",
-        "square(x,y,w)",
-        "rect(x1,y1,x2,y2)",
-        "circle(x,y,w)",
-        "circle(x,y,h,w)",
-        "triangle(x1,y1,x2,y2,x3,y3)",
-        "random(min,max)"
+        "noFill",
+        "line",
+        "point",
+        "square",
+        "rect",
+        "circle",
+        "ellipse",
+        "triangle",
+        "random"
       ],
       "other": [
         {
@@ -113,19 +115,7 @@
         "variables: let, const",
         "scope"
       ],
-      "functions": [
-        "stroke(r,g,b)",
-        "strokeWeight(p)",
-        "fill(r,g,b)",
-        "noStroke()",
-        "noFill()",
-        "square(x,y,w)",
-        "rect(x1,y1,x2,y2)",
-        "circle(x,y,w)",
-        "circle(x,y,h,w)",
-        "triangle(x1,y1,x2,y2,x3,y3)",
-        "random(min,max)"
-      ],
+      "functions": ["for", "let", "const"],
       "other": [
         {
           "type": "youtube",
