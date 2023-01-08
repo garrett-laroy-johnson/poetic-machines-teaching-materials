@@ -1,0 +1,55 @@
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+cb:after {
+  background-color: #4c00b0;
+}
+
+blockquote {
+  border-width: 10px;
+  border-color: black;
+}
+
+p,
+button,
+body {
+  font-family: "Noto Serif", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+span {
+  font-family: "Silkscreen", cursive;
+}
+
+body {
+  /* background-color: "#b0c7bd"; */
+}
+
+a {
+  color: #be2ed6;
+}
+
+a:hover {
+  color: #4c00b0;
+}
+
+.nav-butt {
+  text-align: left;
+}
+
+ul.no-bullets {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
+canvas {
+  position: relative;
+  z-index: -3 !important;
+}
