@@ -34,7 +34,7 @@
     />
   </head>
 
-  <body onLoad="initDark()">
+    <body>
     <div>
       
 <div class="row">
@@ -104,7 +104,7 @@
         </li>
         
         <li class="mb-1">
-          <a href="/week/1/">
+          <a href="/ats2101/1/">
             <button
               class="btn align-items-left rounded collapsed nav-butt"
               aria-expanded="false"
@@ -115,7 +115,7 @@
         </li>
         
         <li class="mb-1">
-          <a href="/week/2/">
+          <a href="/ats2101/2/">
             <button
               class="btn align-items-left rounded collapsed nav-butt"
               aria-expanded="false"
@@ -126,7 +126,7 @@
         </li>
         
         <li class="mb-1">
-          <a href="/week/3/">
+          <a href="/ats2101/3/">
             <button
               class="btn align-items-left rounded collapsed nav-butt"
               aria-expanded="false"
@@ -153,7 +153,7 @@
 
   
   <div class="col-sm-6">
-    <h1>Week 3 : Variables and For Loops</h1>
+    <h1>Week 2 : Simple 2D Shapes</h1>
     
     <ul class="no-bullets">
       In-Class Goals: 
@@ -171,17 +171,19 @@
       
       <li><input type="checkbox" class="cb" /> Intro Variables and For Loops</li>
       
-      <li><input type="checkbox" class="cb" /> Start work on Coding Sketch #3</li>
+      <li><input type="checkbox" class="cb" /> Start work on Coding Sketch #2</li>
       
     </ul>
     <h2>Homework</h2>
     
-    <h3>Coding Sketch #2: For Loop Remix</h3>
+    <h3>Coding Sketch #1: Self Portrait</h3>
     
-    <p>Remix the for loop examples in the book (ex. 4-5 through 4-9) to create something original. See how you can incorporate color, strokeWeight(), and different shapes from the previous week.</p>
+    <p>Find a selfie or take one. Create an interpretation of it using 2D shapes in P5.JS. You can to be accurate, or create an interesting abstraction based on the image. Look at the 2D shapes on https://p5js.org/reference/.</p>
+    
+    <p>Bonus for using more advanced 2D primitives -- quads, arcs, and I encourage you to lookup how to use Vertexes!</p>
       
     <h3>Readings</h3>
-    <p>Getting Started with p5.js // Chapters 4: Variables</p>
+    <p>Getting Started with p5.js // Chapters 3 draw.</p>
      
     <h3>Other Materials</h3>
     <div class="row">
@@ -189,7 +191,7 @@
       <div class="col-md-6" style="padding: 10px">
         <div class="ratio ratio-16x9">
           <iframe
-            src="https://youtube.com/embed/POn4cZ0jL-o "
+            src="https://youtube.com/embed/yPWkPOfnGsw "
             frameborder="0"
             allow="fullscreen"
             allowfullscreen
@@ -200,18 +202,7 @@
       <div class="col-md-6" style="padding: 10px">
         <div class="ratio ratio-16x9">
           <iframe
-            src="https://youtube.com/embed/cnRD9o6odjk "
-            frameborder="0"
-            allow="fullscreen"
-            allowfullscreen
-          ></iframe>
-        </div>
-      </div>
-        
-      <div class="col-md-6" style="padding: 10px">
-        <div class="ratio ratio-16x9">
-          <iframe
-            src="https://youtube.com/embed/1c1_TMdf8b8 "
+            src="https://youtube.com/embed/amGsNYDt-D0 "
             frameborder="0"
             allow="fullscreen"
             allowfullscreen
@@ -222,39 +213,86 @@
     </div>
      
     <p>
-      <a href="/week/2/"
-        >previous week: 2.
-        Simple 2D Shapes</a
+      <a href="/ats2101/1/"
+        >previous week: 1.
+        Getting Setup</a
       >
     </p>
      
+    <p>
+      <a href="/ats2101/3/"
+        >next week: 1. 3.
+        Variables and For Loops</a
+      >
+    </p>
+    
   </div>
   <div class="col-sm-2 pull-right card">
     <div class="card-header">Key Concepts:</div>
     <ul class="list-group list-group-flush">
       
-      <li class="list-group-item">for loop</li>
+      <li class="list-group-item">x and y coordinates / position</li>
       
-      <li class="list-group-item">nested for loop</li>
+      <li class="list-group-item">randomness</li>
       
-      <li class="list-group-item">variables: let, const</li>
+      <li class="list-group-item">RGB color</li>
       
-      <li class="list-group-item">scope</li>
+      <li class="list-group-item">pixels</li>
       
     </ul>
     <div class="card-header">Functions:</div>
     <ul class="list-group">
       
-      <a href="https://p5js.org/reference/#/p5/for">
-        <li class="list-group-item">for</li>
+      <a href="https://p5js.org/reference/#/p5/stroke">
+        <li class="list-group-item">stroke</li>
       </a>
       
-      <a href="https://p5js.org/reference/#/p5/let">
-        <li class="list-group-item">let</li>
+      <a href="https://p5js.org/reference/#/p5/strokeWeight">
+        <li class="list-group-item">strokeWeight</li>
       </a>
       
-      <a href="https://p5js.org/reference/#/p5/const">
-        <li class="list-group-item">const</li>
+      <a href="https://p5js.org/reference/#/p5/fill">
+        <li class="list-group-item">fill</li>
+      </a>
+      
+      <a href="https://p5js.org/reference/#/p5/noStroke">
+        <li class="list-group-item">noStroke</li>
+      </a>
+      
+      <a href="https://p5js.org/reference/#/p5/noFill">
+        <li class="list-group-item">noFill</li>
+      </a>
+      
+      <a href="https://p5js.org/reference/#/p5/line">
+        <li class="list-group-item">line</li>
+      </a>
+      
+      <a href="https://p5js.org/reference/#/p5/point">
+        <li class="list-group-item">point</li>
+      </a>
+      
+      <a href="https://p5js.org/reference/#/p5/square">
+        <li class="list-group-item">square</li>
+      </a>
+      
+      <a href="https://p5js.org/reference/#/p5/rect">
+        <li class="list-group-item">rect</li>
+      </a>
+      
+      <a href="https://p5js.org/reference/#/p5/circle">
+        <li class="list-group-item">circle</li>
+      </a>
+      
+      <a href="https://p5js.org/reference/#/p5/ellipse">
+        <li class="list-group-item">ellipse</li>
+      </a>
+      
+      <a href="https://p5js.org/reference/#/p5/triangle">
+        <li class="list-group-item">triangle</li>
+      </a>
+      
+      <a href="https://p5js.org/reference/#/p5/random">
+        <li class="list-group-item">random</li>
       </a>
       
     </ul>
