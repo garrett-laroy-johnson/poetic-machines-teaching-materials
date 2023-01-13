@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="" />
     <meta name="author" content="Garrett Johnson" />
-    <title>New Media Art || Art and Technology Studies</title>
+    <title>SAIC ATS 2101 | Art and Technology Studies Practices | Spring 2023</title>
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -25,6 +25,7 @@
     <!-- Custom styles -->
     <link href="/assets/css/sidebars.css" rel="stylesheet" />
     <link href="/assets/css/style.css" rel="stylesheet" />
+    <script src="/assets/js/p5.js"></script>
     
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -37,11 +38,90 @@
     <body>
     <div>
       
-<div id="splash">
-  <script src = /assets/js/vectors.js><script>
+<div class="row">
+  <!-- sidebar -->
+  <div class="col-sm-3" style="z-index: 2">
+    <div class="flex-shrink-0 p-3" style="width: 100%">
+      <h4 class="fs-5 fw-semibold" style="margin-left: 10px">
+        SAIC ATS 2101 | Art and Technology Studies Practices | Spring 2023
+      </h4>
+      <ul class="list-unstyled ps-0">
+        <!-- <li><a href="#" class="link-dark rounded" onclick="loadDoc(''); return false"></a></li> -->
+        <li class="mb-1">
+          <a href="/main/about/">
+            <button
+              class="btn align-items-left rounded collapsed nav-butt"
+              style="text-align: left"
+              aria-expanded="false"
+            >
+              About
+            </button>
+          </a>
+        </li>
+        <li class="mb-1">
+          <a href="/main/schedule">
+            <button
+              class="btn align-items-left rounded collapsed nav-butt"
+              style="text-align: left"
+              aria-expanded="false"
+            >
+              Schedule
+            </button>
+          </a>
+        </li>
+        <li class="mb-1">
+          <a href="/main/policies">
+            <button
+              class="btn align-items-left rounded collapsed nav-butt"
+              style="text-align: left"
+              aria-expanded="false"
+            >
+              Policies
+            </button>
+          </a>
+        </li>
 
-</div>
+        <li class="mb-1">
+          <a href="/main/materials">
+            <button
+              class="btn align-items-left rounded collapsed nav-butt"
+              style="text-align: left"
+              aria-expanded="false"
+            >
+              Course Materials
+            </button>
+          </a>
+        </li>
+        <li class="mb-1">
+          <a href="/main/presentation">
+            <button
+              class="btn align-items-left rounded collapsed nav-butt"
+              style="text-align: left"
+              aria-expanded="false"
+            >
+              Group Presentation
+            </button>
+          </a>
+        </li>
 
+        
+
+        <li style="padding-left: 10px">
+          <button
+            type="button"
+            class="btn btn-dark"
+            id="darkToggle"
+            onclick="darkMode(); return false"
+          >
+            Dark
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  
+  <div class="col-sm-6">
     </div>
     <script src="/assets/js/bootstrap.js" async defer></script>
     <script src="/assets/js/display.js" async defer></script>
