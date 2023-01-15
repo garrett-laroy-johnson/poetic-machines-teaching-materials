@@ -34,13 +34,13 @@ layout: base.njk
           </a>
         </li>
         <li class="mb-1">
-          <a href="/main/policies">
+          <a href="/main/syllabus">
             <button
               class="btn align-items-left rounded collapsed nav-butt"
               style="text-align: left"
               aria-expanded="false"
             >
-              Policies
+              Syllabus
             </button>
           </a>
         </li>
@@ -68,7 +68,7 @@ layout: base.njk
           </a>
         </li>
 
-        {% if pagniation %} {% for p in pagination.pages%}
+        {% for p in pagination.pages %}
         <li class="mb-1">
           <a href="{{ pagination.hrefs[loop.index0] }}">
             <button
@@ -79,9 +79,7 @@ layout: base.njk
             </button>
           </a>
         </li>
-        {% endfor %} {% elseif %} {# here code to render tabs if on splash page
-        #} {% endif %}
-
+        {% endfor %} {# here code to render tabs if on splash page#} {#
         <li style="padding-left: 10px">
           <button
             type="button"
@@ -92,11 +90,12 @@ layout: base.njk
             Dark
           </button>
         </li>
+        #}
       </ul>
     </div>
   </div>
 
-  {# main page #}
+  {% if pagination %} {# main page #}
   <div class="col-sm-6">
     {%- for item in pagination.items %}
     <h1>Week {{ pagination.pageNumber + 1 }} : {{ item.title }}</h1>
@@ -163,4 +162,4 @@ layout: base.njk
     </ul>
   </div>
 </div>
-{% endfor -%}
+{% endfor -%} {% endif %}
