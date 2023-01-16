@@ -1,0 +1,61 @@
+---
+title: Materials
+layout: base.njk
+weekNum: 0
+---
+
+<div class = col-sm-6>
+    <h1>course materials</h1>
+    {% if texts %}
+    <h2>Texts</h2>
+    <div class="row">
+        {% for item in texts %}    
+        <div class="col-4">
+            <a href="{{item.url}}">
+              <img src="{{item.img}}" class="img-thumbnail" />
+              <caption>
+                {{item.title}} by {{item.authors}}
+              </caption>
+            </a>
+          </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+    <h2>Computer</h2>
+    <p>this course requires:</p>
+    <ul>
+    {% for item in computer %}       
+    <li> {{item.name}} 
+        <ul>  
+            {% for c in item.children %}     
+            <li>{{c}}</li>
+            {% endfor %}
+        </ul>    
+    </li>
+    
+    {% endfor %}
+    </ul>
+    {% if hardware %}
+    <h2>Hardware</h2>
+    <p>Your course fee will purchase a kit containing the following item(s):</p>
+    <ul class="list-group">
+        {% for h in hardware%}
+        <li class="list-group-item">
+          <A href = "{{h.url}}">{{ h.name }}</A>
+        </li>
+    
+    {% endfor %}
+</ul>
+    {% endif %}
+    <h2>Software</h2>
+    <ul>
+    {% for item in software %}
+    <li> <a href = "{{item.url}}">{{ item.title}} </a>
+        {% if item.note%}
+        [{{item.note}}]
+        {% endif%}
+    </li>
+    {% endfor %}
+    </ul>
+
+</div

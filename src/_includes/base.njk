@@ -37,9 +37,69 @@
 {# 
   <body onLoad="initDark()"> #}
     <body>
-    <div>
-      {{ content | safe }}
-    </div>
+  
+
+      <div class="row">
+        <!-- sidebar -->
+        <div class="col-sm-3" style="z-index: 2">
+          <div class="flex-shrink-0 p-3" style="width: 100%">
+            <h4 class="fs-5 fw-semibold" style="margin-left: 10px">
+              {{ course }}
+            </h4>
+            <ul class="list-unstyled ps-0">
+             {# course info #}
+              {% for p in collections[memberCollection] %} 
+              {% if p.data.weekNum == 0 %}
+
+              <li class="mb-1">
+                <a href="{{ p.url }}">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                 {{ p.data.title }}
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              {% endif %}
+              {% endfor %}
+              {# weeks  #}
+              {% for p in collections[memberCollection] %} 
+              {% if p.data.weekNum > 0 %}
+
+              <li class="mb-1">
+                <a href="{{ p.url }}">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week {{ p.data.weekNum }} : {{ p.data.title }}
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              {% endif %}
+              {% endfor %}
+            
+            </ul>
+          </div>
+        </div>
+      
+        {{content | safe }}
+      
+        </div>
+      
+      
+
     <script src="/assets/js/bootstrap.js" async defer></script>
     <script src="/assets/js/display.js" async defer></script>
   </body>

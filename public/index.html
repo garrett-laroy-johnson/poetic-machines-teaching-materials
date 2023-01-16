@@ -1,3 +1,58 @@
-<h2>welcome</h2>
-<ol>
-</ol>
+<html>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Garrett Johnson">
+    <title> digital practices w. garrett laroy johnson </title>
+    <style>
+       .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+      }
+  
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      } 
+    </style>
+    <link href="/assets/css/big.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Silkscreen&display=swap" rel="stylesheet">
+  </head>
+  
+  <body onLoad="bigTextLoad()">
+  
+    <div id="uic" class="biggy">
+      <div class="child">UIC</div>
+      <div class="child"></div>
+      <a href="uic"></a>
+    </div>
+    
+    <div id="saic" class="biggy">
+      <div class="child">SAIC</div>
+      <div class="child"></div>
+      <a href="saic"></a>
+    </div>
+  
+    <div id="glj" class="biggy" style="position:fixed;bottom:0">
+      <div class="child">instructor: garrett laroy johnson </div>
+      <a href="https://www.garrettlaroyjohnson.com"></a>
+    </div>
+  </body>
+
+<script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
+<script src = "/assets/js/bigtext.js"></script>
+<script defer>
+    $(".biggy").click(function() {
+      window.location = $(this).find("a").attr("href");
+      return false;
+    });
+  </script>
+
+  </html>

@@ -1,0 +1,94 @@
+---
+layout: base.njk
+---
+
+<div class="col-sm-6">
+  <h1>Week {{ weekNum }} : {{ title }}</h1>
+  {# goals #}
+  <ul class="no-bullets">
+    In-Class Goals: {% for g in goals %}
+    <li><input type="checkbox" class="cb" /> {{ g }}</li>
+    {% endfor %}
+  </ul>
+  <h2>Homework</h2>
+
+  {% if sketch %}
+  <h3>{{ sketch.title }}</h3>
+  {% for d in sketch.text%}
+  <p>{{ d }}</p>
+  {% endfor %} {% endif %} {% if readings %}
+  <h3>Readings</h3>
+  {% for r in readings%}
+  <a href="{{ r.url }}">
+    <p>{{ r.description }}</p>
+  </a>
+  {% endfor %} {% endif %} {% if other %}
+  <h3>Other Materials</h3>
+  <div class="row">
+    {% for o in other%} {% if o.type == "youtube" %}
+    <div class="col-md-6 card" style="padding: 10px">
+      <div class="ratio ratio-16x9">
+        <iframe
+          src="https://youtube.com/embed/{{ o.id }} "
+          frameborder="0"
+          allow="fullscreen"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+    {% elif o.type == "link" %}
+    <div class="col-md-6 card" style="padding: 10px">
+      <a href="{{ o.url }}">
+        <div class="card-header">{{ o.name }}</div>
+      </a>
+    </div>
+    {% elif o.type == "links" %}
+    <div class="col-md-6 card" style="padding: 10px">
+      <div class="card-header">{{ o.name }}</div>
+      <ul class="list-group list-group-flush">
+        {% for l in o.links %}
+        <a href="{{ l.url }}">
+          <li class="list-group-item">{{ l.name }}</li>
+        </a>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif%} {% endfor%}
+  </div>
+
+  {% endif %} {# {%if page.url != pagination.href.first %}
+  <p>
+    <a href="{{ pagination.href.previous }}"
+      >previous week: {{ pagination.pageNumber }}.
+      {{ pagination.page.previous.title }}</a
+    >
+  </p>
+  {% endif %} {%if page.url != pagination.href.last %}
+  <p>
+    <a href="{{ pagination.href.next }}"
+      >next week: 1. {{ pagination.pageNumber + 2 }}.
+      {{ pagination.page.next.title }}</a
+    >
+  </p>
+  {% endif %} #}
+</div>
+<div class="col-sm-2 pull-right card">
+  <div class="card-header">Key Concepts:</div>
+  <ul class="list-group list-group-flush">
+    {% for c in concepts %}
+    <li class="list-group-item">{{ c }}</li>
+    {% endfor %}
+  </ul>
+  <div class="card-header">Functions:</div>
+  <ul class="list-group">
+    {% for c in functions %} {% if reference == "p5" %}
+    <a href="https://p5js.org/reference/#/p5/{{ c }}">
+      <li class="list-group-item">{{ c }}</li>
+    </a>
+    {% elseif reference == "processing" %}
+    <a href="https://processing.org/reference/{{ c }}_.html">
+      <li class="list-group-item">{{ c }}</li>
+    </a>
+    {% endif %} {% endfor %}
+  </ul>
+</div>

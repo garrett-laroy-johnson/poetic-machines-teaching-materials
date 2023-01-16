@@ -1,0 +1,13 @@
+---
+weekNum: 0
+title: Schedule
+layout: base
+---
+
+<div class="col-sm-6">
+  <h1>schedule</h1>
+  {% for w in weeks %}
+  <h4>Week {{ loop.index }}</h4>
+  <p>{{ w }}</p>
+  {% endfor %}
+</div>
