@@ -1,5 +1,4 @@
 ---
-memberCollection: art150
 weekNum: 0
 tags: syllabus
 layout: UICsyllabus

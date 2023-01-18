@@ -79,9 +79,9 @@ layout: base.njk
     <li class="list-group-item">{{ c }}</li>
     {% endfor %}
   </ul>
-  <div class="card-header">Functions:</div>
+  <div class="card-header">Coding Components:</div>
   <ul class="list-group">
-    {% for c in functions %} {% if reference == "p5" %}
+    {% for c in code %} {% if reference == "p5" %}
     <a href="https://p5js.org/reference/#/p5/{{ c }}">
       <li class="list-group-item">{{ c }}</li>
     </a>

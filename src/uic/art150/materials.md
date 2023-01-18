@@ -1,7 +1,6 @@
 ---
 weekNum: 0
 title: Materials
-memberCollection: art150
 layout: materials.njk
 texts:
   - title: Getting Started with Processing
