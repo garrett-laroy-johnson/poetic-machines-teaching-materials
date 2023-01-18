@@ -1,0 +1,85 @@
+---
+layout: base.njk
+title: Materials
+weekNum: 0
+---
+
+<div class="col-sm-6">
+  <h1>{{ course }}</h1>
+  <ul class="list-group">
+    <li class="list-group-item">
+      {{ instructor }}
+    </li>
+    <li class="list-group-item">{{ time }}</li>
+    <li class="list-group-item">{{ location }}</li>
+  </ul>
+
+  <h2>CLASS DESCRIPTION</h2>
+  {% for d in description %}
+  <p>{{ d }}</p>
+  {% endfor %}
+  <h2>LEARNING OBJECTIVES</h2>
+  <ul>
+    Students will: {% for o in objectives %}
+    <li>{{ o }}</li>
+    {% endfor %}
+  </ul>
+  <h2>GRADING, ATTENDANCE, PRIVACY, AND ACCOMODATION POLICIES</h2>
+  {% if grading.note%}
+  <h5>{{ grading.note }}</h5>
+  {% endif %}
+  <h3>Contact / Credit Hour Policies</h3>
+  <p>{{ grading.contact }}</p>
+
+  <h3>Grading Key</h3>
+  <ul class="list-group">
+    {% for item in grading.key%}
+    <li class="list-group-item">
+      {{ item }}
+    </li>
+    {% endfor %}
+  </ul>
+
+  *NOTE - Merely turning in all assignments is not a guarantee of receiving
+  credit. {% if grading.breakdown %}
+  <h3>Grading by Assignment</h3>
+  <ul class="list-group">
+    {% for item in grading.breakdown %}
+    <li class="list-group-item">{{ item }}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+  <h3>Attendance</h3>
+  <p>
+    {{ attendance.description }}
+  </p>
+  <ul>
+    {% for item in attendance.rubric %}
+    <li>item</li>
+    {% endfor %}
+  </ul>
+  <h2>Class schedule</h2>
+  <p>
+    This syllabus is only a general guideline for the course. The schedule will
+    change depending on class performance during the semester. Adjustments will
+    be announced during class time when changes occur.
+  </p>
+  <h2>Assignments</h2>
+  <p>
+    {{ assignments }}
+  </p>
+  <h2>Cell phones and other digital communications</h2>
+  <p>
+    During class time, it is not appropriate to make or receive phone calls;
+    view or send texts, direct messages, or e-mails; use the internet for any
+    purpose unrelated to the course content. You may be asked to leave the
+    classroom if you do. “Mental absence” due to cell phone, web surfing, or
+    social media distractions will be counted as missed class time (ie, an
+    absence), and will contribute to the lowering of your grade.
+  </p>
+  <h2>Accommodation for Disabilities</h2>
+  {% for item in accomodation%}
+  <p>{{ item }}</p>
+  {% endfor %}
+  {{ content | safe }}
+</div>

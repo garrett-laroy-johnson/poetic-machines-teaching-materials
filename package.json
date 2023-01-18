@@ -1,0 +1,29 @@
+{
+  "name": "nma-ats",
+  "version": "1.0.0",
+  "description": "curriculum for new media art and art and technology studies corurses taught by garrett laroy johnson",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.2",
+    "bootstrap": "^5.2.3",
+    "eleventy": "^1.0.6",
+    "node": "^19.3.0",
+    "p5": "^1.5.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garrett-laroy-johnson/art-and-technology-practices.git"
+  },
+  "bugs": {
+    "url": "https://github.com/garrett-laroy-johnson/art-and-technology-practices/issues"
+  },
+  "homepage": "https://github.com/garrett-laroy-johnson/art-and-technology-practices#readme"
+}
