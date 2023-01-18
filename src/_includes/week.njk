@@ -79,6 +79,7 @@ layout: base.njk
     <li class="list-group-item">{{ c }}</li>
     {% endfor %}
   </ul>
+  {% if code %}
   <div class="card-header">Coding Components:</div>
   <ul class="list-group">
     {% for c in code %} {% if reference == "p5" %}
@@ -91,4 +92,5 @@ layout: base.njk
     </a>
     {% endif %} {% endfor %}
   </ul>
+  {% endif %}
 </div>
