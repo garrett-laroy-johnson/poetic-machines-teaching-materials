@@ -22,7 +22,21 @@ layout: base.njk
   <a href="{{ r.url }}">
     <p>{{ r.description }}</p>
   </a>
-  {% endfor %} {% endif %} {% if other %}
+  {% endfor %} {% endif %} {% if examples %}
+  <h3>Examples</h3>
+  {% for e in examples %} {% if e.type == "gist"%}
+
+  <script src="https://gist.github.com/{{ e.url }}.js"></script>
+
+  {% elif e.type == "p5" %}
+
+  <iframe
+    width="100%"
+    height="600"
+    src="https://editor.p5js.org/{{ e.url }}"
+  ></iframe>
+
+  {% endif %} {% endfor %} {% endif %} {% if other %}
   <h3>Other Materials</h3>
   <div class="row">
     {% for o in other%} {% if o.type == "youtube" %}

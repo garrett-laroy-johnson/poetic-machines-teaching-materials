@@ -6,6 +6,15 @@
 cb:after {
   background-color: #4c00b0;
 }
+.gist {
+  font-size: 13px;
+  line-height: 18px;
+  width: 53em;
+}
+.gist pre {
+  font-family: Menlo, Monaco, "Bitstream Vera Sans Mono", "Courier New",
+    monospace !important;
+}
 
 blockquote {
   border-width: 10px;
@@ -18,7 +27,7 @@ blockquote {
 
 p,
 button,
-body {
+li {
   font-family: "Noto Serif", serif;
 }
 
@@ -26,8 +35,7 @@ h1,
 h2,
 h3,
 h4,
-h5,
-span {
+h5 {
   font-family: "Silkscreen", cursive;
 }
 
