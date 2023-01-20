@@ -1,6 +1,7 @@
 ---
 layout: bigtext.njk
 title: SAIC ART AND TECH w. garrett laroy johnson
+department: Art and Technology Studies at SAIC
 big:
   - name: ATS 2101
     subname: Art and technology practices

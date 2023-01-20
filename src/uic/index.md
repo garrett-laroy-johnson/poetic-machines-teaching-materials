@@ -1,6 +1,7 @@
 ---
 layout: bigtext.njk
 title: UIC NEW MEDIA ART w. garrett laroy johnson
+department: New Media Arts at University of Illinois Chicago
 big:
   - name: ART 150
     subname: Introduction to New Media Art
