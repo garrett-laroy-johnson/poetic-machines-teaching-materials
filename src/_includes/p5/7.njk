@@ -1,0 +1,47 @@
+---
+layout: week.njk
+title: "Transformations: Translate, Rotation, and Scale"
+weekNum: 7
+tags:
+  - p5
+  - unit2
+  - week
+  - "Share and Discuss Coding Sketch #4"
+  - "Clarify or Demo any coding concepts unclear from Coding Sketch #4"
+  - Intro Movement and Incrementing Variables
+  - "Start work on Coding Sketch #5"
+eleventyComputed:
+  readings:
+    - name: "{{ texts.p5.title }}"
+      url: "{{ texts.p5.url }}"
+      description: Chapters 6. Translate, Rotate, Scale
+sketch:
+  title: "Coding Sketch #4: Animating with Gesture"
+  text:
+    - Create a p5 sketch with 2 shapes. When you click on them, each shape should be animated in a different way.
+  tips:
+    - In order for our program to know if our mouse is over our shape button, we will need to use mouseX, mouseY to input our mouse coordinates. We will also need to test to see if our mouse coordinates fall inside the coordinates of our shape. This will vary based on whether you choose a rectangle or a circle for your button. Check out the examples in the book for how to calculate these using 1) >, <, && logical operators inside an if statement in rectangles, or 2) the dist() function in circles.
+    - Use variables to define your colors ahead of time. Use a color picker app to get a color palette from a favorite site or artwork, or use a palette generator app. Be sure you are referencing colors correctly in either RGB or Hexcode.
+concepts:
+  - interactivity
+  - radians / degrees
+  - x/y coordinates
+  -
+code:
+  - translate
+  - rotate
+  - scale
+  - degreeMode
+  - rectMode
+  - ellipseMode
+  - push
+  - pop
+
+other:
+  - type: youtube
+    id: o9sgjuh-CBM
+  - type: youtube
+    id: maTfm84mLbo
+  - type: youtube
+    id: b12wJHBcrE0
+---

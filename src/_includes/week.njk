@@ -1,5 +1,8 @@
 ---
 layout: base.njk
+goals: 
+  - say hello and check-in
+  - take attendance
 ---
 
 <div class="col-sm-6">
@@ -16,13 +19,42 @@ layout: base.njk
   <h3>{{ sketch.title }}</h3>
   {% for d in sketch.text%}
   <p>{{ d }}</p>
-  {% endfor %} {% endif %} {% if readings %}
+  {% endfor %} 
+ 
+  {% if sketch.requirements %}
+  <h4>requirements</h4>
+  <ol>
+  {% for r in sketch.requirements%}
+  <li>{{ r }}</li>
+  {% endfor %}
+  </ol> 
+  {% endif %}
+  {% if sketch.tips %}
+  <h4>tips</h4>
+  <ol>
+  {% for t in sketch.tips%}
+  <li>{{ t }}</li>
+  {% endfor %}
+  </ol> 
+  {% endif %}
+  
+  
+  
+  {% endif %} 
+
+  {% if readings %}
   <h3>Readings</h3>
+
   {% for r in readings%}
-  <a href="{{ r.url }}">
-    <p>{{ r.description }}</p>
-  </a>
-  {% endfor %} {% endif %} {% if examples %}
+
+  <a href="{{r.url}}">
+  
+    <p>{{r.name}}</a> // {{ r.description }}</p>
+
+  {% endfor %} 
+  {% endif %} 
+  
+  {% if examples %}
   <h3>Examples</h3>
   {% for e in examples %} {% if e.type == "gist"%}
 
