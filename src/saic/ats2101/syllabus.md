@@ -5,6 +5,7 @@ layout: SAICsyllabus
 title: Syllabus
 instructor: dr. garrett laroy johnson (he/they)
 email: gjohns13@saic.edu
+term: Spring 2023
 time: "W 09:00am - 12:00pm"
 location: zoom
 description:

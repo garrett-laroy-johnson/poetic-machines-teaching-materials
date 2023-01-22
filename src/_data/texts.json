@@ -4,5 +4,17 @@
     "img": "/assets/img/p5.jpg",
     "url": "/assets/pdf/p5.pdf",
     "authors": "Lauren McCarthy, Casey Reas, Ben Fry"
+  },
+  "nature": {
+    "title": "Nature of Code",
+    "img": "/assets/img/nature.jpg",
+    "url": "/assets/pdf/nature.pdf",
+    "authors": "Daniel Schiffman"
+  },
+  "aesthetic": {
+    "title": "Aesthetic Programming: A Handbook of Software Studies",
+    "img": "/assets/img/aesthetic.jpg",
+    "url": "/assets/pdf/aesthetic.pdf",
+    "authors": "Winnie Soon and Jeff Cox"
   }
 }

@@ -6,6 +6,7 @@ layout: UICsyllabus
 title: Syllabus
 instructor: dr. garrett laroy johnson (he/they)
 email: glj@uic.edu
+term: Spring 2023
 time: "M/W 8:00am - 10:40am"
 location: (see course schedule)
 description:

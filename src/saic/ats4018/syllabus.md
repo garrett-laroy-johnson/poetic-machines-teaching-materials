@@ -5,7 +5,8 @@ layout: SAICsyllabus
 title: Syllabus
 instructor: dr. garrett laroy johnson (he/they)
 email: gjohns13@saic.edu
-time: "Spring 2024"
+term: Spring 2024
+time: TBA
 location: TBA
 description:
   - In this seminar, we take the programmatic text “We are All Very Anxious” by The Institute for Precarious Consciousness (2014) as a touchstone. Taking up their injunction that we need to build “machines for fighting anxiety”, students will situate their art practice to pursue a research question intervening between the social and the psychic, the ecological and the cultural. Through a blend of seminar discussion, research, workshop, tutorial, we will examine and engage contemporary techniques that help us to ask what anxiety is in 2022, what it does, and most importantly, what it could do. Students should be prepared to exercise their metier towards new ends.
