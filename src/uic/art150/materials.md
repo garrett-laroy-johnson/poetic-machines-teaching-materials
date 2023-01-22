@@ -2,19 +2,20 @@
 weekNum: 0
 title: Materials
 layout: materials.njk
-texts:
-  - title: Getting Started with Processing
-    authors: Ben Fry and Casey Reas
-    img: /assets/img/processing.jpg
-    url: /assets/pdf/processing.pdf
-  - title: Make Electronics
-    authors: Charles Pratt
-    img: /assets/img/make-electronics.png
-    url: /assets/pdf/electronics.pdf
-  - title: Adafruit Circuit Playground Express
-    authors: lady ada
-    img: /assets/img/adafruit.png
-    url: /assets/pdf/circuit.pdf
+eleventyComputed:
+  readings:
+    - name: "{{ texts.processing.title }}"
+      url: "{{ texts.processing.url }}"
+      img: "{{ texts.processing.img }}"
+      authors: "{{ texts.processing.authors }}"
+    - name: "{{ texts.electronics.title }}"
+      url: "{{ texts.electronics.url }}"
+      img: "{{ texts.electronics.img }}"
+      authors: "{{ texts.electronics.authors }}"
+    - name: "{{ texts.playground.title }}"
+      url: "{{ texts.playground.url }}"
+      img: "{{ texts.playground.img }}"
+      authors: "{{ texts.playground.authors }}"
 software:
   - title: Firefox
     url: https://www.mozilla.org/en-US/firefox/new/

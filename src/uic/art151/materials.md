@@ -2,11 +2,12 @@
 weekNum: 0
 layout: materials.njk
 title: Materials
-texts:
-  - title: Getting Started with p5*js
-    authors: Lauren McCarthy, Ben Fry, and Casey Reas
-    img: /assets/img/p5.jpg
-    url: /assets/pdf/p5.pdf
+eleventyComputed:
+  readings:
+    - name: "{{ texts.p5.title }}"
+      url: "{{ texts.p5.url }}"
+      img: "{{ texts.p5.img }}"
+      authors: "{{ texts.p5.authors }}"
 software:
   - title: Firefox
     url: https://www.mozilla.org/en-US/firefox/new/

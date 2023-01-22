@@ -16,5 +16,43 @@
     "img": "/assets/img/aesthetic.jpg",
     "url": "/assets/pdf/aesthetic.pdf",
     "authors": "Winnie Soon and Jeff Cox"
+  },
+  "processing": {
+    "title": "Getting Started with Processing",
+    "img": "/assets/img/processing.jpg",
+    "url": "/assets/pdf/processing.pdf",
+    "authors": "Casey Reas and Ben Fry"
+  },
+  "hello": {
+    "title": "Hello Processing! An Interactive tutorial",
+    "url": "https://hello.processing.org/",
+    "authors": "Daniel Schiffman"
+  },
+  "processing_cheat": {
+    "title": "Processing Cheat Sheet",
+    "url": "/assets/pdf/processing_sheet.pdf",
+    "authors": "OpenLab surastack"
+  },
+  "processing_wb": {
+    "title": "Processing Workbook",
+    "url": "/assets/pdf/raaf_processing.pdf",
+    "authors": "Sabrina Raaf"
+  },
+  "form_code": {
+    "title": "Form + Code",
+    "url": "/assets/pdf/Form_Code_Hello.pdf",
+    "authors": "Casey Reas and Chandler McWilliams"
+  },
+  "electronics": {
+    "title": "Make Electronics",
+    "authors": "Charles Pratt",
+    "img": "/assets/img/make-electronics.png",
+    "url": "/assets/pdf/electronics.pdf"
+  },
+  "playground": {
+    "title": "Adafruit Circuit Playground Express",
+    "authors": "lady ada",
+    "img": "/assets/img/adafruit.png",
+    "url": "/assets/pdf/circuit.pdf"
   }
 }

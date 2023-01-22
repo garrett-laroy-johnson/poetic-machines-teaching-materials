@@ -24,7 +24,7 @@ objectives:
   - Experience thinking and speaking critically and creatively about topics in art and technology informed by contemporary theoretical work
   - Honing rapid prototyping skill through lower resolution iterations
 grading:
-  contact: This class is a 3-hour credit course. During an average week, you will be expected to spend 6 hours on homework per class. Homework will primarily consist of assignment completions, project development, project documentation, and written assignments. See the SAIC Contact / Credit hour policy for a detailed explanation for how homework time is calculated on a per-credit-hour basis.
+  contact: This class is a 3-hour credit course. During an average week, you will be expected to spend 3 hours on homework per class. Homework will primarily consist of assignment completions, project development, project documentation, and written assignments. See the SAIC Contact / Credit hour policy for a detailed explanation for how homework time is calculated on a per-credit-hour basis.
   key:
     cr: (cr) credit received =  you have completed all projects, coding sketches, and relevent group projects. Your assignments reflect your own learning of the assigned readings that week, while also demonstrating the growth of your own expressive style. You have missed a maximum of two unexcused absences.
     b: (ncr) no credit received = you have not completed all projects, coding sketches, or relevant group projects. Or, you may have completed these, but not reflected your own learning or growth in the process. Or, you have more than two unexcused absences.
