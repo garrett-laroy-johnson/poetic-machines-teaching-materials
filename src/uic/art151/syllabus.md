@@ -36,14 +36,14 @@ grading:
     - 18% - Group Presentation
     - 10% - Participation
 attendance:
-  - description: Attendance is required. Students are expected to attend all classes and be present for the full duration of each class. In class time is for instruction. When possible, instructors will make time for students to work independently on projects. Unless special permission is granted by the instructor, students are required to remain in class during this independent work time. Announcements and directions will be given at the beginning of class so it is important that you arrive on time. Absences, late arrivals, and leaving class early will reflect negatively on your grade. Communicate with your instructors if there are serious or extenuating circumstances that prevent you from arriving on time or from participating fully. Be prepared to present a doctor’s note if an absence is due to illness.
-  - rubric:
-      - Maximum = two unexcused absences for the semester.
-      - Three unexcused absences = your grade will drop by one letter grade.
-      - One letter grade will be dropped for each additional unexcused absence.
-      - Five or more unexcused absences = automatic failure of the course.
-      - Missing class on a scheduled presentation or critique day is equivalent to not having your work ready. - It will result in a failing grade for that assignment.
-      - Three late arrivals or early departures will count as one absence.
+  description: Attendance is required. Students are expected to attend all classes and be present for the full duration of each class. In class time is for instruction. When possible, instructors will make time for students to work independently on projects. Unless special permission is granted by the instructor, students are required to remain in class during this independent work time. Announcements and directions will be given at the beginning of class so it is important that you arrive on time. Absences, late arrivals, and leaving class early will reflect negatively on your grade. Communicate with your instructors if there are serious or extenuating circumstances that prevent you from arriving on time or from participating fully. Be prepared to present a doctor’s note if an absence is due to illness.
+  rubric:
+    - Maximum = two unexcused absences for the semester.
+    - Three unexcused absences = your grade will drop by one letter grade.
+    - One letter grade will be dropped for each additional unexcused absence.
+    - Five or more unexcused absences = automatic failure of the course.
+    - Missing class on a scheduled presentation or critique day is equivalent to not having your work ready. - It will result in a failing grade for that assignment.
+    - Three late arrivals or early departures will count as one absence.
 assignments: Assignments are always due on the day they are DUE. Late work is not acceptable because of the fact that in-class activities are often closely tied to sharing and discussing assignments. Late work undermines your own learning as well as the learning community of the class as a whole.
 accomodation:
   - Guided by the belief that people with disabilities are assets to the University, UIC is committed to full inclusion and participation of people with disabilities in all aspects of university life. We seek to provide an academic, social, and physical environment that makes disabled people integral to the diversity of perspectives that is vital to an academic community.

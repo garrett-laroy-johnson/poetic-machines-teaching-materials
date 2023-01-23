@@ -33,14 +33,14 @@ grading:
     - 10% - Final Project Documentation – Completed Documentation of your final project uploaded to the class Blog.
     - 15% - Blog assignments count towards 15% of your total grade and are graded upon the insight in your writing and your overall understanding and resourcefulness of the information given. Each week we will look at several new media artists and projects and you will be asked to submit a short one-paragraph response about a specific topic (TBD weekly by the instructor) to the class blog. Feel free to use the blog for things other than just required weekly responses. The class blog is a place meant for you to share your ideas about class topics, resources, collaborative ideas, and interesting projects that you might come across. I will email you a link to join the class blog, be sure to accept the invitation so you can post your weekly responses if you have any problems please let me know.
 attendance:
-  - description: Attendance is required. Students are expected to attend all classes and be present for the full duration of each class. In class time is for instruction. When possible, instructors will make time for students to work independently on projects. Unless special permission is granted by the instructor, students are required to remain in class during this independent work time. Announcements and directions will be given at the beginning of class so it is important that you arrive on time. Absences, late arrivals, and leaving class early will reflect negatively on your grade. Communicate with your instructors if there are serious or extenuating circumstances that prevent you from arriving on time or from participating fully. Be prepared to present a doctor’s note if an absence is due to illness.
-  - rubric:
-      - Maximum = two unexcused absences for the semester.
-      - Three unexcused absences = your grade will drop by one letter grade.
-      - One letter grade will be dropped for each additional unexcused absence.
-      - Five or more unexcused absences = automatic failure of the course.
-      - Missing class on a scheduled presentation or critique day is equivalent to not having your work ready. - It will result in a failing grade for that assignment.
-      - Three late arrivals or early departures will count as one absence.
+  description: Attendance is required. Students are expected to attend all classes and be present for the full duration of each class. In class time is for instruction. When possible, instructors will make time for students to work independently on projects. Unless special permission is granted by the instructor, students are required to remain in class during this independent work time. Announcements and directions will be given at the beginning of class so it is important that you arrive on time. Absences, late arrivals, and leaving class early will reflect negatively on your grade. Communicate with your instructors if there are serious or extenuating circumstances that prevent you from arriving on time or from participating fully. Be prepared to present a doctor’s note if an absence is due to illness.
+  rubric:
+    - Maximum = two unexcused absences for the semester.
+    - Three unexcused absences = your grade will drop by one letter grade.
+    - One letter grade will be dropped for each additional unexcused absence.
+    - Five or more unexcused absences = automatic failure of the course.
+    - Missing class on a scheduled presentation or critique day is equivalent to not having your work ready. - It will result in a failing grade for that assignment.
+    - Three late arrivals or early departures will count as one absence.
 assignments: Assignments are always due on the day they are DUE. Late work is not acceptable because of the fact that in-class activities are often closely tied to sharing and discussing assignments. Late work undermines your own learning as well as the learning community of the class as a whole.
 accomodation:
   - Guided by the belief that people with disabilities are assets to the University, UIC is committed to full inclusion and participation of people with disabilities in all aspects of university life. We seek to provide an academic, social, and physical environment that makes disabled people integral to the diversity of perspectives that is vital to an academic community.
