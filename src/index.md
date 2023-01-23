@@ -2,8 +2,8 @@
 layout: bigtext.njk
 title: digital practices w. garrett laroy johnson
 big:
-  - name: UIC
+  - name: NMA @ UIC
     url: uic
-  - name: SAIC
+  - name: ATS @ SAIC
     url: saic
 ---
