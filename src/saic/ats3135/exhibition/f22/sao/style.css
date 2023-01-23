@@ -1,0 +1,61 @@
+html, body {
+  background-color: #2125a3ff;
+   margin: 44px;
+   padding: 0;
+   
+}
+
+canvas{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+h1 {
+  color: #1ffe27;
+  font-family: 'Cherry Cream Soda', cursive;
+  text-align: left;
+/*   text-shadow: 2px 2px 6px Fuchsia, -2px -2px 6px gold, 2px -2px 6px yellow; */
+  font-size: 60px;
+}
+
+h2 {
+  color: #1ffe27;
+  font-family: 'Cherry Cream Soda', cursive;
+  text-align: right;
+  font-size: 24px;
+}
+
+h3 {
+  color: #1ffe27;
+  text-align: center;
+  font-family: 'Cherry Cream Soda', cursive;
+}
+
+.cap {
+  color: #1ffe27;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+
+.con {
+  color: #1ffe27;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+iframe {
+  width: 100%;
+}
+
+
+
+
+  
+

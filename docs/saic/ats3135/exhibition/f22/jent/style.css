@@ -1,0 +1,41 @@
+html, body {
+  margin: 20px;
+  padding: 0;
+  color: white;
+  background-color: Black;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+/* canvas {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+} */
+
+h1{
+  text-align: CENTER;
+  font-family: 'Montserrat', serif;
+  font-size: 60px;
+}
+
+h2{
+  text-align: CENTER;
+  font-size: 16px;
+}
+
+img {
+  float: left;
+  margin-right: 80px;
+  max-width: 100%;
+}
+
+.cap {
+  text-align: center;
+}
+
+.p1{
+  font-family: 'Anton', sans-serif;
+}

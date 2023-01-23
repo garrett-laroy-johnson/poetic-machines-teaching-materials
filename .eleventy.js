@@ -3,6 +3,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("src/assets/css/");
   eleventyConfig.addPassthroughCopy("src/assets/img/");
   eleventyConfig.addWatchTarget("src/assets/img/");
+  eleventyConfig.addPassthroughCopy("saic/ats3135/exhibition");
+  eleventyConfig.addPassthroughCopy("*.css");
   eleventyConfig.addPassthroughCopy("src/assets/pdf/");
   eleventyConfig.addWatchTarget("src/assets/pdf/");
   eleventyConfig.addPassthroughCopy("src/assets/js/");
