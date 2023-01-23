@@ -1,0 +1,73 @@
+---
+layout: base.njk
+---
+
+<div class="col-sm-6">
+  <h1>Group Presentations</h1>
+  <h2>Presentation Criteria</h2>
+  <strong>Overall</strong>
+  <p>
+    You and 2-3 of your classmates will prepare a 20-30 minute presentation on
+    an area of {{ area }}. Your presentation should cover the items below.
+  </p>
+  <strong>Readings</strong>
+  <ul>
+    <li>In 1-3 sentences, define the author’s argument or intention.</li>
+    <li>Pull 3 key quotations from the text.</li>
+    <li>Pull and define key terms. Discuss their relevance to the text.</li>
+    <li>
+      Generate a list of 2-3 central questions we as makers this text helps us
+      to ask (e.g.: “How do paradigms of the digital and analog extend into art
+      practice beyond computation?”)
+    </li>
+  </ul>
+  <strong>Artists</strong>
+  <ul>
+    <li>For each artist, present 1 or 2 artworks</li>
+    <li>
+      Give us a sense of how the artworks connect with the readings (e.g. terms,
+      questions, quotations)
+    </li>
+  </ul>
+  <strong>Your own connections</strong>
+  <p>
+    How do your interests intersect with this topic / technique? How might you
+    continue to pursue this at this school or in your future work?
+  </p>
+
+  {% for t in topics%}
+  <h3>{{ t.title }}</h3>
+  <h5>artists:</h5>
+  <div>
+    <ul>
+      {% for a in t.artists%}
+      <li>
+        <a href="{{ a.url }}">{{ a.name }}</a> ({{ a.media }})
+      </li>
+      {% endfor%}
+    </ul>
+  </div>
+
+  <h5>readings:</h5>
+  <div>
+    <ul>
+      {% for r in t.readings%}
+      <li>
+        <a href="{{ r.url }}">{{ r.info }}</a>
+      </li>
+      {% endfor%}
+    </ul>
+  </div>
+
+  <h5>{{ department }} connections:</h5>
+  <div>
+    <ul>
+      {% for c in t.connections%}
+      <li>
+        <a href="{{ c.url }}">{{ c.info }}</a>
+      </li>
+      {% endfor%}
+    </ul>
+  </div>
+  {%endfor%}
+</div>

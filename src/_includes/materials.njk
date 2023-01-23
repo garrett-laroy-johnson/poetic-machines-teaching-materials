@@ -6,10 +6,13 @@ weekNum: 0
 
 <div class = col-sm-6>
     <h1>course materials</h1>
-    {% if texts %}
+    {% if readings %}
     <h2>Texts</h2>
     <div class="row">
-        {% for item in texts %}    
+        
+      
+    
+      {% for item in readings %}    
         <div class="col-4">
             <a href="{{item.url}}">
               <img src="{{item.img}}" class="img-thumbnail" />
@@ -19,6 +22,9 @@ weekNum: 0
             </a>
           </div>
         {% endfor %}
+
+
+
     </div>
     {% endif %}
     <h2>Computer</h2>
@@ -33,7 +39,7 @@ weekNum: 0
         </ul>    
     </li>
     
-    {% endfor %}
+    {% endfor %} 
     </ul>
     {% if hardware %}
     <h2>Hardware</h2>

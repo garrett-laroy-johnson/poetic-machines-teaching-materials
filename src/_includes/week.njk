@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-goals: 
+goals:
   - say hello and check-in
   - take attendance
 ---
@@ -19,42 +19,47 @@ goals:
   <h3>{{ sketch.title }}</h3>
   {% for d in sketch.text%}
   <p>{{ d }}</p>
-  {% endfor %} 
- 
-  {% if sketch.requirements %}
+  {% endfor %} {% if sketch.requirements %}
   <h4>requirements</h4>
   <ol>
-  {% for r in sketch.requirements%}
-  <li>{{ r }}</li>
-  {% endfor %}
-  </ol> 
-  {% endif %}
-  {% if sketch.tips %}
+    {% for r in sketch.requirements%}
+    <li>{{ r }}</li>
+    {% endfor %}
+  </ol>
+  {% endif %} {% if sketch.tips %}
   <h4>tips</h4>
   <ol>
-  {% for t in sketch.tips%}
-  <li>{{ t }}</li>
-  {% endfor %}
-  </ol> 
-  {% endif %}
-  
-  
-  
-  {% endif %} 
+    {% for t in sketch.tips%}
+    <li>{{ t }}</li>
+    {% endfor %}
+  </ol>
+  {% endif %} {% endif %} {% if readings %}
 
-  {% if readings %}
   <h3>Readings</h3>
+  <div class="row">
+    {% for r in readings %}
+    <div class="col-sm-2">
+      <a href="{{ r.url }}">
+        {% if r.img %}
+        <img src="{{ r.img }}" class="img-thumbnail" />
+        {% else %}
+        <i class="fa-duotone fa-book"></i>
+        {% endif %}
 
-  {% for r in readings%}
-
-  <a href="{{r.url}}">
-  
-    <p>{{r.name}}</a> // {{ r.description }}</p>
-
-  {% endfor %} 
-  {% endif %} 
-  
-  {% if examples %}
+        <caption>
+          {{
+            r.name
+          }}
+          //
+          {{
+            r.description
+          }}
+        </caption>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %} {% if examples %}
   <h3>Examples</h3>
   {% for e in examples %} {% if e.type == "gist"%}
 
