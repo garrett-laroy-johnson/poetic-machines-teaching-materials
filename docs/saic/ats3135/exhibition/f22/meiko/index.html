@@ -1,49 +1,230 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="styles.css">
     <meta charset="utf-8" />
-    <title>Relative Stationary</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="Garrett Johnson" />
+    <title>SAIC | ATS 3135 | Interactive Art and Creative Code</title>
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
 
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
 
-  </head>
-  <body>
-    <nav>
-        <h1>Meiqi Zhang</h1>
-        <ul>
-            <li><a href="https://thismeiko.github.io/Portfolio/MeiqiZhangProjects.html">Projects</a></li>
-                <li><a href="Experience.html">Experiment</a></li>
-                <li><a href="Bio.html">Bio</a></li>
-                <li><a href="https://thismeiko.github.io/Portfolio/Contact.html">Contact</a></li>
-            </ul>
-            </nav>
-
-            <header><h2>RELATIVE STATIONARY</h2></header>
-            <div class="description">
-                <p>Year : <em>2022</em></p>
-                <p>media : <em>Creative code</em></p>
-                <p>From my experiments trying to bury different pollutants separately in the same "default" soil, they pull essential concepts of relative stationary and relative motion: At its core, the soil is contained in a status of “stationary” in the sense that this state of existence is the default status quo. My action of polluting the soil constructs a new condition for the soil's state of “being”, creating “motion” relative to the “stationary”. My initiative to plant the seeds marks the seed as a “point”. From the perspective of this “point”, the polluted soil is their default status quo or “relative stationary”. In other words, the “point” never knew of the original state of the soil, and thus the “new state” that the soil knows is actually the default of the seeds. </p>
-               </div>
-        
-        
-            <div class="outcome">
-                <!-- <script src="sketch1.js"></script>
-                <div id="sketch-container1"></div> -->
-                    <img src="1.png" alt="outcome1" title="outcome1" >
-                   
-                    <img src="2.png" alt="outcome2" title="outcome2" class="right">
-           </div>
-           <div class="Button">
-           <a href="https://thismeiko.github.io/Portfolio/relativeStationary/sketch1.html"><button>1</button></a>
-           <a href="https://thismeiko.github.io/Portfolio/relativeStationary/sketch2.html"><button>2</button></a>
-        </div>
-
-           <div class="space">
-           </div>
-        
+    <link rel="stylesheet" href="/assets/css/bootstrap.css" />
+    <!-- Custom styles -->
+    <link href="/assets/css/sidebars.css" rel="stylesheet" />
+    <link href="/assets/css/style.css" rel="stylesheet" />
+    <script src="/assets/js/p5.js"></script>
+    <script src="https://kit.fontawesome.com/1582dd25e1.js" crossorigin="anonymous"></script>
     
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Silkscreen&display=swap"
+      rel="stylesheet"
+    />
+    
+  </head>
 
+    <body>
+  
+
+      <div class="row">
+        <!-- sidebar -->
+        <div class="col-sm-3" style="z-index: 2">
+          <div class="flex-shrink-0 p-3" style="width: 100%">
+            <h4 class="fs-5 fw-semibold" style="margin-left: 10px">
+              SAIC | ATS 3135 | Interactive Art and Creative Code
+            </h4>
+            <ul class="list-unstyled ps-0">
+             
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/saic/ats3135/materials/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                 Materials
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/saic/ats3135/schedule/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                 Schedule
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/saic/ats3135/syllabus/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                 Syllabus
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+              
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+              
+            
+            </ul>
+          </div>
+        </div>
+      
+        
+<div class="col-sm-6">
+  <h1>Week  : </h1>
+  
+  <ul class="no-bullets">
+    In-Class Goals: 
+    <li><input type="checkbox" class="cb" /> say hello and check-in</li>
+    
+    <li><input type="checkbox" class="cb" /> take attendance</li>
+    
+  </ul>
+  <h2>Homework</h2>
+
+      
+</div>
+<div class="col-sm-2 pull-right card">
+  <div class="card-header">Key Concepts:</div>
+  <ul class="list-group list-group-flush">
+    
+  </ul>
+  
+</div>
+
+      
+        </div>
+      
+      
+
+    <script src="/assets/js/bootstrap.js" async defer></script>
+    <script src="/assets/js/display.js" async defer></script>
   </body>
 </html>

@@ -1,32 +1,230 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8" />
-    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
-    <script src="request.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="Garrett Johnson" />
+    <title>SAIC | ATS 3135 | Interactive Art and Creative Code</title>
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <link rel="stylesheet" href="/assets/css/bootstrap.css" />
+    <!-- Custom styles -->
+    <link href="/assets/css/sidebars.css" rel="stylesheet" />
+    <link href="/assets/css/style.css" rel="stylesheet" />
+    <script src="/assets/js/p5.js"></script>
+    <script src="https://kit.fontawesome.com/1582dd25e1.js" crossorigin="anonymous"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Silkscreen&display=swap"
+      rel="stylesheet"
+    />
+    
   </head>
-  <body>
-    <main>
-      <div>
-      <h1 class="text-center">RIG</h1>
-        <p class="text-center">Random Image Generator</p>
-        <p><b>RIG (Random Image Generator)</b> (2022) is an in-progress custom library that generates random images based off of a specified parameters set by the user.<br><br>RIG does a search through Commons Wikimedia and grabs images off the site for creators to use in their p5.js sketches.</p>
-        <p><b>How to Use:</b> Once the library is imported into your p5.js sketch environment, creators can use the function <span class="code-text">RIG().then(function(result) {};</span><br><br>Here is an example sketch below:<br></p>
-        <p class="code-block">
-          let frog_img;<br><br>function setup() {<br><span class="code-indent">RIG("frog", 1).then(function(result) {</span><br><span class="code-indent-2">frog_img = result;</span><br>});<br><br><span class="code-indent">createCanvas(400, 400);</span><br>}<br><br>function draw(){<br><span class="code-indent">background(220);</span><br><br><span class="code-indent">if (typeof frog_img != "undefined") {</span><br><span class="code-indent-2">frog_img.createImage(50, 50);<br></span><span class="code-indent">}</span><br><br>}
-        </p>
-        <img class="code-canvas" src="/first-ex.png">
-        <p>First in the <span class="code-text">setup()</span> function we want to use or <span class="code-text">RIG()</span> function and use the <span class="code-text">.then</span> action to set our random generated image result to be a set to a variable we can use in the <span class="code-text">draw()</span> function</p>
-        <p>The <span class="code-text">RIG()</span> function requires two parameters which are a text entry for the random image to be based off and number value to change the random image.</p>
-        <p>Once we have our <span class="code-text">RIG()</span> result set to a variable we will then want to draw our image using an <span class="code-text">if</span> statement to check if the variable has been set yet. After the result has been sent then we can use the <span class="code-text">.createImage</span> function which can take a <span class="code-text">x</span> and <span class="code-text">y</span> parameters for canvas placement.</p>
-        <video class="code-canvas" autoplay loop>
-          <source src="frog_img.mp4" type="video/mp4">
-        </video>
-    </div>
-    </main>
-<!--     <script src="sketch.js"></script> -->
+
+    <body>
+  
+
+      <div class="row">
+        <!-- sidebar -->
+        <div class="col-sm-3" style="z-index: 2">
+          <div class="flex-shrink-0 p-3" style="width: 100%">
+            <h4 class="fs-5 fw-semibold" style="margin-left: 10px">
+              SAIC | ATS 3135 | Interactive Art and Creative Code
+            </h4>
+            <ul class="list-unstyled ps-0">
+             
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/saic/ats3135/materials/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                 Materials
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/saic/ats3135/schedule/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                 Schedule
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/saic/ats3135/syllabus/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                 Syllabus
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+              
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+              
+            
+            </ul>
+          </div>
+        </div>
+      
+        
+<div class="col-sm-6">
+  <h1>Week  : </h1>
+  
+  <ul class="no-bullets">
+    In-Class Goals: 
+    <li><input type="checkbox" class="cb" /> say hello and check-in</li>
+    
+    <li><input type="checkbox" class="cb" /> take attendance</li>
+    
+  </ul>
+  <h2>Homework</h2>
+
+      
+</div>
+<div class="col-sm-2 pull-right card">
+  <div class="card-header">Key Concepts:</div>
+  <ul class="list-group list-group-flush">
+    
+  </ul>
+  
+</div>
+
+      
+        </div>
+      
+      
+
+    <script src="/assets/js/bootstrap.js" async defer></script>
+    <script src="/assets/js/display.js" async defer></script>
   </body>
 </html>
