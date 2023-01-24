@@ -1,3 +1,4 @@
+
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -71,7 +72,8 @@
               {% endif %}
               {% endfor %}
               {# weeks  #}
-              {% for p in collections[memberCollection] %} 
+              {% set paged = collections[memberCollection] | sort(false, false, 'data.weekNum') %}
+              {% for p in paged %} 
               {% if p.data.weekNum > 0 %}
 
               <li class="mb-1">

@@ -1,8 +1,8 @@
 ---
 layout: base.njk
 goals:
-  - say hello and check-in
-  - take attendance
+  - Say hello and check-in
+  - Take attendance
 ---
 
 <div class="col-sm-6">
@@ -19,7 +19,15 @@ goals:
   <h3>{{ sketch.title }}</h3>
   {% for d in sketch.text%}
   <p>{{ d }}</p>
-  {% endfor %} {% if sketch.requirements %}
+  {% endfor %} {% if sketch.img %}
+  <div class="row">
+    {% for i in sketch.img%}
+    <div class="col-sm-4">
+      <img src="/assets/img/{{ i }}" class="img-thumbnail" />
+    </div>
+    {% endfor%}
+  </div>
+  {% endif %} {% if sketch.requirements %}
   <h4>requirements</h4>
   <ol>
     {% for r in sketch.requirements%}
@@ -69,7 +77,7 @@ goals:
 
   <iframe
     width="100%"
-    height="600"
+    height="400"
     src="https://editor.p5js.org/{{ e.url }}"
   ></iframe>
 
