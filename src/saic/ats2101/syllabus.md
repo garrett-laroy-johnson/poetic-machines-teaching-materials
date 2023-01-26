@@ -6,7 +6,7 @@ title: Syllabus
 instructor: dr. garrett laroy johnson (he/they)
 email: gjohns13@saic.edu
 term: Spring 2023
-time: "W 09:00am - 12:00pm"
+time: "Tu 09:00am - 12:00pm"
 location: zoom
 description:
   - What is at the intersection of art and technology? What does technology help us understand about art? How does art deepen our understanding of technology? Is all art technological?
