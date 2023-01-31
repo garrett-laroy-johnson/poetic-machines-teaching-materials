@@ -140,6 +140,7 @@ goals:
   </ul>
   {% if code %}
   <div class="card-header">Coding Components:</div>
+  {% endif %}
   <ul class="list-group">
     {% for c in code %} {% if reference == "p5" %} {% set cd = c.split("(")[0]
     %} {% set cd = cd.split(" ").join("") %}
@@ -158,6 +159,7 @@ goals:
   </ul>
   {% if refExamples %}
   <div class="card-header">Examples</div>
+  {% endif %}
   <ul class="list-group">
     {% for e in refExamples%} {% if reference == "p5" %} {% set ed =
     e.split("(")[0] %} {% set ed = ed.split(" ") %}
@@ -167,18 +169,18 @@ goals:
     </a>
     {% elseif reference == "processing" %} {% endif %} {% endfor %}
   </ul>
-  {% endif %} {% if functions %}
+  {% if functions %}
   <div class="card-header">Coding Functions:</div>
   <ul class="list-group">
     {% for f in functions %} {% if reference == "p5" %}
     <a href="https://p5js.org/reference/#/p5/{{ f }}">
-      <li class="list-group-item">{{ f }}</li>
+      <li class="list-group-item">{{ f }}()</li>
     </a>
     {% elseif reference == "processing" %}
     <a href="https://processing.org/reference/{{ f }}_.html">
-      <li class="list-group-item">{{ f }}</li>
+      <li class="list-group-item">{{ f }}()</li>
     </a>
     {% endif %} {% endfor %}
   </ul>
-  {% endif %} {%endif%}
+  {% endif %}
 </div>

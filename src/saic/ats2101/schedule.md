@@ -12,8 +12,8 @@ weeks:
   - Functions + Group Presentation no. 2
   - Project 2 Prep
   - Project 2 Presentations & Critique
-  - Intro to Max/MSP
-  - Audio playback, analysis + connecting to p5*js + Group Presentation no. 3
-  - Project 3 work time / meetings
-  - Final Project Presentations
+  - JS Objects
+  - Arrays
+  - Project 3 Prep (crit week)
+  - Project 3 Presentation & Critique
 ---
