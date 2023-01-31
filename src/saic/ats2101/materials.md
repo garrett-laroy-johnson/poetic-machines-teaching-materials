@@ -2,11 +2,12 @@
 weekNum: 0
 layout: materials.njk
 title: Materials
-texts:
-  - title: Getting Started with p5*js
-    authors: Lauren McCarthy, Ben Fry, and Casey Reas
-    img: /assets/img/p5.jpg
-    url: /assets/pdf/p5.pdf
+eleventyComputed:
+  readings:
+    - name: "{{ texts.p5.title }}"
+      url: "{{ texts.p5.url }}"
+      img: "{{ texts.p5.img }}"
+      authors: "{{ texts.p5.authors }}"
 software:
   - title: Firefox
     url: https://www.mozilla.org/en-US/firefox/new/
@@ -18,7 +19,7 @@ computer:
   - name: desktop or laptop computer
     children:
       - modern (<10 years minimum, <5 years recommended)
-      - preferred Windows 7+ || Mac OS. Chrome OS || Linux may work for many p5 assignments but some i/o libraries may not be - supported. **Chrome OS and Linux** not supported for MaxMSP!
+      - preferred Windows 7+ || Mac OS. Chrome OS || Linux may work for many p5 assignments but some i/o libraries may not be - supported.
       - ideally a working microphone and camera
       - understand the age and power of your computer will introduce performance limitations for more advanced project applications
       - You can’t code on a mobile phone or tablet, so that won’t be a substitution. Since you will need to be able to screen share, it’s recommended to Zoom from the same device you’re using to code.
