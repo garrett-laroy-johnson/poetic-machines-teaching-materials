@@ -1,7 +1,7 @@
 ---
 weekNum: 0
 layout: schedule.njk
-week:
+weeks:
   - Introductions, Syllabus, Course Overview
   - “We are All Very Anxious.” Institute for Precarious Consciousness. 2017.
   - The Three Ecologies. Felix Guattari. 1989.
