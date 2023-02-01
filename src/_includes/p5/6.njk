@@ -9,22 +9,45 @@ goals:
   - Project Presentations and Critiques
   - Introduce Transformations for Week 7
 sketch:
-  title: Project 1
+  title: "Project 1: Vera Molnar remix"
+  img:
+    - vera1.jpg
+    - gari-vera.jpg
   text:
-    - Using p5*js, use the canvas to create an interactive artwork. It may be a short comic or animation, cubistic and abstract. It my be inspired by some of the works we've seen before, or completely your own.
+    - "Create a remix of Vera Molnar's series des(ordnes). You will use p5*js to generate a grid-based composition using randomness to create variation in the piece."
+    - "Your piece will be drawn using a pen plotter on a ~12inch x 12inch piece of white paper with black pen ink. For this reason, do not use any color, fill, or strokeWeight as it will not be reflected in the final result."
   requirements:
-    - if/else statement to structure interaction
-    - mouseX, mouseY to drive interaction
-    - at least (2) types of 2D primitive shapes
-    - a for loop
+    - nested for loops to move the computer's drawing position from left to right, top to bottom.
+    - a third for loop nesting inside which draws several shapes on top each other at the drawing position
+    - the arithmatic and variables used in combination with random() in order to create variation in how each shape is drawn.
   tips:
-    - Start by getting all your elements to work inside a single sketch. Use print() or console.log() to test that things are working.
-    - Consider how you use the interactivity. The example of interactivity from the book was pretty simple. How can the interactivity help to drive the narrative or drama of your piece?
-    - We've used for loops to draw rows and columns. You could do that, or you could break out of the grid. The random()function may be your friend here.
+    - "Use the tutorial code as a framework for making something of your own. Let's have some fun with it! Make sure you've saved your first copy, and then duplicate your sketch. Now, how can you use this nested for loop concept to create your own work? What other features (color, stroke, stroke weight, etc.) can you use to change the look and feel of this piece? If you've added randomness in the bonus section: how can randomness make a return and enliven the feel?"
+    - Don't try to do everything at once. Break things down. Follow these steps below if it is helpful.
+    - Before you get started, open your p5 editor and the "Getting Started" text. Work through Chapter 4, example by example. This seems tedious, but it will build up comprehension.
+    - "When you're ready to begin the code sketch: First, draw a single shape. Familiarize yourself with what arguments do what. Will you draw a square, a circle, or a different 2d primitive shape? What argument will you need to use? How many arguments do you need? What does what (position, size, etc.)?"
+    - Now, create a row of shapes with a for loop inside your draw loop. Insert your shape code into the for loop and use the loop's variable (i or s or whatever you choose) to multiply the x value and push it to the right.
+    - Not sure what this means? Check the reference for for loop. Watch the videos below. Read the section in the book on for loop again -- you'll see this in action!
+    - Then, put that for loop inside a new for loop. Make sure the new loop has a different variable than the first. Use this variable to alter the y position of the shape (use multiplication again), and hence to draw consecutive rows at different heights in the Canvas. Get this working before you move on!
+    - Still stuck? Email your prof and ask for a quick appointment to talk through the issue. Check the reference and other materials. Phone a friend in your group and see if they are stuck too.
+    - You'll need to use the random() function to introduce variation to the code. What elements are randomized? What is the range of randomization? How will you use arithmetic to integrate the random number into your shape's coordinates? Now is a good time to insert noLoop() into your code so that you are only getting one drawing per "play".
+
   eleventyComputed:
   readings:
     - name: "{{ texts.p5.title }}"
       url: "{{ texts.p5.url }}"
       description: Review Chapters 3, 4, 5 as needed.
       img: "{{ texts.p5.img }} "
+examples:
+  - type: p5
+    url: gjohns13-spectacular/full/fXjII012Y
+tutorial:
+  - type: youtube
+    id: videoseries?list=PLzw5ecWso_zQG2czpKXrsIlMp_ZsSgtdm
+other:
+  - type: youtube
+    id: BCZNNZGz5YI
+  - type: youtube
+    id: O5G4SoWBoao
+  - type: youtube
+    id: ZnP-83OUP_M
 ---

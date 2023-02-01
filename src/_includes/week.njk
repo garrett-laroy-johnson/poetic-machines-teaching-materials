@@ -15,7 +15,41 @@ goals:
   </ul>
   <h2>Homework</h2>
 
-  {% if sketch %}
+  {% if tutorial %}
+  <h3>Tutorial</h3>
+  <div class="row">
+    {% for o in tutorial%} {% if o.type == "youtube" %}
+    <div class="col-md-6 card" style="padding: 10px">
+      <div class="ratio ratio-16x9">
+        <iframe
+          src="https://youtube.com/embed/{{ o.id }} "
+          frameborder="0"
+          allow="fullscreen"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+    {% elif o.type == "link" %}
+    <div class="col-md-6 card" style="padding: 10px">
+      <a href="{{ o.url }}">
+        <div class="card-header">{{ o.name }}</div>
+      </a>
+    </div>
+    {% elif o.type == "links" %}
+    <div class="col-md-6 card" style="padding: 10px">
+      <div class="card-header">{{ o.name }}</div>
+      <ul class="list-group list-group-flush">
+        {% for l in o.links %}
+        <a href="{{ l.url }}">
+          <li class="list-group-item">{{ l.name }}</li>
+        </a>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif%} {% endfor%}
+  </div>
+
+  {% endif %} {% if sketch %}
   <h3>{{ sketch.title }}</h3>
   {% for d in sketch.text%}
   <p>{{ d }}</p>
@@ -23,7 +57,9 @@ goals:
   <div class="row">
     {% for i in sketch.img%}
     <div class="col-sm-4">
-      <img src="/assets/img/{{ i }}" class="img-thumbnail" />
+      <a href="/assets/img/{{ i }}">
+        <img src="/assets/img/{{ i }}" class="img-thumbnail" />
+      </a>
     </div>
     {% endfor%}
   </div>
