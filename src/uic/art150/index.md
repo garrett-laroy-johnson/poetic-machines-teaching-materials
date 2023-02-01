@@ -1,4 +1,4 @@
 ---
 layout: splash.njk
-sketch: vectors
+sketch: drawer
 ---
