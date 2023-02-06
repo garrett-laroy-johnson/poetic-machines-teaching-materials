@@ -137,6 +137,14 @@ goals:
         <div class="card-header">{{ o.name }}</div>
       </a>
     </div>
+    {% elif o.type == "image" %}
+
+    <div class="col-sm-6">
+      <a href="/assets/img/{{ o.url }}">
+        <img src="/assets/img/{{ o.url }}" class="img-thumbnail" />
+      </a>
+    </div>
+
     {% elif o.type == "links" %}
     <div class="col-md-6 card" style="padding: 10px">
       <div class="card-header">{{ o.name }}</div>
