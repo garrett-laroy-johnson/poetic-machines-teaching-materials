@@ -1,0 +1,15 @@
+{
+  "resource": [
+    { "type": "youtube", "id": "1rfwKuXIhcE" },
+    {
+      "type": "youtube",
+      "id": "ofIh4EtGVno"
+    },
+    {
+      "title": "SAIC Riso Print instructions",
+      "type": "pdf",
+      "url": "/assets/pdf/saic-riso.pdf"
+    },
+    { "type": "link", "url": "www.stencil.wiki", "title": "RISOgraph WIKI" }
+  ]
+}
