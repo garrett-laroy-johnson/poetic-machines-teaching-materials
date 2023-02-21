@@ -503,24 +503,32 @@
   <h3>Readings</h3>
   <div class="row">
     
-    <div class="col-sm-2">
-      <a href="/assets/pdf/p5.pdf">
-        
-        <img src="/assets/img/p5.jpg " class="img-thumbnail" />
-        
-
-        <caption>
-          Make: Getting Started with p5*js
-          //
-          Chapters 1 and 2. Pages 1-17.
-        </caption>
-      </a>
+    <div class="col-md-12 col-lg-6">
+      <div class="card">
+        <div class="row">
+          <div class="col-6">
+            
+            <img src="/assets/img/p5.jpg " alt="Card image cap" class="img-fluid" />
+            
+          </div>
+          <div class="col-6">
+            <div class="card-body">
+              <h5 class="card-title">Make: Getting Started with p5*js</h5>
+              <p class="card-text">
+                Chapters 1 and 2. Pages 1-17.
+              </p>
+              <a href="/assets/pdf/p5.pdf" class="btn btn-primary">text</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+
     
   </div>
     
   <h3>Other Materials</h3>
-  <div class="row">
+  <div class="row masonry" data-masonry='{"percentPosition": true }'>
      
     <div class="col-md-6 card" style="padding: 10px">
       <div class="ratio ratio-16x9">
@@ -590,9 +598,24 @@
       
         </div>
       
-      
-
+        <script>
+          $(function () {
+            /* 瀑布流區塊div */
+            var $container = $(".masonry");
+        
+            //當圖片讀取完畢才執行
+            $container.imagesLoaded(function () {
+    
+              $container.masonry({
+                itemSelector: ".item",
+              });
+            });
+          });
+        </script>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
     <script src="/assets/js/bootstrap.js" async defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" defer></script>
+
     <script src="/assets/js/display.js" async defer></script>
   </body>
 </html>

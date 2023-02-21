@@ -82,25 +82,29 @@ goals:
   <h3>Readings</h3>
   <div class="row">
     {% for r in readings %}
-    <div class="col-sm-2">
-      <a href="{{ r.url }}">
-        {% if r.img %}
-        <img src="{{ r.img }}" class="img-thumbnail" />
-        {% else %}
-        <i class="fa-duotone fa-book"></i>
-        {% endif %}
-
-        <caption>
-          {{
-            r.name
-          }}
-          //
-          {{
-            r.description
-          }}
-        </caption>
-      </a>
+    <div class="col-md-12 col-lg-6">
+      <div class="card">
+        <div class="row">
+          <div class="col-6">
+            {% if r.img %}
+            <img src="{{ r.img }}" alt="Card image cap" class="img-fluid" />
+            {% else %}
+            <i class="fa-duotone fa-book"></i>
+            {% endif %}
+          </div>
+          <div class="col-6">
+            <div class="card-body">
+              <h5 class="card-title">{{ r.name }}</h5>
+              <p class="card-text">
+                {{ r.description }}
+              </p>
+              <a href="{{ r.url }}" class="btn btn-primary">text</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+
     {% endfor %}
   </div>
   {% endif %} {% if examples %}
@@ -138,7 +142,7 @@ goals:
 
   {% endif %} {% endfor %} {% endif %} {% if other %}
   <h3>Other Materials</h3>
-  <div class="row">
+  <div class="row masonry" data-masonry='{"percentPosition": true }'>
     {% for o in other%} {% if o.type == "youtube" %}
     <div class="col-md-6 card" style="padding: 10px">
       <div class="ratio ratio-16x9">

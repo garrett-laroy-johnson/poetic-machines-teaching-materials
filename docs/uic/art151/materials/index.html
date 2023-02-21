@@ -460,9 +460,24 @@
       
         </div>
       
-      
-
+        <script>
+          $(function () {
+            /* 瀑布流區塊div */
+            var $container = $(".masonry");
+        
+            //當圖片讀取完畢才執行
+            $container.imagesLoaded(function () {
+    
+              $container.masonry({
+                itemSelector: ".item",
+              });
+            });
+          });
+        </script>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
     <script src="/assets/js/bootstrap.js" async defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" defer></script>
+
     <script src="/assets/js/display.js" async defer></script>
   </body>
 </html>

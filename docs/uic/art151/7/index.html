@@ -391,19 +391,27 @@
   <h3>Readings</h3>
   <div class="row">
     
-    <div class="col-sm-2">
-      <a href="/assets/pdf/p5.pdf">
-        
-        <img src="/assets/img/p5.jpg " class="img-thumbnail" />
-        
-
-        <caption>
-          Make: Getting Started with p5*js
-          //
-          Chapters 6. Translate, Rotate, Scale
-        </caption>
-      </a>
+    <div class="col-md-12 col-lg-6">
+      <div class="card">
+        <div class="row">
+          <div class="col-6">
+            
+            <img src="/assets/img/p5.jpg " alt="Card image cap" class="img-fluid" />
+            
+          </div>
+          <div class="col-6">
+            <div class="card-body">
+              <h5 class="card-title">Make: Getting Started with p5*js</h5>
+              <p class="card-text">
+                Chapters 6. Translate, Rotate, Scale
+              </p>
+              <a href="/assets/pdf/p5.pdf" class="btn btn-primary">text</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+
     
   </div>
    
@@ -432,7 +440,7 @@
     src="https://editor.p5js.org/glj/full/ZChT09YSN"
   ></iframe>
 
-          
+    
 
   <iframe
     width="100%"
@@ -448,7 +456,46 @@
     src="https://editor.p5js.org/glj/full/NlOlgXnyo"
   ></iframe>
 
+     
+  <h3>Other Materials</h3>
+  <div class="row masonry" data-masonry='{"percentPosition": true }'>
+     
+    <div class="col-md-6 card" style="padding: 10px">
+      <div class="ratio ratio-16x9">
+        <iframe
+          src="https://youtube.com/embed/o9sgjuh-CBM "
+          frameborder="0"
+          allow="fullscreen"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
       
+    <div class="col-md-6 card" style="padding: 10px">
+      <div class="ratio ratio-16x9">
+        <iframe
+          src="https://youtube.com/embed/maTfm84mLbo "
+          frameborder="0"
+          allow="fullscreen"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+      
+    <div class="col-md-6 card" style="padding: 10px">
+      <div class="ratio ratio-16x9">
+        <iframe
+          src="https://youtube.com/embed/b12wJHBcrE0 "
+          frameborder="0"
+          allow="fullscreen"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+     
+  </div>
+
+   
 </div>
 <div class="col-sm-2 pull-right card">
   <div class="card-header">Key Concepts:</div>
@@ -525,9 +572,24 @@
       
         </div>
       
-      
-
+        <script>
+          $(function () {
+            /* 瀑布流區塊div */
+            var $container = $(".masonry");
+        
+            //當圖片讀取完畢才執行
+            $container.imagesLoaded(function () {
+    
+              $container.masonry({
+                itemSelector: ".item",
+              });
+            });
+          });
+        </script>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
     <script src="/assets/js/bootstrap.js" async defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" defer></script>
+
     <script src="/assets/js/display.js" async defer></script>
   </body>
 </html>

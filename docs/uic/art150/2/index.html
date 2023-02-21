@@ -314,52 +314,76 @@
   <h3>Readings</h3>
   <div class="row">
     
-    <div class="col-sm-2">
-      <a href="/assets/pdf/processing.pdf">
-        
-        <img src="/assets/img/processing.jpg" class="img-thumbnail" />
-        
-
-        <caption>
-          Getting Started with Processing
-          //
-          Chapters 2 and 3
-        </caption>
-      </a>
+    <div class="col-md-12 col-lg-6">
+      <div class="card">
+        <div class="row">
+          <div class="col-6">
+            
+            <img src="/assets/img/processing.jpg" alt="Card image cap" class="img-fluid" />
+            
+          </div>
+          <div class="col-6">
+            <div class="card-body">
+              <h5 class="card-title">Getting Started with Processing</h5>
+              <p class="card-text">
+                Chapters 2 and 3
+              </p>
+              <a href="/assets/pdf/processing.pdf" class="btn btn-primary">text</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+
     
-    <div class="col-sm-2">
-      <a href="/assets/pdf/processing_sheet.pdf">
-        
-        <i class="fa-duotone fa-book"></i>
-        
-
-        <caption>
-          Processing Cheat Sheet
-          //
-          reference
-        </caption>
-      </a>
+    <div class="col-md-12 col-lg-6">
+      <div class="card">
+        <div class="row">
+          <div class="col-6">
+            
+            <i class="fa-duotone fa-book"></i>
+            
+          </div>
+          <div class="col-6">
+            <div class="card-body">
+              <h5 class="card-title">Processing Cheat Sheet</h5>
+              <p class="card-text">
+                reference
+              </p>
+              <a href="/assets/pdf/processing_sheet.pdf" class="btn btn-primary">text</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+
     
-    <div class="col-sm-2">
-      <a href="/assets/pdf/raaf_processing.pdf">
-        
-        <i class="fa-duotone fa-book"></i>
-        
-
-        <caption>
-          Processing Workbook
-          //
-          reference
-        </caption>
-      </a>
+    <div class="col-md-12 col-lg-6">
+      <div class="card">
+        <div class="row">
+          <div class="col-6">
+            
+            <i class="fa-duotone fa-book"></i>
+            
+          </div>
+          <div class="col-6">
+            <div class="card-body">
+              <h5 class="card-title">Processing Workbook</h5>
+              <p class="card-text">
+                reference
+              </p>
+              <a href="/assets/pdf/raaf_processing.pdf" class="btn btn-primary">text</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+
     
   </div>
     
   <h3>Other Materials</h3>
-  <div class="row">
+  <div class="row masonry" data-masonry='{"percentPosition": true }'>
      
     <div class="col-md-6 card" style="padding: 10px">
       <div class="ratio ratio-16x9">
@@ -494,9 +518,24 @@
       
         </div>
       
-      
-
+        <script>
+          $(function () {
+            /* 瀑布流區塊div */
+            var $container = $(".masonry");
+        
+            //當圖片讀取完畢才執行
+            $container.imagesLoaded(function () {
+    
+              $container.masonry({
+                itemSelector: ".item",
+              });
+            });
+          });
+        </script>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
     <script src="/assets/js/bootstrap.js" async defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" defer></script>
+
     <script src="/assets/js/display.js" async defer></script>
   </body>
 </html>
