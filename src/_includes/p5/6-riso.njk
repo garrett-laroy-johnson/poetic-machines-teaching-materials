@@ -1,0 +1,66 @@
+---
+layout: week.njk
+title: Project 1
+weekNum: 6
+tags:
+  - p5
+  - project
+goals:
+  - Project Presentations and Critiques
+  - Introduce Transformations for Week 7
+  - Virtual Tour of SAIC Service Bureau
+sketch:
+  title: "Project 1: Generative Risographic Duplication"
+  text:
+    - Use p5*js to build a generative system using a color set available by risograph.  for the risographic duplication of a single 11" x 17" artistic composition.
+  requirements:
+    - Use one or more for loops to structure a generative process
+    - The arithmatic and variables used in combination with random() in order to create variation in the generative process.
+    - Follow the SAIC Service Bureau Risograph guide to successfully create files ready for risographic duplication!
+    - This includes color selection (see p5 example for using hex codes from the risograph guide)
+    - converting your PNG files to PDFs using a free online service or Adobe InDesign
+    - naming your files according to the Service Bureau file naming template
+    - Successfully send your files to the Service Bureau for duplication.
+    - You must submit your files to Canvas AND to Service Bureau by the due date.
+    - You MUST pick up and deposit at least ONE of your prints to the ATS Tech room (4th Floor MacLean) NO LATER THAN THE FRIDAY AFTER THE FILES ARE DUE! (if you live outside chicago you must contact instructor to make other arrangements)
+tips:
+  - Limit yourself to two or three colors. This will making the exporting aspect easier.
+  - Remember that Risograph is a material process. There will be offsets and imperfections. Work with this rather than against it.
+  - Experiment with combinations of colors and opacities to create novel coloristic effects. You can use blendMode(MULTIPLY) to simulate these effects (to some degree).
+  - Think of your code as a generator. Look at the example code below -- notice how there are different modes that allow one to toggle back between B/W and color composite images. Working in this way will save you time if you need to go back and make adjustments to your code.
+  - You will need to run the sketch once for each color. Use randomSeed(x) to lock in your variations across many different exports.
+eleventyComputed:
+  readings:
+    - name: "{{ texts.p5.title }}"
+      url: "{{ texts.p5.url }}"
+      description: Review Chapters 3, 4, 5 as needed.
+      img: "{{ texts.p5.img }} "
+examples:
+  - type: p5
+    url: gjohns13-spectacular/full/xAQHUF_IR
+other:
+  - type: image
+    url: riso-color1.png
+  - type: image
+    url: riso-color2.png
+  - type: link
+    name: J. Lamm Risograph Zine with Processing / p5
+    url: https://www.acanth.us/jenn/work/riso-zine
+  - type: image
+    url: riso1-composite.png
+  - type: youtube
+    id: yCVaXthWNKk
+  - type: youtube
+    id: 1rfwKuXIhcE
+  - type: youtube
+    id: ofIh4EtGVno
+  - name: SAIC Riso Print instructions
+    type: link
+    url: /assets/pdf/saic-riso.pdf
+  - type: link
+    url: www.stencil.wiki
+    name: RISOgraph WIKI
+  - type: link
+    url: https://www.behance.net/gallery/96758067/Spots?locale=en_US
+    name: Anatoly Grashchenko
+---
