@@ -59,7 +59,9 @@ layout: base.njk
     </ul>
   </div>
 
+  {% if t.connections%}
   <h5>{{ department }} connections:</h5>
+  {% endif %}
   <div>
     <ul>
       {% for c in t.connections%}
