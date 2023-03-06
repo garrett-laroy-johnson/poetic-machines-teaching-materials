@@ -21,6 +21,8 @@ topics:
     readings:
       - info: Hello from Form + Code by Ben Fry and Casey Reas
         url: Form_Code_Hello.pdf
+      - info: Towards Aesthetic Guidelines for Paintings with aid of the Computer by Vera Molnar
+        url: https://rednoise.org/softas/uploads/molnar.pdf
   - title: Sound and Music
     artists:
       - name: Brian Eno & Peter Chilvers
