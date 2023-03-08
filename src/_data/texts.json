@@ -41,7 +41,8 @@
   "form_code": {
     "title": "Form + Code",
     "url": "/assets/pdf/Form_Code_Hello.pdf",
-    "authors": "Casey Reas and Chandler McWilliams"
+    "authors": "Casey Reas and Chandler McWilliams",
+    "img": "/assets/img/form+code.jpg"
   },
   "electronics": {
     "title": "Make Electronics",
