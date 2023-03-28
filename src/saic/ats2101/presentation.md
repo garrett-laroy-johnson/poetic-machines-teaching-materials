@@ -4,7 +4,7 @@ title: Presentation
 layout: presentation.njk
 area: art and technology studies
 topics:
-  - title: Bio-art, Aroma, &amp; Eco-art
+  - title: Bio-art, Aroma, & Eco-art
     artists:
       - name: Thomas Feuerstein
         url: https://www.thomasfeuerstein.net/
