@@ -1,3 +1,5 @@
+
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -26,6 +28,7 @@
     <link href="/assets/css/sidebars.css" rel="stylesheet" />
     <link href="/assets/css/style.css" rel="stylesheet" />
     <script src="/assets/js/p5.js"></script>
+    <script src="https://kit.fontawesome.com/1582dd25e1.js" crossorigin="anonymous"></script>
     
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -43,11 +46,29 @@
         <!-- sidebar -->
         <div class="col-sm-3" style="z-index: 2">
           <div class="flex-shrink-0 p-3" style="width: 100%">
+            <a href = "/uic/art151/" style = "text-decoration: none; color:black">
             <h4 class="fs-5 fw-semibold" style="margin-left: 10px">
               UIC | ART 151 | Intro to Creative Coding for New Media Art
             </h4>
+          </a>
             <ul class="list-unstyled ps-0">
              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
                
               
                
@@ -68,6 +89,25 @@
                   >
                 
                  Materials
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art151/presentation/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                 Presentation
             
              
                  
@@ -115,7 +155,8 @@
               
                
               
-               
+              
+              
               
                
               
@@ -124,20 +165,6 @@
                
               
                
-              
-               
-              
-               
-              
-               
-              
-               
-              
-               
-              
-               
-              
-              
               
                
               
@@ -195,14 +222,6 @@
                   </button>
                 </a>
               </li>
-              
-               
-              
-               
-              
-               
-              
-               
               
                
               
@@ -358,6 +377,8 @@
               
                
               
+               
+              
 
               <li class="mb-1">
                 <a href="/uic/art151/12/">
@@ -367,64 +388,7 @@
                     aria-expanded="false"
                   >
                 
-                    Week 12 : Objects: Modularity and Abstraction pt. II
-            
-             
-                 
-                  </button>
-                </a>
-              </li>
-              
-               
-              
-
-              <li class="mb-1">
-                <a href="/uic/art151/13/">
-                  <button
-                    class="btn align-items-left rounded collapsed nav-butt"
-                    style="text-align: left"
-                    aria-expanded="false"
-                  >
-                
-                    Week 13 : Arrays: From Abstraction to Actual
-            
-             
-                 
-                  </button>
-                </a>
-              </li>
-              
-               
-              
-
-              <li class="mb-1">
-                <a href="/uic/art151/14/">
-                  <button
-                    class="btn align-items-left rounded collapsed nav-butt"
-                    style="text-align: left"
-                    aria-expanded="false"
-                  >
-                
-                    Week 14 : Project 3 Prep
-            
-             
-                 
-                  </button>
-                </a>
-              </li>
-              
-               
-              
-
-              <li class="mb-1">
-                <a href="/uic/art151/15/">
-                  <button
-                    class="btn align-items-left rounded collapsed nav-butt"
-                    style="text-align: left"
-                    aria-expanded="false"
-                  >
-                
-                    Week 11 : Project 3
+                    Week 12 : Intro to Max/MSP
             
              
                  
@@ -440,85 +404,41 @@
       
         
 <div class="col-sm-6">
-  <h1>Week 12 : Objects: Modularity and Abstraction pt. II</h1>
+  <h1>Week 12 : Intro to Max/MSP</h1>
   
   <ul class="no-bullets">
     In-Class Goals: 
-    <li><input type="checkbox" class="cb" /> say hello and check-in</li>
+    <li><input type="checkbox" class="cb" /> Say hello and check-in</li>
     
-    <li><input type="checkbox" class="cb" /> take attendance</li>
+    <li><input type="checkbox" class="cb" /> Take attendance</li>
     
-    <li><input type="checkbox" class="cb" /> Share and Discuss Coding Sketch #7</li>
+    <li><input type="checkbox" class="cb" /> Download Max/MSP from www.cycling74.com</li>
     
-    <li><input type="checkbox" class="cb" /> Clarify or Demo any coding concepts unclear from Coding Sketch #7</li>
+    <li><input type="checkbox" class="cb" /> Make an account and start your free trial (you will need to pay ~$8 for a second month for the last part of class)</li>
     
-    <li><input type="checkbox" class="cb" /> Intro Arrays</li>
+    <li><input type="checkbox" class="cb" /> Download &quot;odot&quot; from the Max Package Manager here https://docs.cycling74.com/max8/vignettes/package_manager</li>
     
-    <li><input type="checkbox" class="cb" /> Intro Coding Sketch #8</li>
+    <li><input type="checkbox" class="cb" /> From here, https://github.com/maccallum/o.jm.korgnanokontrol Download this code (select code --&gt; download zip). Unzip the code and move it to Documents/Max 8/Library.</li>
+    
+    <li><input type="checkbox" class="cb" /> From here, https://github.com/garrett-laroy-johnson/o.glj.korgnanokontrol.rot Download this code (select code --&gt; download zip). Unzip the code and move it to Documents/Max 8/Library.</li>
     
   </ul>
   <h2>Homework</h2>
 
-  
-  <h3>Coding Sketch #7: Objects</h3>
-  
-  <p>Create a p5 sketch in which you compose *your own* object to animate a shape.</p>
    
- 
+  <h3>Coding Sketch No. 7</h3>
   
-  <h4>requirements</h4>
-  <ol>
+  <p>Use the max patch (also linked below) we built in class along with your MIDI controller to create a digital-physical instrument. You will need to connect the rectangle containing the knobs to different parameters in the patch. The scale object will let you transform the slider values (which range from 0-1) into values that make sense for different parameters.</p>
   
-  <li>accept a color parameter to assign as one of its properties (e.g. this.color)</li>
-  
-  <li>define and use 2 methods, one to move and one to show</li>
-  
-  <li>the object should be called four different times with four different colors. Call their move and show methods inside the draw loop.</li>
-  
-  </ol> 
-  
-  
-  
-  
-  
-   
-
-  
-  <h3>Readings</h3>
-
-  
-
-  <a href="/assets/pdf/p5.pdf">
-  
-    <p>Make: Getting Started with p5*js</a> // Chapters 10. Objects</p>
-
-   
-   
-  
-   
+  <p>With this instrument, create a 60-second improvisation. Document the improvisation with a screen capture (google OBS or use Mac Quicktime, Xbox Gamebar or similar).</p>
+         
   <h3>Other Materials</h3>
-  <div class="row">
+  <div class="row masonry" data-masonry='{"percentPosition": true }'>
      
     <div class="col-md-6 card" style="padding: 10px">
-      <div class="ratio ratio-16x9">
-        <iframe
-          src="https://youtube.com/embed/-e5h4IGKZRY "
-          frameborder="0"
-          allow="fullscreen"
-          allowfullscreen
-        ></iframe>
-      </div>
-    </div>
-      
-    <div class="col-md-6 card" style="padding: 10px">
-      <div class="ratio ratio-16x9">
-        <iframe
-          src="https://youtube.com/embed/TZG7Koe0Yu0 "
-          frameborder="0"
-          allow="fullscreen"
-          allowfullscreen
-        ></iframe>
-      </div>
+      <a href="/assets/max/art151max-intro.maxpat">
+        <div class="card-header">Week 11 Max Instrument (rightclick save link as)</div>
+      </a>
     </div>
      
   </div>
@@ -529,29 +449,142 @@
   <div class="card-header">Key Concepts:</div>
   <ul class="list-group list-group-flush">
     
-    <li class="list-group-item">abstraction</li>
-    
-    <li class="list-group-item">modularity</li>
-    
-    <li class="list-group-item">reusability</li>
-    
   </ul>
   
   <div class="card-header">Coding Components:</div>
+  
   <ul class="list-group">
      
-    <a href="https://p5js.org/reference/#/p5/function">
-      <li class="list-group-item">function</li>
+
+    <a href="https://docs.cycling74.com/max8/refpages/message">
+      <li class="list-group-item">message</li>
     </a>
+
       
-    <a href="https://p5js.org/reference/#/p5/object">
-      <li class="list-group-item">object</li>
+
+    <a href="https://docs.cycling74.com/max8/refpages/number">
+      <li class="list-group-item">number</li>
     </a>
+
       
-    <a href="https://p5js.org/reference/#/p5/class">
-      <li class="list-group-item">class</li>
+
+    <a href="https://docs.cycling74.com/max8/refpages/random">
+      <li class="list-group-item">random</li>
     </a>
+
+      
+
+    <a href="https://docs.cycling74.com/max8/refpages/metro">
+      <li class="list-group-item">metro</li>
+    </a>
+
+      
+
+    <a href="https://docs.cycling74.com/max8/refpages/bang">
+      <li class="list-group-item">bang</li>
+    </a>
+
+      
+
+    <a href="https://docs.cycling74.com/max8/refpages/kslider">
+      <li class="list-group-item">kslider</li>
+    </a>
+
+      
+
+    <a href="https://docs.cycling74.com/max8/refpages/slider">
+      <li class="list-group-item">slider</li>
+    </a>
+
+      
+
+    <a href="https://docs.cycling74.com/max8/refpages/toggle">
+      <li class="list-group-item">toggle</li>
+    </a>
+
+      
+
+    <a href="https://docs.cycling74.com/max8/refpages/dial">
+      <li class="list-group-item">dial</li>
+    </a>
+
+      
+
+    <a href="https://docs.cycling74.com/max8/refpages/mtof">
+      <li class="list-group-item">mtof</li>
+    </a>
+
+      
+
+    <a href="https://docs.cycling74.com/max8/refpages/zl.lookup">
+      <li class="list-group-item">zl.lookup</li>
+    </a>
+
+      
+
+    <a href="https://docs.cycling74.com/max8/refpages/scale">
+      <li class="list-group-item">scale</li>
+    </a>
+
+      
+
+    <a href="https://docs.cycling74.com/max8/refpages/preset">
+      <li class="list-group-item">preset</li>
+    </a>
+
+      
+
+    <a href="https://docs.cycling74.com/max8/refpages/biquad">
+      <li class="list-group-item">biquad</li>
+    </a>
+
+      
+
+    <a href="https://docs.cycling74.com/max8/refpages/scope~">
+      <li class="list-group-item">scope~</li>
+    </a>
+
+      
+
+    <a href="https://docs.cycling74.com/max8/refpages/cycle~">
+      <li class="list-group-item">cycle~</li>
+    </a>
+
+      
+
+    <a href="https://docs.cycling74.com/max8/refpages/saw~">
+      <li class="list-group-item">saw~</li>
+    </a>
+
+      
+
+    <a href="https://docs.cycling74.com/max8/refpages/noise~">
+      <li class="list-group-item">noise~</li>
+    </a>
+
+      
+
+    <a href="https://docs.cycling74.com/max8/refpages/asdr~">
+      <li class="list-group-item">asdr~</li>
+    </a>
+
+      
+
+    <a href="https://docs.cycling74.com/max8/refpages/ezdac~">
+      <li class="list-group-item">ezdac~</li>
+    </a>
+
+      
+
+    <a href="https://docs.cycling74.com/max8/refpages/times~">
+      <li class="list-group-item">times~</li>
+    </a>
+
      
+  </ul>
+  
+  <ul class="list-group">
+    
   </ul>
   
 </div>
@@ -559,9 +592,24 @@
       
         </div>
       
-      
-
+        <script>
+          $(function () {
+            /* 瀑布流區塊div */
+            var $container = $(".masonry");
+        
+            //當圖片讀取完畢才執行
+            $container.imagesLoaded(function () {
+    
+              $container.masonry({
+                itemSelector: ".item",
+              });
+            });
+          });
+        </script>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
     <script src="/assets/js/bootstrap.js" async defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" defer></script>
+
     <script src="/assets/js/display.js" async defer></script>
   </body>
 </html>

@@ -1,0 +1,42 @@
+---
+title: Intro to Max/MSP
+layout: week.njk
+reference: max
+goals:
+  - Download Max/MSP from www.cycling74.com
+  - Make an account and start your free trial (you will need to pay ~$8 for a second month for the last part of class)
+  - Download "odot" from the Max Package Manager here https://docs.cycling74.com/max8/vignettes/package_manager
+  - From here, https://github.com/maccallum/o.jm.korgnanokontrol Download this code (select code --> download zip). Unzip the code and move it to Documents/Max 8/Library.
+  - From here, https://github.com/garrett-laroy-johnson/o.glj.korgnanokontrol.rot Download this code (select code --> download zip). Unzip the code and move it to Documents/Max 8/Library.
+sketch:
+  title: Coding Sketch No. 7
+  text:
+    - Use the max patch (also linked below) we built in class along with your MIDI controller to create a digital-physical instrument. You will need to connect the rectangle containing the knobs to different parameters in the patch. The scale object will let you transform the slider values (which range from 0-1) into values that make sense for different parameters.
+    - With this instrument, create a 60-second improvisation. Document the improvisation with a screen capture (google OBS or use Mac Quicktime, Xbox Gamebar or similar).
+code:
+  - message
+  - number
+  - random
+  - metro
+  - bang
+  - kslider
+  - slider
+  - toggle
+  - dial
+  - mtof
+  - zl.lookup
+  - scale
+  - preset
+  - biquad
+  - scope~
+  - cycle~
+  - saw~
+  - noise~
+  - asdr~
+  - ezdac~
+  - times~
+other:
+  - name: Week 11 Max Instrument (rightclick save link as)
+    url: /assets/max/art151max-intro.maxpat
+    type: link
+---

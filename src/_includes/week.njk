@@ -222,6 +222,12 @@ goals:
     <a href="https://processing.org/reference/{{ cd }}.html">
       <li class="list-group-item">{{ c }}</li>
     </a>
+    {% elseif reference == "max" %}
+
+    <a href="https://docs.cycling74.com/max8/refpages/{{ c }}">
+      <li class="list-group-item">{{ c }}</li>
+    </a>
+
     {% endif %} {% endfor %}
   </ul>
   {% if refExamples %}
