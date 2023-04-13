@@ -31,9 +31,11 @@ topics:
       - url: https://www.wired.com/2002/08/rip-alba-the-glowing-bunny/
         info: RIP Alba the Glowing Bunny, WIRED
       - info: Eduardo Kac (bio art)
-        url: https://www.ekac.org/\
+        url: https://www.ekac.org/
       - info: Andy Scarpelli (bio art and design)
+        url: https://chitownbio.org/index.php/organizers/
       - info: Ted Neenan (olfactory art)
+        url: https://www.instagram.com/olfactoryartclass/
   - title: Neon & Robotics
     artists:
       - name: Kacie Lees
@@ -46,13 +48,15 @@ topics:
         url: https://www.stephaniedinkins.com/conversations-with-bina48.html
         media: robotics, ai
     readings:
-      - info: Catie Cuan, Boston Dynamics Posted a Robot Dancing Video ... MEGATHREAD"
-        url: https://twitter.com/CatieCuan/status/1344071264881713152"
+      - info: "Sydney Skybetter - Boston Dynamics, BTS, and Ballet: The Next Act for Robotics"
+        url: https://www.wired.com/story/boston-dynamics-bts-spots-on-it/
       - info: Steven Waldeck, "Electronics and Kinetics"
         url: /assets/pdf/ats.pdf
     connections:
       - info: Steve Waldeck (kinetic art and robotics)[1943-2018]
+        url: /assets/pdf/ats.pdf
       - info: Gregory Mowery (Neon)
+        url: https://news.wttw.com/2019/04/15/bright-idea-longtime-professor-brings-neon-art-rogers-park
 
   - title: Games & Simulation
     artists:
@@ -75,5 +79,7 @@ topics:
         url: https://www.academia.edu/46111405/Queergaming
     connections:
       - info: Kristin McWharter
-      - info: Sal Cortano
+        url: https://kristinmcwharter.com/
+      - info: Sal Cordova
+        url: https://soundcloud.com/salcordova
 ---
