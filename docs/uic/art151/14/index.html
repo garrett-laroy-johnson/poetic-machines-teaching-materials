@@ -1,3 +1,5 @@
+
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -26,6 +28,7 @@
     <link href="/assets/css/sidebars.css" rel="stylesheet" />
     <link href="/assets/css/style.css" rel="stylesheet" />
     <script src="/assets/js/p5.js"></script>
+    <script src="https://kit.fontawesome.com/1582dd25e1.js" crossorigin="anonymous"></script>
     
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -43,9 +46,11 @@
         <!-- sidebar -->
         <div class="col-sm-3" style="z-index: 2">
           <div class="flex-shrink-0 p-3" style="width: 100%">
+            <a href = "/uic/art151/" style = "text-decoration: none; color:black">
             <h4 class="fs-5 fw-semibold" style="margin-left: 10px">
               UIC | ART 151 | Intro to Creative Coding for New Media Art
             </h4>
+          </a>
             <ul class="list-unstyled ps-0">
              
                
@@ -131,11 +136,27 @@
               
                
               
-               
+
+              <li class="mb-1">
+                <a href="/uic/art151/presentation/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                 Presentation
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
               
                
               
                
+              
               
               
               
@@ -195,6 +216,8 @@
                   </button>
                 </a>
               </li>
+              
+               
               
                
               
@@ -367,26 +390,7 @@
                     aria-expanded="false"
                   >
                 
-                    Week 12 : Objects: Modularity and Abstraction pt. II
-            
-             
-                 
-                  </button>
-                </a>
-              </li>
-              
-               
-              
-
-              <li class="mb-1">
-                <a href="/uic/art151/13/">
-                  <button
-                    class="btn align-items-left rounded collapsed nav-butt"
-                    style="text-align: left"
-                    aria-expanded="false"
-                  >
-                
-                    Week 13 : Arrays: From Abstraction to Actual
+                    Week 12 : Intro to Max/MSP
             
              
                  
@@ -405,26 +409,7 @@
                     aria-expanded="false"
                   >
                 
-                    Week 14 : Project 3 Prep
-            
-             
-                 
-                  </button>
-                </a>
-              </li>
-              
-               
-              
-
-              <li class="mb-1">
-                <a href="/uic/art151/15/">
-                  <button
-                    class="btn align-items-left rounded collapsed nav-butt"
-                    style="text-align: left"
-                    aria-expanded="false"
-                  >
-                
-                    Week 11 : Project 3
+                    Week 14 : MIDI to p5
             
              
                  
@@ -440,51 +425,68 @@
       
         
 <div class="col-sm-6">
-  <h1>Week 14 : Project 3 Prep</h1>
+  <h1>Week 14 : MIDI to p5</h1>
   
   <ul class="no-bullets">
     In-Class Goals: 
-    <li><input type="checkbox" class="cb" /> say hello and check-in</li>
+    <li><input type="checkbox" class="cb" /> Say hello and check-in</li>
     
-    <li><input type="checkbox" class="cb" /> take attendance</li>
+    <li><input type="checkbox" class="cb" /> Take attendance</li>
     
-    <li><input type="checkbox" class="cb" /> In-Class work time</li>
+    <li><input type="checkbox" class="cb" /> Share and Discuss Coding Sketch #8</li>
     
-    <li><input type="checkbox" class="cb" /> Check-ins on Progress</li>
+    <li><input type="checkbox" class="cb" /> Clarify or Demo any coding concepts unclear from Coding Sketch #8</li>
+    
+    <li><input type="checkbox" class="cb" /> Tutorial on KorgNano with p5</li>
+    
+    <li><input type="checkbox" class="cb" /> introduce how to run live server</li>
     
   </ul>
   <h2>Homework</h2>
 
-  
-  <h3>Project 3 Proposal</h3>
-  
-  <p>Submit a short 200 word proposal for your project. Include details about the coding techniques you will use as well as your artistic intent.</p>
-   
- 
-  
-  
-  
-  
-  
-   
+      
+  <h3>Other Materials</h3>
+  <div class="row masonry" data-masonry='{"percentPosition": true }'>
+     
+    <div class="col-md-6 card" style="padding: 10px">
+      <a href="https://github.com/garrett-laroy-johnson/p5.korgnano">
+        <div class="card-header">code for running korgnano with p5</div>
+      </a>
+    </div>
+      
+    <div class="col-md-6 card" style="padding: 10px">
+      <a href="https://code.visualstudio.com/download">
+        <div class="card-header">Microsoft Visual Studio</div>
+      </a>
+    </div>
+      
+    <div class="col-md-6 card" style="padding: 10px">
+      <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">
+        <div class="card-header">Live Server Extensions for Visual Studio Code</div>
+      </a>
+    </div>
+     
+  </div>
 
-  
-  <h3>Readings</h3>
-
-  
-
-  <a href="/assets/pdf/p5.pdf">
-  
-    <p>Make: Getting Started with p5*js</a> // Review Chapters 10, 11</p>
-
    
-   
-  
-    
 </div>
 <div class="col-sm-2 pull-right card">
   <div class="card-header">Key Concepts:</div>
   <ul class="list-group list-group-flush">
+    
+    <li class="list-group-item">performance</li>
+    
+    <li class="list-group-item">video jocky</li>
+    
+    <li class="list-group-item">live visuals</li>
+    
+  </ul>
+  
+  <ul class="list-group">
+    
+  </ul>
+  
+  <ul class="list-group">
     
   </ul>
   
@@ -493,9 +495,24 @@
       
         </div>
       
-      
-
+        <script>
+          $(function () {
+            /* 瀑布流區塊div */
+            var $container = $(".masonry");
+        
+            //當圖片讀取完畢才執行
+            $container.imagesLoaded(function () {
+    
+              $container.masonry({
+                itemSelector: ".item",
+              });
+            });
+          });
+        </script>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
     <script src="/assets/js/bootstrap.js" async defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" defer></script>
+
     <script src="/assets/js/display.js" async defer></script>
   </body>
 </html>
