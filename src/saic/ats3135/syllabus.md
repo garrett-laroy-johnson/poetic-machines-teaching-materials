@@ -6,8 +6,8 @@ title: Syllabus
 instructor: dr. garrett laroy johnson (he/they)
 email: gjohns13@saic.edu
 term: Fall 2023
-time: TBA
-location: on-campus
+time: Tuesdays 3:30-9:15pm
+location: MacLean 401
 description:
   - This studio course investigates the creative possibilities in programming, from interactivity to information visualization. Students explore interactive narratives and games, software art, simulations and emergent behaviors, and other code-based forms. Lectures and demonstrations provide a conceptual, aesthetic and technical foundation in programming as a creative practice. Techniques and concepts are presented through the open-source programming environment p5*js, with an introduction to advanced topics such as server facilitated interactivity and computer vision.
   - What is at the intersection of art and technology? What does technology help us understand about art? How does art deepen our understanding of technology? Is all art technological? These questions undergird art and technology practices and studies. This course deals with simulation and games, with networked play and interactive art -- these genres of work point out a key affordance of creative media practices, its worldbuilding power.
