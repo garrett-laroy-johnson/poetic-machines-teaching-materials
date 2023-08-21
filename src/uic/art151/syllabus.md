@@ -6,8 +6,8 @@ layout: UICsyllabus
 title: Syllabus
 instructor: dr. garrett laroy johnson (he/they)
 email: glj@uic.edu
-term: Spring 2023
-time: "M/W 8:00am - 10:40am"
+term: Fall 2023
+time: "Tu/Th 9:00am - 11:30am"
 location: (see course schedule)
 description:
   - This is a studio-based course that introduces students to computer programming with an emphasis on using creative practices to formulate new ideas. No previous programming experience is required. Students will develop a technical aptitude for generating dynamic and data-driven visual projects, and through a socio-historical analysis of computation, art and philosophy, contextualize their projects with an understanding of how computation has augmented how we make meaning from our visual environment. Composing a series of projects throughout the semester, students will experiment and develop their own strategies to develop and evaluate project rubrics and goals. Students will complete the class with a foundation of technical skills to pursue individual learning of more advanced programming, scripting, and web development. There are no prerequisites for this course.
@@ -45,6 +45,7 @@ attendance:
     - Five or more unexcused absences = automatic failure of the course.
     - Missing class on a scheduled presentation or critique day is equivalent to not having your work ready. - It will result in a failing grade for that assignment.
     - Three late arrivals or early departures will count as one absence.
+  makeup: For any absence to be considered excused, you will need to document 2 hours research, coding, or otherwise experimenting with creative code. Documentation can be a PDF that logs every 15 minutes with links to tutorials, coding screen shots, or similar.  
 assignments: Assignments are always due on the day they are DUE. Late work is not acceptable because of the fact that in-class activities are often closely tied to sharing and discussing assignments. Late work undermines your own learning as well as the learning community of the class as a whole.
 accomodation:
   - Guided by the belief that people with disabilities are assets to the University, UIC is committed to full inclusion and participation of people with disabilities in all aspects of university life. We seek to provide an academic, social, and physical environment that makes disabled people integral to the diversity of perspectives that is vital to an academic community.

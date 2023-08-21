@@ -57,6 +57,10 @@ weekNum: 0
     <li>{{ item }}</li>
     {% endfor %}
   </ul>
+  <h5>makeup work for excused absences</h5>
+  <p>
+    {{ attendance.makeup }}
+  </p>
   <h2>Class schedule</h2>
   <p>
     This syllabus is only a general guideline for the course. The schedule will
@@ -80,5 +84,34 @@ weekNum: 0
   {% for item in accomodation%}
   <p>{{ item }}</p>
   {% endfor %}
+  <h2>Philosophy of Inclusivity</h2>
+  <p>
+    Education is transformative, and open intellectual inquiry is the foundation
+    of a university education and a democratic society. In the spirit of shared
+    humanity and concern for our community and world, I as an instructor
+    celebrate diversity as central to our mission and affirm our solidarity with
+    those individuals and groups most at risk. In line with these goals, I
+    disavow all racism, xenophobia, homophobia, sexism, Islamophobia,
+    anti-Semitism, classism, ableism, and hate speech or actions that attempt to
+    silence, threaten, and degrade others.
+  </p>
+
+  <p>
+    As an educator, I affirm that language and texts, films and stories help us
+    to understand the experiences of others whose lives are different from ours.
+    I value critical reasoning, evidence-based arguments, self-reflection, and
+    the imagination. Building on these capacities, I hope to inspire empathy,
+    social and environmental justice, and an ethical framework for our actions.
+    I advocate for a diverse campus, community, and nation inclusive of racial
+    minorities, women, immigrants, the LGBTQ+ community, and people of all
+    religious faiths.
+  </p>
+  <p>
+    (amended from the
+    <a
+      href="https://cetlss.appstate.edu/inclusive-excellence/inclusive-teaching-lab/inclusive-syllabus-framework/sample-syllabi-statements"
+      >Appalachian State University Department of English website</a
+    >)
+  </p>
   {{ content | safe }}
 </div>

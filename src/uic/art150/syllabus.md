@@ -5,8 +5,8 @@ layout: UICsyllabus
 title: Syllabus
 instructor: dr. garrett laroy johnson (he/they)
 email: glj@uic.edu
-term: Spring 2023
-time: "M/W 12:00pm - 02:40pm"
+term: Fall 2023
+time: "Tu/Th 12:00pm - 02:30pm"
 location: (see course schedule)
 description:
   - Introduction to New Media Arts is a studio-based course that introduces theories and practices in new media art forms along with hands on workshops of creative computing, circuitry design, basic to intermediate electronics, and technological interactivity. Students will learn to use computer programming to create interactive sound, light, and environmental interfaces using an array of native applications to device art (microcontrollers such as the Circuit Playground Express). This course also adopts strategies for scientific inquiry from an artistic lens as well introduces current and historical new media artists through lectures presenting history, theory, and contemporary practices of new media artworks.
