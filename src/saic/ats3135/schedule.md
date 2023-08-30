@@ -7,11 +7,11 @@ weeks:
   - p5*js 103 + project 1 work time
   - project 1 due
   - project 1 presentations & critiques
-  - randomness
-  - noise
+  - randomness + noise
+  - [substitute or no class] 
   - vectors
   - vector fields
-  - sensing + sound
+  - sensing + sound + Jacob Satterwhite CATE
   - computer vision + mediapipe
   - p5party.js
   - crit week + meetings
