@@ -3,7 +3,7 @@ weekNum: 0
 tags: syllabus
 layout: SAICsyllabus
 title: Syllabus
-instructor: dr. garrett laroy johnson (he/they)
+instructor: dr. garrett laroy johnson (he/they) and kelly xi. TA alanna rebbeck.
 email: gjohns13@saic.edu
 term: Spring 2023
 time: "Tu 09:00am - 12:00pm"
@@ -17,6 +17,8 @@ objectives:
   - Beginner+ fluency with p5*js, including arrays, functions, for loops, if conditions, and the JS object.
   - Expressive facility in an aesthetic domain with these skills.
   - Sketches with diverse media processing techniques that may seed further work
+  - A practiced comfort level with microcontroller electronics and programming in the creation of art not limited to kinetic sculpture, interactive artwork, sound works, and responsive environments.
+  - A tactile understanding of how sensors and actuators work and how they interface with computers, tether to embodiment and the environment, a connective net of energy and information.
 grading:
   contact: This class is a 3-hour credit course. During an average week, you will be expected to spend 6 hours on homework per class. Homework will primarily consist of assignment completions, project development, project documentation, and written assignments. See the SAIC Contact / Credit hour policy for a detailed explanation for how homework time is calculated on a per-credit-hour basis.
   key:
