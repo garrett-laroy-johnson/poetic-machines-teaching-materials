@@ -3,11 +3,11 @@ weekNum: 0
 tags: syllabus
 layout: SAICsyllabus
 title: Syllabus
-instructor: dr. garrett laroy johnson (he/they) and kelly xi. TA alanna rebbeck.
+instructor: dr. garrett laroy johnson (he/they) and kelly xi (she/her). TA alanna rebbeck (she/her).
 email: gjohns13@saic.edu
-term: Spring 2023
-time: "Tu 09:00am - 12:00pm"
-location: zoom
+term: Fall 2023
+time: "Wed 09:00am - 3:00pm"
+location: [see course listing]
 description:
 - This team-taught, introductory course provides a foundation for most additional coursework in the Art and Technology Studies department. Students are given a broad interdisciplinary grounding in the skills, concepts, and hands-on experiences they will need to engage the potentials of new technologies in art making. Every other week, a lecture and discussion group exposes students to concepts of electronic media, perception, inter-media composition, emerging venues, and other issues important to artists working with technologically based media. Students will attend a morning & afternoon section each day to gain hands-on experience with a variety of forms and techniques central to technologically-based art making. 
 objectives:
