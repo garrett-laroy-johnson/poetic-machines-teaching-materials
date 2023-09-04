@@ -2,6 +2,7 @@
 layout: week.njk
 
 title: Hello World(building)! 
+weekNum: 1 
 tags:
   - p5
   - intro
@@ -22,58 +23,23 @@ concepts:
   - "js: javascript"
   - p5*js
   - processing
-functions:
-  - setup
-  - draw
 sketch:
   title: Coding Sketch
   text:
     - Here is where an assignment would be if it were due today. Since it's the first day of class, we won't expect anything here. Take a look at week 2 for your assignment.
-other:
-  - type: youtube
-    id: yPWkPOfnGsw
-  - type: youtube
-    id: amGsNYDt-D0
 eleventyComputed:
   readings:
     - name: "{{ texts.p5.title }}"
       url: "{{ texts.p5.url }}"
-      description: Chapters 1 and 2. Pages 1-17.
+      description: All Chapters
       img: "{{ texts.p5.img }} "
+    - name: "{{ texts.aesthetic.title }}"
+      url: "{{ texts.aesthetic.url }}"
+      description: All Chapters
+      img: "{{ texts.aesthetic.img }} "   
 ---
 
-<div class="row">
-  <div class="col-sm-9">
-    <h2>Week 1: Hello World! (Building)</h2>
-    <p>Goals:</p>
-
-    <ul class="no-bullets">
-      <li>
-        <input type="checkbox" class="cb" /> Go over course website: "about"
-      </li>
-      <li>
-        <input type="checkbox" class="cb" /> Go over course website: "schedule"
-      </li>
-      <li>
-        <input type="checkbox" class="cb" /> Go over course website: "materials"
-      </li>
-      <li>
-        <input type="checkbox" class="cb" /> Complete
-        <a href="https://forms.gle/GYkPmqSpg8Yqm3Xd9">intro survey</a>
-      </li>
-      <li>
-        <input type="checkbox" class="cb" /> Introduce p5*js programming
-        environment for artists
-      </li>
-      <li>
-        <input type="checkbox" class="cb" /> Read together
-        <a
-          href="https://www.aesthetic-programming.net/pages/preface.html#why-aesthetic-programming-98794"
-          >Why Aesthetic Programming?"</a
-        >
-        by Winnie Soon and Geoff Cox
-      </li>
-
+{# 
       <li>
         <input type="checkbox" class="cb" /> Create and assign p5*js 101 groups:
         <ul>
@@ -130,4 +96,4 @@ eleventyComputed:
       week 2 for your assignment.
     </p>
   </div>
-</div>
+</div> #}

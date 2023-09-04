@@ -3,17 +3,18 @@ layout: schedule.njk
 weeks:
   - Intro to coding, intro to p5.js
   - Drawing to the HTML Canvas, Coordinates, Shape, Color
-  - Variables and For loops
-  - Interactivity and Conditional Statements
-  - Project 1 Prep
-  - Project 1 Presentations & Critiques
-  - Transformations
-  - Animation and Movement
+  - Variables and For Loops
+  - Nested For Loops, Conditionals, Randomness
+  - Project 1 Prep, SVGs and Plotter training
+  - Project 1 Presentations & Critiques (group 1 and 2)
+  - Interactivity
+  - Transformations (group 3 and 4)
+  - Animation and Movement (group 5 and 6)
   - Functions
-  - Project 2 Prep
-  - Project 2 Presentations & Critique
   - JS Objects
-  - Arrays + Group Presentations
-  - Project 3 Prep (crit week)
+  - Arrays 
+  - Final Project work time 
+  - Final Project work time
+  - (crit week)
   - Project 3 Presentation & Critique
 ---

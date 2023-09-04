@@ -55,5 +55,17 @@
     "authors": "lady ada",
     "img": "/assets/img/adafruit.png",
     "url": "/assets/pdf/circuit.pdf"
+  },
+  "trouble": {
+    "title": "Staying With the Trouble",
+    "authors": "Donna Haraway",
+    "img": "/assets/img/trouble.jpg",
+    "url": "https://edisciplinas.usp.br/pluginfile.php/4374763/mod_resource/content/0/Haraway-Staying%20with%20the%20Trouble_%20Making%20Kin%20in%20the%20Chthulucene.pdf",
+    "weird": {
+      "title": "Weird and Eerie",
+      "authors": "Mark Fisher",
+      "img": "/assets/img/weird.jpg",
+      "url": "https://edisciplinas.usp.br/pluginfile.php/4374763/mod_resource/content/0/Haraway-Staying%20with%20the%20Trouble_%20Making%20Kin%20in%20the%20Chthulucene.pdf"
+    }
   }
 }
