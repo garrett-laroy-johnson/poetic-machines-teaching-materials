@@ -259,26 +259,7 @@
                     aria-expanded="false"
                   >
                 
-                    Week 5 : randomness + project 1 prep
-            
-             
-                 
-                  </button>
-                </a>
-              </li>
-              
-               
-              
-
-              <li class="mb-1">
-                <a href="/uic/art151/6/">
-                  <button
-                    class="btn align-items-left rounded collapsed nav-butt"
-                    style="text-align: left"
-                    aria-expanded="false"
-                  >
-                
-                    Week 6 : Project 1
+                    Week 5 : Randomness &amp; Conditionals
             
              
                  
@@ -459,6 +440,8 @@
               
                
               
+               
+              
               
             
             </ul>
@@ -467,7 +450,7 @@
       
         
 <div class="col-sm-6">
-  <h1>Week 6 : Project 1</h1>
+  <h1>Week  : Project 1: Generative Drawing Machine</h1>
   
   <ul class="no-bullets">
     In-Class Goals: 
@@ -475,246 +458,37 @@
     
     <li><input type="checkbox" class="cb" /> Take attendance</li>
     
-    <li><input type="checkbox" class="cb" /> Project Presentations and Critiques</li>
+    <li><input type="checkbox" class="cb" /> show and critique the generative drawing machine</li>
     
-    <li><input type="checkbox" class="cb" /> Introduce Transformations for Week 7</li>
+    <li><input type="checkbox" class="cb" /> move on to electronics</li>
     
   </ul>
   <h2>Homework</h2>
 
-  
-  <h3>Tutorial</h3>
-  <div class="row">
-     
-    <div class="col-md-6 card" style="padding: 10px">
-      <div class="ratio ratio-16x9">
-        <iframe
-          src="https://youtube.com/embed/videoseries?list=PLzw5ecWso_zQG2czpKXrsIlMp_ZsSgtdm "
-          frameborder="0"
-          allow="fullscreen"
-          allowfullscreen
-        ></iframe>
-      </div>
-    </div>
-     
-  </div>
-
    
-  <h3>Project 1: Vera Molnar remix</h3>
+  <h3>Project 1: Generative Drawing Machine</h3>
   
-  <p>Create a remix of Vera Molnar&#39;s series des(ordnes). You will use p5*js to generate a grid-based composition using randomness to create variation in the piece.</p>
+  <p>Using Processing, create a drawing machine. Think of this as a compositional system -- be able to change variables to change the kind of outputs you get. You can visualize whatever you want, but try not to simply copy and paste code from various sketches… understanding what the code is doing is super important!</p>
   
-  <p>Your piece will be drawn using a pen plotter on a ~12inch x 12inch piece of white paper with black pen ink. For this reason, do not use any color, fill, or strokeWeight as it will not be reflected in the final result.</p>
-   
-  <div class="row">
+  <p>You will submit your sketch and 3 images you have exported from Processing using save() that show different aspects and outcomes of your system.</p>
     
-    <div class="col-sm-4">
-      <a href="/assets/img/vera1.jpg">
-        <img src="/assets/img/vera1.jpg" class="img-thumbnail" />
-      </a>
-    </div>
-    
-    <div class="col-sm-4">
-      <a href="/assets/img/gari-vera.jpg">
-        <img src="/assets/img/gari-vera.jpg" class="img-thumbnail" />
-      </a>
-    </div>
-    
-  </div>
-   
   <h4>requirements</h4>
   <ol>
     
-    <li>nested for loops to move the computer&#39;s drawing position from left to right, top to bottom.</li>
+    <li>use at least one for loop</li>
     
-    <li>a third for loop nesting inside which draws several shapes on top each other at the drawing position</li>
+    <li>use a conditional statement</li>
     
-    <li>the arithmatic and variables used in combination with random() in order to create variation in how each shape is drawn.</li>
+    <li>use at least global 4 variables that can be changed to influence the outcome of your generative drawing machine</li>
     
-  </ol>
-   
-  <h4>tips</h4>
-  <ol>
+    <li>submit 3 images generated from your program</li>
     
-    <li>Use the tutorial code as a framework for making something of your own. Let&#39;s have some fun with it! Make sure you&#39;ve saved your first copy, and then duplicate your sketch. Now, how can you use this nested for loop concept to create your own work? What other features (color, stroke, stroke weight, etc.) can you use to change the look and feel of this piece? If you&#39;ve added randomness in the bonus section: how can randomness make a return and enliven the feel?</li>
+    <li>submit the sketch</li>
     
-    <li>Don&#39;t try to do everything at once. Break things down. Follow these steps below if it is helpful.</li>
-    
-    <li>Before you get started, open your p5 editor and the &quot;Getting Started&quot; text. Work through Chapter 4, example by example. This seems tedious, but it will build up comprehension.</li>
-    
-    <li>When you&#39;re ready to begin the code sketch: First, draw a single shape. Familiarize yourself with what arguments do what. Will you draw a square, a circle, or a different 2d primitive shape? What argument will you need to use? How many arguments do you need? What does what (position, size, etc.)?</li>
-    
-    <li>Now, create a row of shapes with a for loop inside your draw loop. Insert your shape code into the for loop and use the loop&#39;s variable (i or s or whatever you choose) to multiply the x value and push it to the right.</li>
-    
-    <li>Not sure what this means? Check the reference for for loop. Watch the videos below. Read the section in the book on for loop again -- you&#39;ll see this in action!</li>
-    
-    <li>Then, put that for loop inside a new for loop. Make sure the new loop has a different variable than the first. Use this variable to alter the y position of the shape (use multiplication again), and hence to draw consecutive rows at different heights in the Canvas. Get this working before you move on!</li>
-    
-    <li>Still stuck? Email your prof and ask for a quick appointment to talk through the issue. Check the reference and other materials. Phone a friend in your group and see if they are stuck too.</li>
-    
-    <li>You&#39;ll need to use the random() function to introduce variation to the code. What elements are randomized? What is the range of randomization? How will you use arithmetic to integrate the random number into your shape&#39;s coordinates? Now is a good time to insert noLoop() into your code so that you are only getting one drawing per &quot;play&quot;.</li>
+    <li>zip the sketch and images together</li>
     
   </ol>
-      
-  <h3>Other Materials</h3>
-  <div class="row masonry" data-masonry='{"percentPosition": true }'>
-     
-    <div class="col-md-6 card" style="padding: 10px">
-      <div class="ratio ratio-16x9">
-        <iframe
-          src="https://youtube.com/embed/BCZNNZGz5YI "
-          frameborder="0"
-          allow="fullscreen"
-          allowfullscreen
-        ></iframe>
-      </div>
-    </div>
-      
-    <div class="col-md-6 card" style="padding: 10px">
-      <div class="ratio ratio-16x9">
-        <iframe
-          src="https://youtube.com/embed/O5G4SoWBoao "
-          frameborder="0"
-          allow="fullscreen"
-          allowfullscreen
-        ></iframe>
-      </div>
-    </div>
-      
-    <div class="col-md-6 card" style="padding: 10px">
-      <div class="ratio ratio-16x9">
-        <iframe
-          src="https://youtube.com/embed/ZnP-83OUP_M "
-          frameborder="0"
-          allow="fullscreen"
-          allowfullscreen
-        ></iframe>
-      </div>
-    </div>
-      
-
-    <div class="col-sm-6">
-      <a href="/assets/img/studentvera1.JPG">
-        <img src="/assets/img/studentvera1.JPG" class="img-thumbnail" />
-      </a>
-    </div>
-
-      
-
-    <div class="col-sm-6">
-      <a href="/assets/img/studentvera1.JPG">
-        <img src="/assets/img/studentvera1.JPG" class="img-thumbnail" />
-      </a>
-    </div>
-
-      
-
-    <div class="col-sm-6">
-      <a href="/assets/img/studentvera3.JPG">
-        <img src="/assets/img/studentvera3.JPG" class="img-thumbnail" />
-      </a>
-    </div>
-
-      
-
-    <div class="col-sm-6">
-      <a href="/assets/img/studentvera4.JPG">
-        <img src="/assets/img/studentvera4.JPG" class="img-thumbnail" />
-      </a>
-    </div>
-
-      
-
-    <div class="col-sm-6">
-      <a href="/assets/img/studentvera5.JPG">
-        <img src="/assets/img/studentvera5.JPG" class="img-thumbnail" />
-      </a>
-    </div>
-
-      
-
-    <div class="col-sm-6">
-      <a href="/assets/img/studentvera6.JPG">
-        <img src="/assets/img/studentvera6.JPG" class="img-thumbnail" />
-      </a>
-    </div>
-
-      
-
-    <div class="col-sm-6">
-      <a href="/assets/img/studentvera7.JPG">
-        <img src="/assets/img/studentvera7.JPG" class="img-thumbnail" />
-      </a>
-    </div>
-
-      
-
-    <div class="col-sm-6">
-      <a href="/assets/img/studentvera8.JPG">
-        <img src="/assets/img/studentvera8.JPG" class="img-thumbnail" />
-      </a>
-    </div>
-
-      
-
-    <div class="col-sm-6">
-      <a href="/assets/img/studentvera9.JPG">
-        <img src="/assets/img/studentvera9.JPG" class="img-thumbnail" />
-      </a>
-    </div>
-
-      
-
-    <div class="col-sm-6">
-      <a href="/assets/img/studentvera10.JPG">
-        <img src="/assets/img/studentvera10.JPG" class="img-thumbnail" />
-      </a>
-    </div>
-
-      
-
-    <div class="col-sm-6">
-      <a href="/assets/img/studentvera11.JPG">
-        <img src="/assets/img/studentvera11.JPG" class="img-thumbnail" />
-      </a>
-    </div>
-
-      
-
-    <div class="col-sm-6">
-      <a href="/assets/img/studentvera12.JPG">
-        <img src="/assets/img/studentvera12.JPG" class="img-thumbnail" />
-      </a>
-    </div>
-
-      
-
-    <div class="col-sm-6">
-      <a href="/assets/img/studentvera13.JPG">
-        <img src="/assets/img/studentvera13.JPG" class="img-thumbnail" />
-      </a>
-    </div>
-
-      
-
-    <div class="col-sm-6">
-      <a href="/assets/img/studentvera14.JPG">
-        <img src="/assets/img/studentvera14.JPG" class="img-thumbnail" />
-      </a>
-    </div>
-
-      
-
-    <div class="col-sm-6">
-      <a href="/assets/img/studentvera15.JPG">
-        <img src="/assets/img/studentvera15.JPG" class="img-thumbnail" />
-      </a>
-    </div>
-
-     
-  </div>
-
-   
+        
 </div>
 <div class="col-sm-2 pull-right card">
   <div class="card-header">Key Concepts:</div>
@@ -728,6 +502,31 @@
   
   <ul class="list-group">
     
+  </ul>
+  
+  <div class="card-header">Coding Functions:</div>
+  <ul class="list-group">
+     
+    <a href="https://p5js.org/reference/#/p5/save">
+      <li class="list-group-item">save()</li>
+    </a>
+      
+    <a href="https://p5js.org/reference/#/p5/random">
+      <li class="list-group-item">random()</li>
+    </a>
+      
+    <a href="https://p5js.org/reference/#/p5/randomSeed">
+      <li class="list-group-item">randomSeed()</li>
+    </a>
+      
+    <a href="https://p5js.org/reference/#/p5/noise">
+      <li class="list-group-item">noise()</li>
+    </a>
+      
+    <a href="https://p5js.org/reference/#/p5/noiseSeed">
+      <li class="list-group-item">noiseSeed()</li>
+    </a>
+     
   </ul>
   
 </div>
