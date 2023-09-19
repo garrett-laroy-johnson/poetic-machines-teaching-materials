@@ -1,0 +1,15 @@
+---
+layout: base.njk
+title: For Loop etudes
+weekNum: 0
+---
+
+<div class="col-sm-6">
+  <h1>{{title}}</h1>
+
+  {% for i in range(0, 5) -%}
+  <h2>for loop etude {{i+1}}</h2>
+  <img src="/assets/img/for-loop-etudes/{{i+1}}.png" />
+
+  {%- endfor %}
+</div>
