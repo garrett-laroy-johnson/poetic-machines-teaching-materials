@@ -1,7 +1,9 @@
 ---
 layout: week.njk
 title: Nested For Loops and Random
-weekNum: 4
+examples: 
+- type: p5
+  url: garrett.laroy.johnson/sketches/a0teAl9ar
 tags:
   - p5
   - intro
@@ -14,60 +16,12 @@ eleventyComputed:
   readings:
     - name: "{{ texts.p5.title }}"
       url: "{{ texts.p5.url }}"
-      description: Chapters 5. Response.
+      description: Chapters 3.
       img: "{{ texts.p5.img }} "
 sketch:
-  title: "Coding Sketch #3: Nested For Loop and Randomized Variation"
+  title: "Coding Sketch #3: Nested For Loops + Variations"
   text:
-    - Create an interface with a "button" and a dynamic background.
-    - this is not the "button" feature in p5*js -- don't use that reference material. Instead you will draw a shape (Use square, circle, triangle, or rectangle. Irregular shapes are not recommended!) that will serve as your button. Use an if/else statement to change the color of the button if your mouse is on top of the shape.
-    - Create a second color change if the mouse is pressed using the system variable mouseIsPressed and the else if constructor.
-    - Bonus. Use a second if/else statement to change the color of the background when the mouse is in a certain region of the canvas.
-  tips:
-    - In order for our program to know if our mouse is over our shape button, we will need to use mouseX, mouseY to input our mouse coordinates. We will also need to test to see if our mouse coordinates fall inside the coordinates of our shape. This will vary based on whether you choose a rectangle or a circle for your button. Check out the examples in the book for how to calculate these using 1) >, <, && logical operators inside an if statement in rectangles, or 2) the dist() function in circles.
-    - Use variables to define your colors ahead of time. Use a color picker app to get a color palette from a favorite site or artwork, or use a palette generator app. Be sure you are referencing colors correctly in either RGB or Hexcode.
-concepts:
-  - interactivity
-  - conditionals
-  - interface
-  - variables, states
-  - Boolean (true/false)
-  - logical comparisons
-functions:
-  - mousePressed
-  - dist
-  - map
-code:
-  - mouseX
-  - mouseY
-  - pmouseX
-  - pmouseY
-  - if-else
-  - mouseIsPressed
-  - ">"
-  - "<"
-  - "==="
-  - ">="
-  - "<="
-refExamples:
-  - input easing
-  - control conditionals 1
-  - control conditionals 2
-  - control logical operators (&&, ||, !)
-  - control logical operators 2 (&&, ||, !)
-  - control conditional shapes
-  - math map
-  - input constrain
-examples:
-  - type: p5 
-    url: garrett.laroy.johnson/sketches/V2I8hwHa0
-other:
-  - type: youtube
-    id: 1Osb_iGDdjk
-  - type: youtube
-    id: 7A5tKW9HGoM
-  - type: youtube
-    id: h279eYIROIM
-  - type: youtube
-    id: asvnmtVjeEk
+    - Create a nested for loop. Use it to draw shapes to the canvas (in a grid, or otherwise). 
+    - Add another factor to the for loop to change drawing parameters iteratively to distort the grid, change the color, or some other variations.
+
 ---

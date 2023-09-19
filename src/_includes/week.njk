@@ -132,6 +132,9 @@ goals:
 
   <script src="https://gist.github.com/{{ e.url }}.js"></script>
 
+  {% elif e.type == "p5collection" %}
+
+  <a href="{{e.url}}">{{e.name}}</a>
   {% elif e.type == "p5" %}
 
   <iframe
