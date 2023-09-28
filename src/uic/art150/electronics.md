@@ -1,0 +1,3 @@
+---
+layout: pcomp/electronics.njk
+---
