@@ -1,0 +1,3 @@
+---
+layout: pcomp/switches.njk
+---
