@@ -9,4 +9,7 @@ big:
   - name: ART 151
     subname: Introduction to Creative Coding for New Media Art
     url: art151
+  - name: ART 250
+    subname: More-Than-Human Sonic Ecologies
+    url: art250
 ---

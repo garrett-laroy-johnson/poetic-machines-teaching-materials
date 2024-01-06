@@ -1,5 +1,5 @@
 ---
-memberCollection: art151
+memberCollection: art250
 weekNum: 0
 tags: syllabus
 layout: UICsyllabus
@@ -7,15 +7,18 @@ title: Syllabus
 instructor: dr. garrett laroy johnson (he/they)
 email: glj@uic.edu
 term: Spring 2024
-time: "Monday & Wednesday 9:00am - 11:30am"
+time: "Monday & Wednesday 1:00 - 3:30pm"
 location: (see course schedule)
 description:
-  - This is a studio-based course that introduces students to computer programming with an emphasis on using creative practices to formulate new ideas. No previous programming experience is required. Students will develop a technical aptitude for generating dynamic and data-driven visual projects, and through a socio-historical analysis of computation, art and philosophy, contextualize their projects with an understanding of how computation has augmented how we make meaning from our visual environment. Composing a series of projects throughout the semester, students will experiment and develop their own strategies to develop and evaluate project rubrics and goals. Students will complete the class with a foundation of technical skills to pursue individual learning of more advanced programming, scripting, and web development. There are no prerequisites for this course.
+  - Sound and media art works at the edge of ecology. In fact, many artist and theorists are interested in how media and sound themselves are part of ecology.
+  - In this studio class, students will learn to program the nascent microcomputer Daisy. We will program Daisy ourselves using a patcher style visual programming language called Gen~ built inside of the sound program MaxMSP. Connecting potentiometers and LEDs we will work to create synthesizers for performances we design in response to natural and built environments. With compact microphones, light sensors, and speakers, we will create responsive media systems that form feedback loops with the surrounding ecology.
+  - Our studio practice will be enriched by readings and critiques of important artists working in this field, such as David Dunn, Hildegard von Westerkamp, Lauren Sarah Hayes, Francisco Lopez, among others.
   - The class will be taught as a series of lectures, discussions, tutorials, project work, and student critiques.
-  - Students are required to have a device that enables internet browsing and downloading large files.
+
 objectives:
-  - Acquire a vocabulary to unpack programming concepts and techniques with confidence.
-  - Critically examining how new media art is entangled in histories of culture and technology.
+  - Develop beginner familiarity with sound synthesis concepts
+  - Create custom configurations of software and hardware that respond artfully to a given site 
+  - Critically examine sound and acoustics' role in the built and natural environment 
   - Develop idiosyncratic processes to facilitate creatively engaging with computation
   - Produce a series of works from exercises to longer-term projects.
   - Productively discuss and critique peers’ work.

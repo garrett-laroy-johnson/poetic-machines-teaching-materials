@@ -5,6 +5,12 @@
     "url": "/assets/pdf/p5.pdf",
     "authors": "Lauren McCarthy, Casey Reas, Ben Fry"
   },
+  "go": {
+    "title": "Generating Sound and Organizing Time",
+    "img": "/assets/img/go.jpg",
+    "url": "https://cycling74.com/books/go",
+    "authors": "Gregory Taylor and Graham Wakefield"
+  },
   "nature": {
     "title": "Nature of Code",
     "img": "/assets/img/nature.jpg",
