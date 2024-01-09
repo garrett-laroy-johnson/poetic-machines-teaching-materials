@@ -24,11 +24,16 @@ grading:
   note: Department of Art, UIC
   contact: This class is a 4-hour credit course. During an average week, you will be expected to spend 3-5 hours on homework per class. Homework will primarily consist of assignment completions, project development, project documentation, and written assignments. See the UIC Contact / Credit hour policy for a detailed explanation for how homework time is calculated on a per-credit-hour basis.
   key:
-    a: A = outstanding accomplishment in all assignments (technically and conceptually), excellent engagement with ideas and materials, excellent participation in classroom community (vocal, inquisitive, and ALWAYS thoughtful), full attendance, exceptional progress in artistic process
-    b: B = above average accomplishment in all assignments, strong engagement with ideas and materials, work falls short of fully embodying the initial conceptual or formal impetus. during class, you are invested when you choose, but lack the rigor to ALWAYS be present in class. full attendance and above average progress
-    c: C = average accomplishment of all assignments, work submitted on time, some engagement with ideas and materials, some participation in classroom community, full attendance, average progress, Student shows lack of motivation and interest in thoroughly developing their skills as an artist, student, and citizen.
-    d: D = the work does not meet the assignments criteria, some assignments not completed or completed in a perfunctory manner, little engagement with ideas and materials, irregular or damaging participation in classroom community, irregular attendance, minimal progress
-    f: F = a number of assignments not completed or completed in a perfunctory manner, little or no evidence of engagement with ideas and materials, lack of participation in classroom community, failure to arrive prepared for class routinely, irregular attendance, little or no evidence of progress
+    - > 
+     A: Work is of exceptionally high quality both technically and conceptually. The student and work exhibits ambition that is successfully realized far beyond the level required and could not be improved in any way. The student takes big risks! The student is always on time and prepared, vocal in class, inquisitive, and clearly invested in what they are thinking about and making both in class and outside of class. The student takes copious notes and refers to their notes regularly. Projects must show significant growth between class periods. The student must display significant growth over the course of the semester through risk, experimentation, and care for their work and what they are learning. 
+    - > 
+     B: Work is of good effort with creative ideas, but not accomplished to fully embody the initial conceptual or formal impetus. The student and their work display little risk in creative execution of projects and remains steadfast in their familiar ways of working and thinking. Ideas are safe and predictable. The student takes notes randomly and hardly refers to them. The student is on time but scattered and less prepared. 
+    - > 
+     C: Work is average, the assignments have been fulfilled and on time but with minimal effort. Barely meets the requirements of the assignment with little or no regard for the depth of the artist’s known potential. Predictably late and unprepared for class, often not taking any notes or making effort to remember what was said in class. The student is quiet during conversations and little work is being done outside of class.
+    - > 
+     D: The work does not meet the assignment’s criteria, and/or is incomplete at critique time. The student has poor attendance, is absent minded in lectures and conversations, and shows little to no work being done outside of class.
+    - > 
+     F: Failure to complete projects, or to participate in critique, or failure to arrive prepared for class routinely.
   breakdown:
     - 18% - Coding Sketches
     - 18% - Project 1
@@ -37,15 +42,11 @@ grading:
     - 18% - Group Presentation
     - 10% - Participation
 attendance:
-  description: Attendance is required. Students are expected to attend all classes and be present for the full duration of each class. In class time is for instruction. When possible, instructors will make time for students to work independently on projects. Unless special permission is granted by the instructor, students are required to remain in class during this independent work time. Announcements and directions will be given at the beginning of class so it is important that you arrive on time. Absences, late arrivals, and leaving class early will reflect negatively on your grade. Communicate with your instructors if there are serious or extenuating circumstances that prevent you from arriving on time or from participating fully. Be prepared to present a doctor’s note if an absence is due to illness.
-  rubric:
-    - Maximum = two unexcused absences for the semester.
-    - Three unexcused absences = your grade will drop by one letter grade.
-    - One letter grade will be dropped for each additional unexcused absence.
-    - Five or more unexcused absences = automatic failure of the course.
-    - Missing class on a scheduled presentation or critique day is equivalent to not having your work ready. - It will result in a failing grade for that assignment.
-    - Three late arrivals or early departures will count as one absence.
-  makeup: For any absence to be considered excused, you will need to document 2 hours research, coding, or otherwise experimenting with creative code. Documentation can be a PDF that logs every 15 minutes with links to tutorials, coding screen shots, or similar.  
+  description: 
+  - This is a studio course built on active participation, making together, thinking together, and learning from one another. If you are not in class, then you cannot participate. Therefore, students are expected to attend all scheduled classes for the full duration of the course. Three unexcused absences will lower your final grade by one full letter. Excessive absences would be considered four or more and may be cause for failure in the course. Two tardies, or leaving class early, or stepping out for long durations during class time (20 minutes or more) constitutes one absence. Any absence beyond two, that is not an excused absence, will affect your grade. Excused absences are only missed classes due to the death of an immediate family member, observation of a religious holiday, hospitalization, contagious sickness, or a victim of a crime, all of which should be accompanied by appropriate documentation provided to your professor within a week of the absence. All other reasons for missing class are considered unexcused. 
+  - Please note that if you communicate with your professor in advance about a class to which you will be absent, that does not mean the absence is excused. Only the reasons written above, with documentation, yield an absence as excused. Also, if you have a friend in the same class who is, on your behalf, letting your professor know that you are running late, you will still be marked tardy. 
+  - Please also note that it is your responsibility to track your attendance, to remain aware of it, and to communicate with your professor if you become concerned. Your professor will be taking attendance every class period, but it is not their obligation to communicate with you if your grade is being affected by your attendance.
+
 assignments: Assignments are always due on the day they are DUE. Late work is not acceptable because of the fact that in-class activities are often closely tied to sharing and discussing assignments. Late work undermines your own learning as well as the learning community of the class as a whole.
 accomodation:
   - Guided by the belief that people with disabilities are assets to the University, UIC is committed to full inclusion and participation of people with disabilities in all aspects of university life. We seek to provide an academic, social, and physical environment that makes disabled people integral to the diversity of perspectives that is vital to an academic community.

@@ -32,9 +32,9 @@ weekNum: 0
 
   <h3>Grading Key</h3>
   <ul class="list-group">
-    {% for item in grading.key%}
+    {% for i in grading.key%}
     <li class="list-group-item">
-      {{ item }}
+      {{ i }}
     </li>
     {% endfor %}
   </ul>
@@ -49,9 +49,11 @@ weekNum: 0
   </ul>
   {% endif %}
   <h3>Attendance</h3>
-  <p>
-    {{ attendance.description }}
-  </p>
+
+  {% for l in attendance.description %}
+  <p>{{ l }}</p>
+  {% endfor %}
+
   <ul>
     {% for item in attendance.rubric %}
     <li>{{ item }}</li>
