@@ -23,6 +23,16 @@ weekNum: 0
     <li>{{ o }}</li>
     {% endfor %}
   </ul>
+
+  {% if dates %}
+  <h3>Important Dates</h3>
+  <ul class="list-group">
+    {% for d in dates%}
+    <li class="list-group-item">{{d}}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+
   <h2>GRADING, ATTENDANCE, PRIVACY, AND ACCOMODATION POLICIES</h2>
   {% if grading.note%}
   <h5>{{ grading.note }}</h5>

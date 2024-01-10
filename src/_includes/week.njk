@@ -85,20 +85,20 @@ goals:
     <div class="col-md-12 col-lg-6">
       <div class="card">
         <div class="row">
-          <div class="col-6">
+          <div class="col-12">
             {% if r.img %}
             <img src="{{ r.img }}" alt="Card image cap" class="img-fluid" />
             {% else %}
             <i class="fa-book"></i>
             {% endif %}
           </div>
-          <div class="col-6">
+          <div class="col-12">
             <div class="card-body">
               <h5 class="card-title">{{ r.name }}</h5>
               <p class="card-text">
                 {{ r.description }}
               </p>
-              <a href="{{ r.url }}" class="btn btn-primary">text</a>
+              <a href="{{ r.url }}" class="btn btn-dark">LINK</a>
             </div>
           </div>
         </div>
