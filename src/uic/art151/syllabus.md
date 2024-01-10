@@ -20,12 +20,13 @@ objectives:
   - Produce a series of works from exercises to longer-term projects.
   - Productively discuss and critique peers’ work.
   - Connect technical skills to critical thinking to create meaningful artistic compositions.
-breakdown:
-    - 18% - Coding Sketches
-    - 18% - Project 1
-    - 18% - Project 2
-    - 18% - Project 3
-    - 18% - Group Presentation
-    - 10% - Participation
+grading: 
+  breakdown:
+      - 18% - Coding Sketches
+      - 18% - Project 1
+      - 18% - Project 2
+      - 18% - Project 3
+      - 18% - Group Presentation
+      - 10% - Participation
 
 ---
