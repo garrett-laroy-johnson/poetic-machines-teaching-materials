@@ -4,7 +4,7 @@ weekNum: 0
 title: GitHub Repository
 ---
 
-# {title}
+# {{title}}
 
 Throughout the course, the instructor will create Gen~ examples that they will share via a GitHub Repository.
 
