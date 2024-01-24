@@ -107,6 +107,41 @@ goals:
 
     {% endfor %}
   </div>
+  {% endif %} {% if listenings %}
+  <h3>Listenings</h3>
+  <div class="row masonry" data-masonry='{"percentPosition": true }'>
+    {% for l in listenings%} {% if l.type == "youtube" %}
+    <div class="col-md-6 card" style="padding: 10px">
+      <div class="ratio ratio-16x9">
+        <iframe
+          src="https://youtube.com/embed/{{ l.id }} "
+          frameborder="0"
+          allow="fullscreen"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+    {% elif l.type == "link" %}
+    <div class="col-md-6 card" style="padding: 10px">
+      <a href="{{ l.url }}">
+        <div class="card-header">{{ l.name }}</div>
+      </a>
+    </div>
+
+    {% elif o.type == "links" %}
+    <div class="col-md-6 card" style="padding: 10px">
+      <div class="card-header">{{ o.name }}</div>
+      <ul class="list-group list-group-flush">
+        {% for o in l.links %}
+        <a href="{{ o.url }}">
+          <li class="list-group-item">{{ o.name }}</li>
+        </a>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif%} {% endfor%}
+  </div>
+
   {% endif %} {% if examples %}
   <h3>Examples</h3>
   {% for e in examples %} {% if e.type == "makecode"%}
