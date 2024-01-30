@@ -1,0 +1,25 @@
+---
+weekNum: 0
+title: Schedule
+layout: base
+---
+
+<div class="col-sm-6">
+  <h1>schedule</h1>
+
+  {% for u in units %}
+  <hr />
+  <h2>{{u.title}}</h2>
+  {% for w in u.weeks %}
+  <h5>Week {{ w.num }}: {{w.topic}}</h5>
+  <ul>
+    {% for r in w.readings%} {% if r.link%}
+    <a href="{{r.link}}">
+      <li>{{ r.title }}</li>
+    </a>
+    {% else %}
+    <li>{{ r.title }}</li>
+    {%endif%} {%endfor%}
+  </ul>
+  {% endfor %} {% endfor %}
+</div>
