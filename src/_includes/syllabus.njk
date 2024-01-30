@@ -40,17 +40,22 @@ weekNum: 0
   <h3>Contact / Credit Hour Policies</h3>
   <p>{{ grading.contact }}</p>
 
+  {% if grading.key %}
   <h3>Grading Key</h3>
   <ul class="list-group">
     {% for i in grading.key%}
-    <li class="list-group-item">
-      {{ i }}
-    </li>
+    <li class="list-group-item">{{ i.label}} {{i.description}}</li>
     {% endfor %}
   </ul>
 
-  *NOTE - Merely turning in all assignments is not a guarantee of receiving
-  credit. {% if grading.breakdown %}
+  {% endif %}
+
+  <p>
+    *NOTE - Merely turning in all assignments is not a guarantee of receiving
+    credit.
+  </p>
+
+  {% if grading.breakdown %}
   <h3>Grading by Assignment</h3>
   <ul class="list-group">
     {% for item in grading.breakdown %}
@@ -69,10 +74,13 @@ weekNum: 0
     <li>{{ item }}</li>
     {% endfor %}
   </ul>
+  {% if attendance.makeup %}
   <h5>makeup work for excused absences</h5>
   <p>
     {{ attendance.makeup }}
   </p>
+
+  {% endif %}
   <h2>Class schedule</h2>
   <p>
     This syllabus is only a general guideline for the course. The schedule will
