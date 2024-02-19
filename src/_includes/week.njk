@@ -107,7 +107,11 @@ goals:
 
     {% endfor %}
   </div>
-  {% endif %} {% if listenings %}
+  {% endif %}
+
+  {{ content | safe}}
+
+  {% if listenings %}
   <h3>Listenings</h3>
   <div class="row masonry" data-masonry='{"percentPosition": true }'>
     {% for l in listenings%} {% if l.type == "youtube" %}

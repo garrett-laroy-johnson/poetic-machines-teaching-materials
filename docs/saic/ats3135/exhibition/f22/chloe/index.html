@@ -418,7 +418,43 @@
   </ul>
   <h2>Homework</h2>
 
-        
+    
+
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="request.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <div>
+      <h1 class="text-center">RIG</h1>
+        <p class="text-center">Random Image Generator</p>
+        <p><b>RIG (Random Image Generator)</b> (2022) is an in-progress custom library that generates random images based off of a specified parameters set by the user.<br><br>RIG does a search through Commons Wikimedia and grabs images off the site for creators to use in their p5.js sketches.</p>
+        <p><b>How to Use:</b> Once the library is imported into your p5.js sketch environment, creators can use the function <span class="code-text">RIG().then(function(result) {};</span><br><br>Here is an example sketch below:<br></p>
+        <p class="code-block">
+          let frog_img;<br><br>function setup() {<br><span class="code-indent">RIG("frog", 1).then(function(result) {</span><br><span class="code-indent-2">frog_img = result;</span><br>});<br><br><span class="code-indent">createCanvas(400, 400);</span><br>}<br><br>function draw(){<br><span class="code-indent">background(220);</span><br><br><span class="code-indent">if (typeof frog_img != "undefined") {</span><br><span class="code-indent-2">frog_img.createImage(50, 50);<br></span><span class="code-indent">}</span><br><br>}
+        </p>
+        <img class="code-canvas" src="/first-ex.png">
+        <p>First in the <span class="code-text">setup()</span> function we want to use or <span class="code-text">RIG()</span> function and use the <span class="code-text">.then</span> action to set our random generated image result to be a set to a variable we can use in the <span class="code-text">draw()</span> function</p>
+        <p>The <span class="code-text">RIG()</span> function requires two parameters which are a text entry for the random image to be based off and number value to change the random image.</p>
+        <p>Once we have our <span class="code-text">RIG()</span> result set to a variable we will then want to draw our image using an <span class="code-text">if</span> statement to check if the variable has been set yet. After the result has been sent then we can use the <span class="code-text">.createImage</span> function which can take a <span class="code-text">x</span> and <span class="code-text">y</span> parameters for canvas placement.</p>
+        <video class="code-canvas" autoplay loop>
+          <source src="frog_img.mp4" type="video/mp4">
+        </video>
+    </div>
+    </main>
+<!--     <script src="sketch.js"></script> -->
+  </body>
+</html>
+
+
+     
 </div>
 <div class="col-sm-2 pull-right card">
   <div class="card-header">Key Concepts:</div>
