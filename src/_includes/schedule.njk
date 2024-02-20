@@ -6,8 +6,17 @@ layout: base
 
 <div class="col-sm-6">
   <h1>schedule</h1>
-  {% for w in weeks %}
+  {% for w in weeks %} {% if semester == "summer" %}
+
+  <h4>Day {{ loop.index }}</h4>
+
+  {% else %}
+
   <h4>Week {{ loop.index }}</h4>
+
+  {% endif %}
+
   <p>{{ w }}</p>
+
   {% endfor %}
 </div>

@@ -1,5 +1,6 @@
 ---
 layout: schedule.njk
+semester: summer 
 weeks:
   - Welcome! 
   - Intro to Sound & Synthesis

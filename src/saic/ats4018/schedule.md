@@ -28,10 +28,11 @@ units:
       - num: 5 
         topic: Freud Revivalism
         readings: 
-          - title: The Freudian Robot. Lydia Liu, 2010. Selection TBA
-            url: http://www.google.com
-          - title: Anxiety. Jacques Lacan, 1970.
-            url:  www.google.com
+          - title: The Freudian Robot. Lydia Liu, 2010. Chapter 5, pgs 201-248.
+            link: /assets/pdf/the-freudian-robot.pdf
+          - title: > 
+              "Anxiety in the Net of Signifiers". Anxiety. Jacques Lacan, 1970.pgs. 1-16.
+            link:  /assets/pdf/anxiety-lacan.pdf
       - num: 6 
         topic: Hyperstition (+ Generative HTML Workshop)
         readings: 

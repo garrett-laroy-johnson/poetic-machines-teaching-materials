@@ -6,7 +6,7 @@ layout: base
 
 <div class="col-sm-6">
   <h1>schedule</h1>
-
+  {{ content | safe}}
   {% for u in units %}
   <hr />
   <h2>{{u.title}}</h2>
