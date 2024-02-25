@@ -1,0 +1,7 @@
+- Develop beginner familiarity with sound synthesis concepts
+- Create custom configurations of software and hardware that respond artfully to a given site
+- Critically examine sound and acoustics' role in the built and natural environment
+- Develop idiosyncratic processes to facilitate creatively engaging with computation
+- Produce a series of works from exercises to longer-term projects.
+- Productively discuss and critique peers’ work.
+- Connect technical skills to critical thinking to create meaningful artistic compositions.

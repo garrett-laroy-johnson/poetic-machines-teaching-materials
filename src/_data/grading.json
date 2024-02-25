@@ -1,0 +1,16 @@
+{
+  "saic": {
+    "contact6": "This class is a 3-hour credit course. During an average week, you will be expected to spend 3 hours on homework per class. Homework will primarily consist of assignment completions, project development, project documentation, and written assignments. See the SAIC Contact / Credit hour policy for a detailed explanation for how homework time is calculated on a per-credit-hour basis.",
+    "contact3": "This class is a 3-hour credit course. During an average week, you will be expected to spend 6 hours on homework per class. Homework will primarily consist of assignment completions, project development, project documentation, and written assignments. See the SAIC Contact / Credit hour policy for a detailed explanation for how homework time is calculated on a per-credit-hour basis.",
+    "key": [
+      {
+        "label": "(cr) credit received =",
+        "description": "you have completed all projects, coding sketches, and relevant group projects. Your assignments reflect your own learning of the assigned readings that week, while also demonstrating the growth of your own expressive style. You have missed a maximum of two unexcused absences."
+      },
+      {
+        "label": "(ncr) no credit received =",
+        "description": "you have not completed all projects, coding sketches, or relevant group projects. Or, you may have completed these, but not reflected your own learning or growth in the process. Or, you have more than two unexcused absences."
+      }
+    ]
+  }
+}

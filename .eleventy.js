@@ -1,9 +1,18 @@
+// Note: You do not need to add markdown-it to package.json.
+let markdown = require("markdown-it")({
+  html: true,
+});
+
 module.exports = function (eleventyConfig) {
   // Create the filter function.
   function sortByName(values) {
     let vals = values;
     return vals.sort((a, b) => Math.sign(a.data.order - b.data.order));
   }
+  eleventyConfig.addNunjucksShortcode(
+    "markdown",
+    (content) => `<div class="md-block">${markdown.render(content)}</div>`
+  );
   eleventyConfig.addPassthroughCopy("src/assets/css/");
   eleventyConfig.addWatchTarget("src/assets/css/");
   eleventyConfig.addFilter("sortByName", sortByName);
@@ -23,6 +32,21 @@ module.exports = function (eleventyConfig) {
     "./node_modules/bootstrap/dist/css/bootstrap.min.css":
       "/assets/css/bootstrap.css",
   });
+  eleventyConfig.addShortcode(
+    "syllabusHeader",
+    (course, instructor, time, term, location) =>
+      `<div class="col-sm-6">
+        <div class="py-2">
+          <h1> ${course} </h1>
+          <ul class="list-group">
+            <li class="list-group-item">instructor: ${instructor}</li>
+            <li class="list-group-item">time: ${time}</li>
+            <li class="list-group-item">term: ${term}</li>
+            <li class="list-group-item">location: ${location}</li>
+          </ul>
+        </div>`
+  );
+
   return {
     dir: {
       input: "src",

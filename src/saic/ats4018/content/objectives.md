@@ -1,0 +1,5 @@
+- Motivate an arts-research perspective which intertwines theoretical analysis and proposition with practice-based speculation and world-making
+- Create a feedback loop between the social, political, and psychological accounts of anxiety and art-making practice
+- Develop familiarity and facility in thinking both contemporary and 20th century on topics of subjectivity, psyche, unconscious and anxiety.
+- Update accounts of new media in light of media philosophical accounts of mind and information
+- Leave with confidence in using theory in discussion of art practices

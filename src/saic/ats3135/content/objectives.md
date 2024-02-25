@@ -1,0 +1,6 @@
+- Instructive experimentation in the realm of 1. Simulation & Games 2. approaches to interactive art 3. creative coding and data visualization 4. networked interactivity 5. computer vision and motion analysis
+- Experience with computational thinking that you will be able to use to understand the technical systems of everyday life.
+- Intermediate fluency with p5\*js (to a lesser extent HTML & CSS), including advanced libraries for specialized applications.
+- Expressive facility in an aesthetic domain with these skills.
+- Experience thinking and speaking critically and creatively about topics in art and technology informed by contemporary theoretical work
+- Honing rapid prototyping skill through lower resolution iterations
