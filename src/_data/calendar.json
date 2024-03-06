@@ -1,5 +1,15 @@
 {
-  "uic": {},
+  "uic": {
+    "s24": [
+      "January 8, M Instruction begins.",
+      "January 15, M Martin Luther King Jr. Day. No classes.",
+      "March 18-22, M-F Spring vacation. No classes.",
+      "April 26, F Instruction ends.",
+      "April 29-May 3, M-F Final examinations.",
+      "May 8, W Instructor grading deadline for 16-week courses (5 p.m.)",
+      "May 13, M Grades available via my.UIC.edu"
+    ]
+  },
   "saic": {
     "s24": [
       "February 7, W. Add/drop ends.",

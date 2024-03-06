@@ -1,137 +1,64 @@
 ---
 layout: base.njk
-title: Materials
-weekNum: 0
+title: Syllabus
 ---
 
-<div class="col-sm-6">
-  <h1>{{ course }}</h1>
-  <ul class="list-group">
-    <li class="list-group-item">instructor: {{ instructor }}</li>
-    <li class="list-group-item">time: {{ time }}</li>
-    <li class="list-group-item">term: {{ term }}</li>
-    <li class="list-group-item">location: {{ location }}</li>
-  </ul>
 
-  <h2>CLASS DESCRIPTION</h2>
-  {% for d in description %}
-  <p>{{ d }}</p>
+{# course header #}
+{% syllabusHeader course, instructor, time, term, location %}
+{# course description #}
+{% set snippet %}
+{% include "/src/uic/art151/content/description.md" %} 
+{% endset %}
+{% markdown snippet %}
+
+<h2>LEARNING OBJECTIVES</h2>
+{% set snippet %}
+{# {% include objectives ignore missing%}  #}
+{% endset %} 
+{% markdown snippet %}
+
+<h3>Important Dates</h3>
+<ul class="list-group">
+  {% for d in calendar %}
+  <li class="list-group-item">{{d}}</li>
   {% endfor %}
-  <h2>LEARNING OBJECTIVES</h2>
-  <ul>
-    Students will: {% for o in objectives %}
-    <li>{{ o }}</li>
-    {% endfor %}
-  </ul>
+</ul>
 
-  {% if dates %}
-  <h3>Important Dates</h3>
-  <ul class="list-group">
-    {% for d in dates%}
-    <li class="list-group-item">{{d}}</li>
-    {% endfor %}
-  </ul>
-  {% endif %}
+<h2>GRADING, ATTENDANCE, PRIVACY, AND ACCOMODATION POLICIES</h2>
+{% if grades.note%}
+<h5>{{ grades.note }}</h5>
+{% endif %}
+<h3>Contact / Credit Hour Policies</h3>
+<p>{{ grades.contact }}</p>
 
-  <h2>GRADING, ATTENDANCE, PRIVACY, AND ACCOMODATION POLICIES</h2>
-  {% if grading.note%}
-  <h5>{{ grading.note }}</h5>
-  {% endif %}
-  <h3>Contact / Credit Hour Policies</h3>
-  <p>{{ grading.contact }}</p>
+{% if grades.key %}
 
-  {% if grading.key %}
-  <h3>Grading Key</h3>
-  <ul class="list-group">
-    {% for i in grading.key%}
-    <li class="list-group-item">{{ i.label}} {{i.description}}</li>
-    {% endfor %}
-  </ul>
-
-  {% endif %}
-
-  <p>
-    *NOTE - Merely turning in all assignments is not a guarantee of receiving
-    credit.
-  </p>
-
-  {% if grading.breakdown %}
-  <h3>Grading by Assignment</h3>
-  <ul class="list-group">
-    {% for item in grading.breakdown %}
-    <li class="list-group-item">{{ item }}</li>
-    {% endfor %}
-  </ul>
-  {% endif %}
-  <h3>Attendance</h3>
-
-  {% for l in attendance.description %}
-  <p>{{ l }}</p>
+<h3>Grading Key</h3>
+<ul class="list-group">
+  {% for i in grades.key%}
+  <li class="list-group-item">{{ i.label}} {{i.description}}</li>
   {% endfor %}
+</ul>
 
-  <ul>
-    {% for item in attendance.rubric %}
-    <li>{{ item }}</li>
-    {% endfor %}
-  </ul>
-  {% if attendance.makeup %}
-  <h5>makeup work for excused absences</h5>
-  <p>
-    {{ attendance.makeup }}
-  </p>
+{% endif %}
 
-  {% endif %}
-  <h2>Class schedule</h2>
-  <p>
-    This syllabus is only a general guideline for the course. The schedule will
-    change depending on class performance during the semester. Adjustments will
-    be announced during class time when changes occur.
-  </p>
-  <h2>Assignments</h2>
-  <p>
-    {{ assignments }}
-  </p>
-  <h2>Cell phones and other digital communications</h2>
-  <p>
-    During class time, it is not appropriate to make or receive phone calls;
-    view or send texts, direct messages, or e-mails; use the internet for any
-    purpose unrelated to the course content. You may be asked to leave the
-    classroom if you do. “Mental absence” due to cell phone, web surfing, or
-    social media distractions will be counted as missed class time (ie, an
-    absence), and will contribute to the lowering of your grade.
-  </p>
-  <h2>Accommodation for Disabilities</h2>
-  {% for item in accomodation%}
-  <p>{{ item }}</p>
+<h3>Attendance</h3>
+
+  {% for i in attendance.description%}
+<p>{{i}}</p>
   {% endfor %}
-  <h2>Philosophy of Inclusivity</h2>
-  <p>
-    Education is transformative, and open intellectual inquiry is the foundation
-    of a university education and a democratic society. In the spirit of shared
-    humanity and concern for our community and world, I as an instructor
-    celebrate diversity as central to our mission and affirm our solidarity with
-    those individuals and groups most at risk. In line with these goals, I
-    disavow all racism, xenophobia, homophobia, sexism, Islamophobia,
-    anti-Semitism, classism, ableism, and hate speech or actions that attempt to
-    silence, threaten, and degrade others.
-  </p>
+ <h5>makeup</h5>
+  <p>{{attendance.makeup}}</p>
 
-  <p>
-    As an educator, I affirm that language and texts, films and stories help us
-    to understand the experiences of others whose lives are different from ours.
-    I value critical reasoning, evidence-based arguments, self-reflection, and
-    the imagination. Building on these capacities, I hope to inspire empathy,
-    social and environmental justice, and an ethical framework for our actions.
-    I advocate for a diverse campus, community, and nation inclusive of racial
-    minorities, women, immigrants, the LGBTQ+ community, and people of all
-    religious faiths.
-  </p>
-  <p>
-    (amended from the
-    <a
-      href="https://cetlss.appstate.edu/inclusive-excellence/inclusive-teaching-lab/inclusive-syllabus-framework/sample-syllabi-statements"
-      >Appalachian State University Department of English website</a
-    >)
-  </p>
-  {{ content | safe }}
-</div>
+{% if grading.breakdown %}
+
+<h3>Grading by Assignment</h3>
+<ul class="list-group">
+  {% for item in grading.breakdown %}
+  <li class="list-group-item">{{ item }}</li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+{# {% include stock ignore missing%} #}

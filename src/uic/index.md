@@ -12,4 +12,7 @@ big:
   - name: ART 250
     subname: More-Than-Human Sonic Ecologies
     url: art250
+  - name: ART 520
+    subname: Anthropocene Theory
+    url: art520  
 ---

@@ -1,0 +1,6 @@
+- Acquire a vocabulary to unpack programming concepts and techniques with confidence.
+- Critically examining how new media art is entangled in histories of culture and technology.
+- Develop idiosyncratic processes to facilitate creatively engaging with computation
+- Produce a series of works from exercises to longer-term projects.
+- Productively discuss and critique peers’ work.
+- Connect technical skills to critical thinking to create meaningful artistic compositions.

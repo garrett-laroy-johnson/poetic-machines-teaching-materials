@@ -1,0 +1,2 @@
+- 50% Project 1
+- 50% Project 2

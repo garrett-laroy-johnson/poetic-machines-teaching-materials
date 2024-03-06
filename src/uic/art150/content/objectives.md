@@ -1,0 +1,4 @@
+- Draw inspiration from the history of artists and designers who explore ideas and applications of interactivity
+- Gain practical experience with basic electronics, coding, and other techniques related to digital art production
+- Develop experimental art, interactive objects, and responsive environment projects based on conceptual assignments
+- Research digital and experimental artworks and trends
