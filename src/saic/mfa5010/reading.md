@@ -1,6 +1,7 @@
 ---
 weekNum: 0
-layout: seminarSchedule.njk
+layout: base.njk
+title: Readings
 ---
 
 Berardi, Bifo. “Unheimlich: The Spiral of Chaos and the Cognitive Automaton.” E-Flux Journal (March 2023).
