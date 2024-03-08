@@ -16,5 +16,5 @@ big:
     url: ats4018
   - name: MFA 5010
     subname: Chaosmotic Systems
-    url: mfa5010
+    url: MFA5010
 ---
