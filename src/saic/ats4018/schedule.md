@@ -44,13 +44,17 @@ units:
             topic: The Long 20th Century of the Self
             readings: 
               - title: Adam Curtis. Century of the Self. 2002.
+                link: https://www.youtube.com/watch?v=DnPmg0R1M04
               - title: > 
                     The Extreme Self: The Age of You, Douglas Coupland, Hans Ulrich Obrist, Shuman Basar, 2021. (see also The Medium is the Massage, Marshall McLuhan Quinton Fiore, 1968).
+                link: /assets/pdf/theextremeself.pdf
           - num: 8
             topic: The Self as Technology 
             readings:
              - title: Technologies of the Self, Michele Foucault, 1988
+               link: https://monoskop.org/images/0/03/Technologies_of_the_Self_A_Seminar_with_Michel_Foucault.pdf
              - title: Gilles Deleuze. Postscript on the Societies of Control, 1992.
+               link: https://genius.com/Gilles-deleuze-postscript-on-the-societies-of-control-annotated
           - num: 9
             topic: Media Ecology
             readings: 
