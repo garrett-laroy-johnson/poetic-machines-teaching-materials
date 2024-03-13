@@ -48,22 +48,21 @@ units:
               - title: > 
                     The Extreme Self: The Age of You, Douglas Coupland, Hans Ulrich Obrist, Shuman Basar, 2021. (see also The Medium is the Massage, Marshall McLuhan Quinton Fiore, 1968).
                 link: /assets/pdf/theextremeself.pdf
-          - num: 8
+          - num: 8 
+            topic: NO CLASS
+          - num: 9
             topic: The Self as Technology 
             readings:
              - title: Technologies of the Self, Michele Foucault, 1988
                link: https://monoskop.org/images/0/03/Technologies_of_the_Self_A_Seminar_with_Michel_Foucault.pdf
              - title: Gilles Deleuze. Postscript on the Societies of Control, 1992.
                link: https://genius.com/Gilles-deleuze-postscript-on-the-societies-of-control-annotated
-          - num: 9
-            topic: Media Ecology
+          - num: 10
+            topic: Speculative Post-media (HTML -> Zine workshop)
             readings: 
-              - title: Media Ecologies, Matthew Fuller, 2005. Selections.
               - title: > 
                  "Towards a Postmedia Era" by Felix Guattari
-          - num: 10
-            topic: Critical Making (Creative Coding + Risograph Workshop)
-            readings: 
+                link: https://www.metamute.org/sites/www.metamute.org/files/u1/a-post-media-anthology-mute-books-9781906496944-web-fullbook.pdf
               - title: > 
                  "Critical Making" by Shannon Butts.
                 link: https://wac.colostate.edu/docs/books/design/chapter12.pdf
