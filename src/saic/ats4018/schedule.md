@@ -59,7 +59,7 @@ units:
               - title: Gilles Deleuze. Postscript on the Societies of Control, 1992.
                 link: https://genius.com/Gilles-deleuze-postscript-on-the-societies-of-control-annotated
           - num: 10
-            topic: Speculative Post-media (HTML -> Zine workshop)
+            topic: Critical Media (HTML -> Zine workshop)
             readings: 
              - title: Technologies of the Self, Michele Foucault, 1988
                link: https://monoskop.org/images/0/03/Technologies_of_the_Self_A_Seminar_with_Michel_Foucault.pdf
