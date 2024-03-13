@@ -51,24 +51,24 @@ units:
           - num: 8 
             topic: NO CLASS - Spring Break
           - num: 9
-            topic: The Self as Technology 
+            topic: Which Way, Western Man? Societies of Control, or the Post-Media Era?
             readings:
-             - title: Technologies of the Self, Michele Foucault, 1988
-               link: https://monoskop.org/images/0/03/Technologies_of_the_Self_A_Seminar_with_Michel_Foucault.pdf
-             - title: Gilles Deleuze. Postscript on the Societies of Control, 1992.
-               link: https://genius.com/Gilles-deleuze-postscript-on-the-societies-of-control-annotated
+              - title: > 
+                  "Towards a Postmedia Era" by Felix Guattari
+                link: https://www.metamute.org/sites/www.metamute.org/files/u1/a-post-media-anthology-mute-books-9781906496944-web-fullbook.pdf
+              - title: Gilles Deleuze. Postscript on the Societies of Control, 1992.
+                link: https://genius.com/Gilles-deleuze-postscript-on-the-societies-of-control-annotated
           - num: 10
             topic: Speculative Post-media (HTML -> Zine workshop)
             readings: 
-              - title: > 
-                 "Towards a Postmedia Era" by Felix Guattari
-                link: https://www.metamute.org/sites/www.metamute.org/files/u1/a-post-media-anthology-mute-books-9781906496944-web-fullbook.pdf
-              - title: > 
+             - title: Technologies of the Self, Michele Foucault, 1988
+               link: https://monoskop.org/images/0/03/Technologies_of_the_Self_A_Seminar_with_Michel_Foucault.pdf
+             - title: > 
                  "Critical Making" by Shannon Butts.
-                link: https://wac.colostate.edu/docs/books/design/chapter12.pdf
-              - title: >
+               link: https://wac.colostate.edu/docs/books/design/chapter12.pdf
+             - title: >
                    "What is Critical Making?" by Garnet Hertz
-                link: https://current.ecuad.ca/what-is-critical-making
+               link: https://current.ecuad.ca/what-is-critical-making
   - title: World as Anxiety and the Speculative Media Arts  
     weeks:      
            - num: 11
