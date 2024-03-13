@@ -49,7 +49,7 @@ units:
                     The Extreme Self: The Age of You, Douglas Coupland, Hans Ulrich Obrist, Shuman Basar, 2021. (see also The Medium is the Massage, Marshall McLuhan Quinton Fiore, 1968).
                 link: /assets/pdf/theextremeself.pdf
           - num: 8 
-            topic: NO CLASS
+            topic: NO CLASS - Spring Break
           - num: 9
             topic: The Self as Technology 
             readings:
@@ -83,17 +83,15 @@ units:
                     "World as Medium" by Andrew Murphie. 2022. 
                   link: https://www.researchgate.net/publication/329577280_The_World_As_Medium_A_Whiteheadian_Media_Philosophy
            - num: 13
-             topic: Anxiety As Process
+             topic: Anxiety As Process (+ Generative Zine Workshop)
              readings: 
                 - title: In Individuation in Light of Notions of Form and Information. Gilbert Simondon. 2021. Selections.
            - num: 14
-             topic: Cosmic Anxiety, Anxiety as a Clue
+             topic: No Class - Critique Week
              readings: 
-               - title: > 
-                   Chapter 2 of Diagrammatic Media. Garrett Johnson. 2022. 
                  link: https://keep.lib.asu.edu/items/171591
            - num: 15
-             topic: Speculative Design (+ Generative Zine Workshop)
+             topic: Speculative Design 
              readings: 
                - title: Speculative Everything by Anthony Dunne and Fiona Raby, 2015.
                  link: https://readings.design/PDF/speculative-everything.pdf 
