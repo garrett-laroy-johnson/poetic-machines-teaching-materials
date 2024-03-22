@@ -86,7 +86,8 @@ units:
            - num: 13
              topic: Anxiety As Process (+ Generative Zine Workshop)
              readings: 
-                - title: In Individuation in Light of Notions of Form and Information. Gilbert Simondon. 2021. Selections.
+                - title: In Individuation in Light of Notions of Form and Information. Gilbert Simondon. 2021. Introduction + "Anxiety", pg 282-285.
+                  link: "/assets/pdf/simondon-individuation.pdf" 
            - num: 14
              topic: No Class - Critique Week
              readings: 
