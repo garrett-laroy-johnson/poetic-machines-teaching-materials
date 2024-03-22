@@ -32,7 +32,7 @@ units:
             link: /assets/pdf/the-freudian-robot.pdf
           - title: > 
               "Anxiety in the Net of Signifiers". Anxiety. Jacques Lacan, 1970.pgs. 1-16.
-            link:  /assets/pdf/anxiety-lacan.pdf
+            link: "/assets/pdf/anxiety-lacan.pdf"
       - num: 6 
         topic: Hyperstition (+ Generative HTML Workshop)
         readings: 
@@ -75,7 +75,8 @@ units:
              topic: The Space of Anxiety 
              readings: 
               - title: >
-                  “Anxiety and Curiosity.” Landscapes of Fear. Yi-Fu Tuan. 1980.
+                  Chapter 15: “The Open Circle.” Landscapes of Fear. Yi-Fu Tuan. 1980.
+                link: "/assets/pdf/landscapes-of-fear.pdf"
            - num: 12
              topic: The End of Media Art; The World as Media Art
              readings: 
