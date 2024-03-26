@@ -59,16 +59,12 @@ units:
               - title: Gilles Deleuze. Postscript on the Societies of Control, 1992.
                 link: https://genius.com/Gilles-deleuze-postscript-on-the-societies-of-control-annotated
           - num: 10
-            topic: Critical Media (HTML -> Zine workshop)
+            topic: Speculative Selves (p5*js --> risograph workshop)
             readings: 
              - title: Technologies of the Self, Michele Foucault, 1988
                link: https://monoskop.org/images/0/03/Technologies_of_the_Self_A_Seminar_with_Michel_Foucault.pdf
-             - title: > 
-                 "Critical Making" by Shannon Butts.
-               link: https://wac.colostate.edu/docs/books/design/chapter12.pdf
-             - title: >
-                   "What is Critical Making?" by Garnet Hertz
-               link: https://current.ecuad.ca/what-is-critical-making
+             - title: Speculative Everything by Anthony Dunne and Fiona Raby, 2015.
+               link: https://readings.design/PDF/speculative-everything.pdf 
   - title: World as Anxiety and the Speculative Media Arts  
     weeks:      
            - num: 11
@@ -84,7 +80,7 @@ units:
                     "World as Medium" by Andrew Murphie. 2022. 
                   link: https://www.researchgate.net/publication/329577280_The_World_As_Medium_A_Whiteheadian_Media_Philosophy
            - num: 13
-             topic: Anxiety As Process (+ Generative Zine Workshop)
+             topic: Anxiety As Process (HTML --> Generative Zine Workshop)
              readings: 
                 - title: In Individuation in Light of Notions of Form and Information. Gilbert Simondon. 2021. Introduction + "Anxiety", pg 282-285.
                   link: "/assets/pdf/simondon-individuation.pdf" 
@@ -93,10 +89,7 @@ units:
              readings: 
                  link: https://keep.lib.asu.edu/items/171591
            - num: 15
-             topic: Speculative Design 
-             readings: 
-               - title: Speculative Everything by Anthony Dunne and Fiona Raby, 2015.
-                 link: https://readings.design/PDF/speculative-everything.pdf 
+             topic: Final Review of Collaborative Project 
                        
 
 ---
