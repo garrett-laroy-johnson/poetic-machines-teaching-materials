@@ -63,7 +63,7 @@ units:
             readings: 
              - title: Technologies of the Self, Michele Foucault, 1988
                link: https://monoskop.org/images/0/03/Technologies_of_the_Self_A_Seminar_with_Michel_Foucault.pdf
-             - title: Speculative Everything by Anthony Dunne and Fiona Raby, 2015.
+             - title: Speculative Everything by Anthony Dunne and Fiona Raby, 2013. Chapters 1 and 2. 
                link: https://readings.design/PDF/speculative-everything.pdf 
   - title: World as Anxiety and the Speculative Media Arts  
     weeks:      
