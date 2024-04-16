@@ -5,7 +5,7 @@ layout: tutorial.njk
 weekNum: 0
 ---
 
-# Workshop 1: Autopoietic Heterogenesis
+# Workshop 1: HTML + Autopoietic Heterogenesis
 
 ## overview
 
