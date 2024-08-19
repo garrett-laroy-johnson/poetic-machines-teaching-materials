@@ -55,11 +55,11 @@ des: "/src/uic/art151/content/description.md"
 
 <h3>Attendance</h3>
 
-  {% for i in attendance.description%}
+  {% for i in attendance.studio.description%}
 <p>{{i}}</p>
   {% endfor %}
  <h5>makeup</h5>
-  <p>{{attendance.makeup}}</p>
+  <p>{{attendance.studio.makeup}}</p>
 
 {% if grading.breakdown %}
 
