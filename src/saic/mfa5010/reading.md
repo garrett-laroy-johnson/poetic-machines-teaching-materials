@@ -1,8 +1,10 @@
 ---
 weekNum: 0
-layout: base.njk
+layout: tutorial.njk
 title: Readings
 ---
+
+# Readings
 
 Aronofsky, Darren. Pi. Film. 1998.
 

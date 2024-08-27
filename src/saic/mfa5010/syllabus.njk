@@ -9,25 +9,24 @@ term: Fall 2024
 time: Friday 3:30-6:15pm
 location: MacLean 401
 ---
-
 {# point to term material #}
 {% set calendar = calendar.saic.f24 %}
 {% set grades = grading.saic %}
-   
+
 {# course header #}
-{% syllabusHeader course, instructor, time, term, location %} 
-{# course description #} 
+{% syllabusHeader course, instructor, time, term, location %}
+{# course description #}
 {% set snippet %}
-{% include "./content/description.md"%} 
-{% endset %} 
+{% include "./content/description.md" %} 
+{% endset %}
 {% markdown snippet %}
+
 
 <h2>LEARNING OBJECTIVES</h2>
 {% set snippet %}
-{% include "./content/objectives.md"%} 
+{% include  "./content/objectives.md" %}
 {% endset %} 
 {% markdown snippet %}
-
 
 <h3>Important Dates</h3>
 <ul class="list-group">
@@ -37,11 +36,24 @@ location: MacLean 401
 </ul>
 
 <h2>GRADING, ATTENDANCE, PRIVACY, AND ACCOMODATION POLICIES</h2>
+
+<h3>Grading Breakdown</h3>
+
+
+{% set snippet %}
+{% include  "./content/breakdown.md" %}
+{% endset %} 
+{% markdown snippet %}
+
+
 {% if grades.note%}
 <h5>{{ grades.note }}</h5>
 {% endif %}
 <h3>Contact / Credit Hour Policies</h3>
-<p>{{ grades.contact }}</p>
+<p>{{ grades.contact3 }}</p>
+
+
+
 
 {% if grades.key %}
 
@@ -54,14 +66,15 @@ location: MacLean 401
 
 {% endif %}
 
-{% if grading.breakdown %}
+<h3>Attendance</h3>
 
-<h3>Grading by Assignment</h3>
-<ul class="list-group">
-  {% for item in grading.breakdown %}
-  <li class="list-group-item">{{ item }}</li>
+  {% for i in attendance.saic.description%}
+<p>{{i}}</p>
   {% endfor %}
-</ul>
-{% endif %}
 
-{% include "../content/syllabus-stock.html"%} 
+
+{% set snippet %}
+{% include "../content/syllabus-stock.html" %} 
+{% endset %} 
+{% markdown snippet %}
+
