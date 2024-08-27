@@ -3,6 +3,8 @@ let markdown = require("markdown-it")({
   html: true,
 });
 
+const clean = require("eleventy-plugin-clean");
+
 module.exports = function (eleventyConfig) {
   // Create the filter function.
   function sortByName(values) {
@@ -13,6 +15,7 @@ module.exports = function (eleventyConfig) {
     "markdown",
     (content) => `<div class="md-block">${markdown.render(content)}</div>`
   );
+  eleventyConfig.addPlugin(clean);
   eleventyConfig.addPassthroughCopy("src/assets/css/");
   eleventyConfig.addWatchTarget("src/assets/css/");
   eleventyConfig.addFilter("sortByName", sortByName);
@@ -32,6 +35,7 @@ module.exports = function (eleventyConfig) {
     "./node_modules/bootstrap/dist/css/bootstrap.min.css":
       "/assets/css/bootstrap.css",
   });
+
   eleventyConfig.addShortcode(
     "syllabusHeader",
     (course, instructor, time, term, location) =>

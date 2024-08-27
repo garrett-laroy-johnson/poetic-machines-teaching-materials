@@ -1,0 +1,90 @@
+---
+weekNum: 0
+layout: base.njk
+title: Syllabus
+instructor: dr. garrett laroy johnson (he/they)
+email: gjohns13@saic.edu
+term: Fall 2024
+time: "Wednesday 6:45-9:15pm"
+location: (see course schedule)
+des: "/src/saic/atsp3900/content/description.md"
+---
+{# point to term material #}
+{% set calendar = calendar.saic.f24 %}
+{% set grades = grading.saic %}
+
+{# course header #}
+{% syllabusHeader course, instructor, time, term, location %}
+{# course description #}
+{% set snippet %}
+{% include "./content/description.md" %} 
+{% endset %}
+{% markdown snippet %}
+
+
+<h2>LEARNING OBJECTIVES</h2>
+{% set snippet %}
+{% include  "./content/objectives.md" %}
+{% endset %} 
+{% markdown snippet %}
+
+<h3>Important Dates</h3>
+<ul class="list-group">
+  {% for d in calendar %}
+  <li class="list-group-item">{{d}}</li>
+  {% endfor %}
+</ul>
+
+<h2>GRADING, ATTENDANCE, PRIVACY, AND ACCOMODATION POLICIES</h2>
+
+<h3>Grading Breakdown</h3>
+
+
+{% set snippet %}
+{% include  "./content/breakdown.md" %}
+{% endset %} 
+{% markdown snippet %}
+
+
+{% if grades.note%}
+<h5>{{ grades.note }}</h5>
+{% endif %}
+<h3>Contact / Credit Hour Policies</h3>
+<p>{{ grades.contact3 }}</p>
+
+
+
+
+{% if grades.key %}
+
+<h3>Grading Key</h3>
+<ul class="list-group">
+  {% for i in grades.key%}
+  <li class="list-group-item">{{ i.label}} {{i.description}}</li>
+  {% endfor %}
+</ul>
+
+{% endif %}
+
+<h2> AI-Assisted Content Generation Tools Policy</h2>
+
+<h3> Personal reflection written assignments</h3>
+
+<p>Using text-generating tools like ChatGPT is *strictly prohibited* for the personal reflection writing assignments. These assignments are designed *for you* to work through the prompts. These are personal reflections, after all. ChatGPT can’t possibly know what’s going on inside your head, can it?</p>
+
+<h3>Code assistance / “Professional” written documents</h3>
+
+<p>For everything else, you’re free to use ChatGPT or image generating AI tools as you see fit. Some assignments (like writing our artist statements) will incorporate ChatGPT as part of the assignment. You are *encouraged* to use ChatGPT to help you with your code. We will discuss how to use it effectively in class.</p>
+
+<h3>Attendance</h3>
+
+  {% for i in attendance.saic.description%}
+<p>{{i}}</p>
+  {% endfor %}
+
+
+{% set snippet %}
+{% include "../content/syllabus-stock.html" %} 
+{% endset %} 
+{% markdown snippet %}
+

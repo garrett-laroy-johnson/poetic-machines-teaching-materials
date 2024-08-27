@@ -4,6 +4,6 @@ title: digital practices w. garrett laroy johnson
 big:
   - name: NMA @ UIC
     url: uic
-  - name: ATS @ SAIC
+  - name: ATSP @ SAIC
     url: saic
 ---
