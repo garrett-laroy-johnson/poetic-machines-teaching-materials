@@ -3,6 +3,17 @@
   color: white;
 }
 
+code,
+pre {
+  background: #f5f7f9;
+  border-bottom: 1px solid #d8dee9;
+  color: #1648b3;
+}
+
+pre {
+  border-left: 2px solid #69c;
+}
+
 cb:after {
   background-color: #4c00b0;
 }
