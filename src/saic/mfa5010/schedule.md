@@ -26,7 +26,7 @@ Prigogyne, Ilya and Isabelle Stengers. [Order Out of Chaos: Man's New Dialogue w
 
 ## 09/13/24 Week 3
 
-Maturana, Humberto & Francisco Varela. The Tree of Knowledge. Foreword, Preface, Chapters 1, 2, 3, and 4. 1987.
+Maturana, Humberto & Francisco Varela. [The Tree of Knowledge](https://uranos.ch/research/references/Maturana1988/maturana-h-1987-tree-of-knowledge-bkmrk.pdf). Foreword, Preface, Chapters 1, 2, 3, and 4. 1987.
 
 #### optional
 
