@@ -76,6 +76,8 @@ Clark, Tim. "A Whiteheadian Chaosmos?" in Whitehead, Deleuze, Bergson. 2009.
 
 Stengers, Isabelle. "[Gaia, the Urgency to Think (and Feel)](https://osmilnomesdegaia.eco.br/wp-content/uploads/2014/11/isabelle-stengers.pdf)." 2014.
 
+Guattari, Felix. "I am a God Most of the Time," in Chaosophy. 1995.
+
 #### Additional
 
 Sakrison, Asa. "Rowboat Phenomenology" in the Slow Spatial Reader, 2021.
@@ -98,8 +100,6 @@ Johnson, Garrett Laroy. "Post Tenebras Lux," in The Anthropocene Laboratory. 202
 ## 10/25/24 Week 9
 
 Deleuze, Gilles and Felix Guattari. "From Chaos to Brain" in What is Philosophy? 1991.
-
-Guattari, Felix. "I am a God Most of the Time," in Chaosophy. 1995.
 
 Young, Eugene B. Et al. "Chaos", "Chaosmosis", and "Chaosophy" in the Deleuze and Guattari Dictionary. 2013.
 
