@@ -53,7 +53,7 @@ Whitehead, Alfred North. Modes of Thought. 1938.
 
 Gaskill, Nicholas and A.J. Novak, "An Adventure in Thought", in The Lure of Whitehead. 2014.
 
-#### optional
+#### Additional
 
 Manning, Erin. The Minor Gesture. 2014.
 
@@ -66,7 +66,7 @@ Whitehead, Alfred North. Modes of Thought. 1938.
 
 Halewood, Michael. "The Order of Nature and the Creation of Societies", in The Lure of Whitehead, 2014.
 
-#### Optional
+#### Additional
 
 Ramos, Ana. "[Standing in the Midst](https://journals.oslomet.no/index.php/rerm/article/view/5145/4497)", in Erin Manning's Imperatives for Education Research. 2022.
 
@@ -76,7 +76,7 @@ Clark, Tim. "A Whiteheadian Chaosmos?" in Whitehead, Deleuze, Bergson. 2009.
 
 Stengers, Isabelle. "[Gaia, the Urgency to Think (and Feel)](https://osmilnomesdegaia.eco.br/wp-content/uploads/2014/11/isabelle-stengers.pdf)." 2014.
 
-#### Optional
+#### Additional
 
 Sakrison, Asa. "Rowboat Phenomenology" in the Slow Spatial Reader, 2021.
 
@@ -89,9 +89,11 @@ Potentially:
 - Pi by Darren Aronofsky
 - Post Tenebres Lux by Carlos Reygadas
 
-#### Optional
+#### Additional
 
-Thomas, Zach. "An Experiential Cinema," in The Anthropocene Laboratory. 2023.
+Thomas, Zach. "Carlos Reygadas Post Tenebras Lux: Towards a Cinema of Experience," in The Anthropocene Laboratory. 2023.
+
+Johnson, Garrett Laroy. "Post Tenebras Lux," in The Anthropocene Laboratory. 2023.
 
 ## 10/25/24 Week 9
 
