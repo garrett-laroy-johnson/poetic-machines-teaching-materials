@@ -38,7 +38,7 @@ Morozov, Evgeny. [Santiago Boys](https://the-santiago-boys.com/), podcast. 2023.
 
 ## 09/20/24 Week 4
 
-Von Foerster, Heinz. The Beginning of Heaven and Earth has No Name. 2014.
+Von Foerster, Heinz. [The Beginning of Heaven and Earth has No Name](/assets/pdf/The_Beginning_of_Heaven.pdf) 2014.
 
 #### optional
 
