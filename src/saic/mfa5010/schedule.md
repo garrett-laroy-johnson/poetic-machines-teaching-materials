@@ -34,15 +34,25 @@ Maturana, Humberto & Francisco Varela. [The Tree of Knowledge](/assets/pdf/tree-
 #### optional
 
 Medina, Eden. [Cybernetic Revolutionaries: Technology and Politics in Allende's Chile](https://uberty.org/wp-content/uploads/2015/10/Eden_Medina_Cybernetic_Revolutionaries.pdf). 2011.
+
 Morozov, Evgeny. [Santiago Boys](https://the-santiago-boys.com/), podcast. 2023.
 
 ## 09/20/24 Week 4
 
 Von Foerster, Heinz. [The Beginning of Heaven and Earth has No Name](/assets/pdf/The_Beginning_of_Heaven.pdf) 2014.
 
-#### optional
+- Forwards
+- First Day: Building Blocks, Observers, Emergence, Trivial Machines
+- Fifth Day: Communicating, Talking, Thinking, Falling
+- Sixth Day: Experiences, Heuristics, Plans, Futures
+- Seventh Day: Rest, Rest, Rest
+- Epilogue in Heaven
+
+#### Additional
 
 Curtis, Adam. [All Watched Over By Machines of Loving Grace](https://vimeo.com/515004292). Three-part film. 2011.
+
+Brian Holmes
 
 ## 09/27/24 Week 5
 
