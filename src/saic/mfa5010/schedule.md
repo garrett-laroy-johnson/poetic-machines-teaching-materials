@@ -52,20 +52,20 @@ Von Foerster, Heinz. [The Beginning of Heaven and Earth has No Name](/assets/pdf
 
 Curtis, Adam. [All Watched Over By Machines of Loving Grace](https://vimeo.com/515004292). Three-part film. 2011.
 
-Holmes, Brian. "Count to Three." 2016.
+Holmes, Brian. "[Count to Three](/assets/pdf/Count-to-three.pdf)." 2016.
 
 ## 09/27/24 Week 5
 
-Whitehead, Alfred North. Modes of Thought. 1938.
+Whitehead, Alfred North. [Modes of Thought](/assets/pdf/Modes-of-Thought-Whitehead.pdf). 1938.
 
 - Importance
 - Expression
 
-Gaskill, Nicholas and A.J. Novak, "An Adventure in Thought", in The Lure of Whitehead. 2014.
+Gaskill, Nicholas and A.J. Novak, "[An Adventure in Thought](/assets/pdf/TheLureofWhithead.pdf)", in The Lure of Whitehead. 2014.
 
 #### Additional
 
-Manning, Erin. The Minor Gesture. 2014.
+Manning, Erin. [The Minor Gesture](/assets/pdf/The-Minor-Gesture.pdf). 2014.
 
 ## 10/04/24 Week 6
 
@@ -180,3 +180,6 @@ Turner, Fred. From Counterculture to Cyberculture. University of Stanford Press.
 von Uexkull, Jakob. A Foray into the World of Animals and Humans, trans. Joseph D. O’Neil. University of Minnesota Press. 2010.
 
 von Foerster, Heinz. The Beginning of Heaven and Earth has no Name: Seven Days with Second-Order Cybernetics. 2014. -->
+
+
+[def]: /assets/pdf/Count-to-three.pdf
