@@ -107,9 +107,13 @@ Thomas, Zach. "Carlos Reygadas Post Tenebras Lux: Towards a Cinema of Experience
 
 Johnson, Garrett Laroy. "Post Tenebras Lux," in The Anthropocene Laboratory. 2023.
 
+Munster, Anna. An Aesthetia of Networks: Conjunctive Experience in Art and Technology. 2013.
+
 ## 10/25/24 Week 9
 
 Deleuze, Gilles and Felix Guattari. "From Chaos to Brain" in What is Philosophy? 1991.
+
+Glissant, Eduardo. Poetics of Relation, "Theories". University of Michigan Press, 2009.
 
 Young, Eugene B. Et al. "Chaos", "Chaosmosis", and "Chaosophy" in the Deleuze and Guattari Dictionary. 2013.
 
@@ -121,17 +125,11 @@ Dodds, Joseph. Psychoanalysis and Ecology at the Edge of Chaos: Complexity Theor
 
 ## 11/08/24 Week 11
 
-(instructor planned absence, substitute possible)
-
-Glissant, Eduardo. Poetics of Relation, "Theories". University of Michigan Press, 2009.
-
 Grosz, Elizabeth. "Chaos. Cosmos, Territory, Architecture" in Chaos, Territory, Art: Deleuze and the Framing of the Earth. 2008.
 
 ## 11/15/24 Week 12
 
-Munster, Anna. An Aesthetia of Networks: Conjunctive Experience in Art and Technology. 2013.
-
-Parisi, Luciana. Contagious Architectures: Computation, Aesthetics, and Space. 2022.
+Parisi, Luciana. Contagious Architectures: Computation, Aesthetics, and Space. 2022. [selections forthcoming]
 
 ## 11/22/24 Week 13
 
@@ -180,6 +178,5 @@ Turner, Fred. From Counterculture to Cyberculture. University of Stanford Press.
 von Uexkull, Jakob. A Foray into the World of Animals and Humans, trans. Joseph D. O’Neil. University of Minnesota Press. 2010.
 
 von Foerster, Heinz. The Beginning of Heaven and Earth has no Name: Seven Days with Second-Order Cybernetics. 2014. -->
-
 
 [def]: /assets/pdf/Count-to-three.pdf
