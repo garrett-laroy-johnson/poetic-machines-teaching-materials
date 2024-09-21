@@ -27,6 +27,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("src/assets/pdf/");
   eleventyConfig.addPassthroughCopy("src/assets/js/");
   eleventyConfig.addWatchTarget("src/assets/js/");
+  eleventyConfig.addWatchTarget("src/assets/zips/");
+  eleventyConfig.addPassthroughCopy("src/assets/zips/*.zip");
   eleventyConfig.addPassthroughCopy({
     "./node_modules/bootstrap/dist/js/bootstrap.bundle.js":
       "/assets/js/bootstrap.js",
