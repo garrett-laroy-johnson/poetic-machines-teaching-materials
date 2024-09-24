@@ -121,7 +121,7 @@ Young, Eugene B. Et al. "Chaos", "Chaosmosis", and "Chaosophy" in the Deleuze an
 
 Guattari, Felix. "Schizoid Chaosmosis" in Chaosmosis: An Ethico-Aesthetic Paradigm. 1992.
 
-Dodds, Joseph. Psychoanalysis and Ecology at the Edge of Chaos: Complexity Theory, Deleuze,Guattari and Psychoanalysis for a Climate in Crisis. 2012.
+Dodds, Joseph. Psychoanalysis and Ecology at the Edge of Chaos: Complexity Theory, Deleuze, Guattari and Psychoanalysis for a Climate in Crisis. 2012.
 
 ## 11/08/24 Week 11
 

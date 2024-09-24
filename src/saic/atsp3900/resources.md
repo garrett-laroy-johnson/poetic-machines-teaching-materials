@@ -29,6 +29,12 @@ _These readings will be assigned in various weeks throughout the semester. Addit
 
 [Using GitHub and VS Code on a Tablet or Chromebook](https://www.youtube.com/watch?v=0QKl9eqpXIM)
 
+## Free or Freemium Bootcamps
+
+[freeCodeCamp](https://www.freecodecamp.org/news/)
+
+[codecademy](https://www.codecademy.com/)
+
 ## Stuff I use in class
 
 [CodePen](https://codepen.io/) (coding sandbox)
