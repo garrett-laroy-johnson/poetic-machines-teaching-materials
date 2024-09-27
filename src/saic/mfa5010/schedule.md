@@ -69,12 +69,12 @@ Manning, Erin. [The Minor Gesture](/assets/pdf/The-Minor-Gesture.pdf). 2014.
 
 ## 10/04/24 Week 6
 
-Whitehead, Alfred North. Modes of Thought. 1938.
+Whitehead, Alfred North.  [Modes of Thought](/assets/pdf/Modes-of-Thought-Whitehead.pdf). 1938.
 
 - Perspective
 - Forms of Process
 
-Halewood, Michael. "The Order of Nature and the Creation of Societies", in The Lure of Whitehead, 2014.
+Halewood, Michael. "[The Order of Nature and the Creation of Societies](/assets/pdf/TheLureofWhithead.pdf)", in The Lure of Whitehead, 2014.
 
 #### Additional
 
