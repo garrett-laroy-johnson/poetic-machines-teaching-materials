@@ -83,15 +83,15 @@ Ramos, Ana. "[Standing in the Midst](https://journals.oslomet.no/index.php/rerm/
 
 ## 10/11/24 Week 7
 
-Clark, Tim. "A Whiteheadian Chaosmos?" in Whitehead, Deleuze, Bergson. 2009.
+Clark, Tim. ["A Whiteheadian Chaosmos?"](/assets/pdf/DeleuzeBergson.pdf) in Whitehead, Deleuze, Bergson. 2009.
 
 Stengers, Isabelle. "[Gaia, the Urgency to Think (and Feel)](https://osmilnomesdegaia.eco.br/wp-content/uploads/2014/11/isabelle-stengers.pdf)." 2014.
 
-Guattari, Felix. "I am a God Most of the Time," in Chaosophy. 1995.
+Guattari, Felix. ["I am a God Most of the Time,"](https://selforganizedseminar.wordpress.com/wp-content/uploads/2011/07/guattari_chaosophy.pdf) in Chaosophy. 1995.
 
 #### Additional
 
-Sakrison, Asa. "Rowboat Phenomenology" in the Slow Spatial Reader, 2021.
+Sakrison, Asa. ["Rowboat Phenomenology"](/assets/pdf/Sakrison.pdf) in the Slow Spatial Reader, 2021.
 
 ## 10/18/24 Week 8
 
