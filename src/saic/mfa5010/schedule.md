@@ -87,7 +87,7 @@ Clark, Tim. ["A Whiteheadian Chaosmos?"](/assets/pdf/DeleuzeBergson.pdf) in Whit
 
 Stengers, Isabelle. "[Gaia, the Urgency to Think (and Feel)](https://osmilnomesdegaia.eco.br/wp-content/uploads/2014/11/isabelle-stengers.pdf)." 2014.
 
-Guattari, Felix. ["I am a God Most of the Time,"](/assets/img/i-am-a-god.jpg) in Chaosophy. 1995.
+Guattari, Felix. ["I Am God Most of the Time,"](/assets/img/i-am-a-god.jpg) in Chaosophy. 1995.
 
 #### Additional
 
