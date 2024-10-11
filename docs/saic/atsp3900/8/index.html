@@ -351,7 +351,47 @@
 
     
 
-  
+  <h2>Getting Started</h2>
+<p>Getting p5*js working on your website in VS code</p>
+<h3>Make a JS file</h3>
+<p>Make a file called <code>sketch.js</code> (it can be called however you like, but this is a p5 convention for getting started).</p>
+<p>You should populate the file with some test p5 code, so that when we run things, we see that it's working. For example:</p>
+<pre>
+<code>
+
+let x = 0;
+
+function setup() {
+    createCanvas(400, 400);
+}
+
+function draw() {
+    background("#1B998B");
+    circle(x,200,30);
+    text("testing",x,200);
+    x++;
+    if (x>width+15){
+        x = -15;
+    }
+}
+</code>
+</pre>
+<h3>Point to p5*js</h3>
+<p>Add the following HTML element the <code>head</code> of the HTML page where you want to use p5*js. This is a large file that contains all the code needed to run p5.</p>
+<p>Notice the new <code>script</code> tag.</p>
+<code>
+<pre>&lt;script&gt src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js">&ltscript&gt
+</pre>
+</code>
+<h3>Point to your JS file</h3>
+<p>In the <code>body</code> of your HTML code, add the following reference to your <code>sketch.js</code> file.</p>
+<code>
+<pre>&lt;script&gt src="sketch.js">&ltscript&gt
+</pre>
+</code>
+<h3>Conclusion</h3>
+<p>If everything is working, you should have a colored rectangle with a moving circle on your webpage!</p>
+
 
     
   <h3>Other Materials</h3>
