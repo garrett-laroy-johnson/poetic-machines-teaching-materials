@@ -106,7 +106,7 @@ Thomas, Zach. "Carlos Reygadas Post Tenebras Lux: Towards a Cinema of Experience
 
 Johnson, Garrett Laroy. "Post Tenebras Lux," in The Anthropocene Laboratory. 2023.
 
-Munster, Anna. An Aesthetia of Networks: Conjunctive Experience in Art and Technology. 2013.
+Munster, Anna. [An Aesthetia of Networks: Conjunctive Experience in Art and Technology](/assets/pdf/Aesthesia-of-Network.pdf). 2013.
 
 ## 10/25/24 Week 9
 
