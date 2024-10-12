@@ -104,29 +104,27 @@ Thomas, Zach. ["Carlos Reygadas' Post Tenebras Lux: Towards a Cinema of Experien
 
 Johnson, Garrett Laroy. "Post Tenebras Lux," in The Anthropocene Laboratory. 2023.
 
-Munster, Anna. An Aesthetia of Networks: Conjunctive Experience in Art and Technology. 2013.
-
 ## 10/25/24 Week 9
-
-Deleuze, Gilles and Felix Guattari. "From Chaos to Brain" in What is Philosophy? 1991.
 
 Glissant, Eduardo. Poetics of Relation, "Theories". University of Michigan Press, 2009.
 
-Young, Eugene B. Et al. "Chaos", "Chaosmosis", and "Chaosophy" in the Deleuze and Guattari Dictionary. 2013.
-
 ## 11/01/24 Week 10
+
+Deleuze, Gilles and Felix Guattari. "From Chaos to Brain" in What is Philosophy? 1991.
+
+Young, Eugene B. Et al. "Chaos", "Chaosmosis", and "Chaosophy" in the Deleuze and Guattari Dictionary. 2013.
 
 Guattari, Felix. "Schizoid Chaosmosis" in Chaosmosis: An Ethico-Aesthetic Paradigm. 1992.
 
-Dodds, Joseph. Psychoanalysis and Ecology at the Edge of Chaos: Complexity Theory, Deleuze, Guattari and Psychoanalysis for a Climate in Crisis. 2012.
-
 ## 11/08/24 Week 11
+
+Dodds, Joseph. Psychoanalysis and Ecology at the Edge of Chaos: Complexity Theory, Deleuze, Guattari and Psychoanalysis for a Climate in Crisis. 2012.
 
 Grosz, Elizabeth. "Chaos. Cosmos, Territory, Architecture" in Chaos, Territory, Art: Deleuze and the Framing of the Earth. 2008.
 
-Munster, Anna. An Aesthetia of Networks: Conjunctive Experience in Art and Technology. 2013.
-
 ## 11/15/24 Week 12
+
+Munster, Anna. An Aesthetia of Networks: Conjunctive Experience in Art and Technology. 2013.
 
 Parisi, Luciana. Contagious Architectures: Computation, Aesthetics, and Space. 2022. [selections forthcoming]
 
