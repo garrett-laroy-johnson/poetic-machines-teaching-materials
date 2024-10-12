@@ -93,20 +93,16 @@ Clark, Tim. ["A Whiteheadian Chaosmos?"](/assets/pdf/DeleuzeBergson.pdf) in Whit
 
 ## 10/18/24 Week 8
 
-Instructor planned absence. Film assigned.
-
-Potentially:
+Instructor planned absence. Please watch two films:
 
 - Pi by Darren Aronofsky
 - Post Tenebres Lux by Carlos Reygadas
 
-#### Additional
+(please source on your own. we may be able to add later in the week but don't count on it.)
 
-Thomas, Zach. "Carlos Reygadas Post Tenebras Lux: Towards a Cinema of Experience," in The Anthropocene Laboratory. 2023.
+Thomas, Zach. ["Carlos Reygadas' Post Tenebras Lux: Towards a Cinema of Experience,"](/assets/pdf/tal.pdf) in The Anthropocene Laboratory. 2023.
 
-Johnson, Garrett Laroy. "Post Tenebras Lux," in The Anthropocene Laboratory. 2023.
-
-Munster, Anna. An Aesthetia of Networks: Conjunctive Experience in Art and Technology. 2013.
+Johnson, Garrett Laroy. ["Post Tenebras Lux,"](/assets/pdf/tal.pdf) in The Anthropocene Laboratory. 2023.
 
 ## 10/25/24 Week 9
 
@@ -125,6 +121,8 @@ Dodds, Joseph. Psychoanalysis and Ecology at the Edge of Chaos: Complexity Theor
 ## 11/08/24 Week 11
 
 Grosz, Elizabeth. "Chaos. Cosmos, Territory, Architecture" in Chaos, Territory, Art: Deleuze and the Framing of the Earth. 2008.
+
+Munster, Anna. An Aesthetia of Networks: Conjunctive Experience in Art and Technology. 2013.
 
 ## 11/15/24 Week 12
 
