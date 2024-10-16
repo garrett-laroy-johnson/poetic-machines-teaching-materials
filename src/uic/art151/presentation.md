@@ -41,7 +41,7 @@ topics:
         url: https://www.generativemusic.com/
         media: generative sound and animation
       - name: The Hub
-        url: http://crossfade.walkerart.org/brownbischoff/index.html
+        url: https://en.wikipedia.org/wiki/The_Hub_(band)
       - name: Kaitlyn Aurelia Smith
         url: https://web.archive.org/web/20171007070238/http://adhoc.fm/post/sensation-breath-kaitlyn-aurelia-smith/
       - name: Julianne Swartz
@@ -60,8 +60,8 @@ topics:
         url: https://static1.squarespace.com/static/5d4dcd89a70bc90001638861/t/5d501797e6bf0300010e9286/1565530012139/Pauline_Oliveros-Some_Sound_Observations.pdf
       - info: Music as a Gradual Process by Steve Reich
         url: http://www.bussigel.com/systemsforplay/wp-content/uploads/2014/02/Reich_Gradual-Process.pdf
-      - info: Interview w Karlheinz Stockhausen about Aphex Twin, Plasticmann, and Scanner (read starting from "Can we talk about the music we sent you?")
-        url: http://www.andreas.de/aphextwin/articles/interview2.html        
+      - info: List of Tips from Karlheinz Stockhausen about Aphex Twin, Plasticmann, and Scanner 
+        url: https://www.synthtopia.com/content/2010/10/15/karlheinz-stockhausens-electronic-music-tips-for-aphex-twin-plastikman-others/   
 - title: Games & Simulation
   artists:
       - name: Ian Cheng
