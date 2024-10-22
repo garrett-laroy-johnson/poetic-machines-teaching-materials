@@ -106,7 +106,7 @@ Johnson, Garrett Laroy. "Post Tenebras Lux," in The Anthropocene Laboratory. 202
 
 ## 10/25/24 Week 9
 
-Glissant, Eduardo. Poetics of Relation, "Theories". University of Michigan Press, 2009.
+Glissant, Eduardo. Poetics of Relation, ["Theories"](https://monoskop.org/images/2/23/Glissant_Edouard_Poetics_of_Relation.pdf). University of Michigan Press, 2009.
 
 ## 11/01/24 Week 10
 
