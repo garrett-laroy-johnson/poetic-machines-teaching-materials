@@ -102,7 +102,7 @@ Instructor planned absence. Please watch two films:
 
 Thomas, Zach. ["Carlos Reygadas' Post Tenebras Lux: Towards a Cinema of Experience,"](/assets/pdf/tal.pdf) in The Anthropocene Laboratory. 2023.
 
-Johnson, Garrett Laroy. "Post Tenebras Lux," in The Anthropocene Laboratory. 2023.
+Johnson, Garrett Laroy. ["Post Tenebras Lux,"](/assets/pdf/tal.pdf) in The Anthropocene Laboratory. 2023.
 
 ## 10/25/24 Week 9
 
