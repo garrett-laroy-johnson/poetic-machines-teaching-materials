@@ -95,8 +95,9 @@ Clark, Tim. ["A Whiteheadian Chaosmos?"](/assets/pdf/DeleuzeBergson.pdf) in Whit
 
 Instructor planned absence. Please watch two films:
 
-- [Pi](https://www.amazon.com/Pi-Stephen-Pearlman/dp/B0CVFPMT4R/ref=sr_1_2?crid=OEYSFVYWUMOC&dib=eyJ2IjoiMSJ9.2bGUFzfzIqa5uZKP7l0HgAnY-gQQ-js6p-iCgwgne0OXXaN-9bzpmXhng2Q_mjtD8AzCZ3EBFHoDHl7v3XyPF0nG-M_NiqZceL5P3mGyYjPq6K9yP3zZfLagO7SsrTN7CDjstFbtierdZU7AfUW-Pn_P1W3gJArjQfOZZMkTXCncGbEtm-Snn5aSoxjdSe6f_p_Rv0yeeip5966oaWuBb9fRqYuy85vlGu7xK_ww0k0.-Tz2rDQH4tt0K-9j0NAoBaHBbdD4bdfKy7gkdKjlO2s&dib_tag=se&keywords=pi+movie&qid=1729742472&sprefix=pi+mov%2Caps%2C276&sr=8-2) by Darren Aronofsky
-- [Post Tenebras Lux](https://youtu.be/nTfN7NOs-bQ?si=bW63YAGHZauFGqV-) by Carlos Reygadas
+[Pi](https://archive.org/details/pi-1998_202107) by Darren Aronofsky
+
+[Post Tenebras Lux](https://youtu.be/nTfN7NOs-bQ?si=bW63YAGHZauFGqV-) by Carlos Reygadas. [Higher-resolution version, no subtitles](https://www.dailymotion.com/video/x8och7z).
 
 Thomas, Zach. ["Carlos Reygadas' Post Tenebras Lux: Towards a Cinema of Experience,"](/assets/pdf/tal.pdf) in The Anthropocene Laboratory. 2023.
 
