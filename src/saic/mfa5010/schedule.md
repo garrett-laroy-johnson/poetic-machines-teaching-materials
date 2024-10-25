@@ -109,11 +109,11 @@ Glissant, Eduardo. Poetics of Relation, ["Theories"](https://monoskop.org/images
 
 ## 11/01/24 Week 10
 
-Deleuze, Gilles and Felix Guattari. "From Chaos to Brain" in What is Philosophy? 1991.
+Deleuze, Gilles and Felix Guattari. "[From Chaos to Brain](https://transversalinflections.wordpress.com/wp-content/uploads/2015/04/deleuze-3207-what_is_philosophy-fenomenologie-van-schilderkunst.pdf)" in What is Philosophy? 1991.
 
-Young, Eugene B. Et al. "Chaos", "Chaosmosis", and "Chaosophy" in the Deleuze and Guattari Dictionary. 2013.
+Young, Eugene B. Et al. ["Chaos", "Chaosmosis", and "Chaosophy"](/assets/pdf/dictionary.pdf) in the Deleuze and Guattari Dictionary. 2013.
 
-Guattari, Felix. "Schizoid Chaosmosis" in Chaosmosis: An Ethico-Aesthetic Paradigm. 1992.
+Guattari, Felix. ["Schizoid Chaosmosis"](https://monoskop.org/images/2/24/Guattari_Felix_Chaosmosis_An_Ethico-Aesthetic_Paradigm.pdf) in Chaosmosis: An Ethico-Aesthetic Paradigm. 1992.
 
 ## 11/08/24 Week 11
 
