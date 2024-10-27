@@ -109,23 +109,21 @@ Glissant, Eduardo. Poetics of Relation, ["Theories"](https://monoskop.org/images
 
 ## 11/01/24 Week 10
 
+Glissant, Eduardo. Poetics of Relation, ["Generalization"](https://monoskop.org/images/2/23/Glissant_Edouard_Poetics_of_Relation.pdf). University of Michigan Press, 2009.
+
 Deleuze, Gilles and Felix Guattari. "[From Chaos to Brain](https://transversalinflections.wordpress.com/wp-content/uploads/2015/04/deleuze-3207-what_is_philosophy-fenomenologie-van-schilderkunst.pdf)" in What is Philosophy? 1991.
 
 Young, Eugene B. Et al. ["Chaos", "Chaosmosis", and "Chaosophy"](/assets/pdf/dictionary.pdf) in the Deleuze and Guattari Dictionary. 2013.
 
-Guattari, Felix. ["Schizoid Chaosmosis"](https://monoskop.org/images/2/24/Guattari_Felix_Chaosmosis_An_Ethico-Aesthetic_Paradigm.pdf) in Chaosmosis: An Ethico-Aesthetic Paradigm. 1992.
-
 ## 11/08/24 Week 11
 
-Dodds, Joseph. Psychoanalysis and Ecology at the Edge of Chaos: Complexity Theory, Deleuze, Guattari and Psychoanalysis for a Climate in Crisis. 2012.
-
-Grosz, Elizabeth. "Chaos. Cosmos, Territory, Architecture" in Chaos, Territory, Art: Deleuze and the Framing of the Earth. 2008.
+[instructor out of town]
 
 ## 11/15/24 Week 12
 
-Munster, Anna. An Aesthetia of Networks: Conjunctive Experience in Art and Technology. 2013.
+Guattari, Felix. ["Schizoid Chaosmosis"](https://monoskop.org/images/2/24/Guattari_Felix_Chaosmosis_An_Ethico-Aesthetic_Paradigm.pdf) in Chaosmosis: An Ethico-Aesthetic Paradigm. 1992.
 
-Parisi, Luciana. Contagious Architectures: Computation, Aesthetics, and Space. 2022. [selections forthcoming]
+Dodds, Joseph. Psychoanalysis and Ecology at the Edge of Chaos: Complexity Theory, Deleuze, Guattari and Psychoanalysis for a Climate in Crisis. 2012.
 
 ## 11/22/24 Week 13
 
@@ -144,6 +142,11 @@ Critique week, no class
 ## 12/13/24 Week 16
 
 Final project critiques
+
+<!--
+Munster, Anna. An Aesthetia of Networks: Conjunctive Experience in Art and Technology. 2013.
+
+Parisi, Luciana. Contagious Architectures: Computation, Aesthetics, and Space. 2022. [selections forthcoming] -->
 
 <!-- Bergson, Henri. Creative Evolution. 1908. [selections]
 
