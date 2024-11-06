@@ -522,103 +522,19 @@
         
 <div class="col-sm-6"><h1>Arturia Beatstep</h1>
 <p><img src="/assets/img/beatstep.png" alt="picture of arturia beatstep"></p>
-<h2>Setup</h2>
-<h3>Downloads</h3>
-<h4>Windows/Mac</h4>
-<h5>GitHub</h5>
-<ol>
-<li>
-<p>Download <a href="https://desktop.github.com/">GitHub Desktop</a>.</p>
-</li>
-<li>
-<p>make a GitHub account.</p>
-</li>
-<li>
-<p>Inside GitHub desktop, &quot;clone&quot; this repository using this URL: https://github.com/garrett-laroy-johnson/p5.beatstep</p>
-</li>
-<li>
-<p>Sync to the most current code from the instructor by &quot;fetching&quot; and &quot;pulling&quot; changes.</p>
-</li>
-</ol>
-<h5></h5>
-<p>Microsoft Visual Studio Code</p>
-<ol>
-<li>
-<p>download Microsoft <a href="https://code.visualstudio.com/download">Visual Studio Code</a> (not! Visual Studio)</p>
-</li>
-<li>
-<p>Add <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">&quot;live server extension&quot;</a> to Microsoft Visual Studio Code</p>
-</li>
-<li>
-<p>(optional) return to GitHub desktop. Go to settings&gt;integrations and select Microsoft Visual Studio Code as your default code editor.</p>
-</li>
-</ol>
-<p>Chrome</p>
-<ol>
-<li>Download <a href="https://www.google.com/chrome/">Chrome browser</a>. Use this browser for all these assignments.</li>
-</ol>
-<p>Getting Started</p>
-<ol>
-<li>
-<p>Got to GitHub Desktop. Find the respository and click &quot;open in Visual Studio Code&quot;. Have a look at &quot;sketch.js&quot; inside VS Code.</p>
-</li>
-<li>
-<p>Make sure your Beatstep Pro is plugged in.</p>
-</li>
-<li>
-<p>click &quot;Go Live&quot; in the bottom right hand corner of VS Code.</p>
-</li>
-<li>
-<p>If it didn't open in Chrome, copy the URL from whatever browser your site opened in and paste that in Chrome.</p>
-</li>
-<li>
-<p>Right click Chrome and select inspect. Click &quot;console&quot; to view the console in the side panel.</p>
-</li>
-<li>
-<p>You should see a message that BeatStep is connected as well as a blank black Canvas.</p>
-</li>
-<li>
-<p>On your Controller, click &quot;CNTRL/SEQ&quot; until the button is red. Now turn the knobs on the controller; the changes should appear in the Canvas. If not, review the previous steps. If yes, all things are go and you're ready to compose your own work.</p>
-</li>
-</ol>
-<h3>Chrome OS</h3>
-<h4>Repository</h4>
-<ol>
-<li>
-<p>Github desktop is not available for ChromeOS, so instead you will need to download the code. If changes are made to this code (your instructor will tell you), you'll need to download the code this way again.</p>
-</li>
-<li>
-<p>Go to the <a href="https://github.com/garrett-laroy-johnson/p5.beatstep">p5.beatstep repository</a></p>
-</li>
-<li>
-<p>Click the green &quot;code&quot; button. Select download zip. Unzip/extract the files to somewhere easy to access (documents, desktop, etc).</p>
-</li>
-</ol>
-<h5>Text</h5>
-<ol>
-<li>
-<p>You'll need a program to edit your code. Download <a href="https://chromewebstore.google.com/detail/text/mmfbcljfglbokpmkimbfghdkjmjhdgbg">Text</a>.</p>
-</li>
-<li>
-<p>Open <code>index.html</code> and <code>sketch.js</code>. Make sure the html file is pointing to <code>sketch.js</code>, not another js file.</p>
-</li>
-</ol>
-<h5>Web Server for Chrome</h5>
-<ol>
-<li>Download <a href="https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb/">Web Server for Chrome</a>.</li>
-<li>Open the application and select &quot;choose folder&quot;. Then, find where you downloaded the repository. Sometimes when you download this way, your files are stored in a folder within a folder. Be sure to select the innermost folder.</li>
-<li>Click start if it isn't already started.</li>
-<li>Click one of the live server links. The default sketch should appear in Chrome. If not, review the previous steps. If so, you're ready to make your own sketch controlled by the beatstep pro!</li>
-</ol>
-<h2>Make your Own Work</h2>
-<ol>
-<li>
-<p>Make a copy of &quot;sketch.js&quot; and call it something unique to you. Go to index.html and replace &quot;sketch.js&quot; with &quot;unique.js&quot; (or whatever you called it). Continue your work there.</p>
-</li>
-<li>
-<p>You can access dial data by calling &quot;abs.dials&quot;. That will be an array that will contain the 16 dials data. Each dial reports its state between 0-127.</p>
-</li>
-</ol>
+<h2>Using the BeatStep with p5*js</h2>
+<p>You should use <a href="https://www.google.com/chrome/">Chrome browser</a>for these assignments. When you hit play on your sketch, you will need to allow the MIDI controller to work with your browser.</p>
+<p>Here is a <a href="https://editor.p5js.org/garrett.laroy.johnson/sketches/5Hxx54Eg1">template</a> you can use. It contains additional code that allows p5 to communicate with the Beatstep. You need to duplicate this template to make your own work.</p>
+<p>When successfully connect, you will receive these messages in the console:</p>
+<p><code>&quot;&quot; Arturia BeatStep</code>
+<code>WebMidi enabled!</code>
+<code>---</code></p>
+<p><code>Inputs Ports:</code><br>
+<code>0: Arturia BeatStep</code>
+<code>connected to Arturia BeatStep</code></p>
+<p>If you don't see this message, make sure the controller is plugged in, you are using Chrome, and you have opened from the template mentioned earlier.</p>
+<p>If you see this message but you do not seem to have any input to the sketch, make sure your Beatstep is in CNTRL mode: On your Controller, click &quot;CNTRL/SEQ&quot; until the button is red. Now turn the knobs on the controller; the changes should appear in the Canvas.</p>
+<p>You will find other demo files here: <a href="https://github.com/garrett-laroy-johnson/p5.beatstep">p5.beatstep repository</a>.</p>
 </div>
 
       
