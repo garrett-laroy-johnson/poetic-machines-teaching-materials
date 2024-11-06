@@ -20,7 +20,7 @@ title: Arturia BeatStep
 
 2. make a GitHub account.
 
-3. Inside GitHub desktop, "clone" this repository using this URL: https://github.com/diagrammatic-media/p5.beatstep
+3. Inside GitHub desktop, "clone" this repository using this URL: https://github.com/garrett-laroy-johnson/p5.beatstep
 
 4. Sync to the most current code from the instructor by "fetching" and "pulling" changes.
 
@@ -60,7 +60,7 @@ Getting Started
 
 1. Github desktop is not available for ChromeOS, so instead you will need to download the code. If changes are made to this code (your instructor will tell you), you'll need to download the code this way again.
 
-2. Go to the [p5.beatstep repository](https://github.com/diagrammatic-media/p5.beatstep)
+2. Go to the [p5.beatstep repository](https://github.com/garrett-laroy-johnson/p5.beatstep)
 
 3. Click the green "code" button. Select download zip. Unzip/extract the files to somewhere easy to access (documents, desktop, etc).
 
