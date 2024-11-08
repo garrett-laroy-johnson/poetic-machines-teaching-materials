@@ -123,11 +123,11 @@ Young, Eugene B. Et al. ["Chaos", "Chaosmosis", and "Chaosophy"](/assets/pdf/dic
 
 Guattari, Felix. ["Schizoid Chaosmosis"](https://monoskop.org/images/2/24/Guattari_Felix_Chaosmosis_An_Ethico-Aesthetic_Paradigm.pdf) in Chaosmosis: An Ethico-Aesthetic Paradigm. 1992.
 
+Holmes, Brian. [Guattari's Schizoanalytic Cartographies: Or, The Pathic Core at the Heart of Cybernetics](https://miriamgrossi.paginas.ufsc.br/files/2013/02/25090965-Guattari%E2%80%99s-Schizoanalytic-Cartographies.pdf).
+
 ## 11/22/24 Week 13
 
 Clarke, Bruce. [Gaian Systems](/assets/pdf/Neocybernetics.pdf): Lynn Margulis, Neocybernetics, and the End of the Anthropocene, 2020.
-
-Holmes, Brian. [Guattari's Schizoanalytic Cartographies: Or, The Pathic Core at the Heart of Cybernetics](https://miriamgrossi.paginas.ufsc.br/files/2013/02/25090965-Guattari%E2%80%99s-Schizoanalytic-Cartographies.pdf).
 
 ## 11/29/24 Week 14
 
