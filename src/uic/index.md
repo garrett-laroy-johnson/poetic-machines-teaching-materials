@@ -13,6 +13,6 @@ big:
     subname: More-Than-Human Sonic Ecologies
     url: art250
   - name: ART 520
-    subname: More-than-Human Creativity in a New Weird Ear 
+    subname: More-than-Human Creativity in a New Weird Era 
     url: art520  
 ---
