@@ -13,66 +13,114 @@ Maturana, Humberto & Francisco Varela. [The Tree of Knowledge](/assets/pdf/tree-
 
 Syllabus + Introductions
 
-some videos??
+Anna Tsing, Jennifer Deger, Alder Keleman Saxena, Feifei Zhou. [The Feral Atlas: The More-Than-Human Anthropocene.](https://feralatlas.supdigital.org/)
 
 ## 01/24/25 Week 2
 
-The Weird and the Eerie. Mark Fisher.
+Mark Fisher. The Weird and the Eerie.
+
+Anna Tsing. Mushroom at the End of the World.
 
 #### optional:
 
-Fisher, Mark. Ghosts of My Life: Writings on Depression, Hauntology, and Lost Futures.
+Mark Fisher. Ghosts of My Life: Writings on Depression, Hauntology, and Lost Futures.
 
-Fisher, Mark. Acid Communism.
+Mark Fisher. Postcapitalist Desire.
+
+Anna Tsing. Life in Capitalist Ruins.
 
 ## 01/31/25 Week 3
+
+Michele Serres. Parasite.
+
+Anna Watkins-Fisher. The Play in the System: The Art of Parasitic Resistance.
+
+## 02/07/25 Week 4
+
+Deleuze, Gilles. Logic of Sensation.
+
+0. Preface
+1. The Round Area, the Ring
+2. Note on Figuration in Past Painting
+3. Body, Meat, and Spirit: Becoming Animal
+4. Recapitulative: Bacon's Periods and Aspects
+5. Painting and Sensation
+6. Painting Forces
+7. Couples and Triptychs
+8. Note: What is a Triptych?
+
+Field trip to Art Institute of Chicago.
+
+## 02/14/25 Week 5
+
+Brian Massumi. Parables for the Virtual.
+
+## 02/21/25 Week 6
+
+Deleuze and Guattari. "Becoming-Intense, Becoming Animal, Becoming Imperceptible". first half.
+
+## 02/28/25 Week 7
+
+Deleuze and Guattari. "Becoming-Intense, Becoming Animal, Becoming Imperceptible". second half.
+
+## 03/07/25 Week 8
+
+Vilem Flusser and Louis Bec. Vampyrteuthis Infernalis (The Vampire Squid from Hell).
+
+Reza Negarestani. Cyclonopedia.
+
+## 03/14/25 Week 9, INSTRUCTOR PLANNED ABSENCE
+
+No class. Film assigned.
+
+## 03/21/25 Week 10
+
+Erin Manning. ["Angular Perspective; Or, How Concern Shapes the Field](/assets/pdf/manning-how-concern.pdf).
+
+## 03/28/25 SPRING BREAK
+
+No class.
+
+## 04/04/25 Week 11
+
+Kodwo Eshun. More Brilliant than the Sun.
+
+Steve Goodman. Sonic Warfare.
+
+## 04/11/25 Week 12
+
+Laboria Cuboniks. The Xenofeminist Manifesto.
+
+Amy Ireland and Maya B. Kronic. Cute Accelerationism.
+
+## 04/18/25 Week 13
+
+Silvia Federici. [Caliban and the Witch: Women, the Body, and Primitive Accumulation](https://files.libcom.org/files/Caliban%20and%20the%20Witch.pdf).
+
+Isabelle Stengers. "[Reclaiming Animism](https://www.e-flux.com/journal/36/61245/reclaiming-animism/)".
+
+## 04/25/25 Week 14
+
+1:1 Meetings.
+
+## 05/02/25 Week 15
+
+No Class.
+
+Attend 7pm gallery opening: "Weird Dreams, Weird Analysis" at Co-Prosperity in Bridgeport, Chicago, Illinois.
+
+## 05/09/25 Week 15
+
+Final presentations.
+
+<!--
+
 
 Deleuze, Gilles. Logic of Sense.
 
 - First Series on Paradox
 - The Simulacrum and Ancient Philosophy: Plato and the Simulacrum
 
-## 02/07/25 Week 4
-
-Deleuze, Gilles. Logic of Sensation.
-
-Massumi, Brian. Parables of the Virtual.
-
-## 02/07/25 Week 5
-
-Manning, Erin. [The Minor Gesture](/assets/pdf/The-Minor-Gesture.pdf). 2014.
-
-## 02/14/25 Week 6
-
-## 02/21/25 Week 7
-
-## 02/28/25 Week 8
-
-## 03/07/25 Week 9
-
-## 03/14/25 Week 10, INSTRUCTOR PLANNED ABSENCE
-
-No class.
-
-## 03/21/25 Week 11
-
-## 03/28/25 SPRING BREAK
-
-No class.
-
-## 04/04/25 Week 13
-
-## 04/11/25 Week 14
-
-## 04/18/25 Week 15
-
-## 04/25/25 Week 16
-
-## 05/02/25 Week 17
-
-Final project critiques.
-
-<!--
 Munster, Anna. An Aesthetia of Networks: Conjunctive Experience in Art and Technology. 2013.
 
 Dodds, Joseph. [Psychoanalysis and Ecology at the Edge of Chaos: Complexity Theory, Deleuze, Guattari and Psychoanalysis for a Climate in Crisis](/assets/pdf/Psychoanalysis-and-Ecology.pdf). 2012.
