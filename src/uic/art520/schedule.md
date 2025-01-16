@@ -4,6 +4,9 @@ layout: tutorial.njk
 title: Schedule
 ---
 
+<!--
+https://www.e-flux.com/journal/85/156774/driving-the-golden-spike/ -->
+
 <!-- example of linking to hosted PDF:
 Maturana, Humberto & Francisco Varela. [The Tree of Knowledge](/assets/pdf/tree-of-knowledge.pdf). Foreword, Preface, Chapters 1, 2, 3, and 4. 1987. -->
 
@@ -42,6 +45,15 @@ Anna Tsing. Mushroom at the End of the World. -->
 
 ## 01/31/25 Week 3
 
+Brian Holmes. "[Driving the Golden Spike.](https://www.e-flux.com/journal/85/156774/driving-the-golden-spike/)"
+
+Alfred North Whitehead. [The Concept of Nature](https://archive.org/details/cu31924012068593).
+
+- Nature and Thought
+- Theories of the Bifurcation of Nature
+
+## 02/07/25 Week 4
+
 Michel Serres. [Parasite](https://xenopraxis.net/readings/serres_parasite.pdf).
 
 - Interrupted Meals
@@ -51,7 +63,16 @@ Anna Watkins-Fisher. [The Play in the System: The Art of Parasitic Resistance.](
 - Introduction
 - Chapter One
 
-## 02/07/25 Week 4
+## 02/14/25 Week 5
+
+Brian Massumi. [Parables for the Virtual](https://monoskop.org/images/d/dc/Massumi_Brian_Parables_for_the_Virtual_Movement_Affect_Sensation_Post-Contemporary_Interventions.pdf).
+
+- Introduction
+- The Autonomy of Affect
+- Chaos in the "Total Field" of Vision
+- Too-Blue: Color Patch for an Expanded Empiricism
+
+## 02/21/25 Week 6
 
 Deleuze, Gilles. Logic of Sensation.
 
@@ -67,22 +88,9 @@ Deleuze, Gilles. Logic of Sensation.
 
 Field trip to Art Institute of Chicago.
 
-## 02/14/25 Week 5
-
-Brian Massumi. [Parables for the Virtual](https://monoskop.org/images/d/dc/Massumi_Brian_Parables_for_the_Virtual_Movement_Affect_Sensation_Post-Contemporary_Interventions.pdf).
-
-- Introduction
-- The Autonomy of Affect
-- Chaos in the "Total Field" of Vision
-- Too-Blue: Color Patch for an Expanded Empiricism
-
-## 02/21/25 Week 6
-
-Deleuze and Guattari. "[Becoming-Intense, Becoming Animal, Becoming Imperceptible](https://files.libcom.org/files/A%20Thousand%20Plateaus.pdf)". A Thousand Plateaus. First half.
-
 ## 02/28/25 Week 7
 
-Deleuze and Guattari. "[Becoming-Intense, Becoming Animal, Becoming Imperceptible](https://files.libcom.org/files/A%20Thousand%20Plateaus.pdf)". A Thousand Plateaus. Second half.
+Deleuze and Guattari. "[Becoming-Intense, Becoming Animal, Becoming Imperceptible](https://files.libcom.org/files/A%20Thousand%20Plateaus.pdf)". A Thousand Plateaus.
 
 ## 03/07/25 Week 8
 
@@ -90,9 +98,9 @@ Vilem Flusser and Louis Bec. [Vampyroteuthis Infernalis (The Vampire Squid from 
 
 Reza Negarestani. [Cyclonopedia](https://ciudadtecnicolor.wordpress.com/wp-content/uploads/2011/01/cyclonopedia.pdf).
 
-## 03/14/25 Week 9, INSTRUCTOR PLANNED ABSENCE
+## 03/14/25 Week 9
 
-No class. Film assigned.
+Octavia Butler. Parable of the Sower.
 
 ## 03/21/25 Week 10
 
