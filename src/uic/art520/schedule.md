@@ -98,7 +98,7 @@ No class. Film assigned.
 
 Erin Manning. ["Angular Perspective; Or, How Concern Shapes the Field](/assets/pdf/manning-how-concern.pdf).
 
-- one more tba.
+Final project proposals.
 
 ## 03/28/25 SPRING BREAK
 
@@ -106,13 +106,13 @@ No class.
 
 ## 04/04/25 Week 11
 
-Kodwo Eshun. More Brilliant than the Sun.
+Kodwo Eshun. [More Brilliant than the Sun](https://monoskop.org/images/b/b2/Eshun_Kodwo_More_Brilliant_Than_the_Sun_Adventures_in_Sonic_Fiction.pdf).
 
-Steve Goodman. Sonic Warfare.
+Steve Goodman. [Sonic Warfare](https://archive.org/details/3goodmannstevesonicwarfare).
 
 ## 04/11/25 Week 12
 
-Laboria Cuboniks. The Xenofeminist Manifesto.
+Laboria Cuboniks. [The Xenofeminist Manifesto](https://www.laboriacuboniks.net/20150612-xf_layout_web.pdf).
 
 Amy Ireland and Maya B. Kronic. Cute Accelerationism.
 
