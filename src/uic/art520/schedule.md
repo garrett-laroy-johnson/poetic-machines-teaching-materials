@@ -17,11 +17,20 @@ Anna Tsing, Jennifer Deger, Alder Keleman Saxena, Feifei Zhou. [The Feral Atlas:
 
 ## 01/24/25 Week 2
 
-Mark Fisher. The Weird and the Eerie.
+Mark Fisher. [The Weird and the Eerie.](/assets/pdf/weird.pdf)
 
-Anna Tsing. Mushroom at the End of the World.
+- "The Weird and the Eerie (Beyond the Unheimlich)
+- "The Out of Place and the Out of Time: Lovecraft and the Weird"
+- "Curtains and Holes: David Lynch"
 
-#### optional:
+Donna Haraway. [Staying With the Trouble: MAking Kin in the Chthulucene.](https://edisciplinas.usp.br/pluginfile.php/4374763/mod_resource/content/0/Haraway-Staying%20with%20the%20Trouble_%20Making%20Kin%20in%20the%20Chthulucene.pdf)
+
+- Introduction
+- Playing String Figures with Companion Species
+- Tentacular Thinking
+- Sowing Worlds
+
+<!-- #### optional:
 
 Mark Fisher. Ghosts of My Life: Writings on Depression, Hauntology, and Lost Futures.
 
@@ -29,11 +38,18 @@ Mark Fisher. Postcapitalist Desire.
 
 Anna Tsing. Life in Capitalist Ruins.
 
+Anna Tsing. Mushroom at the End of the World. -->
+
 ## 01/31/25 Week 3
 
-Michele Serres. Parasite.
+Michel Serres. [Parasite](https://xenopraxis.net/readings/serres_parasite.pdf).
 
-Anna Watkins-Fisher. The Play in the System: The Art of Parasitic Resistance.
+- Interrupted Meals
+
+Anna Watkins-Fisher. [The Play in the System: The Art of Parasitic Resistance.](https://archive.org/details/playinsystemarto00fish)
+
+- Introduction
+- Chapter One
 
 ## 02/07/25 Week 4
 
@@ -53,21 +69,26 @@ Field trip to Art Institute of Chicago.
 
 ## 02/14/25 Week 5
 
-Brian Massumi. Parables for the Virtual.
+Brian Massumi. [Parables for the Virtual](https://monoskop.org/images/d/dc/Massumi_Brian_Parables_for_the_Virtual_Movement_Affect_Sensation_Post-Contemporary_Interventions.pdf).
+
+- Introduction
+- The Autonomy of Affect
+- Chaos in the "Total Field" of Vision
+- Too-Blue: Color Patch for an Expanded Empiricism
 
 ## 02/21/25 Week 6
 
-Deleuze and Guattari. "Becoming-Intense, Becoming Animal, Becoming Imperceptible". first half.
+Deleuze and Guattari. "[Becoming-Intense, Becoming Animal, Becoming Imperceptible](https://files.libcom.org/files/A%20Thousand%20Plateaus.pdf)". A Thousand Plateaus. First half.
 
 ## 02/28/25 Week 7
 
-Deleuze and Guattari. "Becoming-Intense, Becoming Animal, Becoming Imperceptible". second half.
+Deleuze and Guattari. "[Becoming-Intense, Becoming Animal, Becoming Imperceptible](https://files.libcom.org/files/A%20Thousand%20Plateaus.pdf)". A Thousand Plateaus. Second half.
 
 ## 03/07/25 Week 8
 
-Vilem Flusser and Louis Bec. Vampyrteuthis Infernalis (The Vampire Squid from Hell).
+Vilem Flusser and Louis Bec. [Vampyroteuthis Infernalis (The Vampire Squid from Hell)](https://www.rybn.org/ANTI/ADMXI/documentation/ADMXI/I._FABULATORY_EPISTEMOLOGY/VAMPYROTHEUTIS_INFERNALIS/Vilem_Flusser_Louis_Bec_-_Vampyroteuthis_Infernalis.pdf).
 
-Reza Negarestani. Cyclonopedia.
+Reza Negarestani. [Cyclonopedia](https://ciudadtecnicolor.wordpress.com/wp-content/uploads/2011/01/cyclonopedia.pdf).
 
 ## 03/14/25 Week 9, INSTRUCTOR PLANNED ABSENCE
 
@@ -76,6 +97,8 @@ No class. Film assigned.
 ## 03/21/25 Week 10
 
 Erin Manning. ["Angular Perspective; Or, How Concern Shapes the Field](/assets/pdf/manning-how-concern.pdf).
+
+- one more tba.
 
 ## 03/28/25 SPRING BREAK
 

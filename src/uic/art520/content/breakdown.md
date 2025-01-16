@@ -1,2 +1,3 @@
-- 50% Project 1
-- 50% Project 2
+- 33% Participation
+- 33% Analysis of Texts (5)
+- 33% Final Project

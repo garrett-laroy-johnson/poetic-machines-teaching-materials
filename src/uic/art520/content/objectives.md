@@ -1,1 +1,5 @@
-- tbd
+- Survey disparate literatures related to creative experimental practice in contemporary art and theory
+- Develop better ability to articulate ideas, proposals, and speculations through in class practice
+- Deepen understanding of our intellectual context through reading
+- Allow an adventure with ideas to transform and lure your practice
+- Practice discussing your work in theoretical terms
