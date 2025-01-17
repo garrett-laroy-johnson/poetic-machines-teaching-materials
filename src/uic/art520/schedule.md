@@ -46,7 +46,7 @@ Alfred North Whitehead. [The Concept of Nature](https://archive.org/details/cu31
 
 ## 02/07/25 Week 4
 
-Gilles Deleuze. Logic of Sensation.
+Gilles Deleuze. Logic of Sensation: Francis Bacon.
 
 0. Preface
 1. The Round Area, the Ring
