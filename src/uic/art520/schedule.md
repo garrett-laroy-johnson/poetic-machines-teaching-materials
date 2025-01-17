@@ -18,6 +18,8 @@ Syllabus + Introductions
 
 Anna Tsing, Jennifer Deger, Alder Keleman Saxena, Feifei Zhou. [The Feral Atlas: The More-Than-Human Anthropocene.](https://feralatlas.supdigital.org/)
 
+David Lynch. Mulholland Drive. [Winkie's Diner scene](https://www.youtube.com/watch?v=UozhOo0Dt4o).
+
 ## 01/24/25 Week 2
 
 Mark Fisher. [The Weird and the Eerie.](/assets/pdf/weird.pdf)
@@ -33,16 +35,6 @@ Donna Haraway. [Staying With the Trouble: Making Kin in the Chthulucene.](https:
 - Tentacular Thinking
 - Sowing Worlds
 
-<!-- #### optional:
-
-Mark Fisher. Ghosts of My Life: Writings on Depression, Hauntology, and Lost Futures.
-
-Mark Fisher. Postcapitalist Desire.
-
-Anna Tsing. Life in Capitalist Ruins.
-
-Anna Tsing. Mushroom at the End of the World. -->
-
 ## 01/31/25 Week 3
 
 Brian Holmes. "[Driving the Golden Spike.](https://www.e-flux.com/journal/85/156774/driving-the-golden-spike/)"
@@ -54,27 +46,7 @@ Alfred North Whitehead. [The Concept of Nature](https://archive.org/details/cu31
 
 ## 02/07/25 Week 4
 
-Michel Serres. [Parasite](https://xenopraxis.net/readings/serres_parasite.pdf).
-
-- Interrupted Meals
-
-Anna Watkins-Fisher. [The Play in the System: The Art of Parasitic Resistance.](https://archive.org/details/playinsystemarto00fish)
-
-- Introduction
-- Chapter One
-
-## 02/14/25 Week 5
-
-Brian Massumi. [Parables for the Virtual](https://monoskop.org/images/d/dc/Massumi_Brian_Parables_for_the_Virtual_Movement_Affect_Sensation_Post-Contemporary_Interventions.pdf).
-
-- Introduction
-- The Autonomy of Affect
-- Chaos in the "Total Field" of Vision
-- Too-Blue: Color Patch for an Expanded Empiricism
-
-## 02/21/25 Week 6
-
-Deleuze, Gilles. Logic of Sensation.
+Gilles Deleuze. Logic of Sensation.
 
 0. Preface
 1. The Round Area, the Ring
@@ -88,9 +60,29 @@ Deleuze, Gilles. Logic of Sensation.
 
 Field trip to Art Institute of Chicago.
 
+## 02/14/25 Week 5
+
+Brian Massumi. [Parables for the Virtual](https://monoskop.org/images/d/dc/Massumi_Brian_Parables_for_the_Virtual_Movement_Affect_Sensation_Post-Contemporary_Interventions.pdf).
+
+- Introduction
+- The Autonomy of Affect
+- Chaos in the "Total Field" of Vision
+- Too-Blue: Color Patch for an Expanded Empiricism
+
+## 02/21/25 Week 6
+
+Michel Serres. [Parasite](https://xenopraxis.net/readings/serres_parasite.pdf).
+
+- Interrupted Meals
+
+Anna Watkins-Fisher. [The Play in the System: The Art of Parasitic Resistance.](https://archive.org/details/playinsystemarto00fish)
+
+- Introduction
+- Chapter One
+
 ## 02/28/25 Week 7
 
-Deleuze and Guattari. "[Becoming-Intense, Becoming Animal, Becoming Imperceptible](https://files.libcom.org/files/A%20Thousand%20Plateaus.pdf)". A Thousand Plateaus.
+Gilles Deleuze and Felix Guattari. "[Becoming-Intense, Becoming Animal, Becoming Imperceptible](https://files.libcom.org/files/A%20Thousand%20Plateaus.pdf)". A Thousand Plateaus.
 
 ## 03/07/25 Week 8
 
@@ -101,6 +93,8 @@ Reza Negarestani. [Cyclonopedia](https://ciudadtecnicolor.wordpress.com/wp-conte
 ## 03/14/25 Week 9
 
 Octavia Butler. Parable of the Sower.
+
+Nat Mengist and Ioan Butiu. [DIY Homunculi: Into the world of alchemical reproduction and mother trees](/assets/pdf/tal.pdf).
 
 ## 03/21/25 Week 10
 
@@ -117,6 +111,8 @@ No class.
 Kodwo Eshun. [More Brilliant than the Sun](https://monoskop.org/images/b/b2/Eshun_Kodwo_More_Brilliant_Than_the_Sun_Adventures_in_Sonic_Fiction.pdf).
 
 Steve Goodman. [Sonic Warfare](https://archive.org/details/3goodmannstevesonicwarfare).
+
+Muindi Fanuel Muindi. ["The War on Terra"](https://www.academia.edu/85944163/The_War_on_Terra_and_the_New_Underground_Railroad). The War on Terra and the New Underground Railroad.
 
 ## 04/11/25 Week 12
 
