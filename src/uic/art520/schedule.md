@@ -44,6 +44,8 @@ Alfred North Whitehead. [The Concept of Nature](https://archive.org/details/cu31
 - Nature and Thought
 - Theories of the Bifurcation of Nature
 
+Dakota Gearhart. [Life Touching Life ep. 1: "True Love"](https://www.youtube.com/watch?v=ucxVzlJGWfg). Animated video podcast.
+
 ## 02/07/25 Week 4
 
 Gilles Deleuze. Logic of Sensation: Francis Bacon.
