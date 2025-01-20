@@ -28,7 +28,7 @@ Mark Fisher. [The Weird and the Eerie.](/assets/pdf/weird.pdf)
 - "The Out of Place and the Out of Time: Lovecraft and the Weird"
 - "Curtains and Holes: David Lynch"
 
-Donna Haraway. [Staying With the Trouble: Making Kin in the Chthulucene.](https://edisciplinas.usp.br/pluginfile.php/4374763/mod_resource/content/0/Haraway-Staying%20with%20the%20Trouble_%20Making%20Kin%20in%20the%20Chthulucene.pdf)
+Donna Haraway. [Staying With the Trouble: Making Kin in the Chthulucene.](/assets/pdf/haraway.pdf)
 
 - Introduction
 - Playing String Figures with Companion Species
