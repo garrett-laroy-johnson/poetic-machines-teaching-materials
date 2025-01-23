@@ -1,5 +1,6 @@
 ---
-layout: schedule.njk
+layout: tutorial.njk
+title: schedule
 ---
 
 ## Week

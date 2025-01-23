@@ -1,6 +1,7 @@
 ---
-title: Sketchbook
+title: sketchbook
 layout: tutorial.njk
+weekNum: 0
 ---
 
 # Sketchbook
