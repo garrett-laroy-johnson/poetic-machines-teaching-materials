@@ -125,11 +125,23 @@ topics:
        url: https://amormunoz.net/wp-content/uploads/2022/02/PORTFOLIO-2021.pdf
      - name: Kacie Lees
        url: https://www.kacielees.com/
+     - name: Jenny Holzer
+       url: https://www.pbs.org/video/art21-protest/  
+     - name: Robert Irwin
+       url: https://www.youtube.com/watch?v=JCh8s10f2ws
    connections:
       - info: Gregory Mowery (Neon)
         url: https://news.wttw.com/2019/04/15/bright-idea-longtime-professor-brings-neon-art-rogers-park
- - title: Robotics
+ - title: Robotics / Kinetics 
    artists:
+      - name: Rapheal Lozano-Hemmer
+        url: https://www.lozano-hemmer.com/
+      - name: Chico Mac Murtrie
+        url: https://amorphicrobotworks.org/works/index.htm
+      - name: Cod.Act
+        url: https://codact.ch/en/
+      - name: Rebecca Horn
+        url: https://www.youtube.com/watch?v=so1rfLd_OiM
       - name: Ann Hamilton
         url: https://art21.org/artist/ann-hamilton/
       - name: David Bowen
@@ -149,6 +161,8 @@ topics:
         url: https://www.wired.com/story/boston-dynamics-bts-spots-on-it/
       - info: Steven Waldeck, "Electronics and Kinetics"
         url: /assets/pdf/ats.pdf
+      - info: Eduardo Kac, "Foundatin and Development of Robotic Art"
+        url: /assets/pdf/kac.pdf
    connections:
       - info: Steve Waldeck (kinetic art and robotics)[1943-2018]
         url: /assets/pdf/ats.pdf
