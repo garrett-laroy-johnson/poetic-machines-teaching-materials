@@ -41,7 +41,6 @@ Brian Holmes. "[Driving the Golden Spike.](https://www.e-flux.com/journal/85/156
 
 Alfred North Whitehead. [The Concept of Nature](https://archive.org/details/cu31924012068593).
 
-- Nature and Thought
 - Theories of the Bifurcation of Nature
 
 Dakota Gearhart. [Life Touching Life ep. 1: "True Love"](https://www.youtube.com/watch?v=ucxVzlJGWfg). Animated video podcast.
