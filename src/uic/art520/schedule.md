@@ -20,7 +20,7 @@ Anna Tsing, Jennifer Deger, Alder Keleman Saxena, Feifei Zhou. [The Feral Atlas:
 
 David Lynch. Mulholland Drive. [Winkie's Diner scene](https://www.youtube.com/watch?v=UozhOo0Dt4o).
 
-## 01/24/25 Week 2
+## 01/24/25 Week 2: Bottles, Strings, and Portals
 
 Mark Fisher. [The Weird and the Eerie.](/assets/pdf/weird.pdf)
 
@@ -35,7 +35,7 @@ Donna Haraway. [Staying With the Trouble: Making Kin in the Chthulucene.](/asset
 - Tentacular Thinking
 - Sowing Worlds
 
-## 01/31/25 Week 3
+## 01/31/25 Week 3: Spikes, Sunsets, and Rifts
 
 Brian Holmes. "[Driving the Golden Spike.](https://www.e-flux.com/journal/85/156774/driving-the-golden-spike/)"
 
@@ -46,6 +46,15 @@ Alfred North Whitehead. [The Concept of Nature](https://archive.org/details/cu31
 Dakota Gearhart. [Life Touching Life ep. 1: "True Love"](https://www.youtube.com/watch?v=ucxVzlJGWfg). Animated video podcast.
 
 ## 02/07/25 Week 4
+
+Brian Massumi. [Parables for the Virtual](https://monoskop.org/images/d/dc/Massumi_Brian_Parables_for_the_Virtual_Movement_Affect_Sensation_Post-Contemporary_Interventions.pdf).
+
+- Introduction
+- The Autonomy of Affect
+- Chaos in the "Total Field" of Vision
+- Too-Blue: Color Patch for an Expanded Empiricism
+
+## 02/14/25 Week 5
 
 Gilles Deleuze. Logic of Sensation: Francis Bacon.
 
@@ -61,15 +70,6 @@ Gilles Deleuze. Logic of Sensation: Francis Bacon.
 
 Field trip to Art Institute of Chicago.
 
-## 02/14/25 Week 5
-
-Brian Massumi. [Parables for the Virtual](https://monoskop.org/images/d/dc/Massumi_Brian_Parables_for_the_Virtual_Movement_Affect_Sensation_Post-Contemporary_Interventions.pdf).
-
-- Introduction
-- The Autonomy of Affect
-- Chaos in the "Total Field" of Vision
-- Too-Blue: Color Patch for an Expanded Empiricism
-
 ## 02/21/25 Week 6
 
 Michel Serres. [Parasite](https://xenopraxis.net/readings/serres_parasite.pdf).
@@ -81,9 +81,15 @@ Anna Watkins-Fisher. [The Play in the System: The Art of Parasitic Resistance.](
 - Introduction
 - Chapter One
 
-## 02/28/25 Week 7
+Deleuze, Gilles and Felix Guattari. Selection: “Becoming Intense, Becoming Animal” 233-248. A Thousand Plateaus, trans. Brian Massumi. University of Minnesota Press. 2022.
 
-Gilles Deleuze and Felix Guattari. "[Becoming-Intense, Becoming Animal, Becoming Imperceptible](https://files.libcom.org/files/A%20Thousand%20Plateaus.pdf)". A Thousand Plateaus.
+## 02/28/25 Week 7 GRAD CRITS
+
+No class.
+
+Octavia Butler. Parable of the Sower.
+
+Nat Mengist and Ioan Butiu. [DIY Homunculi: Into the world of alchemical reproduction and mother trees](/assets/pdf/tal.pdf).
 
 ## 03/07/25 Week 8
 
@@ -91,11 +97,9 @@ Vilem Flusser and Louis Bec. [Vampyroteuthis Infernalis (The Vampire Squid from 
 
 Reza Negarestani. [Cyclonopedia](https://ciudadtecnicolor.wordpress.com/wp-content/uploads/2011/01/cyclonopedia.pdf).
 
-## 03/14/25 Week 9
+## 03/14/25 Week 9 Instructor Out of Town
 
-Octavia Butler. Parable of the Sower.
-
-Nat Mengist and Ioan Butiu. [DIY Homunculi: Into the world of alchemical reproduction and mother trees](/assets/pdf/tal.pdf).
+No class.
 
 ## 03/21/25 Week 10
 
@@ -119,27 +123,26 @@ Muindi Fanuel Muindi. ["The War on Terra"](https://www.academia.edu/85944163/The
 
 Laboria Cuboniks. [The Xenofeminist Manifesto](https://www.laboriacuboniks.net/20150612-xf_layout_web.pdf).
 
-Amy Ireland and Maya B. Kronic. Cute Accelerationism.
+Isabelle Stengers. "[Reclaiming Animism](https://www.e-flux.com/journal/36/61245/reclaiming-animism/)".
+
+optional:
+
+- Amy Ireland and Maya B. Kronic. Cute Accelerationism.
+- Silvia Federici. [Caliban and the Witch: Women, the Body, and Primitive Accumulation](https://files.libcom.org/files/Caliban%20and%20the%20Witch.pdf).
 
 ## 04/18/25 Week 13
 
-Silvia Federici. [Caliban and the Witch: Women, the Body, and Primitive Accumulation](https://files.libcom.org/files/Caliban%20and%20the%20Witch.pdf).
-
-Isabelle Stengers. "[Reclaiming Animism](https://www.e-flux.com/journal/36/61245/reclaiming-animism/)".
+1:1 meetings.
 
 ## 04/25/25 Week 14
 
-1:1 Meetings.
+Final presentations.
 
 ## 05/02/25 Week 15
 
 No Class.
 
 Attend 7pm gallery opening: "Weird Dreams, Weird Analysis" at Co-Prosperity in Bridgeport, Chicago, Illinois.
-
-## 05/09/25 Week 15
-
-Final presentations.
 
 <!--
 
