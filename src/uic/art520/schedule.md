@@ -52,7 +52,6 @@ Brian Massumi. [Parables for the Virtual](https://monoskop.org/images/d/dc/Massu
 - Introduction
 - The Autonomy of Affect
 - Chaos in the "Total Field" of Vision
-- Too-Blue: Color Patch for an Expanded Empiricism
 
 ## 02/14/25 Week 5
 
