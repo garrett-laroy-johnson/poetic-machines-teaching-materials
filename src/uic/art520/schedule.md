@@ -45,7 +45,7 @@ Alfred North Whitehead. [The Concept of Nature](https://archive.org/details/cu31
 
 Dakota Gearhart. [Life Touching Life ep. 1: "True Love"](https://www.youtube.com/watch?v=ucxVzlJGWfg). Animated video podcast.
 
-## 02/07/25 Week 4
+## 02/07/25 Week 4: Arrows, Grids, and Skins
 
 Brian Massumi. [Parables for the Virtual](https://monoskop.org/images/d/dc/Massumi_Brian_Parables_for_the_Virtual_Movement_Affect_Sensation_Post-Contemporary_Interventions.pdf).
 
