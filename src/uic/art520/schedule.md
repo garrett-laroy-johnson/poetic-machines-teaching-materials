@@ -55,17 +55,14 @@ Brian Massumi. [Parables for the Virtual](https://monoskop.org/images/d/dc/Massu
 
 ## 02/14/25 Week 5
 
-Gilles Deleuze. Logic of Sensation: Francis Bacon.
+Gilles Deleuze. [Logic of Sensation: Francis Bacon](https://monoskop.org/images/1/1f/Deleuze_Gilles_Francis_Bacon_The_Logic_of_Sensation.pdf).
 
-0. Preface
-1. The Round Area, the Ring
-2. Note on Figuration in Past Painting
-3. Body, Meat, and Spirit: Becoming Animal
-4. Recapitulative: Bacon's Periods and Aspects
-5. Painting and Sensation
-6. Painting Forces
-7. Couples and Triptychs
-8. Note: What is a Triptych?
+- Preface
+- Body, Meat, and Spirit: Becoming Animal
+- Painting and Sensation
+- Painting Forces
+- Couples and Triptychs
+- Note: What is a Triptych?
 
 Field trip to Art Institute of Chicago.
 
