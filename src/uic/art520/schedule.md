@@ -53,7 +53,7 @@ Brian Massumi. [Parables for the Virtual](https://monoskop.org/images/d/dc/Massu
 - The Autonomy of Affect
 - Chaos in the "Total Field" of Vision
 
-## 02/14/25 Week 5
+## 02/14/25 Week 5: Meat, Faces, and Figures
 
 Gilles Deleuze. [Logic of Sensation: Francis Bacon](https://monoskop.org/images/1/1f/Deleuze_Gilles_Francis_Bacon_The_Logic_of_Sensation.pdf).
 
@@ -65,6 +65,8 @@ Gilles Deleuze. [Logic of Sensation: Francis Bacon](https://monoskop.org/images/
 - Note: What is a Triptych?
 
 Field trip to Art Institute of Chicago.
+
+[Index of Bacon paintings](https://piratesandrevolutionaries.blogspot.com/2010/01/paintings-cited-in-deleuzes-francis.html?m=1).
 
 ## 02/21/25 Week 6
 
@@ -83,19 +85,15 @@ Deleuze, Gilles and Felix Guattari. Selection: “Becoming Intense, Becoming Ani
 
 No class.
 
-Octavia Butler. Parable of the Sower.
-
-Nat Mengist and Ioan Butiu. [DIY Homunculi: Into the world of alchemical reproduction and mother trees](/assets/pdf/tal.pdf).
-
 ## 03/07/25 Week 8
 
 Vilem Flusser and Louis Bec. [Vampyroteuthis Infernalis (The Vampire Squid from Hell)](https://www.rybn.org/ANTI/ADMXI/documentation/ADMXI/I._FABULATORY_EPISTEMOLOGY/VAMPYROTHEUTIS_INFERNALIS/Vilem_Flusser_Louis_Bec_-_Vampyroteuthis_Infernalis.pdf).
 
 Reza Negarestani. [Cyclonopedia](https://ciudadtecnicolor.wordpress.com/wp-content/uploads/2011/01/cyclonopedia.pdf).
 
-## 03/14/25 Week 9 Instructor Out of Town
+## 03/14/25 Week 9 Substitute
 
-No class.
+Substitute: Omur Harmansah (UIC)
 
 ## 03/21/25 Week 10
 
@@ -114,6 +112,8 @@ Kodwo Eshun. [More Brilliant than the Sun](https://monoskop.org/images/b/b2/Eshu
 Steve Goodman. [Sonic Warfare](https://archive.org/details/3goodmannstevesonicwarfare).
 
 Muindi Fanuel Muindi. ["The War on Terra"](https://www.academia.edu/85944163/The_War_on_Terra_and_the_New_Underground_Railroad). The War on Terra and the New Underground Railroad.
+
+Guest: Muindi Fanuel Muindi (Center for Concrete and Abstract Machines, Fyrythr Institute for Unsettling Technologies)
 
 ## 04/11/25 Week 12
 
