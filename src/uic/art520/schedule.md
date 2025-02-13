@@ -74,12 +74,14 @@ Michel Serres. [Parasite](https://xenopraxis.net/readings/serres_parasite.pdf).
 
 - Interrupted Meals
 
+Deleuze, Gilles and Felix Guattari. Selection: “Becoming Intense, Becoming Animal” 233-248. A Thousand Plateaus, trans. Brian Massumi. University of Minnesota Press. 2022.
+
+Optional:
+
 Anna Watkins-Fisher. [The Play in the System: The Art of Parasitic Resistance.](https://archive.org/details/playinsystemarto00fish)
 
 - Introduction
 - Chapter One
-
-Deleuze, Gilles and Felix Guattari. Selection: “Becoming Intense, Becoming Animal” 233-248. A Thousand Plateaus, trans. Brian Massumi. University of Minnesota Press. 2022.
 
 ## 02/28/25 Week 7 GRAD CRITS
 
