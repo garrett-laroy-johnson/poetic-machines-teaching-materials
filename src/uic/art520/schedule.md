@@ -70,18 +70,7 @@ Field trip to Art Institute of Chicago.
 
 ## 02/21/25 Week 6
 
-Michel Serres. [Parasite](https://xenopraxis.net/readings/serres_parasite.pdf).
-
-- Interrupted Meals
-
-Deleuze, Gilles and Felix Guattari. Selection: “Becoming Intense, Becoming Animal” 233-248. A Thousand Plateaus, trans. Brian Massumi. University of Minnesota Press. 2022.
-
-Optional:
-
-Anna Watkins-Fisher. [The Play in the System: The Art of Parasitic Resistance.](https://archive.org/details/playinsystemarto00fish)
-
-- Introduction
-- Chapter One
+Deleuze, Gilles and Felix Guattari. Selection: [“Becoming Intense, Becoming Animal”](https://files.libcom.org/files/A%20Thousand%20Plateaus.pdf). 233-252. A Thousand Plateaus.
 
 ## 02/28/25 Week 7 GRAD CRITS
 
@@ -89,17 +78,24 @@ No class.
 
 ## 03/07/25 Week 8
 
+Michel Serres. [Parasite](https://xenopraxis.net/readings/serres_parasite.pdf).
+
+- Interrupted Meals
+
 Vilem Flusser and Louis Bec. [Vampyroteuthis Infernalis (The Vampire Squid from Hell)](https://www.rybn.org/ANTI/ADMXI/documentation/ADMXI/I._FABULATORY_EPISTEMOLOGY/VAMPYROTHEUTIS_INFERNALIS/Vilem_Flusser_Louis_Bec_-_Vampyroteuthis_Infernalis.pdf).
 
-Reza Negarestani. [Cyclonopedia](https://ciudadtecnicolor.wordpress.com/wp-content/uploads/2011/01/cyclonopedia.pdf).
+optional:
 
-## 03/14/25 Week 9 Substitute
+Anna Watkins-Fisher. [The Play in the System: The Art of Parasitic Resistance.](https://archive.org/details/playinsystemarto00fish)
 
-Substitute: Omur Harmansah (UIC)
+- Introduction
+- Chapter One
 
-## 03/21/25 Week 10
+## 03/14/25 Week 9
 
 Erin Manning. ["Angular Perspective; Or, How Concern Shapes the Field](/assets/pdf/manning-how-concern.pdf).
+
+## 03/21/25 Week 10
 
 Final project proposals.
 
@@ -109,13 +105,13 @@ No class.
 
 ## 04/04/25 Week 11
 
+Guest: Muindi Fanuel Muindi (Center for Concrete and Abstract Machines, Fyrythr Institute for Unsettling Technologies)
+
 Kodwo Eshun. [More Brilliant than the Sun](https://monoskop.org/images/b/b2/Eshun_Kodwo_More_Brilliant_Than_the_Sun_Adventures_in_Sonic_Fiction.pdf).
 
 Steve Goodman. [Sonic Warfare](https://archive.org/details/3goodmannstevesonicwarfare).
 
 Muindi Fanuel Muindi. ["The War on Terra"](https://www.academia.edu/85944163/The_War_on_Terra_and_the_New_Underground_Railroad). The War on Terra and the New Underground Railroad.
-
-Guest: Muindi Fanuel Muindi (Center for Concrete and Abstract Machines, Fyrythr Institute for Unsettling Technologies)
 
 ## 04/11/25 Week 12
 
