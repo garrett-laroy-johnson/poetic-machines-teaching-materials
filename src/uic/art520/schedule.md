@@ -93,6 +93,8 @@ Anna Watkins-Fisher. [The Play in the System: The Art of Parasitic Resistance.](
 
 ## 03/14/25 Week 9
 
+Guest: Dakota Gearhart
+
 Erin Manning. ["Angular Perspective; Or, How Concern Shapes the Field](/assets/pdf/manning-how-concern.pdf).
 
 ## 03/21/25 Week 10
