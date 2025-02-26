@@ -68,7 +68,7 @@ Field trip to Art Institute of Chicago.
 
 [Index of Bacon paintings](https://piratesandrevolutionaries.blogspot.com/2010/01/paintings-cited-in-deleuzes-francis.html?m=1).
 
-## 02/21/25 Week 6
+## 02/21/25 Week 6: Rats, Packs, and Sorcerers
 
 Deleuze, Gilles and Felix Guattari. Selection: [“Becoming Intense, Becoming Animal”](https://files.libcom.org/files/A%20Thousand%20Plateaus.pdf). 233-252. A Thousand Plateaus.
 
@@ -83,6 +83,9 @@ Michel Serres. [Parasite](https://xenopraxis.net/readings/serres_parasite.pdf).
 - Interrupted Meals
 
 Vilem Flusser and Louis Bec. [Vampyroteuthis Infernalis (The Vampire Squid from Hell)](https://www.rybn.org/ANTI/ADMXI/documentation/ADMXI/I._FABULATORY_EPISTEMOLOGY/VAMPYROTHEUTIS_INFERNALIS/Vilem_Flusser_Louis_Bec_-_Vampyroteuthis_Infernalis.pdf).
+
+- The Vampyroteuthic World
+- The Vampyroteuthic Culture
 
 optional:
 
