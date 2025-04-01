@@ -76,7 +76,7 @@ Deleuze, Gilles and Felix Guattari. Selection: [“Becoming Intense, Becoming An
 
 No class.
 
-## 03/07/25 Week 8
+## 03/07/25 Week 8: (More) Rats, Noise, and Tentacles
 
 Michel Serres. [Parasite](https://xenopraxis.net/readings/serres_parasite.pdf).
 
@@ -94,7 +94,7 @@ Anna Watkins-Fisher. [The Play in the System: The Art of Parasitic Resistance.](
 - Introduction
 - Chapter One
 
-## 03/14/25 Week 9
+## 03/14/25 Week 9: Angles, Events, and Mantises
 
 Guest: Dakota Gearhart
 
@@ -108,15 +108,19 @@ Final project proposals.
 
 No class.
 
-## 04/04/25 Week 11
+## 04/04/25 Week 11: Beats, Bombs, and Bruteness
 
 Guest: Muindi Fanuel Muindi (Center for Concrete and Abstract Machines, Fyrythr Institute for Unsettling Technologies)
 
-Kodwo Eshun. [More Brilliant than the Sun](https://monoskop.org/images/b/b2/Eshun_Kodwo_More_Brilliant_Than_the_Sun_Adventures_in_Sonic_Fiction.pdf).
+Kodwo Eshun. "Virtualizing the Breakbeat." [More Brilliant than the Sun](https://monoskop.org/images/b/b2/Eshun_Kodwo_More_Brilliant_Than_the_Sun_Adventures_in_Sonic_Fiction.pdf). 67-77.
 
 Steve Goodman. [Sonic Warfare](https://archive.org/details/3goodmannstevesonicwarfare).
 
-Muindi Fanuel Muindi. ["The War on Terra"](https://www.academia.edu/85944163/The_War_on_Terra_and_the_New_Underground_Railroad). The War on Terra and the New Underground Railroad.
+- Introduction (until xvii)
+- 1998: A Conceptual Event
+- 2001: What is Sonic Warfare?
+
+Muindi Fanuel Muindi. ["AI and D"](/assets/pdf/AID.pdf)
 
 ## 04/11/25 Week 12
 
