@@ -8,10 +8,6 @@ title: Guests
 
 ## FA 2024
 
-## Anna Munster
-
-#### Philosopher of Art and Media Systems | Melbourne, AU
-
 ## Brian Holmes
 
 #### Activist, artist, theorist, Geographical Information Systems (GIS) | Chicago, Illinois
