@@ -1,6 +1,6 @@
 function setup() {
-  let w = (window.innerWidth * 3) / 4;
-  createCanvas(w, window.innerHeight * 2).parent("#splash");
+  //let w = ( * 3) / 4;
+  createCanvas(window.innerWidth, window.innerHeight * 2).parent("#splash");
 }
 
 function draw() {

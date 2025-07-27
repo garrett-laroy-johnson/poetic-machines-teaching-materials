@@ -4,8 +4,7 @@ let followers = [];
 let minDist = 200;
 
 function setup() {
-  let w = (window.innerWidth * 3) / 4;
-  createCanvas(w, window.innerHeight).parent("#splash");
+  createCanvas(window.innerWidth, window.innerHeight).parent("#splash");
   background("white");
   noStroke();
   for (let i = 0; i < numBoids; i++) {

@@ -12,8 +12,7 @@ let jitter = 3;
 let displace = [];
 
 function setup() {
-  let w = (window.innerWidth * 3) / 4;
-  createCanvas(w, window.innerHeight * 2).parent("#splash");
+  createCanvas(window.innerWidth, window.innerHeight * 2).parent("#splash");
   num = height / density;
   t = 0.0001;
 

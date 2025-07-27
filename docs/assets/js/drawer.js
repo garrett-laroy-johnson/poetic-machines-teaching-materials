@@ -7,8 +7,7 @@ let spd = 0.1;
 let count = 0;
 
 function setup() {
-  let w = (window.innerWidth * 3) / 4;
-  createCanvas(w, window.innerHeight).parent("#splash");
+  createCanvas(window.innerWidth, window.innerHeight * 2).parent("#splash");
   background("white");
   text("[click & drag]", width / 4, height / 2);
 }

@@ -14,8 +14,7 @@ let jitspacing;
 let noiseScale = 0.3;
 
 function setup() {
-  let w = (window.innerWidth * 3) / 4;
-  createCanvas(w, window.innerHeight * 2).parent("#splash");
+  createCanvas(window.innerWidth, window.innerHeight * 2).parent("#splash");
   spacing = width / numLines; // set spacing
   jitspacing = height / numJitts; // set VERTICAL spacing;
   jitter = spacing / 2;

@@ -1,6 +1,6 @@
 ---
 layout: bigtext.njk
-title: digital practices w. garrett laroy johnson
+title: digital practices w. grace grace grace
 big:
   - name: NMA @ UIC
     url: uic

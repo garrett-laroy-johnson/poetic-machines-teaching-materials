@@ -7,7 +7,7 @@ let painted = 0; // number of squares painted
 function setup() {
   frameRate(timestep);
   res = window.innerWidth;
-  createCanvas(window.innerWidth * 0.75, window.innerHeight).parent("#splash");
+  createCanvas(window.innerWidth, window.innerHeight * 2).parent("#splash");
   matrix = new mat(res);
   matrix.fill();
   // for (i = 0; i < crawInit; i++) {

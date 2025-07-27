@@ -2,8 +2,7 @@
 let walkers = [];
 
 function setup() {
-  let w = window.innerWidth * 3 / 4;
-  createCanvas(w, window.innerHeight * 2).parent("#splash");
+  createCanvas(window.innerWidth, window.innerHeight * 2).parent("#splash");
   for (i = 0; i < 50; i++) {
     let b = new Walker(width / 2, height / 2);
     walkers.push(b);
@@ -25,12 +24,15 @@ function draw() {
     //walkers[a].update();
     walkers[a].edges();
   }
-  beginShape()
-  curveVertex(walkers[0].pos.x, walkers[0].pos.y)
+  beginShape();
+  curveVertex(walkers[0].pos.x, walkers[0].pos.y);
   for (a = 0; a < walkers.length; a++) {
-    curveVertex(walkers[a].pos.x, walkers[a].pos.y)
+    curveVertex(walkers[a].pos.x, walkers[a].pos.y);
   }
-  curveVertex(walkers[walkers.length - 1].pos.x, walkers[walkers.length - 2].pos.y);
+  curveVertex(
+    walkers[walkers.length - 1].pos.x,
+    walkers[walkers.length - 2].pos.y
+  );
   endShape();
 }
 class Walker {
