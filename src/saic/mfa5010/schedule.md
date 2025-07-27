@@ -9,7 +9,7 @@ Maturana, Humberto & Francisco Varela. [The Tree of Knowledge](/assets/pdf/tree-
 
 # Schedule
 
-## 08/30/24 Week 1
+## 08/29/25 Week 1
 
 Syllabus + Introductions
 
@@ -17,9 +17,7 @@ Syllabus + Introductions
 
 [Ilya Prigogine on Chaos and Art](https://youtu.be/v_7bbpvRp6I?si=xqtO-xN_2u_1fFcM)
 
-## 09/6/24 Week 2
-
-Berardi, Bifo. “[Unheimlich: The Spiral of Chaos and the Cognitive Automaton](https://www.e-flux.com/notes/526496/unheimlich-the-spiral-of-chaos-and-the-cognitive-automaton).” E-Flux Journal. March 2023.
+## 09/5/25 Week 2
 
 Prigogyne, Ilya and Isabelle Stengers. [Order Out of Chaos: Man's New Dialogue with Nature](https://deterritorialinvestigations.wordpress.com/wp-content/uploads/2015/03/ilya_prigogine_isabelle_stengers_alvin_tofflerbookfi-org.pdf). 1984.
 
@@ -27,7 +25,7 @@ Prigogyne, Ilya and Isabelle Stengers. [Order Out of Chaos: Man's New Dialogue w
 - Preface: Man's New Dialogie with Nature
 - Introduction: A Challenge to Science
 
-## 09/13/24 Week 3
+## 09/12/25 Week 3
 
 Maturana, Humberto & Francisco Varela. [The Tree of Knowledge](/assets/pdf/tree-of-knowledge.pdf). Foreword, Preface, Chapters 1, 2, 3, and 4. 1987.
 
@@ -37,7 +35,7 @@ Medina, Eden. [Cybernetic Revolutionaries: Technology and Politics in Allende's 
 
 Morozov, Evgeny. [Santiago Boys](https://the-santiago-boys.com/), podcast. 2023.
 
-## 09/20/24 Week 4
+## 09/19/25 Week 4
 
 Von Foerster, Heinz. [The Beginning of Heaven and Earth has No Name](/assets/pdf/The_Beginning_of_Heaven.pdf) 2014.
 
@@ -54,7 +52,7 @@ Curtis, Adam. [All Watched Over By Machines of Loving Grace](https://vimeo.com/5
 
 Holmes, Brian. "[Count to Three](/assets/pdf/Count-to-three.pdf)." 2016.
 
-## 09/27/24 Week 5
+## 09/26/25 Week 5
 
 Whitehead, Alfred North. [Modes of Thought](/assets/pdf/Modes-of-Thought-Whitehead.pdf). 1938.
 
@@ -69,7 +67,7 @@ Manning, Erin. [The Minor Gesture](/assets/pdf/The-Minor-Gesture.pdf). 2014.
 
 Halewood, Michael. "[The Order of Nature and the Creation of Societies](/assets/pdf/TheLureofWhithead.pdf)", in The Lure of Whitehead, 2014.
 
-## 10/04/24 Week 6
+## 10/03/25 Week 6
 
 Whitehead, Alfred North. [Modes of Thought](/assets/pdf/Modes-of-Thought-Whitehead.pdf). 1938.
 
@@ -81,7 +79,7 @@ Whitehead, Alfred North. [Modes of Thought](/assets/pdf/Modes-of-Thought-Whitehe
 
 Ramos, Ana. "[Standing in the Midst](https://journals.oslomet.no/index.php/rerm/article/view/5145/4497)", in Erin Manning's Imperatives for Education Research. 2022.
 
-## 10/11/24 Week 7
+## 10/10/25 Week 7
 
 Stengers, Isabelle. "[Gaia, the Urgency to Think (and Feel)](https://osmilnomesdegaia.eco.br/wp-content/uploads/2014/11/isabelle-stengers.pdf)." 2014.
 
@@ -91,9 +89,7 @@ Guattari, Felix. ["I Am God Most of the Time,"](/assets/img/i-am-a-god.jpg) in C
 
 Clark, Tim. ["A Whiteheadian Chaosmos?"](/assets/pdf/DeleuzeBergson.pdf) in Whitehead, Deleuze, Bergson. 2009.
 
-## 10/18/24 Week 8
-
-Instructor planned absence. Please watch two films:
+## 10/17/25 Week 8
 
 [Pi](https://archive.org/details/pi-1998_202107) by Darren Aronofsky
 
@@ -103,43 +99,41 @@ Thomas, Zach. ["Carlos Reygadas' Post Tenebras Lux: Towards a Cinema of Experien
 
 Johnson, Garrett Laroy. ["Post Tenebras Lux,"](/assets/pdf/tal.pdf) in The Anthropocene Laboratory. 2023.
 
-## 10/25/24 Week 9
+## 10/24/25 Week 9
 
 Glissant, Eduardo. Poetics of Relation, ["Theories"](https://monoskop.org/images/2/23/Glissant_Edouard_Poetics_of_Relation.pdf). University of Michigan Press, 2009.
 
-## 11/01/24 Week 10
+## 10/31/25 Week 10
 
 Glissant, Eduardo. Poetics of Relation, ["Generalization"](https://monoskop.org/images/2/23/Glissant_Edouard_Poetics_of_Relation.pdf). University of Michigan Press, 2009.
 
+## 11/07/25 Week 11
+
+Grosz, Elizabeth. Chaos, Territory, Art: Deleuze and the Framing of the Earth. Duke University Press. 2008.
+
+## 11/14/25 Week 12
+
 Deleuze, Gilles and Felix Guattari. "[From Chaos to Brain](https://transversalinflections.wordpress.com/wp-content/uploads/2015/04/deleuze-3207-what_is_philosophy-fenomenologie-van-schilderkunst.pdf)" in What is Philosophy? 1991.
-
-Young, Eugene B. Et al. ["Chaos", "Chaosmosis", and "Chaosophy"](/assets/pdf/dictionary.pdf) in the Deleuze and Guattari Dictionary. 2013.
-
-## 11/08/24 Week 11
-
-[instructor out of town]
-
-## 11/15/24 Week 12
 
 Guattari, Felix. ["Schizoid Chaosmosis"](https://monoskop.org/images/2/24/Guattari_Felix_Chaosmosis_An_Ethico-Aesthetic_Paradigm.pdf) in Chaosmosis: An Ethico-Aesthetic Paradigm. 1992.
 
+Young, Eugene B. Et al. ["Chaos", "Chaosmosis", and "Chaosophy"](/assets/pdf/dictionary.pdf) in the Deleuze and Guattari Dictionary. 2013.
+
+## 11/21/25 Week 13
+
 Holmes, Brian. [Guattari's Schizoanalytic Cartographies: Or, The Pathic Core at the Heart of Cybernetics](https://miriamgrossi.paginas.ufsc.br/files/2013/02/25090965-Guattari%E2%80%99s-Schizoanalytic-Cartographies.pdf).
 
-## 11/22/24 Week 13
-
-Clarke, Bruce. [Gaian Systems](/assets/pdf/Neocybernetics.pdf): Lynn Margulis, Neocybernetics, and the End of the Anthropocene, 2020.
-
-## 11/29/24 Week 14
+## 11/28/25 Week 14
 
 (Thanksgiving break, no class)
 
-## 12/06/24 Week 15
+## 12/05/25 Week 15
 
 Critique week, no class
 
-## 12/13/24 Week 16
+## 12/12/25 Week 16
 
-Final project critiques
+Final project showings
 
 <!--
 Munster, Anna. An Aesthetia of Networks: Conjunctive Experience in Art and Technology. 2013.
@@ -158,7 +152,7 @@ Dhaliwal, Ranjodh. “Addressability: or What is Computation Even?” Critical I
 
 Galloway, Alexander. Uncomputable: Play and Politics in the Long Digital Age. Verso, 2022. [selections]
 
-Grosz, Elizabeth. Chaos, Territory, Art: Deleuze and the Framing of the Earth. Duke University Press. 2008.
+
 
 [Holmes, Brian. Guattari's Schizoanalytic Cartographies: Or, the Pathic Core at the Heart of Cybernetics](https://miriamgrossi.paginas.ufsc.br/files/2013/02/25090965-Guattari%E2%80%99s-Schizoanalytic-Cartographies.pdf).
 
