@@ -1,4 +1,26 @@
-The story starts long before we were born. It ends long after our deaths. It begins before the birth of the universe, before the concept of birth had learned to move matter, or had been moved to matter. In the same way a story lingers beyond its telling, our story ends in the way all stories strive to: towards a dissipation of its creative energy we were unequipped to notice. Again and again, we are always arriving in the middle.
+We chart a course across uneven terrains and disparate territories guided by the basic question of chaos theory (Prigogine and Stengers): how can we account for the world as deterministic and predictable (think Newtonian physics, 1990s New Economy computationalism, algorithmic behaviorist psychology, the inevitable heat death of the universe) given our experience suggesting it is otherwise radically open and indeterminate (accidents, relationality and group social dynamics, evolutionary biology’s sensitivity to rare events in sexual selection, the fallibility of weather prediction, and unforeseeable “Black Swan” events such as 9/11, Covid, gender revelation, or falling in love)?
+
+A flashpoint in this tension between predictability and uncertainty took place in 1970s Chile. Santiago's 1968's student-led university occupations informed Biologists-turned cyberneticists Humberto Maturana and Francisco Varela's concept of life as autopoietic system (approximately: self organization).
+
+The heterodox process philosophy of mathematician physicist Alfred North Whitehead, whose inheritors include, incredibly, both the philosophy of science and technology and Kode 9’s Hyperdub record label, demands we see feeling and thinking as co-imbricated processes that unfurl reality.
+
+These processes play out relationally and politically, against coloniality, in the Caribbean philosopher poet Eduardo Glissant’s Poetics of Relation and Mexican filmmaker Carlos Reygadas’s nonlinear and experiential Post Tenebras Lux.
+
+(An)architect of chaos theory Isabelle Stengers returns, casting climate change as an “intrusion of Gaia” that creates the rare opportunity for us to understand our political, ecological, and spiritual situation with the help of activist witchcraft, sci-fi, and Whitehead.
+
+Adrift in their rowboat on the waters of the Hood Canal, geographer-artist Asa Sakrison catalyzes our capacity to think and feel climate change in and across our climate-changed bodies.
+
+In a becoming-animal, Elizabeth Grosz writes of art not in terms of Rationalist notions of beauty and judgement, but driven instead by an improvised dance with evolutionary forces which stakes territory, devises courtship ritual, and generates unforeseeable futures.
+
+We arrive on a plateau where:
+
+Art is not about communicating anything at all— it is an equipment for cracking open the protective shell of “what we all know” and jettisoning into the indeterminate, a turbulent communion with the chaosmos (chaos-cosmos) that cuts across mental, social, and environmental ecologies. The artist returns having woven together variations of sensation that scramble the very possibilities of what we believed our bodies could do.
+
+The artist creates the conditions for generating new modes of embodied moving, thinking, feeling, acting; art practice experiments in sensuous seduction, a surfing and surfacing flows of desire. They recode chaos into metastable existential territories, temporarily autonomous ways of life.
+
+Art is a fucking scream, a fucking-screaming-throwing up rhythms of perception composing chaos, (trans)mutating the mundane, and engendering socio-genetic anomaly.
+
+<!-- The story starts long before we were born. It ends long after our deaths. It begins before the birth of the universe, before the concept of birth had learned to move matter, or had been moved to matter. In the same way a story lingers beyond its telling, our story ends in the way all stories strive to: towards a dissipation of its creative energy we were unequipped to notice. Again and again, we are always arriving in the middle.
 
 Franz Joseph Haydn's Creation Oratorio begins with a movement titled: "Aus dem Khaos" (Out of the Chaos). To talk about the emergence of creativity, we don't need to talk about God, but sometimes, we must admit: on one hand, it helps and has helped many people who have walked this Earth. On the other it complexifies, demands us to create faith. If we don't speak of God, more specifically, God as Creator, then we find ourselves with a different problem:
 
@@ -22,4 +44,4 @@ Models break down at their limits. When they do, we might realize that we are al
 
 Across mental, social, and environmental registers, our experience is replete with unprestatable events, events that alter the fabric of experience, that blow our models apart entirely: a global pandemic, the death of a friend, the moment you realize you are trans, falling in love. These events are ruptures in the fabric of life, portals to experiences you couldn't have known were possible before, but after which become absolutely necessary to think of at all. The stakes of chaos and order are grounded in the flux of the universe: creativity at scales grand and molecular alike.
 
-This seminar seeks to get a grip in this slippery terrain; to understand what it means to get a grip in a world in which certainty is fleeting at best. How does one, as Ana Ramos puts in, find the ground on which to "stand in the midst" of the world's undulating uncertainty? Most importantly: how are we rewarded by detaching from our compulsions toward an ever more complete model, and yet, what can models sensitive to incompleteness generate new ways of seeing and acting in the world?
+This seminar seeks to get a grip in this slippery terrain; to understand what it means to get a grip in a world in which certainty is fleeting at best. How does one, as Ana Ramos puts in, find the ground on which to "stand in the midst" of the world's undulating uncertainty? Most importantly: how are we rewarded by detaching from our compulsions toward an ever more complete model, and yet, what can models sensitive to incompleteness generate new ways of seeing and acting in the world? -->
