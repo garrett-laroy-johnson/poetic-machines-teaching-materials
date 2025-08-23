@@ -13,11 +13,15 @@ Maturana, Humberto & Francisco Varela. [The Tree of Knowledge](/assets/pdf/tree-
 
 Syllabus + Introductions
 
+[Isabelle Stengers. Introduction to Making Sense in Common](/assets/pdf/StengersMakingSenseIntro.pdf), excerpt. 2025.
+
+Interview with Brian Massumi and Erin Manning, with Adam Nocek and Stacey Moran. ["3Ecologies Project."](https://techniquesjournal.com/3ecologies-project/) First question and answers. 2022.
+
+## 09/5/25 Week 2
+
 ["Chaos" Documentary](https://youtu.be/6BvTKBYBMFY?si=I5DSj_whLaGG-6_a)
 
 [Ilya Prigogine on Chaos and Art](https://youtu.be/v_7bbpvRp6I?si=xqtO-xN_2u_1fFcM)
-
-## 09/5/25 Week 2
 
 Prigogyne, Ilya and Isabelle Stengers. [Order Out of Chaos: Man's New Dialogue with Nature](https://deterritorialinvestigations.wordpress.com/wp-content/uploads/2015/03/ilya_prigogine_isabelle_stengers_alvin_tofflerbookfi-org.pdf). 1984.
 
@@ -105,7 +109,7 @@ Glissant, Eduardo. Poetics of Relation, ["Theories"](https://monoskop.org/images
 
 ## 10/31/25 Week 10
 
-Glissant, Eduardo. Poetics of Relation, ["Generalization"](https://monoskop.org/images/2/23/Glissant_Edouard_Poetics_of_Relation.pdf). University of Michigan Press, 2009.
+Instructor absent, sub or other programming.
 
 ## 11/07/25 Week 11
 
