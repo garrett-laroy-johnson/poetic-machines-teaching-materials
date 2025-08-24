@@ -26,7 +26,7 @@ Interview with Brian Massumi and Erin Manning, with Adam Nocek and Stacey Moran.
 Prigogyne, Ilya and Isabelle Stengers. [Order Out of Chaos: Man's New Dialogue with Nature](https://deterritorialinvestigations.wordpress.com/wp-content/uploads/2015/03/ilya_prigogine_isabelle_stengers_alvin_tofflerbookfi-org.pdf). 1984.
 
 - Foreward: Science and Change
-- Preface: Man's New Dialogie with Nature
+- Preface: Man's New Dialogue with Nature
 - Introduction: A Challenge to Science
 
 ## 09/12/25 Week 3
@@ -91,7 +91,7 @@ Sakrison, Asa. ["Rowboat Phenomenology"](/assets/pdf/Sakrison.pdf) in the Slow S
 
 Guattari, Felix. ["I Am God Most of the Time,"](/assets/img/i-am-a-god.jpg) in Chaosophy. 1995.
 
-Clark, Tim. ["A Whiteheadian Chaosmos?"](/assets/pdf/DeleuzeBergson.pdf) in Whitehead, Deleuze, Bergson. 2009.
+<!-- Clark, Tim. ["A Whiteheadian Chaosmos?"](/assets/pdf/DeleuzeBergson.pdf) in Whitehead, Deleuze, Bergson. 2009. -->
 
 ## 10/17/25 Week 8
 
@@ -115,11 +115,12 @@ Instructor absent, sub or other programming.
 
 Grosz, Elizabeth. Chaos, Territory, Art: Deleuze and the Framing of the Earth. Duke University Press. 2008.
 
+- Introduction
+- Chapter One
+
 ## 11/14/25 Week 12
 
 Deleuze, Gilles and Felix Guattari. "[From Chaos to Brain](https://transversalinflections.wordpress.com/wp-content/uploads/2015/04/deleuze-3207-what_is_philosophy-fenomenologie-van-schilderkunst.pdf)" in What is Philosophy? 1991.
-
-Guattari, Felix. ["Schizoid Chaosmosis"](https://monoskop.org/images/2/24/Guattari_Felix_Chaosmosis_An_Ethico-Aesthetic_Paradigm.pdf) in Chaosmosis: An Ethico-Aesthetic Paradigm. 1992.
 
 Young, Eugene B. Et al. ["Chaos", "Chaosmosis", and "Chaosophy"](/assets/pdf/dictionary.pdf) in the Deleuze and Guattari Dictionary. 2013.
 

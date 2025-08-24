@@ -43,6 +43,7 @@
   notify their instructors early in the semester to discuss reasonable
   accommodations for holidays they observe.
 </p>
+
 <h2>Class Progress Reports (CPRs)</h2>
 <p>
   Progress Reports are an important tool in SAIC's academic support for
@@ -63,6 +64,7 @@
   etc. These communications are intended to help you understand what you need to
   do to stay on track or get back on track and succeed in this class.
 </p>
+
 <h2>Accommodations for Students with Disabilities</h2>
 <p>
   SAIC is fully committed to complying with all laws ensuring equal
@@ -83,6 +85,7 @@
   <span class="contact">312.499.4278</span> or email at
   <a href="mailto:dlrc@saic.edu">dlrc@saic.edu</a>.
 </p>
+
 <h3>Student Responsibility in the use of Accommodations</h3>
 <p>
   Students approved for accommodations through the DLRC are responsible for
@@ -105,6 +108,7 @@
   communicate in a timely manner may result in the inability to apply the
   accommodation for that specific instance.
 </p>
+
 <h2>Writing Center</h2>
 <p>
   Tutors are available in person and online to help students achieve their
@@ -129,6 +133,7 @@
   116 S. Michigan Ave., 10th Floor<br />
   Phone: 312-499-4138
 </p>
+
 <h2>Academic Misconduct</h2>
 <p>
   From the
@@ -155,6 +160,7 @@
   person completing the work. SAIC has processes in place, including LDAP
   authentication, to verify student identity.
 </p>
+
 <h2>Support Resources for Students</h2>
 <p>
   The Office of Students Affairs is here to help students achieve success in and
@@ -171,6 +177,7 @@
   <span class="contact">312.899.1230</span>. They can assist you and/or connect
   you with a staff member who can provide support for you.
 </p>
+
 <h3>Food and Housing Resources</h3>
 <p>
   If you have difficulty affording groceries or accessing food every day, and/or
@@ -184,6 +191,7 @@
     >Student Support Resources and Information</a
   >
 </p>
+
 <h3>SAIC Food Pantry</h3>
 <p>
   Spoonful Food Pantry is available to current SAIC students who are
@@ -195,6 +203,7 @@
   >. Once approved, students will receive a pre-packaged bag of non-perishable
   groceries.
 </p>
+
 <h3>Wellness Center</h3>
 <p>
   The SAIC Wellness Center, which includes Counseling Services, Health Services,

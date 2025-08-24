@@ -35,7 +35,7 @@ location: MacLean 401
   {% endfor %}
 </ul>
 
-<h2>GRADING, ATTENDANCE, PRIVACY, AND ACCOMODATION POLICIES</h2>
+<h2>GRADING, ATTENDANCE, PRIVACY, AND ACCOMMODATION POLICIES</h2>
 
 <h3>Grading Breakdown</h3>
 
@@ -66,15 +66,10 @@ location: MacLean 401
 
 {% endif %}
 
-<h3>Attendance</h3>
-
-  {% for i in attendance.saic.description%}
-<p>{{i}}</p>
-  {% endfor %}
 
 
 {% set snippet %}
-{% include "../content/syllabus-stock.html" %} 
+{% include "../content/syllabus-stock.md" %} 
 {% endset %} 
 {% markdown snippet %}
 

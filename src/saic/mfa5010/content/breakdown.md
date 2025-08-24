@@ -1,3 +1,3 @@
-- 33% in-class presentation
+- 33% wiki participation
 - 33% in-class participation
 - 33% final project
