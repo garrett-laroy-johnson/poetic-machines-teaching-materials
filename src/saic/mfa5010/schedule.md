@@ -63,7 +63,7 @@ Whitehead, Alfred North. [Modes of Thought](/assets/pdf/Modes-of-Thought-Whitehe
 - Importance
 - Expression
 
-Gaskill, Nicholas and A.J. Novak, "[An Adventure in Thought](/assets/pdf/TheLureofWhithead.pdf)", in The Lure of Whitehead. 2014.
+Gaskill, Nicholas and A.J. Nocek, "[An Adventure in Thought](/assets/pdf/TheLureofWhithead.pdf)", in The Lure of Whitehead. 2014.
 
 #### Additional
 
@@ -95,38 +95,40 @@ Guattari, Felix. ["I Am God Most of the Time,"](/assets/img/i-am-a-god.jpg) in C
 
 ## 10/17/25 Week 8
 
-[Pi](https://archive.org/details/pi-1998_202107) by Darren Aronofsky
-
 [Post Tenebras Lux](https://youtu.be/nTfN7NOs-bQ?si=bW63YAGHZauFGqV-) by Carlos Reygadas. [Higher-resolution version, no subtitles](https://www.dailymotion.com/video/x8och7z).
 
 Thomas, Zach. ["Carlos Reygadas' Post Tenebras Lux: Towards a Cinema of Experience,"](/assets/pdf/tal.pdf) in The Anthropocene Laboratory. 2023.
 
-Johnson, Garrett Laroy. ["Post Tenebras Lux,"](/assets/pdf/tal.pdf) in The Anthropocene Laboratory. 2023.
-
-## 10/24/25 Week 9
-
 Glissant, Eduardo. Poetics of Relation, ["Theories"](https://monoskop.org/images/2/23/Glissant_Edouard_Poetics_of_Relation.pdf). University of Michigan Press, 2009.
 
-## 10/31/25 Week 10
-
-Instructor absent, sub or other programming.
-
-## 11/07/25 Week 11
+## 10/24/25 Week 9
 
 Grosz, Elizabeth. Chaos, Territory, Art: Deleuze and the Framing of the Earth. Duke University Press. 2008.
 
 - Introduction
 - Chapter One
 
-## 11/14/25 Week 12
+## 10/31/25 Week 10
+
+Instructor absent, substitute or other programming.
+
+## 11/07/25 Week 11
 
 Deleuze, Gilles and Felix Guattari. "[From Chaos to Brain](https://transversalinflections.wordpress.com/wp-content/uploads/2015/04/deleuze-3207-what_is_philosophy-fenomenologie-van-schilderkunst.pdf)" in What is Philosophy? 1991.
 
 Young, Eugene B. Et al. ["Chaos", "Chaosmosis", and "Chaosophy"](/assets/pdf/dictionary.pdf) in the Deleuze and Guattari Dictionary. 2013.
 
-## 11/21/25 Week 13
+## 11/14/25 Week 12
 
 Holmes, Brian. [Guattari's Schizoanalytic Cartographies: Or, The Pathic Core at the Heart of Cybernetics](https://miriamgrossi.paginas.ufsc.br/files/2013/02/25090965-Guattari%E2%80%99s-Schizoanalytic-Cartographies.pdf).
+
+## 11/21/25 Week 13
+
+Kronic, Maya B. and Amy Ireland. Cute Accelerationism. 2024.
+
+Additional:
+
+Interview w. Maya B. Kronic and Amy Ireland. ["Is Accelerationism the Same Thing As Falling in Love?"](https://spikeartmagazine.com/articles/interview-amy-ireland-maya-b-kronic-cute-accelerationism). 2025.
 
 ## 11/28/25 Week 14
 
