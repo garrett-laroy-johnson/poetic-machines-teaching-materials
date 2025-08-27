@@ -3,17 +3,6 @@
   color: white;
 }
 
-code,
-pre {
-  background: #f5f7f9;
-  border-bottom: 1px solid #d8dee9;
-  color: #1648b3;
-}
-
-pre {
-  border-left: 2px solid #69c;
-}
-
 cb:after {
   background-color: #4c00b0;
 }
@@ -25,6 +14,15 @@ cb:after {
 .gist pre {
   font-family: Menlo, Monaco, "Bitstream Vera Sans Mono", "Courier New",
     monospace !important;
+}
+pre.language-javascript,
+pre[class*="language-"] {
+  background: #f5f5f5 !important;
+  color: #222;
+}
+pre.language-javascript code,
+pre[class*="language-"] code {
+  background: transparent !important;
 }
 
 blockquote {
