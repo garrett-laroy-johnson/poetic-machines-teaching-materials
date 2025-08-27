@@ -93,14 +93,16 @@ goals:
             {% endif %}
           </div>
           <div class="col-12">
+            <a href="{{ r.url }}" class="btn btn-dark">
             <div class="card-body">
               <h5 class="card-title">{{ r.name }}</h5>
               <p class="card-text">
                 {{ r.description }}
               </p>
               <p class="card-text">by {{ r.authors }}</p>
-              <a href="{{ r.url }}" class="btn btn-dark">LINK</a>
+              
             </div>
+            </a>
           </div>
         </div>
       </div>
@@ -147,27 +149,13 @@ goals:
     {% endif%} {% endfor%}
   </div>
 
-  {% endif %} {% if examples %}
+  {% endif %} 
+
   <h3>Examples</h3>
-  {% for e in examples %} {% if e.type == "makecode"%}
+  
+{% p5gallery "src/scripts/introp5/" + weekNum %}
 
-  <div
-    style="
-      position: relative;
-      height: calc(300px + 5em);
-      width: 100%;
-      overflow: hidden;
-    "
-  >
-    <iframe
-      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
-      src="https://makecode.adafruit.com/---codeembed#pub:{{ e.id }}"
-      allowfullscreen="allowfullscreen"
-      frameborder="0"
-      sandbox="allow-scripts allow-same-origin"
-    ></iframe>
-  </div>
-
+{# 
   {% elif e.type == "gist"%}
 
   <script src="https://gist.github.com/{{ e.url }}.js"></script>
@@ -183,7 +171,10 @@ goals:
     src="https://editor.p5js.org/{{ e.url }}"
   ></iframe>
 
-  {% endif %} {% endfor %} {% endif %} {% if other %}
+  {% endif %} {% endfor %} {% endif %} 
+  #}
+  
+  {% if other %} 
   <h3>Other Materials</h3>
   <div class="row masonry" data-masonry='{"percentPosition": true }'>
     {% for o in other%} {% if o.type == "youtube" %}
@@ -255,7 +246,7 @@ goals:
     {% for c in code %} {% if reference == "p5" %} {% set cd = c.split("(")[0]
     %} {% set cd = cd.split(" ").join("") %}
 
-    <a href="https://p5js.org/reference/#/p5/{{ cd }}">
+    <a href="https://p5js.org/reference/p5/{{ cd }}">
       <li class="list-group-item">{{ c }}</li>
     </a>
 

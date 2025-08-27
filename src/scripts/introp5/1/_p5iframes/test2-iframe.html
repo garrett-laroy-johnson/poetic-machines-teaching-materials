@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>p5 Sketch</title>
+    <style>body { margin:0; padding:0; overflow:hidden; }</style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  </head>
+  <body>
+  <script>
+  function setup() {
+  createCanvas(600, 600);
+  background(240);
+  noLoop();
+  stroke(30);
+  noFill();
+
+  let gridSize = 10;
+  let cellSize = width / gridSize;
+
+  for (let y = 0; y < gridSize; y++) {
+    for (let x = 0; x < gridSize; x++) {
+      let px = x * cellSize + cellSize / 2;
+      let py = y * cellSize + cellSize / 2;
+      let angle = random([-PI / 8, 0, PI / 8]);
+      let offset = random(-cellSize / 6, cellSize / 6);
+
+      push();
+      translate(px + offset, py + offset);
+      rotate(angle);
+
+      // Draw a simple geometric shape, e.g., a rectangle or line
+      if (random() < 0.5) {
+        rectMode(CENTER);
+        rect(0, 0, cellSize * 0.7, cellSize * 0.7);
+      } else {
+        line(
+          -cellSize * 0.35,
+          -cellSize * 0.35,
+          cellSize * 0.35,
+          cellSize * 0.35
+        );
+      }
+
+      pop();
+    }
+  }
+}
+
+  </script>
+  </body>
+  </html>

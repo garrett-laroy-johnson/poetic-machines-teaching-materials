@@ -560,14 +560,16 @@
             
           </div>
           <div class="col-12">
+            <a href="/assets/pdf/p5.pdf" class="btn btn-dark">
             <div class="card-body">
               <h5 class="card-title">Make: Getting Started with p5*js</h5>
               <p class="card-text">
                 Chapters 3. Draw.
               </p>
-              <p class="card-text">by </p>
-              <a href="/assets/pdf/p5.pdf" class="btn btn-dark">LINK</a>
+              <p class="card-text">by Lauren McCarthy, Casey Reas, Ben Fry </p>
+              
             </div>
+            </a>
           </div>
         </div>
       </div>
@@ -579,49 +581,178 @@
 
   
 
+
    
+
   <h3>Examples</h3>
+  
+
+                 <div class="p5-block" style="margin-bottom:2em;">
+                   <button onclick="toggleP5View('p5-iframe-0', 'p5-code-0')" style="display:block;margin-bottom:1em;padding:0.5em 1em;background:#007bff;color:#fff;border:none;border-radius:4px;cursor:pointer;">Toggle Code/Result</button>
+                   <iframe id="p5-iframe-0" src="/iframes/src-scripts-introp5-2-ex1-iframe.html" width="400" height="400" style="border:1px solid #ccc;display:block;"></iframe>
+                   <pre id="p5-code-0" style="display:none;background:#222;color:#fff;padding:1em;overflow:auto;margin:0;">function setup() {
+  createCanvas(400, 400);
+  background(255);
+
+  // Line
+  line(50, 50, 150, 50);
+
+  // Rectangle
+  rect(50, 80, 100, 60);
+
+  // Ellipse
+  ellipse(100, 200, 80, 40);
+
+  // Triangle
+  triangle(50, 300, 150, 300, 100, 230);
+
+  // Quad
+  quad(200, 50, 300, 50, 350, 120, 250, 120);
+
+  // Arc
+  arc(300, 200, 80, 80, PI, TWO_PI);
+
+  // No fill for all shapes
+  noFill();
+  stroke(0);
+}
+</pre>
+                 </div>
+               
+                 <div class="p5-block" style="margin-bottom:2em;">
+                   <button onclick="toggleP5View('p5-iframe-1', 'p5-code-1')" style="display:block;margin-bottom:1em;padding:0.5em 1em;background:#007bff;color:#fff;border:none;border-radius:4px;cursor:pointer;">Toggle Code/Result</button>
+                   <iframe id="p5-iframe-1" src="/iframes/src-scripts-introp5-2-ex2-iframe.html" width="400" height="400" style="border:1px solid #ccc;display:block;"></iframe>
+                   <pre id="p5-code-1" style="display:none;background:#222;color:#fff;padding:1em;overflow:auto;margin:0;">function setup() {
+  createCanvas(400, 200);
+  background(240);
+
+  // Filled rectangle with stroke
+  fill(255, 0, 0); // Red fill
+  stroke(0); // Black stroke
+  rect(20, 40, 60, 60);
+
+  // No fill, only stroke
+  noFill();
+  stroke(0, 0, 255); // Blue stroke
+  rect(120, 40, 60, 60);
+
+  // Fill, no stroke
+  fill(0, 255, 0); // Green fill
+  noStroke();
+  rect(220, 40, 60, 60);
+
+  // No fill, no stroke (invisible)
+  noFill();
+  noStroke();
+  rect(320, 40, 60, 60); // This won't be visible
+}
+</pre>
+                 </div>
+               
+                 <div class="p5-block" style="margin-bottom:2em;">
+                   <button onclick="toggleP5View('p5-iframe-2', 'p5-code-2')" style="display:block;margin-bottom:1em;padding:0.5em 1em;background:#007bff;color:#fff;border:none;border-radius:4px;cursor:pointer;">Toggle Code/Result</button>
+                   <iframe id="p5-iframe-2" src="/iframes/src-scripts-introp5-2-ex3-iframe.html" width="400" height="400" style="border:1px solid #ccc;display:block;"></iframe>
+                   <pre id="p5-code-2" style="display:none;background:#222;color:#fff;padding:1em;overflow:auto;margin:0;">function setup() {
+  createCanvas(400, 400);
+  noStroke();
+
+  // Using named color
+  fill("red");
+  rect(20, 20, 80, 80);
+
+  // Using RGB values
+  fill(0, 255, 0);
+  rect(120, 20, 80, 80);
+
+  // Using RGBA (with alpha)
+  fill(0, 0, 255, 150);
+  rect(220, 20, 80, 80);
+
+  // Using HEX code
+  fill("#FFD700");
+  ellipse(60, 180, 80, 80);
+
+  // Using HSB mode
+  colorMode(HSB);
+  fill(200, 100, 100);
+  ellipse(180, 180, 80, 80);
+
+  // Using grayscale
+  colorMode(RGB);
+  fill(128);
+  ellipse(300, 180, 80, 80);
+}
+</pre>
+                 </div>
+               
+                 <div class="p5-block" style="margin-bottom:2em;">
+                   <button onclick="toggleP5View('p5-iframe-3', 'p5-code-3')" style="display:block;margin-bottom:1em;padding:0.5em 1em;background:#007bff;color:#fff;border:none;border-radius:4px;cursor:pointer;">Toggle Code/Result</button>
+                   <iframe id="p5-iframe-3" src="/iframes/src-scripts-introp5-2-ex4-iframe.html" width="400" height="400" style="border:1px solid #ccc;display:block;"></iframe>
+                   <pre id="p5-code-3" style="display:none;background:#222;color:#fff;padding:1em;overflow:auto;margin:0;">function setup() {
+  createCanvas(400, 400);
+  background(240);
+
+  // Regular polygon using vertex() (hexagon, no loop or variables)
+  fill(100, 200, 255, 150);
+  stroke(0);
+  beginShape();
+  vertex(160, 100);
+  vertex(130, 152);
+  vertex(70, 152);
+  vertex(40, 100);
+  vertex(70, 48);
+  vertex(130, 48);
+  endShape(CLOSE);
+
+  // Irregular polygon using curveVertex()
+  fill(255, 100, 200, 150);
+  stroke(100);
+  beginShape();
+  curveVertex(250, 80);
+  curveVertex(250, 80);
+  curveVertex(320, 120);
+  curveVertex(300, 200);
+  curveVertex(220, 180);
+  curveVertex(200, 120);
+  curveVertex(250, 80);
+  curveVertex(250, 80);
+  endShape();
+
+  // Complex shape with holes using beginContour()
+  fill(200, 255, 100, 150);
+  stroke(50);
+  beginShape();
+  vertex(80, 300);
+  vertex(180, 300);
+  vertex(180, 380);
+  vertex(80, 380);
+  beginContour();
+  vertex(110, 330);
+  vertex(150, 330);
+  vertex(150, 360);
+  vertex(110, 360);
+  endContour();
+  endShape(CLOSE);
+}
+</pre>
+                 </div>
+               <script>
+        function toggleP5View(iframeId, codeId) {
+          const iframe = document.getElementById(iframeId);
+          const code = document.getElementById(codeId);
+          if (iframe.style.display === 'none') {
+            iframe.style.display = '';
+            code.style.display = 'none';
+          } else {
+            iframe.style.display = 'none';
+            code.style.display = '';
+          }
+        }
+      </script>
+
+
+  
    
-
-  <iframe
-    width="100%"
-    height="400"
-    src="https://editor.p5js.org/garrett.laroy.johnson/full/2xVPbcT5O"
-  ></iframe>
-
-    
-
-  <iframe
-    width="100%"
-    height="400"
-    src="https://editor.p5js.org/garrett.laroy.johnson/full/QL9YHKR6l"
-  ></iframe>
-
-    
-
-  <iframe
-    width="100%"
-    height="400"
-    src="https://editor.p5js.org/glj/full/3MVonp1I-"
-  ></iframe>
-
-    
-
-  <iframe
-    width="100%"
-    height="400"
-    src="https://editor.p5js.org/gjohns13-spectacular/full/alXYXpQZx"
-  ></iframe>
-
-    
-
-  <iframe
-    width="100%"
-    height="400"
-    src="https://editor.p5js.org/glj/sketches/jyBR6mcyD"
-  ></iframe>
-
-     
   <h3>Other Materials</h3>
   <div class="row masonry" data-masonry='{"percentPosition": true }'>
      

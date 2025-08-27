@@ -369,7 +369,44 @@
 
   
 
-     
+   
+
+  <h3>Examples</h3>
+  
+
+                 <div class="p5-block" style="margin-bottom:2em;">
+                   <button onclick="toggleP5View('p5-iframe-0', 'p5-code-0')" style="display:block;margin-bottom:1em;padding:0.5em 1em;background:#007bff;color:#fff;border:none;border-radius:4px;cursor:pointer;">Toggle Code/Result</button>
+                   <iframe id="p5-iframe-0" src="/iframes/src-scripts-introp5-1-test-iframe.html" width="400" height="400" style="border:1px solid #ccc;display:block;"></iframe>
+                   <pre id="p5-code-0" style="display:none;background:#222;color:#fff;padding:1em;overflow:auto;margin:0;">function setup() {
+  createCanvas(400, 400);
+  background(220);
+}
+
+function draw() {
+  fill(100, 150, 255);
+  ellipse(mouseX, mouseY, 100, 100);
+  text(mouseX + ", " + mouseY, mouseX, mouseY);
+  console.log(mouseX + ", " + mouseY);
+}
+</pre>
+                 </div>
+               <script>
+        function toggleP5View(iframeId, codeId) {
+          const iframe = document.getElementById(iframeId);
+          const code = document.getElementById(codeId);
+          if (iframe.style.display === 'none') {
+            iframe.style.display = '';
+            code.style.display = 'none';
+          } else {
+            iframe.style.display = 'none';
+            code.style.display = '';
+          }
+        }
+      </script>
+
+
+  
+   
 </div>
 <div class="col-sm-2 pull-right card">
   <div class="card-header">Key Concepts:</div>
