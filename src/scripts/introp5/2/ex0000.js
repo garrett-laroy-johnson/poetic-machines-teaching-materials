@@ -1,0 +1,99 @@
+function setup() {
+  // make a comment with two forward slashes
+  // multiple values inside of a function need to be seperated by commas.
+  createCanvas(500, 400); // this line creates a canvas. #1 is width and #2 is height of canvas.
+}
+
+// all code for this assignment needs to be within either function setup or draw
+function draw() {
+  // greyscale between black and white; range 0 to 255
+  // RGB color is three values representing amount of red green and blue; range is 0 to 255
+  background(0, 140, 255);
+
+  // SUN
+  fill("rgb(255,221,0)");
+  stroke(100, 100, 100); // penstroke color
+  // added layers
+  circle(350, 120, 200); // circle needs an x, y, diameter
+
+  // SOLAR RAYS
+
+  // GRASS
+  noStroke();
+  fill("rgb(14,224,14)");
+  // rect(x,y,w,h) x and y are top left corner
+  rect(0, height / 2, width, width / 2);
+
+  // CLOUD 1
+  noStroke();
+  fill(250);
+  circle(45 + 20, 43 + 20, 100);
+  fill(248);
+  circle(71 + 20, 61 + 20, 80);
+  fill(252);
+  circle(110 + 20, 30 + 20, 60);
+  fill(245);
+  circle(128 + 20, 59 + 20, 80);
+
+  // CLOUD 2
+  noStroke();
+  fill(250);
+  circle(45 + 350, 43 + 40, 100);
+  fill(248);
+  circle(71 + 350, 61 + 40, 80);
+  fill(252);
+  circle(110 + 350, 30 + 40, 60);
+  fill(245);
+  circle(128 + 350, 59 + 40, 80);
+
+  // BIRD 1
+  // line has no fill, only stroke
+  strokeWeight(2.5);
+  stroke(0); //black line
+  line(10 + 200, 10 + 100, 20 + 200, 20 + 100); // beginning vertex plus end vertex: (x1,y1,x2,y2);
+  line(20 + 200, 20 + 100, 30 + 200, 10 + 100); // beginning vertex plus end vertex: (x1,y1,x2,y2);
+
+  // BIRD 2
+  // line has no fill, only stroke
+  strokeWeight(2);
+  stroke(5); //black line
+  line(10 + 180, 10 + 140, 20 + 180, 20 + 140); // beginning vertex plus end vertex: (x1,y1,x2,y2);
+  line(20 + 180, 20 + 140, 30 + 180, 10 + 140); // beginning vertex plus end vertex: (x1,y1,x2,y2);
+
+  //POND
+
+  // need both!
+  noStroke();
+  fill("rgb(35,35,170)");
+  beginShape(); // expect some vertices to come our way
+  curveVertex(274 + 30, 245); // vertex is an x and y position pair
+  curveVertex(344 + 30, 221); // vertex is an x and y position pair
+  curveVertex(400 + 30, 225); // vertex is an x and y position pair
+  curveVertex(413 + 30, 254); // vertex is an x and y position pair
+  curveVertex(451 + 30, 289); // vertex is an x and y position pair
+  curveVertex(399 + 30, 315); // vertex is an x and y position pair
+  curveVertex(286 + 30, 340); // vertex is an x and y position pair
+  curveVertex(234 + 30, 282); // vertex is an x and y position pair
+
+  endShape(CLOSE); // CLOSE as a parameter for endShape closes the outline
+
+  //PIER
+
+  noStroke();
+  fill("brown");
+  // quad(x1,y1,x2,y2,x3,y3,x4,y4);
+  //   quad(264, 294, 308, 277, 322, 291, 277, 317);
+
+  beginShape();
+  vertex(264, 294); //x1,y1
+  vertex(308, 277); // x2 y2
+  vertex(322, 291); // x3, y3
+  vertex(277, 317); //x4, y4
+  endShape();
+
+  // PERSON
+
+  // HEAD
+
+  // HAIR
+}
