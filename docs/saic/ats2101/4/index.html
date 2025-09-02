@@ -64,24 +64,6 @@
               
                
               
-               
-              
-               
-              
-               
-              
-               
-              
-               
-              
-               
-              
-               
-              
-               
-              
-               
-              
 
               <li class="mb-1">
                 <a href="/saic/ats2101/forloop/">
@@ -141,8 +123,6 @@
               
                
               
-               
-              
 
               <li class="mb-1">
                 <a href="/saic/ats2101/syllabus/">
@@ -159,6 +139,36 @@
                   </button>
                 </a>
               </li>
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
               
                
               
@@ -181,40 +191,8 @@
               
                
               
-               
-              
-               
-              
-               
-              
-               
-              
-               
               
               
-              
-              
-               
-              
-               
-              
-               
-              
-               
-              
-               
-              
-               
-              
-               
-              
-               
-              
-               
-              
-               
-              
-               
               
                
               
@@ -250,6 +228,18 @@
                   </button>
                 </a>
               </li>
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
               
                
               
@@ -329,6 +319,16 @@
               
                
               
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
 
               <li class="mb-1">
                 <a href="/saic/ats2101/6/">
@@ -362,9 +362,9 @@
     
     <li><input type="checkbox" class="cb" /> Take attendance</li>
     
-    <li><input type="checkbox" class="cb" /> Share and Discuss Coding Sketch 4.1 and 4.2</li>
+    <li><input type="checkbox" class="cb" /> Share and Discuss Coding Sketch</li>
     
-    <li><input type="checkbox" class="cb" /> Clarify or Demo any coding concepts unclear from Coding Sketch 4.1 and 4.2</li>
+    <li><input type="checkbox" class="cb" /> Clarify or Demo any coding concepts unclear from Coding Sketch</li>
     
     <li><input type="checkbox" class="cb" /> Intro Project 1</li>
     
@@ -372,13 +372,11 @@
   <h2>Homework</h2>
 
    
-  <h3>Coding Sketch 4.1 and 4.2: Nested For Loops + Variations</h3>
+  <h3>Coding Sketch: Nested For Loops + Variations</h3>
   
   <p>Create a nested for loop. Use it to draw shapes to the canvas (in a grid, or otherwise).</p>
   
   <p>Add another factor to the for loop to change drawing parameters iteratively to distort the grid, change the color, or some other variations.</p>
-  
-  <p>Create two of these labeled 4.1 and 4.2.</p>
        
 
   <h3>Readings</h3>
@@ -399,7 +397,7 @@
               <p class="card-text">
                 Chapters 3.
               </p>
-              <p class="card-text">by </p>
+              <p class="card-text">by Lauren McCarthy, Casey Reas, Ben Fry </p>
               
             </div>
             </a>
@@ -419,6 +417,52 @@
   <h3>Examples</h3>
   
 
+            <div class="p5-block" style="margin-bottom:2em;">
+              <button onclick="toggleP5View('p5-iframe-0', 'p5-code-0')" style="display:block;margin-bottom:1em;padding:0.5em 1em;background:#007bff;border:none;border-radius:4px;cursor:pointer;">Toggle Code/Result</button>
+              <iframe id="p5-iframe-0" src="/iframes/src-scripts-introp5-4-1-iframe.html" width="400" height="400" style="border:1px solid #ccc;display:block;"></iframe>
+                <pre id="p5-code-0" class="language-javascript" style="display:none;background:#222;padding:1em;overflow:auto;margin:0;"><code class="language-javascript">// global scope !
+// var is the old way of declaring variables. it still works !
+// the new way: is to use either 1) const - if the variable does not change. it is constant!
+// 2) we can also use the keyword let -- we use this if the variable is going to change.
+
+let w = 20; // width of circles
+let x = 20; // x value or horizontal placement of circles
+let y = 20; // vertical distance between circles
+let offset = 20;
+let num = 20; // number of circles in my row
+
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+
+  for (let s = 0; s &lt; num; s = s + 1) {
+    for (let i = 0; i &lt; num; i = i + 1) {
+      circle(offset + i * x, offset + s * y, w);
+    }
+  }
+}
+</code></pre>
+            </div>
+          <script>
+            function toggleP5View(iframeId, codeId) {
+              const iframe = document.getElementById(iframeId);
+              const code = document.getElementById(codeId);
+              if (iframe.style.display === 'none') {
+                iframe.style.display = '';
+                code.style.display = 'none';
+              } else {
+                iframe.style.display = 'none';
+                code.style.display = '';
+                // Trigger Prism.js syntax highlighting
+                if (window.Prism && code.querySelector('code')) {
+                  Prism.highlightElement(code.querySelector('code'));
+                }
+              }
+            }
+          </script>
 
 
   

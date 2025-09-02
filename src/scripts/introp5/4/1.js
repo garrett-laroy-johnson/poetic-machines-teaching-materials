@@ -1,0 +1,24 @@
+// global scope !
+// var is the old way of declaring variables. it still works !
+// the new way: is to use either 1) const - if the variable does not change. it is constant!
+// 2) we can also use the keyword let -- we use this if the variable is going to change.
+
+let w = 20; // width of circles
+let x = 20; // x value or horizontal placement of circles
+let y = 20; // vertical distance between circles
+let offset = 20;
+let num = 20; // number of circles in my row
+
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+
+  for (let s = 0; s < num; s = s + 1) {
+    for (let i = 0; i < num; i = i + 1) {
+      circle(offset + i * x, offset + s * y, w);
+    }
+  }
+}

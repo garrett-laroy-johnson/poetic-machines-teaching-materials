@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>p5 Sketch</title>
+  <style>body { margin:0; padding:0; overflow:hidden; }</style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+</head>
+<body>
+<script>
+// control panel
+let x = 3;
+let y = 250;
+let w = 10; // width of my circle
+let g = 7; // growth rate of my circle, how many pixels are added each time
+let num = 150; // number of circles
+
+function setup() {
+  createCanvas(500, 500);
+  noLoop(); // draw loop only runs once;
+}
+
+function draw() {
+  background(220);
+
+  // 3 parts to the rules of a for loop
+  // for loops need a variable
+  // init, where it starts; test, when it should end; update, how it should change
+  for (let i = 1; i <= num; i += 1) {
+    // the block of code to be repeated
+    circle(x * i, y, w);
+    //w += g; // takes what w was, and adds whatever is on the right side of it
+  }
+}
+
+</script>
+</body>
+</html>
