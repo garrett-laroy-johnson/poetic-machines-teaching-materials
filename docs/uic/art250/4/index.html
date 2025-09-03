@@ -498,10 +498,10 @@
   <h3>Examples</h3>
   
 
-            <div class="p5-block" style="margin-bottom:2em;">
-              <button onclick="toggleP5View('p5-iframe-0', 'p5-code-0')" style="display:block;margin-bottom:1em;padding:0.5em 1em;background:#007bff;border:none;border-radius:4px;cursor:pointer;">Toggle Code/Result</button>
-              <iframe id="p5-iframe-0" src="/iframes/src-scripts-introp5-4-1-iframe.html" width="400" height="400" style="border:1px solid #ccc;display:block;"></iframe>
-                <pre id="p5-code-0" class="language-javascript" style="display:none;background:#222;padding:1em;overflow:auto;margin:0;"><code class="language-javascript">// global scope !
+    <div class="p5-block" style="margin-bottom:2em;">
+      <button onclick="toggleP5View('p5-iframe-0', 'p5-code-0')" style="display:block;margin-bottom:1em;padding:0.5em 1em;background:#007bff;color:#fff;border:none;border-radius:4px;cursor:pointer;">Toggle Code/Result</button>
+      <iframe id="p5-iframe-0" src="/iframes/src-scripts-introp5-4-1-iframe.html" width="400" height="400" style="border:1px solid #ccc;display:block;"></iframe>
+      <pre id="p5-code-0" class="language-javascript" style="display:none;background:#f5f5f5 !important;color:#222;padding:1em;overflow:auto;margin:0;"><code class="language-javascript">// global scope !
 // var is the old way of declaring variables. it still works !
 // the new way: is to use either 1) const - if the variable does not change. it is constant!
 // 2) we can also use the keyword let -- we use this if the variable is going to change.
@@ -526,8 +526,8 @@ function draw() {
   }
 }
 </code></pre>
-            </div>
-          <script>
+    </div>
+  <script>
             function toggleP5View(iframeId, codeId) {
               const iframe = document.getElementById(iframeId);
               const code = document.getElementById(codeId);

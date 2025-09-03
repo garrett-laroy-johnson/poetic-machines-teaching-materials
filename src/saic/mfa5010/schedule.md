@@ -118,13 +118,15 @@ Deleuze, Gilles and Felix Guattari. "[From Chaos to Brain](https://transversalin
 
 Young, Eugene B. Et al. ["Chaos", "Chaosmosis", and "Chaosophy"](/assets/pdf/dictionary.pdf) in the Deleuze and Guattari Dictionary. 2013.
 
+Holmes, Brian. [Guattari's Schizoanalytic Cartographies: Or, The Pathic Core at the Heart of Cybernetics](https://miriamgrossi.paginas.ufsc.br/files/2013/02/25090965-Guattari%E2%80%99s-Schizoanalytic-Cartographies.pdf).
+
 ## 11/14/25 Week 12
 
-Holmes, Brian. [Guattari's Schizoanalytic Cartographies: Or, The Pathic Core at the Heart of Cybernetics](https://miriamgrossi.paginas.ufsc.br/files/2013/02/25090965-Guattari%E2%80%99s-Schizoanalytic-Cartographies.pdf).
+Deleuze, Gilles and Felix Guattari. "Rhizome". [A Thousand Plateaus](https://files.libcom.org/files/A%20Thousand%20Plateaus.pdf). 1980.
 
 ## 11/21/25 Week 13
 
-Kronic, Maya B. and Amy Ireland. Cute Accelerationism. 2024.
+Kronic, Maya B. and Amy Ireland. "Kwaizome." Cute Accelerationism. 2024.
 
 Additional:
 

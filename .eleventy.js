@@ -35,36 +35,46 @@ module.exports = function (eleventyConfig) {
     if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
     files.forEach((file, idx) => {
       const script = fs.readFileSync(path.join(absFolder, file), "utf8");
+      // Extract createCanvas dimensions
+      let width = 400,
+        height = 400; // default fallback
+      const canvasMatch = script.match(
+        /createCanvas\s*\(\s*(\d+)\s*,\s*(\d+)\s*\)/
+      );
+      if (canvasMatch) {
+        width = canvasMatch[1];
+        height = canvasMatch[2];
+      }
       const htmlFileName = `${folder
         .replace(/\\/g, "-")
         .replace(/\//g, "-")}-${path.basename(file, ".js")}-iframe.html`;
       const htmlFilePath = path.join(outDir, htmlFileName);
       // HTML template for iframe
       const iframeHtml = `<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>p5 Sketch</title>
-  <style>body { margin:0; padding:0; overflow:hidden; }</style>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
-</head>
-<body>
-<script>
-${script}
-</script>
-</body>
-</html>`;
+  <html lang=\"en\">
+  <head>
+    <meta charset=\"UTF-8\">
+    <title>p5 Sketch</title>
+    <style>body { margin:0; padding:0; overflow:hidden; }</style>
+    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js\"></script>
+  </head>
+  <body>
+  <script>
+  ${script}
+  </script>
+  </body>
+  </html>`;
       fs.writeFileSync(htmlFilePath, iframeHtml);
       // Render block with iframe and code
       html += `
-            <div class="p5-block" style="margin-bottom:2em;">
-              <button onclick="toggleP5View('p5-iframe-${idx}', 'p5-code-${idx}')" style="display:block;margin-bottom:1em;padding:0.5em 1em;background:#007bff;border:none;border-radius:4px;cursor:pointer;">Toggle Code/Result</button>
-              <iframe id="p5-iframe-${idx}" src="/iframes/${htmlFileName}" width="400" height="400" style="border:1px solid #ccc;display:block;"></iframe>
-                <pre id="p5-code-${idx}" class="language-javascript" style="display:none;background:#222;padding:1em;overflow:auto;margin:0;"><code class="language-javascript">${script
+    <div class=\"p5-block\" style=\"margin-bottom:2em;\">
+      <button onclick=\"toggleP5View('p5-iframe-${idx}', 'p5-code-${idx}')\" style=\"display:block;margin-bottom:1em;padding:0.5em 1em;background:#007bff;color:#fff;border:none;border-radius:4px;cursor:pointer;\">Toggle Code/Result</button>
+      <iframe id=\"p5-iframe-${idx}\" src=\"/iframes/${htmlFileName}\" width=\"${width}\" height=\"${height}\" style=\"border:1px solid #ccc;display:block;\"></iframe>
+      <pre id=\"p5-code-${idx}\" class=\"language-javascript\" style=\"display:none;background:#f5f5f5 !important;color:#222;padding:1em;overflow:auto;margin:0;\"><code class=\"language-javascript\">${script
         .replace(/</g, "&lt;")
         .replace(/>/g, "&gt;")}</code></pre>
-            </div>
-          `;
+    </div>
+  `;
     });
     // Toggle logic
     html += `<script>
