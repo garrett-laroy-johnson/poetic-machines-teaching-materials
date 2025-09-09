@@ -506,6 +506,78 @@ function draw() {
 }
 </code></pre>
     </div>
+  
+    <div class="p5-block" style="margin-bottom:2em;">
+      <button onclick="toggleP5View('p5-iframe-1', 'p5-code-1')" style="display:block;margin-bottom:1em;padding:0.5em 1em;background:#007bff;color:#fff;border:none;border-radius:4px;cursor:pointer;">Toggle Code/Result</button>
+      <iframe id="p5-iframe-1" src="/iframes/src-scripts-introp5-4-2-iframe.html" width="400" height="400" style="border:1px solid #ccc;display:block;"></iframe>
+      <pre id="p5-code-1" class="language-javascript" style="display:none;background:#f5f5f5 !important;color:#222;padding:1em;overflow:auto;margin:0;"><code class="language-javascript">// global variable control panel
+let padding = 10;
+let spacing = 2;
+let margin = 70; // margin between top and left of marks, bottom and right
+let yPadding = 1;
+let yJitter = 2; // maximum randomness in the yPadding
+
+function setup() {
+  createCanvas(400, 400);
+  noLoop();
+}
+
+function draw() {
+  background(255);
+  // row 1
+  stroke(0);
+  // row code
+  for (let y = margin; y &lt; height - margin; y += yPadding + random(yJitter)) {
+    let g = map(y, margin, height - margin, 0, 255); // take y (margin, height - margin) -&gt; (0,255)
+    stroke(g);
+    // column code
+    for (
+      let x = margin + y * 0.5;
+      x &lt; width - margin - 30 - spacing;
+      x += 20 + padding + spacing
+    ) {
+      line(x, y, x + 10, y + 10);
+      line(x + 10 + spacing, y + 10, x + 20 + spacing, y);
+    }
+  }
+}
+</code></pre>
+    </div>
+  
+    <div class="p5-block" style="margin-bottom:2em;">
+      <button onclick="toggleP5View('p5-iframe-2', 'p5-code-2')" style="display:block;margin-bottom:1em;padding:0.5em 1em;background:#007bff;color:#fff;border:none;border-radius:4px;cursor:pointer;">Toggle Code/Result</button>
+      <iframe id="p5-iframe-2" src="/iframes/src-scripts-introp5-4-3-iframe.html" width="400" height="400" style="border:1px solid #ccc;display:block;"></iframe>
+      <pre id="p5-code-2" class="language-javascript" style="display:none;background:#f5f5f5 !important;color:#222;padding:1em;overflow:auto;margin:0;"><code class="language-javascript">//
+
+let num = 100; // give a certain number of shapes
+// 10 shapes per row, and ten shapes per column
+
+let spacing;
+
+function setup() {
+  createCanvas(400, 400);
+  noLoop();
+  spacing = width / num;
+  noFill();
+}
+
+function draw() {
+  background(255);
+  // and adjust the spacing between shapes vertically;
+  for (let y = spacing / 2; y &lt; height; y += spacing + 20) {
+    // adjust the spacing between shapes horizontally
+    for (
+      let x = spacing / 2 + random(spacing / 2);
+      x &lt; width - spacing / 2;
+      x += random(spacing * 2)
+    ) {
+      // adjust the width of the shape
+      circle(x, y, spacing);
+    }
+  }
+}
+</code></pre>
+    </div>
   <script>
             function toggleP5View(iframeId, codeId) {
               const iframe = document.getElementById(iframeId);
