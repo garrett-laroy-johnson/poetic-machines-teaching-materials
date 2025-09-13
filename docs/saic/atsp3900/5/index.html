@@ -397,6 +397,92 @@
   <h3>Examples</h3>
   
 
+    <div class="p5-block" style="margin-bottom:2em;">
+      <button onclick="toggleP5View('p5-iframe-0', 'p5-code-0')" style="display:block;margin-bottom:1em;padding:0.5em 1em;background:#007bff;color:#fff;border:none;border-radius:4px;cursor:pointer;">Toggle Code/Result</button>
+      <iframe id="p5-iframe-0" src="/iframes/src-scripts-introp5-5-1-iframe.html" width="400" height="400" style="border:1px solid #ccc;display:block;"></iframe>
+      <pre id="p5-code-0" class="language-javascript" style="display:none;background:#f5f5f5 !important;color:#222;padding:1em;overflow:auto;margin:0;"><code class="language-javascript">let w = 10;
+let s = 12;
+let margin = 20;
+let r = 127;
+let g = 127;
+
+function setup() {
+  createCanvas(400, 400);
+  noStroke();
+  noLoop();
+}
+
+function draw() {
+  background(220,0,100);
+  
+  let index = 0;
+  for (let x = 20; x &lt; width - margin - w; x += w + s) {
+    
+    for (let y = 20; y &lt; height- margin - w; y += 20) {
+      
+      
+      // % modulo ! remainder of a division operatio 
+    
+      w+= random(-5,5);
+      if(w &gt; 20){
+        w = w;
+      }
+      if (w &lt; 0){
+        w = 0;
+      }
+      
+      
+      if (index % 2){
+        fill(r,0,100);
+      }
+      else {
+        fill(0,g,200);
+      }
+      
+      let ran = random(100);
+      if (ran&gt;50){
+          r+= random(5,5);
+         r = constrain(r, 100, 150);
+          }
+      else{
+         g+=random(5,5);
+        g = constrain(g,100,200);
+      }
+      
+    
+      
+      
+      if (y &gt; height/4 ){
+      square(x, y, w);    
+          }
+      else {
+        circle(x + w/2 ,y + w/2,w)
+      }
+      
+    }
+    console.log(index);
+  index++;
+  }
+}
+</code></pre>
+    </div>
+  <script>
+            function toggleP5View(iframeId, codeId) {
+              const iframe = document.getElementById(iframeId);
+              const code = document.getElementById(codeId);
+              if (iframe.style.display === 'none') {
+                iframe.style.display = '';
+                code.style.display = 'none';
+              } else {
+                iframe.style.display = 'none';
+                code.style.display = '';
+                // Trigger Prism.js syntax highlighting
+                if (window.Prism && code.querySelector('code')) {
+                  Prism.highlightElement(code.querySelector('code'));
+                }
+              }
+            }
+          </script>
 
 
   
