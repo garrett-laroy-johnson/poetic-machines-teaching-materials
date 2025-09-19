@@ -1,0 +1,27 @@
+let ySpacing = 25;
+let xSpacing = 35;
+let startW = 50; // width of first square
+
+function setup() {
+  createCanvas(600, 600);
+  noLoop();
+  noStroke();
+}
+
+function draw() {
+  background("#08010A");
+
+  let i = 0; // index variable
+  for (let y = 10; y < height; y += ySpacing) {
+    for (let x = 0; x < width; x += xSpacing) {
+      let r = random(100, 150);
+      let g = 100;
+      let b = random(0, 255);
+      let a = random(0, 255);
+      fill(r, g, b, a);
+
+      square(x, y, startW - i * 0.3); // x, y, w // square or a rectangle -- x and y are top left point
+      i++; // the same as writing 'i=i+1' or 'i+=1'
+    }
+  }
+}

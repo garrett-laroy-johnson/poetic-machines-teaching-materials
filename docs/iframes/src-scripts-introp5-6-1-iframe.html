@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>p5 Sketch</title>
+    <style>body { margin:0; padding:0; overflow:hidden; }</style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  </head>
+  <body>
+  <script>
+  let w = 800;
+let h = 800;
+let slice = 17;
+
+let spacing;
+let rand = 10; // higher is more irregular, lower is more regular
+let conc = 5; // number of shapes drawn in each cell
+let inner = false; // is the most inner shape drawn?
+let thresh = 0.35; // number out of 1 that sets the threshhold for the random number generator (0.0-1.0) for whether a shape is drawn or not.
+
+function setup() {
+  createCanvas(w, h);
+  spacing = width / slice;
+  noFill();
+}
+
+function draw() {
+  background(255);
+
+  //step 1 how to slice up grid
+  //     line(100,0,100,height);
+  //     line(100*2,0,100*2,height);
+  //     line(100*3,0,100*3,height);
+
+  //     line(0,100,width,100*2);
+  //     line(0,100*2,width,100*2);
+  //     line(0,100*3,width,100*3);
+
+  //step 2 slice up grid but with for loop
+
+  // for(i=1;i<slice+1;i++){
+  //   line(i*spacing,0,i*spacing,height);
+  //   line(0,i*spacing,width,i*spacing);
+  // }
+
+  //step 3 draw top row of quads with random verteces
+
+  //     for (i = 0; i < slice; i++) {
+  //       let x1 =  i * spacing + random(rand);
+  //       let y1 =  0 + random(rand);
+  //       let x2 =  i * spacing + spacing + random(rand);
+  //       let y2 =  0 + random (rand);
+  //       let x3 =  i * spacing + spacing + random(rand);
+  //       let y3 =  0 + spacing + random (rand);
+  //       let x4 =  i * spacing + random (rand);
+  //       let y4 =  0 + spacing  + random(rand)
+  //       quad(x1, y1, x2, y2, x3, y3, x4, y4);
+  //     }
+
+  //step 4 nested for loop -- draw full grid of quads. Wherever there was a zero above, replace it with d * spacing
+
+  // for (d = 0; d < slice; d++){
+  //     for (i = 0; i < slice; i++) {
+  //       let x1 =  i * spacing + random(rand);
+  //       let y1 =  d * spacing + random(rand);
+  //       let x2 =  i * spacing + spacing + random(rand);
+  //       let y2 =  d * spacing + random (rand);
+  //       let x3 =  i * spacing + spacing + random(rand);
+  //       let y3 =  d * spacing + spacing + random (rand);
+  //       let x4 =  i * spacing + random (rand);
+  //       let y4 =  d * spacing  + spacing  + random(rand)
+  //       quad(x1, y1, x2, y2, x3, y3, x4, y4);
+  //     }
+  // }
+
+  // step 5 create concric effect. Nest a for loop inside the nested for loop. Create the inc variable that scales our verteces
+  // for (d = 0; d < slice; d++){
+  //     for (i = 0; i < slice; i++) {
+  //       let x1 =  i * spacing + random(rand);
+  //       let y1 =  d * spacing + random(rand);
+  //       let x2 =  i * spacing + spacing + random(rand);
+  //       let y2 =  d * spacing + random (rand);
+  //       let x3 =  i * spacing + spacing + random(rand);
+  //       let y3 =  d * spacing + spacing + random (rand);
+  //       let x4 =  i * spacing + random (rand);
+  //       let y4 =  d * spacing  + spacing  + random(rand)
+
+  //       for (c = 0; c < conc+inner; c++) {
+  //         let inc = ((spacing/2) / conc) * c;
+
+  //         quad(
+  //           x1 + inc,
+  //           y1 + inc,
+  //           x2 - inc,
+  //           y2 + inc,
+  //           x3 - inc,
+  //           y3 - inc,
+  //           x4 + inc,
+  //           y4 - inc
+  //         );
+  //       }
+  //     }
+  //   }
+
+  //   //step 6 randomize all verteces while encouraging increasingly smaller squares
+
+  //   for (d = 0; d < slice; d++) {
+  //     for (i = 0; i < slice; i++) {
+  //       for (c = 0; c < conc + inner; c++) {
+  //         let inc = (spacing / 2 / conc) * c;
+
+  //         let x1 = i * spacing + random(rand);
+  //         let y1 = d * spacing + random(rand);
+  //         let x2 = i * spacing + spacing + random(rand);
+  //         let y2 = d * spacing + random(rand);
+  //         let x3 = i * spacing + spacing + random(rand);
+  //         let y3 = d * spacing + spacing + random(rand);
+  //         let x4 = i * spacing + random(rand);
+  //         let y4 = d * spacing + spacing + random(rand);
+
+  //         quad(
+  //           x1 + inc,
+  //           y1 + inc,
+  //           x2 - inc,
+  //           y2 + inc,
+  //           x3 - inc,
+  //           y3 - inc,
+  //           x4 + inc,
+  //           y4 - inc
+  //         );
+  //       }
+  //     }
+  //   }
+
+  //   step 7 // introduce random choice to draw or not draw any given quad
+  for (d = 0; d < slice; d++) {
+    for (i = 0; i < slice; i++) {
+      for (c = 0; c < conc + inner; c++) {
+        let roll = random(1); // roll variable is like a 100 sided die that determines whether the shape is drawn or not. compared to the thresh variable that can be adjusted in the global variables above.
+
+        if (roll > thresh) {
+          let inc = (spacing / 2 / conc) * c;
+
+          let x1 = i * spacing + random(rand);
+          let y1 = d * spacing + random(rand);
+          let x2 = i * spacing + spacing + random(rand);
+          let y2 = d * spacing + random(rand);
+          let x3 = i * spacing + spacing + random(rand);
+          let y3 = d * spacing + spacing + random(rand);
+          let x4 = i * spacing + random(rand);
+          let y4 = d * spacing + spacing + random(rand);
+
+          quad(
+            x1 + inc,
+            y1 + inc,
+            x2 - inc,
+            y2 + inc,
+            x3 - inc,
+            y3 - inc,
+            x4 + inc,
+            y4 - inc
+          );
+        }
+      }
+    }
+  }
+
+  noLoop();
+}
+
+  </script>
+  </body>
+  </html>

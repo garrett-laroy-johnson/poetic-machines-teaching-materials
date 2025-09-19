@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>p5 Sketch</title>
+    <style>body { margin:0; padding:0; overflow:hidden; }</style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  </head>
+  <body>
+  <script>
+  // global variables
+let margin = 150; // number of margin pixels on left and right (top and bottom) of canvas
+let radius = 10; // radius of shape
+let spacing; // in the global scope so that I can use it in the draw loop later.
+
+function setup() {
+  createCanvas(800, 800);
+
+  let w = width - margin * 2;
+  let num = w / (radius * 2); // the number of circles insides the margins;
+  let rnd = floor(num); // total number of complete circles that fit inside the margins
+  let remainder = (num - rnd) * radius * 2;
+  spacing = remainder / num + radius * 2;
+  noLoop();
+  noStroke();
+}
+
+function draw() {
+  background(255);
+
+  let o = 128; // opacity;
+  let g = random(0, 255);
+  for (let y = margin + radius; y <= height - (margin + radius); y += spacing) {
+    let r = random(100, 255);
+    // for loop that changes the x position of this drawing algorithm
+    for (
+      let x = margin + radius;
+      x <= width - (margin + radius);
+      x += spacing
+    ) {
+      let b = random(0, 100);
+      o += random(-30, 30);
+      o = constrain(o, 0, 255); // keep 1 with bounds min 2 and max 3
+
+      fill(r, g, b, o);
+      // draws circles
+      circle(x, y, radius * 2 + random(50)); // radius * 2 = diameter
+    }
+  }
+}
+
+  </script>
+  </body>
+  </html>

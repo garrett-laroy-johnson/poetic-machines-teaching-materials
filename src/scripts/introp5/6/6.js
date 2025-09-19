@@ -1,0 +1,45 @@
+const numSquares = 17;
+let size;
+const margin = 20; // margin size on left and right in pixels
+let offset;
+const conSquares = 5; // number of squares in each cell of the grid
+let conInc; // pix incrementing value for shrinking squares
+
+const range = 100; // random circle range.
+const leap = 10;
+
+function setup() {
+  stroke(0.5);
+  createCanvas(700, 700);
+  size = (width - margin * 2) / numSquares; // size = total width / number of squares
+  offset = size / 2 + margin;
+  noFill();
+  rectMode(CENTER);
+
+  conInc = size / conSquares;
+}
+
+function draw() {
+  background(255);
+
+  let t = range / 2; // probability out of 100 that a square is drawn
+  for (let y = 0; y < numSquares; y++) {
+    for (let x = 0; x < numSquares; x++) {
+      for (let s = 0; s < 5; s++) {
+        let a = random(range);
+        if (a > t) {
+          circle(offset + size * x, offset + y * size, size - s * conInc); // t
+        } else {
+          // t
+        }
+        t += random(-leap, leap); // modify t by adding or subtracting a negative between leap and negative leap
+        t = constrain(t, 0, range);
+      }
+    }
+  }
+  noLoop();
+}
+
+function mousePressed() {
+  loop();
+}

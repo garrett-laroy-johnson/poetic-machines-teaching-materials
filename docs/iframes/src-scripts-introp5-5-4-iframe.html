@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>p5 Sketch</title>
+    <style>body { margin:0; padding:0; overflow:hidden; }</style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  </head>
+  <body>
+  <script>
+  let numCols = 200; // number of columns
+let numRows = 40; // number of rows
+let xSpacing, ySpacing;
+let noiseScale = 0.03;
+// - minus
+function setup() {
+  createCanvas(400, 400);
+  xSpacing = width / numCols;
+  ySpacing = height / numRows;
+  noLoop();
+}
+function draw() {
+  background(255);
+  for (let j = 0; j < numRows; j++) {
+    for (let i = 0; i < numCols; i++) {
+      let n = noise(i * noiseScale, j * noiseScale);
+      let x1 = xSpacing * i;
+      let y1 = ySpacing * j + n * ySpacing;
+      let x2 = xSpacing * i;
+      let y2 = ySpacing * (j + 1) - n * ySpacing;
+      line(x1, y1, x2, y2);
+    }
+  }
+}
+
+  </script>
+  </body>
+  </html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>p5 Sketch</title>
+    <style>body { margin:0; padding:0; overflow:hidden; }</style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  </head>
+  <body>
+  <script>
+  let jump = 20;
+
+function setup() {
+  createCanvas(400, 400);
+  noLoop();
+  noFill();
+}
+
+function draw() {
+  background(220);
+
+  for (let j = 0; j < 50; j++) {
+    // number of lines
+    beginShape();
+    let x = random(width);
+    let y = random(height);
+    for (let i = 0; i < 10; i++) {
+      // vertex or point in the line
+      x += random(-jump, jump);
+      if (x > width) {
+        x = width;
+      }
+      if (x < 0) {
+        x = 0;
+      }
+
+      y += random(-jump, jump);
+      if (y > height) {
+        y = height;
+      }
+      if (y < 0) {
+        y = 0;
+      }
+      curveVertex(x, y);
+    }
+    endShape();
+  }
+}
+
+  </script>
+  </body>
+  </html>
