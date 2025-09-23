@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>p5 Sketch</title>
+    <style>body { margin:0; padding:0; overflow:hidden; }</style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  </head>
+  <body>
+  <script>
+  let spacing;
+const num = 100;
+
+function setup() {
+  createCanvas(400, 400);
+  spacing = width / num;
+}
+
+function draw() {
+  background(255);
+  let jitter = 0;
+  let topJit = 0;
+  let botJit = 0;
+  for (let i = 0; i < num; i++) {
+    //  line(i*spacing,0,i*spacing,height);
+    line(
+      i * spacing + topJit,
+      0 + jitter,
+      i * spacing + botJit,
+      height - jitter
+    );
+    jitter = jitter + random(-10, 10); // change these values to see different tendencies in the visua result
+    topJit = topJit + random(-5, 5); // change these values to see different tendencies in the visua result
+    botJit = botJit + random(-2.5, -2.5); // change these values to see different tendencies in the visua result
+  }
+  noLoop();
+}
+
+  </script>
+  </body>
+  </html>

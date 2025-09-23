@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>p5 Sketch</title>
+    <style>body { margin:0; padding:0; overflow:hidden; }</style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  </head>
+  <body>
+  <script>
+  let margin = 11;
+let xSpacing = 4;
+let length = 40;
+let ySpacing = length + 10;
+let gs = 0; // greyscale
+
+function setup() {
+  createCanvas(400, 400);
+  strokeWeight(2);
+  noLoop();
+  //randomSeed(50); // specify the seed with which all randomness is generated
+}
+
+function draw() {
+  background(128);
+  for (let y = margin; y < height - margin; y += ySpacing) {
+    xSpacing = random(1, 10);
+    strokeWeight(1 + xSpacing / 4);
+    for (let x = margin; x < width - margin; x += xSpacing) {
+      stroke(gs, 0, 100);
+      length = random(30, 50);
+      line(x, y, x, y + length); // x1, y1, x2,y2
+      gs += random(-10, 10); // add one! gs += 1; gs = 1 + 1;
+      if (gs > 255) {
+        // if conditions inside the parentheses are met
+        // this code runs
+        gs = 255;
+      }
+      if (gs < 0) {
+        gs = 0;
+      }
+    }
+  }
+}
+
+  </script>
+  </body>
+  </html>
