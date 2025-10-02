@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>p5 Sketch</title>
+    <style>body { margin:0; padding:0; overflow:hidden; }</style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  </head>
+  <body>
+  <script>
+  let x = 200;
+let y = 200;
+let w = 200;
+let r = w / 2;
+
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+
+  let d = dist(mouseX, mouseY, x, y);
+
+  if (d < r) {
+    fill("blue");
+  } else {
+    fill("red");
+  }
+
+  circle(x, y, w);
+  strokeWeight(2);
+  point(x, y);
+  line(mouseX, mouseY, x, y);
+}
+
+  </script>
+  </body>
+  </html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>p5 Sketch</title>
+    <style>body { margin:0; padding:0; overflow:hidden; }</style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  </head>
+  <body>
+  <script>
+  let x = 200;
+let y = 200;
+let w = 100;
+let h = 50;
+let score = 0;
+
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+  let hover = mouseX > x && mouseX < x + w && mouseY > y && mouseY < y + h;
+
+  if (hover && mouseIsPressed) {
+    fill("blue");
+    x = random(width);
+    y = random(height);
+    score++;
+    console.log("score " + score);
+  } else if (hover) {
+    fill("green");
+  } else {
+    fill("red");
+  }
+
+  rect(x, y, w, h);
+}
+
+  </script>
+  </body>
+  </html>

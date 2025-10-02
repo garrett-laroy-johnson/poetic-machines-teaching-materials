@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>p5 Sketch</title>
+    <style>body { margin:0; padding:0; overflow:hidden; }</style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  </head>
+  <body>
+  <script>
+  let x = 100;
+let y = 100;
+let w = 100; // width of circle is its diameter
+let h = 200;
+let r = w / 2; // radius is width / 2
+
+function setup() {
+  createCanvas(400, 400);
+  noStroke();
+}
+
+function draw() {
+  background(220);
+
+  let hover = mouseX > x && mouseX < x + w && mouseY > y && mouseY < y + h; // TRUE if the distance between mouse and circle center is less that the circle's radius
+
+  if (hover && mouseIsPressed) {
+    fill("green"); // special behavior, hover AND pressed behavior!
+  } else if (hover && mouseIsPressed == false) {
+    fill("purple"); // hover NOT pressed
+  } else {
+    fill("blue"); // default behavior! if not pressed AND not hover
+  }
+
+  rect(x, y, w, h);
+}
+
+  </script>
+  </body>
+  </html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>p5 Sketch</title>
+    <style>body { margin:0; padding:0; overflow:hidden; }</style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  </head>
+  <body>
+  <script>
+  let noiseScale = 0.002;
+let bgRes = 10; // number of pixels in each strip of background hombre
+let fgVerts = 5; // number of vertices in foreground shape
+let numFgShapes = 50; // number of shapes in the foreground
+let fgMargin = 100; // number of pixels at top bottom left right
+
+function setup() {
+  createCanvas(800, 400);
+  colorMode(HSB); // HSB vs RGB
+  noLoop();
+
+  noiseSeed(28); // noiseSeed() or randomSeed() are how we *lock in* variations
+  randomSeed(3234234);
+}
+
+function draw() {
+  // background
+  strokeWeight(bgRes); // each line has a thickness of the bgRes variable
+  for (let x = 0; x < width * 2; x += bgRes) {
+    let n = noise(x * noiseScale); // noise() returns a value between 0 - 1
+    stroke(n * 360, 30, 100); // HSB color: hue is color in a range from   0 - 360, saturation, brightness
+    line(x, 0, x - width, height);
+  }
+
+  noStroke();
+
+  for (let j = 0; j < numFgShapes; j++) {
+    noFill();
+    stroke(j * 5 + 75, 75, 100);
+    // draws foreground shape
+    beginShape();
+    for (let i = 0; i < fgVerts; i++) {
+      curveVertex(
+        random(fgMargin, width - fgMargin),
+        random(fgMargin, height - fgMargin)
+      );
+    }
+    endShape();
+  }
+}
+
+  </script>
+  </body>
+  </html>

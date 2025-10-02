@@ -536,7 +536,7 @@
   <h2>Homework</h2>
 
    
-  <h3>Coding Sketch: Interactive Interface</h3>
+  <h3>Week 7 Coding Sketch</h3>
   
   <p>Create an interface with a &quot;button&quot; or some clickable square or circle.</p>
   
@@ -590,7 +590,7 @@
               <p class="card-text">
                 Chapters 5. Response
               </p>
-              <p class="card-text">by </p>
+              <p class="card-text">by Lauren McCarthy, Casey Reas, Ben Fry</p>
               
             </div>
             </a>
@@ -612,6 +612,306 @@
   <h3>Examples</h3>
   
 
+    <div class="p5-block" style="margin-bottom:2em;">
+      <button onclick="toggleP5View('p5-iframe-0', 'p5-code-0')" style="display:block;margin-bottom:1em;padding:0.5em 1em;background:#007bff;color:#fff;border:none;border-radius:4px;cursor:pointer;">Toggle Code/Result</button>
+      <iframe id="p5-iframe-0" src="/iframes/src-scripts-introp5-7-1-iframe.html" width="400" height="400" style="border:1px solid #ccc;display:block;"></iframe>
+      <pre id="p5-code-0" class="language-javascript" style="display:none;background:#f5f5f5 !important;color:#222;padding:1em;overflow:auto;margin:0;"><code class="language-javascript">let x = 200;
+let y = 200;
+let w = 200;
+let r = w / 2;
+
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+
+  let d = dist(mouseX, mouseY, x, y);
+
+  if (d &lt; r) {
+    fill("blue");
+  } else {
+    fill("red");
+  }
+
+  circle(x, y, w);
+  strokeWeight(2);
+  point(x, y);
+  line(mouseX, mouseY, x, y);
+}
+</code></pre>
+    </div>
+  
+    <div class="p5-block" style="margin-bottom:2em;">
+      <button onclick="toggleP5View('p5-iframe-1', 'p5-code-1')" style="display:block;margin-bottom:1em;padding:0.5em 1em;background:#007bff;color:#fff;border:none;border-radius:4px;cursor:pointer;">Toggle Code/Result</button>
+      <iframe id="p5-iframe-1" src="/iframes/src-scripts-introp5-7-2-iframe.html" width="400" height="400" style="border:1px solid #ccc;display:block;"></iframe>
+      <pre id="p5-code-1" class="language-javascript" style="display:none;background:#f5f5f5 !important;color:#222;padding:1em;overflow:auto;margin:0;"><code class="language-javascript">let x = 200;
+let y = 200;
+let w = 100;
+let h = 50;
+let score = 0;
+
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+  let hover = mouseX &gt; x && mouseX &lt; x + w && mouseY &gt; y && mouseY &lt; y + h;
+
+  if (hover && mouseIsPressed) {
+    fill("blue");
+    x = random(width);
+    y = random(height);
+    score++;
+    console.log("score " + score);
+  } else if (hover) {
+    fill("green");
+  } else {
+    fill("red");
+  }
+
+  rect(x, y, w, h);
+}
+</code></pre>
+    </div>
+  
+    <div class="p5-block" style="margin-bottom:2em;">
+      <button onclick="toggleP5View('p5-iframe-2', 'p5-code-2')" style="display:block;margin-bottom:1em;padding:0.5em 1em;background:#007bff;color:#fff;border:none;border-radius:4px;cursor:pointer;">Toggle Code/Result</button>
+      <iframe id="p5-iframe-2" src="/iframes/src-scripts-introp5-7-3-iframe.html" width="400" height="400" style="border:1px solid #ccc;display:block;"></iframe>
+      <pre id="p5-code-2" class="language-javascript" style="display:none;background:#f5f5f5 !important;color:#222;padding:1em;overflow:auto;margin:0;"><code class="language-javascript">let w = 50; // the diameter of the cricle. half the diameter = radius
+
+function setup() {
+  createCanvas(400, 400);
+  noStroke();
+}
+
+function draw() {
+  background(220);
+
+  circle(200, 200, w);
+  // use the system variable mouseIsPressed in order to return a true/false data (BOOLEAN) variable true or false. off or on, 0 + 1 ,
+
+  let d = dist(200, 200, mouseX, mouseY);
+  let hover = d &lt; w / 2;
+  if (hover == true && mouseIsPressed) {
+    fill("magenta"); // button press behavior
+  } else if (hover && mouseIsPressed == false) {
+    fill("red");
+  } else {
+    fill("blue"); // default behavior
+  }
+
+  //  print(mouseX, mouseY);
+}
+
+// 1. default behavior -- for IF the mouse is NOT over the circle AND it is NOT clicked.
+
+// 2. hover behavior for IF the the mouse is over the circle AND it IS NOT clicked
+
+// 3. button press behavior for IF Fthe mouse is over the cricle AND it IS clicked
+</code></pre>
+    </div>
+  
+    <div class="p5-block" style="margin-bottom:2em;">
+      <button onclick="toggleP5View('p5-iframe-3', 'p5-code-3')" style="display:block;margin-bottom:1em;padding:0.5em 1em;background:#007bff;color:#fff;border:none;border-radius:4px;cursor:pointer;">Toggle Code/Result</button>
+      <iframe id="p5-iframe-3" src="/iframes/src-scripts-introp5-7-4-iframe.html" width="400" height="400" style="border:1px solid #ccc;display:block;"></iframe>
+      <pre id="p5-code-3" class="language-javascript" style="display:none;background:#f5f5f5 !important;color:#222;padding:1em;overflow:auto;margin:0;"><code class="language-javascript">let x = 100;
+let y = 100;
+let w = 100; // width of circle is its diameter
+let h = 200;
+let r = w / 2; // radius is width / 2
+
+function setup() {
+  createCanvas(400, 400);
+  noStroke();
+}
+
+function draw() {
+  background(220);
+
+  let hover = mouseX &gt; x && mouseX &lt; x + w && mouseY &gt; y && mouseY &lt; y + h; // TRUE if the distance between mouse and circle center is less that the circle's radius
+
+  if (hover && mouseIsPressed) {
+    fill("green"); // special behavior, hover AND pressed behavior!
+  } else if (hover && mouseIsPressed == false) {
+    fill("purple"); // hover NOT pressed
+  } else {
+    fill("blue"); // default behavior! if not pressed AND not hover
+  }
+
+  rect(x, y, w, h);
+}
+</code></pre>
+    </div>
+  
+    <div class="p5-block" style="margin-bottom:2em;">
+      <button onclick="toggleP5View('p5-iframe-4', 'p5-code-4')" style="display:block;margin-bottom:1em;padding:0.5em 1em;background:#007bff;color:#fff;border:none;border-radius:4px;cursor:pointer;">Toggle Code/Result</button>
+      <iframe id="p5-iframe-4" src="/iframes/src-scripts-introp5-7-5-iframe.html" width="400" height="400" style="border:1px solid #ccc;display:block;"></iframe>
+      <pre id="p5-code-4" class="language-javascript" style="display:none;background:#f5f5f5 !important;color:#222;padding:1em;overflow:auto;margin:0;"><code class="language-javascript"></code></pre>
+    </div>
+  
+    <div class="p5-block" style="margin-bottom:2em;">
+      <button onclick="toggleP5View('p5-iframe-5', 'p5-code-5')" style="display:block;margin-bottom:1em;padding:0.5em 1em;background:#007bff;color:#fff;border:none;border-radius:4px;cursor:pointer;">Toggle Code/Result</button>
+      <iframe id="p5-iframe-5" src="/iframes/src-scripts-introp5-7-6-iframe.html" width="400" height="400" style="border:1px solid #ccc;display:block;"></iframe>
+      <pre id="p5-code-5" class="language-javascript" style="display:none;background:#f5f5f5 !important;color:#222;padding:1em;overflow:auto;margin:0;"><code class="language-javascript">const w = 150;
+const h = 200;
+const x = 100;
+const y = 100;
+
+function setup() {
+  createCanvas(400, 400);
+  noStroke();
+  fill(0);
+}
+
+function draw() {
+  // check for hover over rectangle
+  let hover = mouseX &gt; x && mouseX &lt; x + w && mouseY &gt; y && mouseY &lt; y + h;
+
+  if (hover === true && mouseIsPressed === true) {
+    background(34, 12, 100);
+    fill(100, 32, 64);
+  } else if (hover === true) {
+    background(34, 12, 100);
+    fill(255);
+  } else {
+    background(100, 32, 64);
+    fill(34, 12, 100);
+  }
+
+  rect(x, y, w, h);
+}
+</code></pre>
+    </div>
+  
+    <div class="p5-block" style="margin-bottom:2em;">
+      <button onclick="toggleP5View('p5-iframe-6', 'p5-code-6')" style="display:block;margin-bottom:1em;padding:0.5em 1em;background:#007bff;color:#fff;border:none;border-radius:4px;cursor:pointer;">Toggle Code/Result</button>
+      <iframe id="p5-iframe-6" src="/iframes/src-scripts-introp5-7-7-iframe.html" width="400" height="400" style="border:1px solid #ccc;display:block;"></iframe>
+      <pre id="p5-code-6" class="language-javascript" style="display:none;background:#f5f5f5 !important;color:#222;padding:1em;overflow:auto;margin:0;"><code class="language-javascript">const r = 100;
+const x = 300;
+const y = 100;
+
+function setup() {
+  createCanvas(400, 400);
+  noStroke();
+  fill(0);
+}
+
+function draw() {
+  let distance = dist(x, y, mouseX, mouseY);
+
+  let hover = distance &lt; r;
+
+  if (hover === true && mouseIsPressed === true) {
+    background(34, 12, 100);
+    fill(100, 32, 64);
+  } else if (hover === true) {
+    background(34, 12, 100);
+    fill(255);
+  } else {
+    background(100, 32, 64);
+    fill(34, 12, 100);
+  }
+
+  circle(x, y, r * 2);
+}
+</code></pre>
+    </div>
+  
+    <div class="p5-block" style="margin-bottom:2em;">
+      <button onclick="toggleP5View('p5-iframe-7', 'p5-code-7')" style="display:block;margin-bottom:1em;padding:0.5em 1em;background:#007bff;color:#fff;border:none;border-radius:4px;cursor:pointer;">Toggle Code/Result</button>
+      <iframe id="p5-iframe-7" src="/iframes/src-scripts-introp5-7-8-iframe.html" width="400" height="400" style="border:1px solid #ccc;display:block;"></iframe>
+      <pre id="p5-code-7" class="language-javascript" style="display:none;background:#f5f5f5 !important;color:#222;padding:1em;overflow:auto;margin:0;"><code class="language-javascript">let x = 0;
+let y = 0;
+let easing = 0.2;
+let px = 0;
+let py = 0;
+
+function setup() {
+  createCanvas(400, 400);
+  background(0);
+  stroke(255);
+  strokeWeight(10);
+  fill(255, 150); // 2 values: 1st greyscale, 2nd opacity/transparency
+}
+
+function draw() {
+  if (mouseX &gt; 266) {
+    stroke(0, 200, 100);
+  } else if (mouseX &gt; 133) {
+    stroke(150, 23, 10);
+  } else {
+    stroke(255);
+  }
+
+  if (mouseIsPressed === true) {
+    background(0);
+  }
+
+  let destX = mouseX;
+  let destY = mouseY;
+  x += (destX - x) * easing;
+  y += (destY - y) * easing;
+
+  // slower is heavier weight and faster is lighter weight
+  let distance = dist(x, y, px, py); // in terms of pixels 0-400
+  let weight = map(distance, 0, 20, 1, 30, true); //strokeWeight -- pixels
+
+  strokeWeight(weight);
+
+  line(x, y, px, py); //x1,y1,x2,y2
+
+  py = y;
+  px = x;
+}
+</code></pre>
+    </div>
+  
+    <div class="p5-block" style="margin-bottom:2em;">
+      <button onclick="toggleP5View('p5-iframe-8', 'p5-code-8')" style="display:block;margin-bottom:1em;padding:0.5em 1em;background:#007bff;color:#fff;border:none;border-radius:4px;cursor:pointer;">Toggle Code/Result</button>
+      <iframe id="p5-iframe-8" src="/iframes/src-scripts-introp5-7-9-iframe.html" width="400" height="400" style="border:1px solid #ccc;display:block;"></iframe>
+      <pre id="p5-code-8" class="language-javascript" style="display:none;background:#f5f5f5 !important;color:#222;padding:1em;overflow:auto;margin:0;"><code class="language-javascript">function setup() {
+  createCanvas(400, 400);
+  background(0);
+  stroke(255);
+  strokeWeight(10);
+}
+
+function draw() {
+  if (mouseIsPressed === true) {
+    // slower is heavier weight and faster is lighter weight
+    let distance = dist(mouseX, mouseY, pmouseX, pmouseY); // in terms of pixels 0-400
+    //nsole.log(distance);
+    let weight = map(distance, 0, 30, 30, 1, true); //strokeWeight -- pixels
+
+    strokeWeight(weight);
+
+    fill(255, 150); // 2 values: 1st greyscale, 2nd opacity/transparency
+    // circle(mouseX,mouseY,30);
+    line(mouseX, mouseY, pmouseX, pmouseY); //x1,y1,x2,y2
+  }
+}
+</code></pre>
+    </div>
+  <script>
+            function toggleP5View(iframeId, codeId) {
+              const iframe = document.getElementById(iframeId);
+              const code = document.getElementById(codeId);
+              if (iframe.style.display === 'none') {
+                iframe.style.display = '';
+                code.style.display = 'none';
+              } else {
+                iframe.style.display = 'none';
+                code.style.display = '';
+                // Trigger Prism.js syntax highlighting
+                if (window.Prism && code.querySelector('code')) {
+                  Prism.highlightElement(code.querySelector('code'));
+                }
+              }
+            }
+          </script>
 
 
   

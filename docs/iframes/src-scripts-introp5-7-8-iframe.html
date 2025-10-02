@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>p5 Sketch</title>
+    <style>body { margin:0; padding:0; overflow:hidden; }</style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  </head>
+  <body>
+  <script>
+  let x = 0;
+let y = 0;
+let easing = 0.2;
+let px = 0;
+let py = 0;
+
+function setup() {
+  createCanvas(400, 400);
+  background(0);
+  stroke(255);
+  strokeWeight(10);
+  fill(255, 150); // 2 values: 1st greyscale, 2nd opacity/transparency
+}
+
+function draw() {
+  if (mouseX > 266) {
+    stroke(0, 200, 100);
+  } else if (mouseX > 133) {
+    stroke(150, 23, 10);
+  } else {
+    stroke(255);
+  }
+
+  if (mouseIsPressed === true) {
+    background(0);
+  }
+
+  let destX = mouseX;
+  let destY = mouseY;
+  x += (destX - x) * easing;
+  y += (destY - y) * easing;
+
+  // slower is heavier weight and faster is lighter weight
+  let distance = dist(x, y, px, py); // in terms of pixels 0-400
+  let weight = map(distance, 0, 20, 1, 30, true); //strokeWeight -- pixels
+
+  strokeWeight(weight);
+
+  line(x, y, px, py); //x1,y1,x2,y2
+
+  py = y;
+  px = x;
+}
+
+  </script>
+  </body>
+  </html>
