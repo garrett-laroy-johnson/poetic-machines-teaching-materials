@@ -399,6 +399,325 @@ function draw() {
   <h3>Examples</h3>
   
 
+    <div class="p5-block" style="margin-bottom:2em;">
+      <button onclick="toggleP5View('p5-iframe-0', 'p5-code-0')" style="display:block;margin-bottom:1em;padding:0.5em 1em;background:#007bff;color:#fff;border:none;border-radius:4px;cursor:pointer;">Toggle Code/Result</button>
+      <iframe id="p5-iframe-0" src="/iframes/src-scripts-introp5-8-1-iframe.html" width="400" height="400" style="border:1px solid #ccc;display:block;"></iframe>
+      <pre id="p5-code-0" class="language-javascript" style="display:none;background:#f5f5f5 !important;color:#222;padding:1em;overflow:auto;margin:0;"><code class="language-javascript">let w = 50;
+let a = 0;
+
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+
+  noFill();
+  // must first translate to change the point of origin by addition
+  translate(width / 2, height / 2);
+  // before we THEN rotate
+
+  a += 0.02;
+
+  // push and pop allow us to isolate a drawing state
+  push(); // start a drawing state
+  rotate(a);
+  // center square; square uses left and top x y positions
+  square(-(w / 2), -(w / 2), w);
+  pop(); // exit that drawing state
+
+  //  // canvas border and quadrant
+  square(-width / 4, -height / 4, width / 2);
+
+  //    line(0,-height/2,0,height/2);
+
+  //    line(-width/2,0,width/2,0)
+}
+</code></pre>
+    </div>
+  
+    <div class="p5-block" style="margin-bottom:2em;">
+      <button onclick="toggleP5View('p5-iframe-1', 'p5-code-1')" style="display:block;margin-bottom:1em;padding:0.5em 1em;background:#007bff;color:#fff;border:none;border-radius:4px;cursor:pointer;">Toggle Code/Result</button>
+      <iframe id="p5-iframe-1" src="/iframes/src-scripts-introp5-8-2-iframe.html" width="400" height="400" style="border:1px solid #ccc;display:block;"></iframe>
+      <pre id="p5-code-1" class="language-javascript" style="display:none;background:#f5f5f5 !important;color:#222;padding:1em;overflow:auto;margin:0;"><code class="language-javascript">let w = 50;
+let aD = 0; // difference in angles between each shape
+let aToggle = 1; // toggle which is either 1 or -1
+
+function setup() {
+  createCanvas(400, 400);
+  angleMode(DEGREES);
+}
+
+function draw() {
+  background(220);
+
+  noFill();
+  // must first translate to change the point of origin by addition
+  translate(width / 2, height / 2);
+  // before we THEN rotate
+
+  let a = 0;
+  for (let w = 10; w &lt; width; w += 10) {
+    rotate(a);
+    square(-(w / 2), -(w / 2), w);
+    a += aD;
+  }
+
+  aD += 0.01 * aToggle; // increase the difference in angles over time;
+
+  if (a &gt; 60) {
+    aToggle = -1;
+  } else if (a &lt; 0) {
+    aToggle = 1;
+  }
+}
+</code></pre>
+    </div>
+  
+    <div class="p5-block" style="margin-bottom:2em;">
+      <button onclick="toggleP5View('p5-iframe-2', 'p5-code-2')" style="display:block;margin-bottom:1em;padding:0.5em 1em;background:#007bff;color:#fff;border:none;border-radius:4px;cursor:pointer;">Toggle Code/Result</button>
+      <iframe id="p5-iframe-2" src="/iframes/src-scripts-introp5-8-3-iframe.html" width="400" height="400" style="border:1px solid #ccc;display:block;"></iframe>
+      <pre id="p5-code-2" class="language-javascript" style="display:none;background:#f5f5f5 !important;color:#222;padding:1em;overflow:auto;margin:0;"><code class="language-javascript">let w = 50;
+let aD = 0; // difference in angles between each shape
+let aToggle = 1; // toggle which is either 1 or -1
+
+let s = 1; // scale factor of our sketch
+let sToggle = 1; //  toggle for scale which is either 1 or -1.
+
+let globalA = 0; // rotate the entire sketch
+
+function setup() {
+  createCanvas(400, 400);
+  angleMode(DEGREES);
+}
+
+function draw() {
+  background(220);
+
+  noFill();
+  // must first translate to change the point of origin by addition
+  translate(width / 2, height / 2);
+  // before we THEN rotate
+
+  rotate(globalA);
+  globalA++;
+
+  scale(s);
+  s += 0.01 * sToggle;
+
+  if (s &lt; 0.25) {
+    sToggle = 1;
+  } else if (s &gt; 4) {
+    sToggle = -1;
+  }
+
+  let a = 0;
+  for (let w = 10; w &lt; width; w += 5) {
+    rotate(a);
+    square(-(w / 2), -(w / 2), w);
+    a += aD;
+  }
+
+  aD += noise(a * 0.01) * 0.01 * aToggle; // increase the difference in angles over time;
+
+  if (a &gt; 60) {
+    aToggle = -1;
+  } else if (a &lt; 0) {
+    aToggle = 1;
+  }
+}
+</code></pre>
+    </div>
+  
+    <div class="p5-block" style="margin-bottom:2em;">
+      <button onclick="toggleP5View('p5-iframe-3', 'p5-code-3')" style="display:block;margin-bottom:1em;padding:0.5em 1em;background:#007bff;color:#fff;border:none;border-radius:4px;cursor:pointer;">Toggle Code/Result</button>
+      <iframe id="p5-iframe-3" src="/iframes/src-scripts-introp5-8-4-iframe.html" width="640" height="480" style="border:1px solid #ccc;display:block;"></iframe>
+      <pre id="p5-code-3" class="language-javascript" style="display:none;background:#f5f5f5 !important;color:#222;padding:1em;overflow:auto;margin:0;"><code class="language-javascript">// note, I have to comment out filters because of a bug in how my website converts them to be displayed.
+// also note that the image locations are different from how they will look when you upload them to the p5 editor for the same reasons.
+
+let img1, img2, img3, img4;
+
+let s = 1; //scalar factor for currentImage1
+
+// opacity of our second image
+let a = 50;
+
+// the threshold of our posterize
+let t = 0.0;
+
+let s2 = 2; // scalar factor for currentImage2
+
+// carousel state
+let state = 0; // state is either 0 or 1;
+let counter1 = 0;
+let counter2 = 0;
+
+let ang = 0;
+
+let currentImage1, currentImage2;
+
+function preload() {
+  img1 = loadImage("/assets/p5img/texture1.jpeg");
+  img2 = loadImage("/assets/p5img/texture2.jpeg");
+  img3 = loadImage("/assets/p5img/texture3.jpeg");
+  img4 = loadImage("/assets/p5img/texture4.jpeg");
+}
+
+function setup() {
+  createCanvas(640, 480);
+  imageMode(CENTER);
+  // set current images
+  currentImage1 = img1;
+  currentImage2 = img2;
+}
+
+function draw() {
+  // drawing operations
+  background(0);
+  translate(width / 2, height / 2);
+  ang += 0.001;
+  push();
+  scale(s);
+  rotate(ang);
+
+  tint(0, 255, 0, 126);
+  image(currentImage1, 0, 0, img1.width, img1.height);
+  //  filter(THRESHOLD, t); // range between 0 and 1
+  // filter(INVERT);
+  // filter(BLUR);
+
+  pop();
+  push();
+  scale(s2);
+  tint(0, 255, 0, a); // r,g,b,a
+  image(currentImage2, 0, 0, img1.width, img1.height);
+  //filter(BLUR);
+  //filter(BLUR);
+
+  pop();
+
+  // logic counter animations operations
+  a += 0.125;
+  t += 0.0001;
+  s += 0.0005;
+  s2 -= 0.0005;
+
+  //currentImage1 counter
+  counter1++;
+  if (counter1 &gt; 1000) {
+    s = 1; // reset scale of currentImage1
+    counter1 = 0;
+    a = 50;
+    t = 0.0;
+    if (currentImage1 == img1) {
+      currentImage1 = img3;
+    } else {
+      currentImage1 = img1;
+    }
+
+    // cuurentImage2
+    counter2++;
+
+    if (counter2 &gt; 1500) {
+      s2 = 2;
+      counter2 = 0;
+      if (currentImage2 == img2) {
+        currentImage2 = img4;
+      } else {
+        currentImage2 = img2;
+      }
+    }
+  }
+}
+</code></pre>
+    </div>
+  
+    <div class="p5-block" style="margin-bottom:2em;">
+      <button onclick="toggleP5View('p5-iframe-4', 'p5-code-4')" style="display:block;margin-bottom:1em;padding:0.5em 1em;background:#007bff;color:#fff;border:none;border-radius:4px;cursor:pointer;">Toggle Code/Result</button>
+      <iframe id="p5-iframe-4" src="/iframes/src-scripts-introp5-8-5-iframe.html" width="640" height="480" style="border:1px solid #ccc;display:block;"></iframe>
+      <pre id="p5-code-4" class="language-javascript" style="display:none;background:#f5f5f5 !important;color:#222;padding:1em;overflow:auto;margin:0;"><code class="language-javascript">// note, I have to comment out filters because of a bug in how my website converts them to be displayed.
+// also note that the image locations are different from how they will look when you upload them to the p5 editor for the same reasons.
+let img1, img2, img3, img4;
+
+let a = 0;
+let r = 0;
+let dir = 1;
+
+function preload() {
+  img1 = loadImage("/assets/p5img/texture1.jpeg");
+  img2 = loadImage("/assets/p5img/texture2.jpeg");
+  img3 = loadImage("/assets/p5img/texture3.jpeg");
+  img4 = loadImage("/assets/p5img/texture4.jpeg");
+}
+function setup() {
+  createCanvas(640, 480);
+  imageMode(CENTER);
+  angleMode(DEGREES);
+}
+
+function draw() {
+  a += 1;
+  r += 0.5 * dir;
+  if (r &gt; width / 2 || r &lt; 0) {
+    dir *= -1;
+  }
+  x = width / 2 + sin(a) * r;
+  y = height / 2 + cos(a) * r;
+
+  background(220);
+  translate(width / 2, height / 2);
+  push(); // start a drawing state
+  rotate(90);
+  let img2a = map(x, 0, width, 0, 127);
+
+  tint(255, 0, 127, img2a);
+
+  image(img2, 0, 0);
+  pop(); // forgets everything after push
+
+  let img1a = map(x, width, 0, 0, 127);
+  tint(255, 0, 0, img1a);
+  image(img1, 0, 0);
+
+  let img3a = map(y, 0, height, 0, 127);
+  tint(255, 0, 120, img3a);
+  image(img3, 0, 0);
+
+  let img4a = map(y, height, 0, 0, 127);
+  tint(127, 0, 120, img4a);
+  image(img4, 0, 0, width, height);
+  //filter(BLUR);
+  //filter(POSTERIZE, 4);
+  //filter(BLUR);
+
+  //   //filter(THRESHOLD, 0.5);
+  //   filter(BLUR);
+
+  //   //  filter(INVERT);
+
+  //   fill(0, 0, 255);
+  //   noStroke();
+  //   circle(x, y, 3);
+}
+</code></pre>
+    </div>
+  <script>
+            function toggleP5View(iframeId, codeId) {
+              const iframe = document.getElementById(iframeId);
+              const code = document.getElementById(codeId);
+              if (iframe.style.display === 'none') {
+                iframe.style.display = '';
+                code.style.display = 'none';
+              } else {
+                iframe.style.display = 'none';
+                code.style.display = '';
+                // Trigger Prism.js syntax highlighting
+                if (window.Prism && code.querySelector('code')) {
+                  Prism.highlightElement(code.querySelector('code'));
+                }
+              }
+            }
+          </script>
 
 
   

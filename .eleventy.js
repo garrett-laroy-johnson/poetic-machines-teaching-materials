@@ -110,6 +110,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("src/assets/css/");
   eleventyConfig.addFilter("sortByName", sortByName);
   eleventyConfig.addPassthroughCopy("src/assets/img/");
+  eleventyConfig.addPassthroughCopy("src/assets/p5img/");
+
+  eleventyConfig.addWatchTarget("src/scripts/");
   eleventyConfig.addWatchTarget("src/assets/img/");
   eleventyConfig.addPassthroughCopy("saic/ats3135/exhibition");
   eleventyConfig.addPassthroughCopy("*.css");
@@ -118,8 +121,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets/js/");
   eleventyConfig.addWatchTarget("src/assets/zips/");
   eleventyConfig.addPassthroughCopy("src/assets/zips/*.zip");
-  // Passthrough copy for docs/iframes output, no watch target
-  eleventyConfig.addPassthroughCopy("docs/iframes");
   eleventyConfig.addPassthroughCopy({
     "./node_modules/bootstrap/dist/js/bootstrap.bundle.js":
       "/assets/js/bootstrap.js",

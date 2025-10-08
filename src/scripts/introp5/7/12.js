@@ -1,0 +1,64 @@
+let mummyImg; // placeholder for our image
+
+// gamestate variable
+let gameOver = false; // false by default, will be triggered to true by losing conditions
+
+// mummy position
+let x = 0;
+let y = 0;
+
+let easing = 0.05; // speed with which p5 minimizes the distance between the target (mouseX) and the current X position
+
+let playerD = 40; // player diameter
+
+// stagger code that needs to run before setup
+function preload() {
+  mummyImg = loadImage("/assets/p5img/mummy.png");
+}
+
+// setup runs once when you hit play
+function setup() {
+  createCanvas(400, 400);
+  background(150, 100, 100);
+
+  x = random(width);
+  y = random(height);
+}
+
+// runs continuously thereafter
+function draw() {
+  if (gameOver == true) {
+    background("red");
+    text("game over", width / 2, height / 2);
+    noLoop();
+  } else {
+    background(150, 100, 100);
+  }
+
+  // draw my character
+  circle(mouseX, mouseY, playerD);
+
+  let xDiff = mouseX - x;
+  x += xDiff * easing;
+
+  let yDiff = mouseY - y;
+  y += yDiff * easing;
+
+  // draw mummy character
+  image(mummyImg, x, y, 20, 20); // image variable, top left corner x and y and then width and height
+
+  let d = dist(mouseX, mouseY, x, y);
+
+  // if the distance between the player and the mummy is less than the radius of the player, then trigger game over state
+  if (d < playerD / 2) {
+    gameOver = true;
+  }
+}
+
+function mousePressed() {
+  gameOver = false;
+  loop();
+  background(150, 100, 100);
+  x = random(width);
+  y = random(height);
+}
