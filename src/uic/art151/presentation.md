@@ -26,15 +26,6 @@ topics:
         url: https://zach.li/
       - name: Lauren Lee McCarthy
         url: https://lauren-mccarthy.com/
-  readings:
-      - info: Hello from Form + Code by Ben Fry and Casey Reas
-        url: /assets/pdf/Form_Code_Hello.pdf
-      - info: Processing, the Software that Shaped Creative Coding
-        url: https://eyeondesign.aiga.org/processing-the-software-that-shaped-creative-coding/
-      - info: AI Art is Soft Propaganda for the Global North
-        url: https://hyperallergic.com/772848/ai-art-is-soft-propaganda-for-the-global-north/
-      - info: Towards Aesthetic Guidelines for Paintings with aid of the Computer by Vera Molnar
-        url: https://rednoise.org/softas/uploads/molnar.pdf
 - title: Sound and Music
   artists:
       - name: Brian Eno & Peter Chilvers
@@ -55,18 +46,13 @@ topics:
       - name: Holly Herndon
         url: https://www.factmag.com/2012/11/15/speaking-in-code-holly-herndon-explains-why-the-laptop-is-the-most-personal-instrument-the-world-has-ever-known/
         media: generative sound, voice, machine learning / artificial intelligence
-  readings:
-      - info: Some Sound Observations by Pauline Oliveros
-        url: https://static1.squarespace.com/static/5d4dcd89a70bc90001638861/t/5d501797e6bf0300010e9286/1565530012139/Pauline_Oliveros-Some_Sound_Observations.pdf
-      - info: Music as a Gradual Process by Steve Reich
-        url: http://www.bussigel.com/systemsforplay/wp-content/uploads/2014/02/Reich_Gradual-Process.pdf
-      - info: List of Tips from Karlheinz Stockhausen about Aphex Twin, Plasticmann, and Scanner 
-        url: https://www.synthtopia.com/content/2010/10/15/karlheinz-stockhausens-electronic-music-tips-for-aphex-twin-plastikman-others/   
 - title: Games & Simulation
   artists:
       - name: Ian Cheng
         url: https://iancheng.com
         media: simulation
+      - name: Everest Pipkin
+        url: https://everest-pipkin.com/ 
       - name: Kara Stone
         url: https://karastonesite.com
         media: games
@@ -76,9 +62,5 @@ topics:
       - name: Ian Bogost
         url: https://bogost.com/games/
         media: games
-  readings:
-      - info: McKenzie Wark, “On Katamari Damacy” from Gamer Theory(2007)
-        url: http://www.futureofthebook.org/gamertheory2.0/?cat=4&amp;paged=2
-      - info: Ed Chang, “Queergaming” from Queer Game Studies (2017)
-        url: https://www.academia.edu/46111405/Queergaming
+
 ---
