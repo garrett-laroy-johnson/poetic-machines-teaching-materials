@@ -1,0 +1,32 @@
+let noiseScale = 0.007; //
+let noiseSpeed = 0.01; //
+
+function setup() {
+  createCanvas(600, 600);
+  noiseSeed(1); // stabilize the noise field -- everytime we get the same results from noise
+  angleMode(DEGREES); // default mode angles is RADIANS
+}
+
+function draw() {
+  background(220);
+  translate(width / 2, height / 2);
+  let r = 50;
+  let points = 100;
+
+  beginShape();
+  for (let a = 0; a < 360; a += 360 / points) {
+    let n = map(
+      noise(a * noiseScale, frameCount * noiseSpeed),
+      0.1,
+      0.9,
+      0.5,
+      1
+    );
+
+    let x = sin(a) * (r * n); // sin and cos return values between -1 and 1
+    let y = cos(a) * (r * n);
+
+    vertex(x, y);
+  }
+  endShape(CLOSE);
+}

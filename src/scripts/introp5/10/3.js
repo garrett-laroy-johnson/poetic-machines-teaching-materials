@@ -1,0 +1,98 @@
+let noiseScale = 0.007; //
+let noiseSpeed = 0.005; //
+
+let tx, ty; // translation coordinates
+
+let ra = 0; // rotation angle
+
+let bgA = 0; // angle for sin movement between bg colors
+let bgc1, bgc2;
+
+let maxRadius = 400;
+
+function setup() {
+  createCanvas(600, 600);
+  noiseSeed(1); // stabilize the noise field -- everytime we get the same results from noise
+  angleMode(DEGREES); // default mode angles is RADIANS
+  tx = width / 2;
+  ty = height / 2;
+
+  bgc1 = color("#E91E63");
+  bgc2 = color("#1EE9E0");
+}
+
+// interrupts the draw loop
+function mousePressed() {
+  tx = mouseX;
+  ty = mouseY;
+  maxRadius = 0;
+}
+
+function mouseDragged() {
+  tx = mouseX;
+  ty = mouseY;
+}
+
+function draw() {
+  if (maxRadius < 400) {
+    maxRadius++;
+  }
+
+  let bgLerp = map(sin(bgA), -1, 1, 0, 1); // sin returns between -1 and 1
+  bgA += 0.1;
+
+  let bg = lerpColor(bgc1, bgc2, bgLerp);
+  bg.setAlpha(1); // sets the transparency of the color
+  background(bg);
+
+  // translation
+  translate(tx, ty);
+  tx += 0.5;
+  ty += 0.7;
+  if (tx > width * 2 && ty > height * 2) {
+    tx = -width / 3;
+    ty = -height / 3;
+  }
+  //rotation
+  rotate(ra);
+  ra += 0.2;
+
+  noFill();
+  strokeWeight(5);
+  let points = 15;
+
+  for (let r = 10; r < maxRadius; r += 3) {
+    let s = map(r, 10, width, 0, 1);
+    let c = lerpColor(color("#9C27B0"), color("#00BCD4"), s); // interpolates between two colors by a factor between 0 and 1
+    stroke(c);
+    beginShape();
+    for (let a = 180; a < 360; a += 360 / points) {
+      let n = map(
+        noise(a * noiseScale, r * noiseScale, frameCount * noiseSpeed),
+        0.1,
+        0.9,
+        0.5,
+        1
+      );
+
+      let n2 = map(
+        noise(a * noiseScale, r * noiseScale, 1000 + frameCount * noiseSpeed),
+        0.1,
+        0.9,
+        0.5,
+        1
+      );
+
+      //       let n = 1;
+      //       let n2 = 1;
+
+      let x = sin(a * n) * (r * n2); // sin and cos return values between -1 and 1
+      let y = cos(a * n2) * (r * n);
+
+      vertex(x, y);
+    }
+    endShape();
+  }
+
+  filter(BLUR);
+}

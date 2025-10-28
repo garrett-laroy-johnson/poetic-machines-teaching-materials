@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>p5 Sketch</title>
+    <style>body { margin:0; padding:0; overflow:hidden; }</style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  </head>
+  <body>
+  <script>
+  let rows = 40;
+let noiseScale = 0.007; //
+let noiseSpeed = 0.01;
+
+function setup() {
+  createCanvas(600, 600);
+  noiseSeed(1); // stabilize the noise field -- everytime we get the same results from noise
+}
+
+function draw() {
+  background(220);
+  let yd = height / rows;
+  let xd = width / rows;
+  for (let x = xd / 2; x < width; x += xd) {
+    for (let y = yd / 2; y < height; y += yd) {
+      let w =
+        noise(x * noiseScale, y * noiseScale, frameCount * noiseSpeed) * xd; // plug in up to 3 values, returns avalue betwen 0 -1
+      circle(x, y, w);
+    }
+  }
+}
+
+  </script>
+  </body>
+  </html>

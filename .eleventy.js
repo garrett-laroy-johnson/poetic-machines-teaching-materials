@@ -3,7 +3,7 @@ let markdown = require("markdown-it")({
   html: true,
 });
 
-const clean = require("eleventy-plugin-clean");
+// const clean = require("eleventy-plugin-clean");
 
 module.exports = function (eleventyConfig) {
   const fs = require("fs");
@@ -105,7 +105,7 @@ module.exports = function (eleventyConfig) {
     "markdown",
     (content) => `<div class="md-block">${markdown.render(content)}</div>`
   );
-  eleventyConfig.addPlugin(clean);
+  // eleventyConfig.addPlugin(clean);
   eleventyConfig.addPassthroughCopy("src/assets/css/");
   eleventyConfig.addWatchTarget("src/assets/css/");
   eleventyConfig.addFilter("sortByName", sortByName);
