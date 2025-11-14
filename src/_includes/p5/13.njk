@@ -6,10 +6,6 @@ tags:
   - p5
   - unit3
   - week
-goals:
-  - "Share and Discuss Coding Sketch #8"
-  - "Clarify or Demo any coding concepts unclear from Coding Sketch #8"
-  - Intro Project 3
 eleventyComputed:
   readings:
     - name: "{{ texts.p5.title }}"
@@ -17,10 +13,14 @@ eleventyComputed:
       img: "{{ texts.p5.img }} "
       description: Chapters 11. Arrays
 sketch:
-  title: "Coding Sketch #8: Arrays"
+  title: "Coding Sketch: Objects and Arrays"
   text:
-    - Use your object from Coding Sketch no. 7. Use a for loop to generate 100+ of them and store them in an array. Use another for loop to draw and move at 100+ objects!
-    - Define a second object with at least one function that displays a shape. Use function mousePressed() to create these shapes where you you click in the canvas.
+    - Create a p5 sketch in which you compose *your own* object to animate a shape.
+    - Bonus, use arrays to create and control multiple objects
+  requirements:
+    - accept a color parameter to assign as one of its properties (e.g. this.color)
+    - define and use 2 methods, one to move and one to show
+    - the object should be called four different times with four different colors. Call their move and show methods inside the draw loop.
 concepts:
   - abstraction
   - modularity
