@@ -1,0 +1,41 @@
+let x = [];
+let y = [];
+let b = [];
+let bDir = []; // contain values that are -1 or 1 based on direction
+
+let w = 20;
+
+function setup() {
+  createCanvas(400, 400);
+  console.log(x.length);
+  strokeWeight(5);
+  
+  for(let i = 0;i<200;i++){
+    b[i] = random(255);
+    x[i] = random(width);
+    y[i] = random(height);
+    if(random(100)>50){
+      bDir[i] = 1;
+    }
+    else {
+      bDir[i] = -1;
+    }
+  }
+  
+}
+
+function draw() {
+  background(10);
+
+  for (let i = 0; i < x.length; i++) {
+    stroke(b[i]);
+    point(x[i], y[i]);
+
+    b[i]+= bDir[i] * 2;
+
+    if (b[i] > 255 || b[i] < 0) {
+      bDir[i] *= -1;
+    }
+  }
+
+}
