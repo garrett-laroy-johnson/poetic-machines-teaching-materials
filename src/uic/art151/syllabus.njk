@@ -2,11 +2,11 @@
 weekNum: 0
 layout: base.njk
 title: Syllabus
-instructor: dr. grace grace grace (he/they)
+instructor: Dr. Grace Laroy Johnson (he/they)
 email: glj@uic.edu
 term: Fall 2026
-time: "Tuesday || Thursday, 9:00-11:30am"
-location: Online (Zoom link in Blackboard)
+time: "Tuesday && Thursday, 9:00-11:30am"
+location: Online (Zoom link in Canvas)
 des: "/src/uic/art151/content/description.md"
 ---
 {# point to term material #}
@@ -42,6 +42,14 @@ des: "/src/uic/art151/content/description.md"
 
 {% set snippet %}
 {% include  "./content/breakdown.md" %}
+{% endset %} 
+{% markdown snippet %}
+
+
+<h3>Projects</h3>
+
+{% set snippet %}
+{% include  "./content/projects.md" %}
 {% endset %} 
 {% markdown snippet %}
 

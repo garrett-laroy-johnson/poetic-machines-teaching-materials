@@ -98,7 +98,7 @@ Thomas, Zach. ["Carlos Reygadas' Post Tenebras Lux: Towards a Cinema of Experien
 
 ## 10/23/26 Week 9
 
-### Optional
+Substitute: Kristi McGuire
 
 ## 10/30/26 Week 10
 
@@ -109,6 +109,8 @@ Fields, Noa Michaela. E, selections. 2025.
 Guest: Noa Michaela Fields
 
 ## 11/06/26 Week 11
+
+Substitute: Kristi McGuire
 
 Deleuze, Gilles and Felix Guattari. "[From Chaos to the Brain](https://transversalinflections.wordpress.com/wp-content/uploads/2015/04/deleuze-3207-what_is_philosophy-fenomenologie-van-schilderkunst.pdf)" in What is Philosophy? 1991.
 

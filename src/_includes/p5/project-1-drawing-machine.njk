@@ -46,18 +46,35 @@ examples:
   name: for loop examples
 - type: p5
   url : glj/sketches/lth5QK_i7
-sketch:
-  title: "Project 1: Generative Drawing Machine"
-  requirements:
-    - use at least one for loop. Some A-level projects may use only one, but it's very likely you will need to us a nested for loop or more.
-    - use at least global 4 variables that can be changed to influence the outcome of your generative drawing machine  
-    - must be a static image -- use noLoop()
-    - use random() and/or noise()
-    - use randomSeed() or noiseSeed() and select one final version of your compositions
-    - you are present for critique and participate in others' critique
-  text:
-    - Using p5*js, create a drawing machine. We are drawing on the legacy of people working in creative coding of generative art, including artists such as Vera Molnar, Casey Reas, Joan Truckenbrod, Rafael Rozendaal, and Zach Lieberman.  Think of this as a compositional system -- be able to change variables to change the kind of outputs you get. You can visualize whatever you want, but try not to simply copy and paste code from various sketches… understanding what the code is doing is super important!
-    - You should aim to create a system that can produce at least 1 image you want to present (locked in with either randomSeed or noiseSeed). You can of course have more that you like!
- 
-
 ---
+
+
+### Project 1: Generative Drawing Machine
+
+Using p5\*js, create a drawing machine. We are drawing on the legacy of artists working in the branch of creative coding called generative art, including artists such as Vera Molnar, Casey Reas, Joan Truckenbrod, Rafael Rozendaal, and Zach Lieberman.
+
+Your drawing machine is a _compositional system_ built using the foundational technical elements of this semester.
+
+_For loops_ are a fundamental structure of create code that allow us to repeat a process like drawing a shape, but vary its position or color. We do this by using the structuring variable inside the for loop inside of drawing functions like `rect()` or `fill()`. A standard and reliable way to use a for loop is to nest one for loop inside another to create a grid of shapes. This provides you with a regular structure into which you will introduce variation.
+
+_Global variables_ are declared variables at the top of your sketch which allow you to tune your drawing machine. Think of this like your artist control panel. These variables must be integrated into your code in the draw loop to create significant and meaningful visual changes in how your drawing machine operates. `noiseScale` will control the effect of the `noise()` function. `spacing` may control the distance in pixels between each shape. `numShapes` may control the number of shapes in each row and column of a nested for loop drawing a grid. `sizeMin` and `sizeMax` might work together with the random variable to assign different size values to a shape with a range (e.g. `let w = random(sizeMin,sizeMax); circle(x,y,w);`).
+
+_Randomness_ will use the `random()` and/or `noise()` function to introduce non-linear or unexpected variation into how your shapes are drawn. You may randomize the color palette by declaring a variable `let r = random(100,150)` and using that as the red value in fill (e.g. `fill(r,100,0)`). You may offset the x position of each shape in your grid by declaring a variable `let xOffset = random(-10,10)` and adding that to the x position of each shape your drawing machine draws (e.g. `circle(x+xOffset,y,w)`).
+
+Once you've gotten your drawing machine up and running, tune your drawing machine by experimenting with the global variables you've created. You may be inspired to go back and add other elements to your machine.
+
+Ultimately, you will decide on a single image your drawing machine has created. Use `randomSeed()` and/or `noiseSeed` to "lock in" those. The idea here is challenge yourself to make more and more discerning artistic decisions.
+
+#### requirements
+
+- use at least one `for loop`. Some A-level projects may use only one, but it's very likely you will need to use two or more `for loop`s, nested or otherwise.
+- use at least global 4 variables that can be changed to influence the outcome of your generative drawing machine
+- must be a static image. Use `noLoop()`. In other words, no animation.
+- use `random()` and/or `noise()`
+- use `randomSeed()` or `noiseSeed()` and select one final version of your compositions
+- you are present for critique and participate in others' critique
+- no WEBGL or 3D.
+
+#### submission.
+
+Submit both your p5.js URL as well as your exported image using `save()` at the very bottom of your draw loop. *Note, if you use save without `noLoop()`, p5 will try to export images every frame of video!* 
