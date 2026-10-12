@@ -1,0 +1,3 @@
+Generative AI tools can now produce working code on demand, so in this course I assess your understanding, not just your output. You may use AI tools the way you would use documentation or a tutor: to help you understand a concept or an error message. The code and patches you submit should be your own work, and you should be able to explain them. In critique, you will walk us through your work line by line (or, in Max, object by object). If you can't explain part of your work yet, bring it to office hours and we'll work through it together. If you used an AI tool while making a project, say so when you present it and describe how you used it.
+
+We will also study AI systems themselves, not as neutral tools but as cultural technologies with histories, labor, and politics.

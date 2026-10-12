@@ -68,6 +68,12 @@ des: "/src/uic/art151/content/description.md"
 
 {% include "rubric.njk" %}
 
+<h3>Generative AI</h3>
+{% set snippet %}
+{% include "../content/ai-policy.md" %}
+{% endset %}
+{% markdown snippet %}
+
 {% if grades.note %}
 <h5>{{ grades.note }}</h5>
 {% endif %}
