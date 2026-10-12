@@ -54,6 +54,12 @@ location: (see course schedule)
 {% endset %}
 {% markdown snippet %}
 
+<h3>Listening</h3>
+{% set snippet %}
+{% include "./content/listening.md"%}
+{% endset %}
+{% markdown snippet %}
+
 <h3>Important Dates</h3>
 <ul class="list-group">
   {% for d in calendar %}
