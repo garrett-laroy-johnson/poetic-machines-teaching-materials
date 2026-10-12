@@ -1,0 +1,638 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="Grace Grace Grace" />
+    <title>UIC | ART 250 | Introduction to Interactive Sound</title>
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <link rel="stylesheet" href="/assets/css/bootstrap.css" />
+    <!-- Custom styles -->
+    <link href="/assets/css/sidebars.css" rel="stylesheet" />
+    <link href="/assets/css/style.css" rel="stylesheet" />
+    <script src="/assets/js/p5.js"></script>
+    <script src="https://kit.fontawesome.com/1582dd25e1.js" crossorigin="anonymous"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Silkscreen&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-markup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-clike.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-c.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-cpp.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-arduino.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
+  </head>
+
+    <body>
+  
+    <!-- Mobile nav toggle button -->
+    <button id="mobile-nav-toggle" class="btn btn-primary mobile-nav-toggle" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+
+      <div class="row">
+        <!-- sidebar -->
+        <div class="col-sm-3 sidebar-col" id="sidebar" style="z-index: 2">
+          <div class="flex-shrink-0 p-3" style="width: 100%">
+            <a href = "/uic/art250-interactive-sound/" style = "text-decoration: none; color:black">
+            <h4 class="fs-5 fw-semibold" style="margin-left: 10px">
+              UIC | ART 250 | Introduction to Interactive Sound
+            </h4>
+          </a>
+            <ul class="list-unstyled ps-0">
+             
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art250-interactive-sound/schedule/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                 Schedule
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art250-interactive-sound/250-syllabus/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                 Syllabus
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+              
+              
+              
+               
+              
+               
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art250-interactive-sound/1/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 1 : Welcome and Intro to MaxMSP
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art250-interactive-sound/2/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 2 : Intro to Max (continued) and Print Poems
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art250-interactive-sound/3/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 3 : Additive Sound Synthesis
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art250-interactive-sound/4/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 4 : Subtractive Synthesis, Filters, and LFOs
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art250-interactive-sound/5/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 5 : Events, Envelopes, and Notes
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art250-interactive-sound/6/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 6 : Sequencing in Max
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art250-interactive-sound/7/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 7 : Keyboard and Mouse Inputs
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art250-interactive-sound/8/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 8 : Midterm Studio and Presentations
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art250-interactive-sound/9/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 9 : Sample Playback and Found Sound
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art250-interactive-sound/10/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 10 : Game Controllers as Interface
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art250-interactive-sound/11/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 11 : Camera as Interface
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art250-interactive-sound/12/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 12 : Final Project Development Strategies 1
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art250-interactive-sound/13/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 13 : Final Project Proposals
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art250-interactive-sound/14/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 14 : Project Development Strategies 2
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art250-interactive-sound/15/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 15 : Final Projects
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+              
+            
+            </ul>
+          </div>
+        </div>
+      
+        
+<!-- Right panel (key concepts) - shows first on mobile -->
+<div class="col-sm-2 order-1 order-sm-3 card right-panel-mobile">
+  <div class="card-header">Key Concepts:</div>
+  <ul class="list-group list-group-flush">
+    
+  </ul>
+  
+  <ul class="list-group">
+    
+  </ul>
+  
+  <ul class="list-group">
+    
+  </ul>
+  
+</div>
+
+<!-- Main content - shows second on mobile -->
+<div class="col-sm-6 order-2">
+
+<div class = "card">
+<h1></h1>
+
+
+<p><strong>Weeks 1–2: Getting started; Print Poems</strong></p>
+<ul>
+<li>Vangelis, <a href="https://www.youtube.com/watch?v=BUgSJt7Q7gw&amp;list=PLQrO-C6odG9aiuTM9aVqFM_00359gs0OM"><em>Blade Runner</em> main titles</a> (1982) (analog polyphonic synthesis)</li>
+<li>Lauren Sarah Hayes, <a href="https://www.youtube.com/watch?v=RgPaHgbaevQ"><em>The Accusations that are Confessions</em></a> (live electronics)</li>
+<li>Pietro, <em>Ambient Experimentations 27</em> (generative ambient textures)</li>
+<li><a href="https://thebrickinthesky.wordpress.com/2012/07/18/mozart-musikalisches-wurfelspiel-mozarts-musical-dice-game/">Mozart's musical dice game</a> (chance procedures)</li>
+<li><a href="https://youtu.be/Rc2yU7OUMcI">William S. Burroughs's cut-up technique</a> (recombination)</li>
+<li><a href="https://collection.eliterature.org/3/work.html?work=uncle-roger">Judy Malloy, <em>Uncle Roger</em></a> (1986–88) (traversable work of electronic literature)</li>
+</ul>
+<p><strong>Module 1: Synthesizing Drones + Ambient Textures</strong></p>
+<p><em>Week 3: Additive synthesis</em></p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=Rs7b4WSxF3w">Intro to Spectral Music</a> (harmonic spectra)</li>
+<li>Giacinto Scelsi, <a href="https://www.youtube.com/watch?v=BnZQVRmJObw"><em>Konx-Om-Pax</em></a> (1969) (sustained spectra)</li>
+<li>Konx-om-Pax, <a href="https://konx-om-pax.bandcamp.com/album/regional-surrealism"><em>Regional Surrealism</em></a> (2012) (ambient synthesis)</li>
+<li>Kali Malone, <em>The Sacrificial Code</em> (2019) (organ drones, additive harmonics)</li>
+<li>Booker T. &amp; the M.G.'s, “Green Onions” (1962) (Hammond drawbars, additive synthesis)</li>
+<li>Koji Kondo, <em>Super Mario Bros.</em> (1985) (pulse, triangle, and noise waveforms)</li>
+</ul>
+<p><em>Week 4: Subtractive synthesis, filters, amplitude modulation, LFOs</em></p>
+<ul>
+<li>Pauline Oliveros, <em>Bye Bye Butterfly</em> (1965) (oscillators, tape delay)</li>
+<li>Wendy Carlos, <em>Switched-On Bach</em> (1968) (Moog modular, subtractive synthesis)</li>
+<li>Daft Punk, “One More Time” (2000) (filter sweeps)</li>
+<li>Yuzo Koshiro, <em>Streets of Rage 2</em> (1992) (FM chip synthesis, modulation)</li>
+</ul>
+<p><em>Week 5: Envelopes and notes</em></p>
+<ul>
+<li>Suzanne Ciani, <em>Seven Waves</em> (1982) (Buchla synthesis, envelopes)</li>
+<li>Éliane Radigue, <em>Trilogie de la Mort</em> (1998) (drone, slow modulation)</li>
+<li>Laraaji, <em>Ambient 3: Day of Radiance</em> (1980) (attack and decay, ambient)</li>
+<li>Hiroshi Yoshimura, <em>Music for Nine Post Cards</em> (1982) (ambient, note shaping)</li>
+</ul>
+<p><em>Week 6: Sequencing</em></p>
+<ul>
+<li>Morton Subotnick, <em>Silver Apples of the Moon</em> (1967) (Buchla sequencer)</li>
+<li>Donna Summer and Giorgio Moroder, “I Feel Love” (1977) (Moog sequencing)</li>
+<li>Kraftwerk, “Trans-Europe Express” (1977) (sequenced patterns)</li>
+<li>Phuture, “Acid Tracks” (1987) (TB-303 sequencing, filter modulation)</li>
+</ul>
+<p><em>Week 7: Keyboard and mouse inputs; generative music</em></p>
+<ul>
+<li>Laurie Spiegel, <em>Music Mouse</em> (1986) (mouse as instrument)</li>
+<li>Brian Eno, <em>Music for Airports</em> (1978) (generative process)</li>
+<li>Brian Eno, music for <em>Spore</em> (2008) (generative game music)</li>
+</ul>
+<p><strong>Module 2: Working with Recorded and Live Sound</strong></p>
+<p><em>Week 9: Recording and sample playback</em></p>
+<ul>
+<li>Pierre Schaeffer, <em>Étude aux chemins de fer</em> (1948) (musique concrète)</li>
+<li>Alvin Lucier, <em>I Am Sitting in a Room</em> (1969) (recording, feedback)</li>
+<li>Delia Derbyshire, <em>Doctor Who</em> theme (1963) (tape manipulation)</li>
+<li>Daft Punk, “Harder, Better, Faster, Stronger” (2001) (sampling)</li>
+<li>J Dilla, <em>Donuts</em> (2006) (sampling, chopping)</li>
+</ul>
+<p><em>Week 10: Game controllers as interface</em></p>
+<ul>
+<li>Michel Waisvisz, <em>The Hands</em> (gestural controller)</li>
+<li>Laetitia Sonami, <em>lady's glove</em> (gestural controller)</li>
+<li>Imogen Heap, MI.MU gloves (gestural controller)</li>
+<li>Disasterpeace, <em>Fez</em> (2012) (interactive game music)</li>
+<li>Lena Raine, <em>Celeste</em> (2018) (interactive game music)</li>
+</ul>
+<p><em>Week 11: Camera as interface</em></p>
+<ul>
+<li>David Rokeby, <em>Very Nervous System</em> (1986–) (camera-driven sound)</li>
+</ul>
+<p><em>Weeks 12–15: Generative systems, IDM, and techno</em></p>
+<ul>
+<li>65daysofstatic, <em>No Man's Sky: Music for an Infinite Universe</em> (2016) (procedural music)</li>
+<li>Aphex Twin, <em>Selected Ambient Works 85–92</em> (1992) (ambient, IDM)</li>
+<li>Autechre, <em>Amber</em> (1994) (IDM, generative rhythm)</li>
+<li>Drexciya, <em>Neptune's Lair</em> (1999) (Detroit electro)</li>
+<li>Underground Resistance and Jeff Mills (Detroit techno, drum machines)</li>
+</ul>
+
+
+</div>
+
+
+
+  
+   
+</div>
+<!-- End main content column -->
+
+      
+        </div>
+      
+        <script>
+          window.addEventListener("load", function () {
+            var container = document.querySelector(".masonry");
+            if (!container || typeof Masonry !== "function") {
+              return;
+            }
+
+            var initMasonry = function () {
+              new Masonry(container, {
+                itemSelector: ".item",
+              });
+            };
+
+            if (typeof imagesLoaded === "function") {
+              imagesLoaded(container, initMasonry);
+            } else {
+              initMasonry();
+            }
+          });
+        </script>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+    <script src="/assets/js/bootstrap.js" async defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" defer></script>
+
+    <script src="/assets/js/display.js" async defer></script>
+    
+    <!-- Mobile nav toggle script -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const toggleBtn = document.getElementById('mobile-nav-toggle');
+        const sidebar = document.getElementById('sidebar');
+        
+        if (toggleBtn && sidebar) {
+          toggleBtn.addEventListener('click', function() {
+            sidebar.classList.toggle('sidebar-open');
+          });
+          
+          // Close sidebar when clicking outside on mobile
+          document.addEventListener('click', function(event) {
+            if (window.innerWidth < 768 && 
+                !sidebar.contains(event.target) && 
+                !toggleBtn.contains(event.target) &&
+                sidebar.classList.contains('sidebar-open')) {
+              sidebar.classList.remove('sidebar-open');
+            }
+          });
+        }
+      });
+    </script>
+  </body>
+</html>

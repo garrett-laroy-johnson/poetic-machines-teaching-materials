@@ -8,8 +8,10 @@ For this class you will need:
 
 **Texts and tutorials:** there is no textbook for this course. We use Max's built-in tutorials and reference pages, the patches and recorded tutorials on the course website and Canvas, and the readings listed below.
 
-**Free and open-source alternative:** everything we build in Max transfers to [Pure Data](https://puredata.info/), a free, open-source environment created by Max's original author, Miller Puckette, so you can keep making work after the course and your license end.
+**Free and open-source alternative:** Much of what we build in Max transfers to [Pure Data](https://puredata.info/), a free, open-source software (FOSS) created by Max's original author, Miller Puckette, so you can keep making work after the course and your license ends.
+
+**Canvas:** I will upload all the patches I make with you in class tutorials to Canvas for your use as starting points in projects and studio work.
 
 **Listening:** see Listening below. Each week pairs a technique with music that uses it.
 
-**Hearing safety and access:** protect your hearing. Keep headphone and speaker levels moderate, start every patch with the volume down, and use a `live.gain~` or other level control in everything you build. If you are d/Deaf or hard of hearing, or experience sound differently, we will work out visual, tactile, and other ways to engage with the material; let me know what works for you.
+**Hearing safety and access:** protect your hearing. Keep headphone and speaker levels at reasonable volumes. Double check your volume before you start audio on your patch and use a `live.gain~` or other level control in everything you build. If you are d/Deaf or hard of hearing, or experience sound differently, we will work out visual and vibrotactile ways to engage with the material based on your interests.
