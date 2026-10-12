@@ -28,6 +28,18 @@ des: "/src/uic/art151/content/description.md"
 {% endset %} 
 {% markdown snippet %}
 
+<h2>COURSE MATERIALS</h2>
+{% set snippet %}
+{% include  "./content/materials.md" %}
+{% endset %}
+{% markdown snippet %}
+
+<h2>SCHEDULE</h2>
+{% set snippet %}
+{% include  "./content/schedule.md" %}
+{% endset %}
+{% markdown snippet %}
+
 <h3>Important Dates</h3>
 <ul class="list-group">
   {% for d in calendar %}
@@ -35,7 +47,7 @@ des: "/src/uic/art151/content/description.md"
   {% endfor %}
 </ul>
 
-<h2>GRADING, ATTENDANCE, PRIVACY, AND ACCOMODATION POLICIES</h2>
+<h2>GRADING, ATTENDANCE, PRIVACY, AND ACCOMMODATION POLICIES</h2>
 
 <h3>Grading Breakdown</h3>
 
@@ -54,24 +66,14 @@ des: "/src/uic/art151/content/description.md"
 {% markdown snippet %}
 
 
-{% if grades.note%}
+{% include "rubric.njk" %}
+
+{% if grades.note %}
 <h5>{{ grades.note }}</h5>
 {% endif %}
+{% if grades.contact %}
 <h3>Contact / Credit Hour Policies</h3>
 <p>{{ grades.contact }}</p>
-
-
-
-
-{% if grades.key %}
-
-<h3>Grading Key</h3>
-<ul class="list-group">
-  {% for i in grades.key%}
-  <li class="list-group-item">{{ i.label}} {{i.description}}</li>
-  {% endfor %}
-</ul>
-
 {% endif %}
 
 <h3>Attendance</h3>

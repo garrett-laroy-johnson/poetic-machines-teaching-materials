@@ -7,7 +7,7 @@ tags:
 layout: base.njk
 title: Syllabus
 course: UIC | ART 250 | Introduction to Interactive Sound
-instructor: dr. grace grace grace (he/they)
+instructor: Dr. Grace Laroy Johnson (he/they)
 email: glj@uic.edu
 term: Fall 2026
 time: "Tuesdays / Thursdays 12:00 - 2:30pm"
@@ -29,8 +29,20 @@ location: (see course schedule)
 
 <h2>LEARNING OBJECTIVES</h2>
 {% set snippet %}
-{% include "./content/objectives.md"%} 
-{% endset %} 
+{% include "./content/objectives.md"%}
+{% endset %}
+{% markdown snippet %}
+
+<h2>MATERIALS</h2>
+{% set snippet %}
+{% include "./content/materials.md"%}
+{% endset %}
+{% markdown snippet %}
+
+<h2>SCHEDULE</h2>
+{% set snippet %}
+{% include "./content/schedule.md"%}
+{% endset %}
 {% markdown snippet %}
 
 <h3>Important Dates</h3>
@@ -40,43 +52,35 @@ location: (see course schedule)
   {% endfor %}
 </ul>
 
-<h2>GRADING, ATTENDANCE, PRIVACY, AND ACCOMODATION POLICIES</h2>
-{% if grades.note%}
-<h5>{{ grades.note }}</h5>
-{% endif %}
-<h3>Contact / Credit Hour Policies</h3>
-<p>{{ grades.contact }}</p>
+<h2>GRADING, ATTENDANCE, PRIVACY, AND ACCOMMODATION POLICIES</h2>
 
-{% if grades.key %}
-
-<h3>Grading Key</h3>
-<ul class="list-group">
-  {% for i in grades.key%}
-  <li class="list-group-item">{{ i.label}} {{i.description}}</li>
-  {% endfor %}
-</ul>
-
-{% endif %}
-
-<h2>MATERIALS</h2>
+<h3>Grading Breakdown</h3>
 {% set snippet %}
-{% include "./content/materials.md"%} 
-{% endset %} 
+{% include "./content/breakdown.md" %}
+{% endset %}
 {% markdown snippet %}
 
-<h3>Attendance</h3>
+<h3>Projects</h3>
+{% set snippet %}
+{% include "./content/projects.md" %}
+{% endset %}
+{% markdown snippet %}
 
+{% include "rubric.njk" %}
+
+{% if grades.note %}
+<h5>{{ grades.note }}</h5>
+{% endif %}
+{% if grades.contact %}
+<h3>Contact / Credit Hour Policies</h3>
+<p>{{ grades.contact }}</p>
+{% endif %}
+
+<h3>Attendance</h3>
   {% for i in attendance.description%}
 <p>{{i}}</p>
   {% endfor %}
  <h5>makeup</h5>
   <p>{{attendance.makeup}}</p>
-
-  <h3>Grading Breakdown</h3>
-
-  {% set snippet %}
-  {% include "./content/breakdown.md" %}
-  {% endset %}
-  {% markdown snippet %}
 
 {% include "../content/syllabus-stock.html"%}

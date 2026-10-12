@@ -1,0 +1,21 @@
+<h3>Project Rubric</h3>
+<p>{{ rubric.intro }}</p>
+<div class="table-responsive">
+<table class="table table-bordered rubric-table">
+  <thead>
+    <tr>
+      <th scope="col">Criterion (weight)</th>
+      {% for l in rubric.levels %}<th scope="col">{{ l }}</th>{% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+    {% for c in rubric.criteria %}
+    <tr>
+      <th scope="row">{{ c.name }} ({{ c.weight }})</th>
+      {% for d in c.levels %}<td>{{ d }}</td>{% endfor %}
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</div>
+<p>{{ rubric.note }}</p>

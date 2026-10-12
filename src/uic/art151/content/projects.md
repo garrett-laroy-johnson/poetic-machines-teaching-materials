@@ -1,12 +1,12 @@
-You will earn the majority of your grade from your sustained and considered engagement with three projects. Each project will ask you to integrate fundamental technical and artistic creative coding techniques into a polished art work for a collective classroom critique.
+You will earn the majority of your grade from your sustained and considered engagement with three projects. Each project will ask you to integrate fundamental technical and artistic creative coding techniques into a polished art work for a collective classroom critique. All projects are assessed with the course project rubric below; each prompt lists its own technical requirements.
 
 ### Project 1: Generative Drawing Machine
 
-Using p5\*js, create a drawing machine. We are drawing on the legacy of artists working in the branch of creative coding called generative art, including artists such as Vera Molnar, Casey Reas, Joan Truckenbrod, Rafael Rozendaal, and Zach Lieberman.
+Using p5\*js, create a drawing machine. We are drawing on the legacy of artists working in the branch of creative coding called generative art, including artists such as Vera Molnar, Lillian Schwartz, Manfred Mohr, Joan Truckenbrod, Casey Reas, Rafaël Rozendaal, Zach Lieberman, and Sougwen Chung. Ron Eglash's research on African fractals shows how generative, rule-based design long predates the computer.
 
 Your drawing machine is a _compositional system_ built using the foundational technical elements of this semester.
 
-_For loops_ are a fundamental structure of create code that allow us to repeat a process like drawing a shape, but vary its position or color. We do this by using the structuring variable inside the for loop inside of drawing functions like `rect()` or `fill()`. A standard and reliable way to use a for loop is to nest one for loop inside another to create a grid of shapes. This provides you with a regular structure into which you will introduce variation.
+_For loops_ are a fundamental structure of creative code that allow us to repeat a process like drawing a shape, but vary its position or color. We do this by using the structuring variable inside the for loop inside of drawing functions like `rect()` or `fill()`. A standard and reliable way to use a for loop is to nest one for loop inside another to create a grid of shapes. This provides you with a regular structure into which you will introduce variation.
 
 _Global variables_ are declared variables at the top of your sketch which allow you to tune your drawing machine. Think of this like your artist control panel. These variables must be integrated into your code in the draw loop to create significant and meaningful visual changes in how your drawing machine operates. `noiseScale` will control the effect of the `noise()` function. `spacing` may control the distance in pixels between each shape. `numShapes` may control the number of shapes in each row and column of a nested for loop drawing a grid. `sizeMin` and `sizeMax` might work together with the random variable to assign different size values to a shape with a range (e.g. `let w = random(sizeMin,sizeMax); circle(x,y,w);`).
 
@@ -14,12 +14,12 @@ _Randomness_ will use the `random()` and/or `noise()` function to introduce non-
 
 Once you've gotten your drawing machine up and running, tune your drawing machine by experimenting with the global variables you've created. You may be inspired to go back and add other elements to your machine.
 
-Ultimately, you will decide on a single image your drawing machine has created. Use `randomSeed()` and/or `noiseSeed` to "lock in" those. The idea here is challenge yourself to make more and more discerning artistic decisions.
+Ultimately, you will decide on a single image your drawing machine has created. Use `randomSeed()` and/or `noiseSeed` to "lock in" those. The idea here is to challenge yourself to make more and more discerning artistic decisions.
 
 #### requirements
 
 - use at least one `for loop`. Some A-level projects may use only one, but it's very likely you will need to use two or more `for loop`s, nested or otherwise.
-- use at least global 4 variables that can be changed to influence the outcome of your generative drawing machine
+- use at least 4 global variables that can be changed to influence the outcome of your generative drawing machine
 - must be a static image. Use `noLoop()`. In other words, no animation.
 - use `random()` and/or `noise()`
 - use `randomSeed()` or `noiseSeed()` and select one final version of your compositions
@@ -42,7 +42,7 @@ You should not aim to create an entire narrative or playable game with win and l
 
 #### Generative Art Moving "Tableau"
 
-You may elect to continue working in a more geometric and visually abstract fashion as we saw in the first project, except this time your work will require motion. This time you should _not_ use noLoop() as we want for your composition to change over time. In this approach, you may any and all of the techniques described above to create movement, including interactivity, changing variables linearly (+,-, for example), animation loops, LFOs, sine wave or circular movement, translate, rotate, etc. The difference is primarily that you are not trying to render a scene, but working with shapes (or images!) to create a more abstract visual.
+You may elect to continue working in a more geometric and visually abstract fashion as we saw in the first project, except this time your work will require motion. This time you should _not_ use noLoop() as we want for your composition to change over time. In this approach, you may use any and all of the techniques described above to create movement, including interactivity, changing variables linearly (+,-, for example), animation loops, LFOs, sine wave or circular movement, translate, rotate, etc. The difference is primarily that you are not trying to render a scene, but working with shapes (or images!) to create a more abstract visual.
 
 In our tutorials, we have seen two different ways of approaching animation and movement in p5. Many of you will find it convenient to choose one or the other, but both approaches can be combined in interesting ways as well.
 
@@ -78,7 +78,7 @@ In both cases, you should aim to use coding elements which support your artistic
   -- drawing in a spiral fashion with `sin()` and `cos()` and a changing radius
   -- moving elements in a sine wave fashion with `sin()` and a changing angle input
 - easing
-  -- smooth changes in position to create a more naturalistic movement (e.g. `let easing = 0.01; let x = 100; let targetX = 200; let dx= targetX - x; x = dx * easing;`)
+  -- smooth changes in position to create a more naturalistic movement (e.g. `let easing = 0.01; let x = 100; let targetX = 200; let dx= targetX - x; x += dx * easing;`)
 - animation loops
   -- if/else loops (e.g. loop from 0 to 255 and back `let x = 0; x++; if (x>255){x=0;}`)
   -- if/else loops with "bounce" (e.g. 0->255->0);

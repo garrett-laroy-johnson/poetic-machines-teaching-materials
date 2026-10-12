@@ -1,0 +1,47 @@
+{
+  "intro": "All projects are assessed with this rubric. Each project prompt lists its own technical requirements and submission items.",
+  "levels": ["Exemplary (A)", "Proficient (B)", "Developing (C)", "Beginning (D/F)"],
+  "criteria": [
+    {
+      "name": "Technical execution",
+      "weight": "30%",
+      "levels": [
+        "Meets every technical requirement in the prompt and uses the module's techniques with intention, often going beyond them; the code or patch is organized and commented, and the work runs reliably.",
+        "Meets all technical requirements; some techniques are used only minimally; the code or patch is mostly organized.",
+        "Meets most requirements; one is missing or does not work as intended.",
+        "Several requirements are missing, or the work does not run."
+      ]
+    },
+    {
+      "name": "Experimentation and range",
+      "weight": "20%",
+      "levels": [
+        "Clearly explores the possibilities of the techniques and materials, testing and pushing ideas well beyond a first attempt.",
+        "Shows some exploration beyond a first attempt.",
+        "Exploration is minimal or accidental.",
+        "Little or no evidence of exploration."
+      ]
+    },
+    {
+      "name": "Aesthetic discernment",
+      "weight": "30%",
+      "levels": [
+        "Makes clear, deliberate choices (composition, color, motion, space, sound) that serve the work's intent, explains those choices convincingly in critique, and takes a risk.",
+        "Choices are deliberate and mostly coherent and are explained in critique.",
+        "Choices look like defaults or go unexamined; little explanation.",
+        "No evident decisions; no explanation."
+      ]
+    },
+    {
+      "name": "Critique",
+      "weight": "20%",
+      "levels": [
+        "Explains code and choices clearly; gives specific, generous feedback to at least two classmates (spoken, in chat, or in writing).",
+        "Explains the work; gives feedback to at least one classmate.",
+        "Brief explanation; minimal feedback.",
+        "Absent from critique with no alternative contribution."
+      ]
+    }
+  ],
+  "note": "Coding sketches and in-class exercises are graded on completion and good-faith experimentation, not perfection. Participation can take many forms: speaking, chat, private messages to me, or written responses to classmates' work."
+}

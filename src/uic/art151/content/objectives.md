@@ -1,6 +1,8 @@
-- Acquire a vocabulary to unpack programming concepts and techniques with confidence.
-- Critically examining how new media art is entangled in histories of culture and technology.
-- Develop idiosyncratic processes to facilitate creatively engaging with computation
-- Produce a series of works from exercises to longer-term projects.
-- Productively discuss and critique peers’ work.
-- Connect technical skills to critical thinking to create meaningful artistic compositions.
+By the end of this course, you will be able to:
+
+- Write p5.js sketches that use variables, conditionals, loops, functions, arrays, and randomness/noise to generate images and animation. *(coding sketches; Projects 1–2)*
+- Design a generative system with tunable parameters, and choose among and defend its outputs. *(Project 1)*
+- Compose in time and space through animation, interaction, and a shared 3D exhibition. *(Projects 2–3)*
+- Situate your work within the histories and politics of computational art, including questions of authorship, AI, and access. *(readings, group presentation)*
+- Give specific, usable critique and act on the critique you receive. *(critiques)*
+- Use documentation and community resources to keep learning on your own. *(coding sketches)*
