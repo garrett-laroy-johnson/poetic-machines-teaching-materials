@@ -11,9 +11,9 @@
 | 8 | Midterm studio; **Midterm Presentations** |
 |  | **Module 2: Working with Recorded and Live Sound** |
 | 9 | Sample playback; finding and working with samples |
-| 10 | Game controllers as interface (group work) |
+| 10 | Game controllers as interface: control your patches with a USB game controller (studio in groups) |
 | 11 | Camera as interface |
 | 12 | Final project development strategies |
 | 13 | **Final Project Proposals**; studio |
 | 14 | Project development strategies 2; Thanksgiving |
-| 15 | **Final Project Presentations** |
+| 15 | Tuesday (online): final project work session and check-ins; Thursday (in person): **Final Project Presentations** |

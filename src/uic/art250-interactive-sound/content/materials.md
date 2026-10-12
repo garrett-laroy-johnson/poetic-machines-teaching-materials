@@ -6,7 +6,7 @@ For this class you will need:
 - a Max/MSP subscription license for the duration of the course (provided through your course fee)
 - other materials you may wish to use in projects (a USB game controller, a portable webcam, etc.)
 
-**Texts and tutorials:** Max's built-in tutorials and reference pages, plus the patches and recorded tutorials posted to this site and Canvas. Recommended reading: Pauline Oliveros, *Deep Listening: A Composer's Sound Practice* (2005).
+**Texts and tutorials:** there is no textbook for this course. We use Max's built-in tutorials and reference pages, the patches and recorded tutorials on the course website and Canvas, and the readings listed below.
 
 **Free and open-source alternative:** everything we build in Max transfers to [Pure Data](https://puredata.info/), a free, open-source environment created by Max's original author, Miller Puckette, so you can keep making work after the course and your license end.
 

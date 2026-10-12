@@ -43,10 +43,10 @@ Create a performance, generative sound system, sound sculpture, or interactive i
 #### requirements
 
 - sample playback (`[buffer~]`, `[groove~]`, or `[playlist~]`) using sounds you recorded or sourced, with sources credited
-- at least one gestural or sensing interface: game controller, camera, keyboard and mouse, or another sensor
+- at least one gestural or sensing interface: USB game controller, camera, keyboard and mouse, or another sensor
 - at least one Module 1 synthesis or modulation technique
 - a proposal (Week 13) describing your concept, technical plan, and equipment needs
 
 #### submission
 
-Your patch(es), sound files, and documentation (audio or video recording, plus photos for sculptures and installations). Perform or install your work for Final Project critiques (Week 15).
+Your patch(es), sound files, and documentation (audio or video recording, plus photos for sculptures and installations). Perform or install your work for Final Project critiques (Week 15, Thursday, in person).

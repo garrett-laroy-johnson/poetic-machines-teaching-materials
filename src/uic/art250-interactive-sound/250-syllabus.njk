@@ -60,6 +60,12 @@ location: "Hybrid: Tuesdays online (Zoom link in Canvas), Thursdays in person"
 {% endset %}
 {% markdown snippet %}
 
+<h3>Readings</h3>
+{% set snippet %}
+{% include "./content/readings.md"%}
+{% endset %}
+{% markdown snippet %}
+
 <h3>Important Dates</h3>
 <ul class="list-group">
   {% for d in calendar %}
@@ -107,6 +113,6 @@ location: "Hybrid: Tuesdays online (Zoom link in Canvas), Thursdays in person"
 <p>{{i}}</p>
   {% endfor %}
  <h5>makeup</h5>
-  <p>{{attendance.makeup}}</p>
+  <p>You are responsible for looking at the course website and watching the recorded tutorials to familiarize yourself with what was missed in class.</p>
 
 {% include "../content/syllabus-stock.html"%}
