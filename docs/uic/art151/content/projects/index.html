@@ -91,10 +91,6 @@
               
                
               
-               
-              
-               
-              
 
               <li class="mb-1">
                 <a href="/uic/art151/schedule/">
@@ -162,6 +158,20 @@
               
                
               
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
 
               <li class="mb-1">
                 <a href="/uic/art151/syllabus/">
@@ -178,8 +188,6 @@
                   </button>
                 </a>
               </li>
-              
-               
               
               
               
@@ -329,6 +337,25 @@
               
 
               <li class="mb-1">
+                <a href="/uic/art151/8/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 8 : Transformations and Media
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
                 <a href="/uic/art151/9/">
                   <button
                     class="btn align-items-left rounded collapsed nav-butt"
@@ -386,6 +413,25 @@
               
 
               <li class="mb-1">
+                <a href="/uic/art151/13/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 13 : Arrays
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
                 <a href="/uic/art151/14/">
                   <button
                     class="btn align-items-left rounded collapsed nav-butt"
@@ -407,29 +453,6 @@
               
                
               
-               
-              
-               
-              
-
-              <li class="mb-1">
-                <a href="/uic/art151/8/">
-                  <button
-                    class="btn align-items-left rounded collapsed nav-butt"
-                    style="text-align: left"
-                    aria-expanded="false"
-                  >
-                
-                    Week 8 : Transformations and Media
-            
-             
-                 
-                  </button>
-                </a>
-              </li>
-              
-               
-              
 
               <li class="mb-1">
                 <a href="/uic/art151/12/">
@@ -440,25 +463,6 @@
                   >
                 
                     Week 12 : Objects
-            
-             
-                 
-                  </button>
-                </a>
-              </li>
-              
-               
-              
-
-              <li class="mb-1">
-                <a href="/uic/art151/13/">
-                  <button
-                    class="btn align-items-left rounded collapsed nav-butt"
-                    style="text-align: left"
-                    aria-expanded="false"
-                  >
-                
-                    Week 13 : Arrays
             
              
                  
@@ -484,6 +488,18 @@
                   </button>
                 </a>
               </li>
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
               
                
               
@@ -518,19 +534,19 @@
 <h1></h1>
 
 
-<p>You will earn the majority of your grade from your sustained and considered engagement with three projects. Each project will ask you to integrate fundamental technical and artistic creative coding techniques into a polished art work for a collective classroom critique.</p>
+<p>You will earn the majority of your grade from your sustained and considered engagement with three projects. Each project will ask you to integrate fundamental technical and artistic creative coding techniques into a polished art work for a collective classroom critique. All projects are assessed with the course project rubric below; each prompt lists its own technical requirements.</p>
 <h3>Project 1: Generative Drawing Machine</h3>
-<p>Using p5*js, create a drawing machine. We are drawing on the legacy of artists working in the branch of creative coding called generative art, including artists such as Vera Molnar, Casey Reas, Joan Truckenbrod, Rafael Rozendaal, and Zach Lieberman.</p>
+<p>Using p5*js, create a drawing machine. We are drawing on the legacy of artists working in the branch of creative coding called generative art, including artists such as Vera Molnar, Lillian Schwartz, Manfred Mohr, Joan Truckenbrod, Casey Reas, Rafaël Rozendaal, Zach Lieberman, and Sougwen Chung. Ron Eglash's research on African fractals shows how generative, rule-based design long predates the computer.</p>
 <p>Your drawing machine is a <em>compositional system</em> built using the foundational technical elements of this semester.</p>
-<p><em>For loops</em> are a fundamental structure of create code that allow us to repeat a process like drawing a shape, but vary its position or color. We do this by using the structuring variable inside the for loop inside of drawing functions like <code>rect()</code> or <code>fill()</code>. A standard and reliable way to use a for loop is to nest one for loop inside another to create a grid of shapes. This provides you with a regular structure into which you will introduce variation.</p>
+<p><em>For loops</em> are a fundamental structure of creative code that allow us to repeat a process like drawing a shape, but vary its position or color. We do this by using the structuring variable inside the for loop inside of drawing functions like <code>rect()</code> or <code>fill()</code>. A standard and reliable way to use a for loop is to nest one for loop inside another to create a grid of shapes. This provides you with a regular structure into which you will introduce variation.</p>
 <p><em>Global variables</em> are declared variables at the top of your sketch which allow you to tune your drawing machine. Think of this like your artist control panel. These variables must be integrated into your code in the draw loop to create significant and meaningful visual changes in how your drawing machine operates. <code>noiseScale</code> will control the effect of the <code>noise()</code> function. <code>spacing</code> may control the distance in pixels between each shape. <code>numShapes</code> may control the number of shapes in each row and column of a nested for loop drawing a grid. <code>sizeMin</code> and <code>sizeMax</code> might work together with the random variable to assign different size values to a shape with a range (e.g. <code>let w = random(sizeMin,sizeMax); circle(x,y,w);</code>).</p>
 <p><em>Randomness</em> will use the <code>random()</code> and/or <code>noise()</code> function to introduce non-linear or unexpected variation into how your shapes are drawn. You may randomize the color palette by declaring a variable <code>let r = random(100,150)</code> and using that as the red value in fill (e.g. <code>fill(r,100,0)</code>). You may offset the x position of each shape in your grid by declaring a variable <code>let xOffset = random(-10,10)</code> and adding that to the x position of each shape your drawing machine draws (e.g. <code>circle(x+xOffset,y,w)</code>).</p>
 <p>Once you've gotten your drawing machine up and running, tune your drawing machine by experimenting with the global variables you've created. You may be inspired to go back and add other elements to your machine.</p>
-<p>Ultimately, you will decide on a single image your drawing machine has created. Use <code>randomSeed()</code> and/or <code>noiseSeed</code> to &quot;lock in&quot; those. The idea here is challenge yourself to make more and more discerning artistic decisions.</p>
+<p>Ultimately, you will decide on a single image your drawing machine has created. Use <code>randomSeed()</code> and/or <code>noiseSeed</code> to &quot;lock in&quot; those. The idea here is to challenge yourself to make more and more discerning artistic decisions.</p>
 <h4>requirements</h4>
 <ul>
 <li>use at least one <code>for loop</code>. Some A-level projects may use only one, but it's very likely you will need to use two or more <code>for loop</code>s, nested or otherwise.</li>
-<li>use at least global 4 variables that can be changed to influence the outcome of your generative drawing machine</li>
+<li>use at least 4 global variables that can be changed to influence the outcome of your generative drawing machine</li>
 <li>must be a static image. Use <code>noLoop()</code>. In other words, no animation.</li>
 <li>use <code>random()</code> and/or <code>noise()</code></li>
 <li>use <code>randomSeed()</code> or <code>noiseSeed()</code> and select one final version of your compositions</li>
@@ -545,9 +561,20 @@
 <p>When we hear the word &quot;animation&quot;, we might think of a scene with a background and foreground which either plays automatically (more scene or narrative adjacent) or is activated by interactivity (more game like).</p>
 <p>You should not aim to create an entire narrative or playable game with win and lose conditions. This is what is meant by &quot;tableau&quot;. Aim instead to create something that gestures towards that: in the case of the narrative scene, maybe you are setting the scene just before the story starts. In the case of the interactive element, you may aim to have a convincing and satisfying interactive behavior that moves a character along.</p>
 <h4>Generative Art Moving &quot;Tableau&quot;</h4>
-<p>You may elect to continue working in a more geometric and visually abstract fashion as we saw in the first project, except this time your work will require motion. This time you should <em>not</em> use noLoop() as we want for your composition to change over time. In this approach, you may any and all of the techniques described above to create movement, including interactivity, changing variables linearly (+,-, for example), animation loops, LFOs, sine wave or circular movement, translate, rotate, etc. The difference is primarily that you are not trying to render a scene, but working with shapes (or images!) to create a more abstract visual.</p>
+<p>You may elect to continue working in a more geometric and visually abstract fashion as we saw in the first project, except this time your work will require motion. This time you should <em>not</em> use noLoop() as we want for your composition to change over time. In this approach, you may use any and all of the techniques described above to create movement, including interactivity, changing variables linearly (+,-, for example), animation loops, LFOs, sine wave or circular movement, translate, rotate, etc. The difference is primarily that you are not trying to render a scene, but working with shapes (or images!) to create a more abstract visual.</p>
 <p>In our tutorials, we have seen two different ways of approaching animation and movement in p5. Many of you will find it convenient to choose one or the other, but both approaches can be combined in interesting ways as well.</p>
-<p>In both cases, you should aim to use coding elements which support your artistic vision, integrating elements from this module with the previous module. You do not need to use all of these, but you will likely use three or four from each module. What I am most interested in is that you have created a compelling animated sketch that evidences two weeks of work. As a review:</p>
+<p>In both cases, you should aim to use coding elements which support your artistic vision, integrating elements from this module with the previous module. You do not need to use all of these, but you will likely use three or four from each module. What I am most interested in is that you have created a compelling animated sketch that evidences two weeks of work.</p>
+<h4>requirements</h4>
+<ul>
+<li>your sketch must be animated: do not use <code>noLoop()</code>; the composition changes over time</li>
+<li>choose a narrative / game-like tableau or a generative moving tableau</li>
+<li>use at least three techniques from Module 1 and at least three from Module 2 (reviewed below)</li>
+<li>the work should evidence two weeks of development</li>
+<li>you are present for critique and participate in others' critique</li>
+</ul>
+<h4>submission</h4>
+<p>Submit your p5.js editor URL and a short screen recording (15–30 seconds) of the sketch running. Projects are presented for critique in Week 11.</p>
+<p>As a review:</p>
 <h4>Module 1: Generative art</h4>
 <ul>
 <li>variables (in both local and global scope)</li>
@@ -578,7 +605,7 @@
 -- drawing in a spiral fashion with <code>sin()</code> and <code>cos()</code> and a changing radius
 -- moving elements in a sine wave fashion with <code>sin()</code> and a changing angle input</li>
 <li>easing
--- smooth changes in position to create a more naturalistic movement (e.g. <code>let easing = 0.01; let x = 100; let targetX = 200; let dx= targetX - x; x = dx * easing;</code>)</li>
+-- smooth changes in position to create a more naturalistic movement (e.g. <code>let easing = 0.01; let x = 100; let targetX = 200; let dx= targetX - x; x += dx * easing;</code>)</li>
 <li>animation loops
 -- if/else loops (e.g. loop from 0 to 255 and back <code>let x = 0; x++; if (x&gt;255){x=0;}</code>)
 -- if/else loops with &quot;bounce&quot; (e.g. 0-&gt;255-&gt;0);</li>
@@ -599,7 +626,10 @@
 <li>This new sketch should be a star in your show. It may be a static image, a moving image, or wrapped around a 3D object.</li>
 <li>You may choose to explore &quot;Miss Sammi's Garden&quot; to find ready-made 3D assets you can import into your space.</li>
 <li>You may use sound to create atmosphere in your space.</li>
+<li>Submit a 100–200 word proposal in Week 14 describing your artistic intent and the coding techniques you plan to use.</li>
 </ul>
+<h4>Submission</h4>
+<p>Submit the link to your space in our New Art City world, the p5.js editor URL of your new sketch, and two or three screenshots of your space. We tour and critique the exhibition together in Week 15.</p>
 
 
 </div>

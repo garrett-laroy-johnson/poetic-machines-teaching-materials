@@ -1,0 +1,695 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="Grace Grace Grace" />
+    <title>UIC | ART 151 | Intro to Creative Coding for New Media Art</title>
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <link rel="stylesheet" href="/assets/css/bootstrap.css" />
+    <!-- Custom styles -->
+    <link href="/assets/css/sidebars.css" rel="stylesheet" />
+    <link href="/assets/css/style.css" rel="stylesheet" />
+    <script src="/assets/js/p5.js"></script>
+    <script src="https://kit.fontawesome.com/1582dd25e1.js" crossorigin="anonymous"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Silkscreen&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-markup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-clike.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-c.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-cpp.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-arduino.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
+  </head>
+
+    <body>
+  
+    <!-- Mobile nav toggle button -->
+    <button id="mobile-nav-toggle" class="btn btn-primary mobile-nav-toggle" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+
+      <div class="row">
+        <!-- sidebar -->
+        <div class="col-sm-3 sidebar-col" id="sidebar" style="z-index: 2">
+          <div class="flex-shrink-0 p-3" style="width: 100%">
+            <a href = "/uic/art151/" style = "text-decoration: none; color:black">
+            <h4 class="fs-5 fw-semibold" style="margin-left: 10px">
+              UIC | ART 151 | Intro to Creative Coding for New Media Art
+            </h4>
+          </a>
+            <ul class="list-unstyled ps-0">
+             
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art151/schedule/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                 Schedule
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art151/materials/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                 Materials
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art151/presentation/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                 Group Presentation
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art151/syllabus/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                 Syllabus
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+              
+              
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art151/1/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 1 : Getting Setup
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art151/2/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 2 : Simple 2D Shapes
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art151/3/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 3 : Variables and For Loops
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art151/4/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 4 : Nested For Loops and Random
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art151/5/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 5 : Randomness &amp; Conditionals
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art151/6/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 6 : Project 1: Generative Drawing Machine
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art151/7/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 7 : Interactivity and Conditionals
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art151/8/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 8 : Transformations and Media
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art151/9/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 9 : Motion, Animation, Incrementation
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art151/10/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 10 : Work Week, Presentation + Project 2
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art151/11/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 11 : Project 2: Animated Tableaus
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art151/13/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 13 : Arrays
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art151/14/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 14 : Project 3 Prep
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+               
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art151/12/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 12 : Objects
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art151/15/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 15 : Project 3 - New Art City
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+              
+            
+            </ul>
+          </div>
+        </div>
+      
+        
+<!-- Right panel (key concepts) - shows first on mobile -->
+<div class="col-sm-2 order-1 order-sm-3 card right-panel-mobile">
+  <div class="card-header">Key Concepts:</div>
+  <ul class="list-group list-group-flush">
+    
+  </ul>
+  
+  <ul class="list-group">
+    
+  </ul>
+  
+  <ul class="list-group">
+    
+  </ul>
+  
+</div>
+
+<!-- Main content - shows second on mobile -->
+<div class="col-sm-6 order-2">
+
+<div class = "card">
+<h1></h1>
+
+
+<table>
+<thead>
+<tr>
+<th>Week</th>
+<th>Topic</th>
+<th>Coding sketch</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Getting set up: intro to p5.js</td>
+<td>—</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Simple 2D shapes</td>
+<td>Self Portrait</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Variables and for loops</td>
+<td>For Loop Remixes</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Nested for loops and randomness</td>
+<td>Nested For Loops + Variations</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Randomness and conditionals</td>
+<td>Noise</td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong>Project 1 presentations and critique:</strong> Generative Drawing Machine</td>
+<td>—</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Interactivity and conditionals; group presentation prep</td>
+<td>Button Interface</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Transformations and media</td>
+<td>Transformations and Media</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Motion, animation, incrementation</td>
+<td>Movement</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Work week; <strong>Group Presentations</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td>11</td>
+<td><strong>Project 2 presentations and critique:</strong> Animated Tableaus</td>
+<td>—</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Objects</td>
+<td>—</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Arrays</td>
+<td>Objects and Arrays</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Project 3 prep</td>
+<td>Project 3 Proposal</td>
+</tr>
+<tr>
+<td>15</td>
+<td><strong>Project 3:</strong> Immersive Virtual Exhibition in New Art City</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+
+
+
+<div class = "card">
+  <h3>Examples</h3>
+  
+
+
+
+  </div>
+
+  
+   
+</div>
+<!-- End main content column -->
+
+      
+        </div>
+      
+        <script>
+          window.addEventListener("load", function () {
+            var container = document.querySelector(".masonry");
+            if (!container || typeof Masonry !== "function") {
+              return;
+            }
+
+            var initMasonry = function () {
+              new Masonry(container, {
+                itemSelector: ".item",
+              });
+            };
+
+            if (typeof imagesLoaded === "function") {
+              imagesLoaded(container, initMasonry);
+            } else {
+              initMasonry();
+            }
+          });
+        </script>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+    <script src="/assets/js/bootstrap.js" async defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" defer></script>
+
+    <script src="/assets/js/display.js" async defer></script>
+    
+    <!-- Mobile nav toggle script -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const toggleBtn = document.getElementById('mobile-nav-toggle');
+        const sidebar = document.getElementById('sidebar');
+        
+        if (toggleBtn && sidebar) {
+          toggleBtn.addEventListener('click', function() {
+            sidebar.classList.toggle('sidebar-open');
+          });
+          
+          // Close sidebar when clicking outside on mobile
+          document.addEventListener('click', function(event) {
+            if (window.innerWidth < 768 && 
+                !sidebar.contains(event.target) && 
+                !toggleBtn.contains(event.target) &&
+                sidebar.classList.contains('sidebar-open')) {
+              sidebar.classList.remove('sidebar-open');
+            }
+          });
+        }
+      });
+    </script>
+  </body>
+</html>

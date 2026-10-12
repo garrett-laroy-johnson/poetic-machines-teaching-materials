@@ -35,6 +35,7 @@ title: Syllabus
 {% if grades.key %}
 
 <h3>Grading Key</h3>
+The following grading key has been written by the UIC Department of Art and is required to be included in all syllabi. This rubric provides a heuristic for students to self-assess. Please see the project grading rubric for projects for detailed criteria specific to this course.
 <ul class="list-group">
   {% for i in grades.key%}
   <li class="list-group-item">{{ i.label}} {{i.description}}</li>
@@ -60,5 +61,6 @@ title: Syllabus
   {% endfor %}
 </ul>
 {% endif %}
+
 
 {# {% include stock ignore missing%} #}

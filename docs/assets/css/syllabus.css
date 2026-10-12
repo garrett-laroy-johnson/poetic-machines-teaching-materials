@@ -1,0 +1,133 @@
+/* Syllabus pages: readable measure, clear sections, sticky contents, clean print */
+
+.syllabus-page {
+  padding: 1.5rem 2rem 4rem;
+}
+
+.syllabus-toolbar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+.syllabus-print {
+  font-family: "Noto Serif", serif;
+  font-size: 0.95rem;
+  color: #fff;
+  background-color: #be2ed6;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+.syllabus-print:hover,
+.syllabus-print:focus-visible {
+  background-color: #4c00b0;
+  outline: 2px solid #4c00b0;
+  outline-offset: 2px;
+}
+
+/* Two columns on wide screens: text + sticky contents */
+.syllabus-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 46rem) 15rem;
+  gap: 2.5rem;
+  align-items: start;
+}
+.syllabus-body { grid-column: 1; grid-row: 1; min-width: 0; }
+.syllabus-toc  { grid-column: 2; grid-row: 1; position: sticky; top: 1rem; max-height: calc(100vh - 2rem); overflow-y: auto; }
+
+/* Contents list: sections and subsections only */
+.syllabus-toc .toc .card { margin: 0 !important; }
+.syllabus-toc .toc-level-4 { display: none; }
+.syllabus-toc .toc-link { font-family: "Noto Serif", serif; font-size: 0.85rem; line-height: 1.35; display: block; padding: 0.15rem 0; }
+.syllabus-toc .toc-level-2 > .toc-link { font-weight: 600; }
+
+/* Body text */
+.syllabus-body {
+  font-size: 1.05rem;
+  line-height: 1.65;
+}
+.syllabus-body p,
+.syllabus-body li { max-width: 70ch; }
+.syllabus-body ul,
+.syllabus-body ol { padding-left: 1.4rem; }
+.syllabus-body li { margin-bottom: 0.3rem; }
+
+/* Headings: clear hierarchy and room to breathe */
+.syllabus-body h1 { font-size: 1.9rem; line-height: 1.25; margin-bottom: 1rem; }
+.syllabus-body h2 {
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 3px solid #be2ed6;
+}
+.syllabus-body h3 { font-size: 1.2rem; margin-top: 2rem; }
+.syllabus-body h4 { font-size: 1rem; margin-top: 1.25rem; }
+.syllabus-body h5 { font-size: 0.95rem; margin-top: 1rem; }
+.syllabus-body h2,
+.syllabus-body h3,
+.syllabus-body h4 { scroll-margin-top: 1rem; }
+
+/* Course info block */
+.syllabus-header .list-group { max-width: 40rem; margin-bottom: 1.5rem; }
+.syllabus-header .list-group-item { padding: 0.35rem 0.75rem; }
+
+/* Tables (schedule, rubric) */
+.syllabus-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0 1.5rem;
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+.syllabus-body th,
+.syllabus-body td {
+  border: 1px solid #ccc;
+  padding: 0.45rem 0.6rem;
+  vertical-align: top;
+  text-align: left;
+}
+.syllabus-body thead th { background: #f3e6f6; }
+.syllabus-body tbody tr:nth-child(even) { background: #faf7fb; }
+
+.syllabus-body code { font-size: 0.9em; }
+
+/* Narrow screens: contents collapses above the text */
+@media (max-width: 1199px) {
+  .syllabus-layout { grid-template-columns: minmax(0, 1fr); }
+  .syllabus-toc { grid-column: 1; grid-row: 1; position: static; max-height: none; }
+  .syllabus-body { grid-row: 2; }
+  .syllabus-toc .card-body { max-height: 14rem; overflow-y: auto; }
+}
+@media (max-width: 767px) {
+  .syllabus-page { padding: 1rem; }
+}
+
+/* Print / Save as PDF */
+@media print {
+  @page { size: letter; margin: 0.7in 0.75in; }
+  .syllabus-toolbar,
+  .syllabus-toc,
+  .sidebar-col,
+  .mobile-nav-toggle { display: none !important; }
+  body { margin: 0 !important; padding: 0 !important; }
+  .row { display: block !important; margin: 0 !important; --bs-gutter-x: 0; }
+  .syllabus-page { padding: 0 !important; margin: 0 !important; width: 100% !important; max-width: 100% !important; flex: 0 0 100% !important; }
+  .syllabus-layout { display: block; }
+  .syllabus-body { font-size: 10.5pt; line-height: 1.45; }
+  .syllabus-body p, .syllabus-body li { max-width: none; }
+  .syllabus-body h1 { font-size: 18pt; }
+  .syllabus-body h2 { font-size: 14pt; margin-top: 1.5rem; padding-top: 0.5rem; border-top-width: 2px; }
+  .syllabus-body h3 { font-size: 12pt; margin-top: 1rem; }
+  .syllabus-body h2, .syllabus-body h3, .syllabus-body h4 { break-after: avoid; page-break-after: avoid; }
+  .syllabus-body table { font-size: 9pt; }
+  .syllabus-body tr, .syllabus-body li { break-inside: avoid; page-break-inside: avoid; }
+  .syllabus-body thead { display: table-header-group; }
+  .syllabus-body a { color: #4c00b0; }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}
+
+/* Contents list polish */
+.syllabus-toc ul { list-style: none; padding-left: 0; margin: 0; }
+.syllabus-toc .toc-level-2 { margin-top: 0.35rem; }

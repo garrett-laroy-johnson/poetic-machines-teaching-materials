@@ -1,0 +1,591 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="Grace Grace Grace" />
+    <title>UIC | ART 250 | Introduction to Interactive Sound</title>
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <link rel="stylesheet" href="/assets/css/bootstrap.css" />
+    <!-- Custom styles -->
+    <link href="/assets/css/sidebars.css" rel="stylesheet" />
+    <link href="/assets/css/style.css" rel="stylesheet" />
+    <script src="/assets/js/p5.js"></script>
+    <script src="https://kit.fontawesome.com/1582dd25e1.js" crossorigin="anonymous"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Silkscreen&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-markup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-clike.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-c.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-cpp.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-arduino.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
+  </head>
+
+    <body>
+  
+    <!-- Mobile nav toggle button -->
+    <button id="mobile-nav-toggle" class="btn btn-primary mobile-nav-toggle" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+
+      <div class="row">
+        <!-- sidebar -->
+        <div class="col-sm-3 sidebar-col" id="sidebar" style="z-index: 2">
+          <div class="flex-shrink-0 p-3" style="width: 100%">
+            <a href = "/uic/art250-interactive-sound/" style = "text-decoration: none; color:black">
+            <h4 class="fs-5 fw-semibold" style="margin-left: 10px">
+              UIC | ART 250 | Introduction to Interactive Sound
+            </h4>
+          </a>
+            <ul class="list-unstyled ps-0">
+             
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art250-interactive-sound/schedule/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                 Schedule
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art250-interactive-sound/250-syllabus/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                 Syllabus
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+              
+              
+              
+               
+              
+               
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art250-interactive-sound/1/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 1 : Welcome and Intro to MaxMSP
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art250-interactive-sound/2/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 2 : Intro to Max (continued) and Print Poems
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art250-interactive-sound/3/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 3 : Additive Sound Synthesis
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art250-interactive-sound/4/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 4 : Subtractive Synthesis, Filters, and LFOs
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art250-interactive-sound/5/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 5 : Events, Envelopes, and Notes
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art250-interactive-sound/6/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 6 : Sequencing in Max
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art250-interactive-sound/7/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 7 : Keyboard and Mouse Inputs
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art250-interactive-sound/8/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 8 : Midterm Studio and Presentations
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art250-interactive-sound/9/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 9 : Sample Playback and Found Sound
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art250-interactive-sound/10/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 10 : Game Controllers as Interface
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art250-interactive-sound/11/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 11 : Camera as Interface
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art250-interactive-sound/12/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 12 : Final Project Development Strategies 1
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art250-interactive-sound/13/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 13 : Final Project Proposals
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art250-interactive-sound/14/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 14 : Project Development Strategies 2
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art250-interactive-sound/15/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                    Week 15 : Final Projects
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+              
+            
+            </ul>
+          </div>
+        </div>
+      
+        
+<!-- Right panel (key concepts) - shows first on mobile -->
+<div class="col-sm-2 order-1 order-sm-3 card right-panel-mobile">
+  <div class="card-header">Key Concepts:</div>
+  <ul class="list-group list-group-flush">
+    
+  </ul>
+  
+  <ul class="list-group">
+    
+  </ul>
+  
+  <ul class="list-group">
+    
+  </ul>
+  
+</div>
+
+<!-- Main content - shows second on mobile -->
+<div class="col-sm-6 order-2">
+
+<div class = "card">
+<h1></h1>
+
+
+<p>You will earn most of your grade through three pieces of work. All are presented for collective critique, and the Midterm and Final Project are assessed with the course project rubric below.</p>
+<h3>Print Poems (10%)</h3>
+<p>Before we make any sound, we make poems. In Week 2, use Max to compose text by rule and chance and print it to the Max console with <code>[print]</code>. We look to Mozart's musical dice game, William S. Burroughs's cut-up technique, and Judy Malloy's <em>Uncle Roger</em> as models of writing with procedures.</p>
+<h4>requirements</h4>
+<ul>
+<li>generate text from a vocabulary you choose, stored in messages or lists (<code>zl</code> objects)</li>
+<li>use at least one source of chance (<code>[random]</code> or <code>[drunk]</code>)</li>
+<li>use timing or counting (<code>[metro]</code>, <code>[counter]</code>) to give the poem a structure</li>
+</ul>
+<h4>submission</h4>
+<p>Your <code>.maxpat</code> file and a copy or screenshot of a poem it produced. Print Poems are graded on completion and good-faith experimentation.</p>
+<h3>Midterm: Synthesis Performance or Generative Sound Piece (30%)</h3>
+<p>Drawing on Module 1, <em>Synthesizing Drones + Ambient Textures</em>, build a Max patch that either you perform live or that performs itself, for 3–5 minutes. Think of the drone and ambient listenings: how a sound can unfold slowly, how texture can be a form.</p>
+<p>Choose one path:</p>
+<ul>
+<li><strong>Performance:</strong> you play the patch live, using keyboard and mouse controls (<code>[key]</code>, <code>[mousestate]</code>, <code>[kslider]</code>, sliders) to shape the sound in real time.</li>
+<li><strong>Generative:</strong> the patch unfolds on its own through timing, chance, and sequencing; you start it and let it play.</li>
+</ul>
+<h4>requirements</h4>
+<ul>
+<li>built from the objects and techniques we have covered, so that you can explain every part of your patch</li>
+<li>at least two Module 1 synthesis techniques: additive synthesis, subtractive synthesis and filtering, amplitude modulation, or LFO modulation</li>
+<li>envelopes (<code>[adsr~]</code>, <code>[line~]</code>, or <code>[function]</code>) shaping at least one sound</li>
+<li>a timing or sequencing structure (<code>[metro]</code> and <code>[counter]</code>, <code>[matrixctrl]</code>, or <code>[preset]</code>)</li>
+<li><strong>performance path:</strong> at least two real-time controls mapped from the keyboard or mouse; <strong>generative path:</strong> a piece that changes meaningfully over 3–5 minutes without your intervention</li>
+<li>a clearly labeled patch with a master level control (<code>[live.gain~]</code>)</li>
+</ul>
+<h4>submission</h4>
+<p>Your <code>.maxpat</code> file(s) and an audio or screen recording of the piece. Present your piece at Midterm Presentations (Week 8).</p>
+<h3>Final Project (40%)</h3>
+<p>Create a performance, generative sound system, sound sculpture, or interactive installation that builds on Module 2, <em>Working with Recorded and Live Sound</em>, and brings in what you learned in Module 1.</p>
+<h4>requirements</h4>
+<ul>
+<li>sample playback (<code>[buffer~]</code>, <code>[groove~]</code>, or <code>[playlist~]</code>) using sounds you recorded or sourced, with sources credited</li>
+<li>at least one gestural or sensing interface: game controller, camera, keyboard and mouse, or another sensor</li>
+<li>at least one Module 1 synthesis or modulation technique</li>
+<li>a proposal (Week 13) describing your concept, technical plan, and equipment needs</li>
+</ul>
+<h4>submission</h4>
+<p>Your patch(es), sound files, and documentation (audio or video recording, plus photos for sculptures and installations). Perform or install your work for Final Project critiques (Week 15).</p>
+
+
+</div>
+
+
+
+  
+   
+</div>
+<!-- End main content column -->
+
+      
+        </div>
+      
+        <script>
+          window.addEventListener("load", function () {
+            var container = document.querySelector(".masonry");
+            if (!container || typeof Masonry !== "function") {
+              return;
+            }
+
+            var initMasonry = function () {
+              new Masonry(container, {
+                itemSelector: ".item",
+              });
+            };
+
+            if (typeof imagesLoaded === "function") {
+              imagesLoaded(container, initMasonry);
+            } else {
+              initMasonry();
+            }
+          });
+        </script>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+    <script src="/assets/js/bootstrap.js" async defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" defer></script>
+
+    <script src="/assets/js/display.js" async defer></script>
+    
+    <!-- Mobile nav toggle script -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const toggleBtn = document.getElementById('mobile-nav-toggle');
+        const sidebar = document.getElementById('sidebar');
+        
+        if (toggleBtn && sidebar) {
+          toggleBtn.addEventListener('click', function() {
+            sidebar.classList.toggle('sidebar-open');
+          });
+          
+          // Close sidebar when clicking outside on mobile
+          document.addEventListener('click', function(event) {
+            if (window.innerWidth < 768 && 
+                !sidebar.contains(event.target) && 
+                !toggleBtn.contains(event.target) &&
+                sidebar.classList.contains('sidebar-open')) {
+              sidebar.classList.remove('sidebar-open');
+            }
+          });
+        }
+      });
+    </script>
+  </body>
+</html>

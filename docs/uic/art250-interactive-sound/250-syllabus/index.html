@@ -83,29 +83,6 @@
               
                
               
-
-              <li class="mb-1">
-                <a href="/uic/art250-interactive-sound/250-syllabus/">
-                  <button
-                    class="btn align-items-left rounded collapsed nav-butt"
-                    style="text-align: left"
-                    aria-expanded="false"
-                  >
-                
-                 Syllabus
-            
-             
-                 
-                  </button>
-                </a>
-              </li>
-              
-               
-              
-               
-              
-               
-              
                
               
                
@@ -136,6 +113,33 @@
                   >
                 
                  Schedule
+            
+             
+                 
+                  </button>
+                </a>
+              </li>
+              
+               
+              
+               
+              
+               
+              
+               
+              
+               
+              
+
+              <li class="mb-1">
+                <a href="/uic/art250-interactive-sound/250-syllabus/">
+                  <button
+                    class="btn align-items-left rounded collapsed nav-butt"
+                    style="text-align: left"
+                    aria-expanded="false"
+                  >
+                
+                 Syllabus
             
              
                  
@@ -445,107 +449,362 @@
               
                
               
+               
+              
+               
+              
               
             
             </ul>
           </div>
         </div>
       
-        
+        <link rel="stylesheet" href="/assets/css/syllabus.css" />
+<main class="col-sm-9 syllabus-page">
+  <div class="syllabus-toolbar">
+    <button type="button" class="syllabus-print" onclick="window.print()">
+      <i class="fas fa-print" aria-hidden="true"></i> Print / Save as PDF
+    </button>
+  </div>
+  <div class="syllabus-layout">
+    <aside class="syllabus-toc">
+<nav class="toc" aria-label="Table of contents">
+  <div class="card" style="margin:1.5em 0;">
+    <div class="card-header"><strong>Contents</strong></div>
+    <div class="card-body">
+      <ul class="toc-list list-unstyled mb-0">
+        <li class="toc-item toc-level-2"><a class="toc-link" href="#learning-objectives">LEARNING OBJECTIVES</a></li>
+        <li class="toc-item toc-level-2"><a class="toc-link" href="#materials">MATERIALS</a></li>
+        <li class="toc-item toc-level-2"><a class="toc-link" href="#schedule">SCHEDULE</a></li>
+        <li class="toc-item toc-level-3"><a class="toc-link" href="#important-dates">Important Dates</a></li>
+        <li class="toc-item toc-level-2"><a class="toc-link" href="#grading-attendance-privacy-and-accommodation-policies">GRADING, ATTENDANCE, PRIVACY, AND ACCOMMODATION POLICIES</a></li>
+        <li class="toc-item toc-level-3"><a class="toc-link" href="#grading-breakdown">Grading Breakdown</a></li>
+        <li class="toc-item toc-level-3"><a class="toc-link" href="#projects">Projects</a></li>
+        <li class="toc-item toc-level-3"><a class="toc-link" href="#print-poems-10">Print Poems (10%)</a></li>
+        <li class="toc-item toc-level-4"><a class="toc-link" href="#requirements">requirements</a></li>
+        <li class="toc-item toc-level-4"><a class="toc-link" href="#submission">submission</a></li>
+        <li class="toc-item toc-level-3"><a class="toc-link" href="#midterm-synthesis-performance-or-generative-sound-piece-30">Midterm: Synthesis Performance or Generative Sound Piece (30%)</a></li>
+        <li class="toc-item toc-level-4"><a class="toc-link" href="#requirements-2">requirements</a></li>
+        <li class="toc-item toc-level-4"><a class="toc-link" href="#submission-2">submission</a></li>
+        <li class="toc-item toc-level-3"><a class="toc-link" href="#final-project-40">Final Project (40%)</a></li>
+        <li class="toc-item toc-level-4"><a class="toc-link" href="#requirements-3">requirements</a></li>
+        <li class="toc-item toc-level-4"><a class="toc-link" href="#submission-3">submission</a></li>
+        <li class="toc-item toc-level-3"><a class="toc-link" href="#project-rubric">Project Rubric</a></li>
+        <li class="toc-item toc-level-3"><a class="toc-link" href="#generative-ai">Generative AI</a></li>
+        <li class="toc-item toc-level-3"><a class="toc-link" href="#attendance">Attendance</a></li>
+        <li class="toc-item toc-level-2"><a class="toc-link" href="#disability-accommodations">Disability Accommodations</a></li>
+        <li class="toc-item toc-level-2"><a class="toc-link" href="#inclusivity-statement">Inclusivity Statement</a></li>
+        <li class="toc-item toc-level-2"><a class="toc-link" href="#religious-holiday-observance-policy">Religious Holiday Observance Policy</a></li>
+        <li class="toc-item toc-level-2"><a class="toc-link" href="#safe-space">Safe Space</a></li>
+        <li class="toc-item toc-level-2"><a class="toc-link" href="#image-reproduction">Image Reproduction</a></li>
+        <li class="toc-item toc-level-2"><a class="toc-link" href="#cheating">Cheating</a></li>
+        <li class="toc-item toc-level-2"><a class="toc-link" href="#digital-privacy-cada">Digital Privacy @ CADA</a></li>
+        <li class="toc-item toc-level-2"><a class="toc-link" href="#lecture-recordings">Lecture Recordings</a></li>
+        <li class="toc-item toc-level-2"><a class="toc-link" href="#student-disciplinary-policy">Student Disciplinary Policy</a></li>
+        <li class="toc-item toc-level-2"><a class="toc-link" href="#uic-resources">UIC Resources</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<style>
+  .toc-list .toc-level-3 { padding-left: 1.25em; }
+  .toc-list .toc-level-4 { padding-left: 2.5em; }
+  .toc-link { text-decoration: none; }
+  .toc-link:hover { text-decoration: underline; }
+  html { scroll-behavior: smooth; }
+</style>
+<script>
+  (function () {
+    // Assign ids to any headings that lack them, matching the build-time slugs.
+    function slug(t) {
+      return t.toLowerCase().trim()
+        .replace(/[^a-z0-9\s-]/g, "").replace(/\s+/g, "-").replace(/-+/g, "-");
+    }
+    document.addEventListener("DOMContentLoaded", function () {
+      var seen = {};
+      document.querySelectorAll("h2, h3, h4").forEach(function (h) {
+        if (h.id) return;
+        var id = slug(h.textContent) || "section";
+        seen[id] = (seen[id] || 0) + 1;
+        h.id = seen[id] > 1 ? id + "-" + seen[id] : id;
+      });
+    });
+    document.addEventListener("click", function (e) {
+      var link = e.target.closest(".toc-link");
+      if (!link) return;
+      var target = document.getElementById(
+        decodeURIComponent(link.getAttribute("href").slice(1))
+      );
+      if (!target) return;
+      e.preventDefault();
+      target.scrollIntoView({ behavior: "smooth", block: "start" });
+      history.replaceState(null, "", link.getAttribute("href"));
+    });
+  })();
+</script></aside>
+    <article class="syllabus-body">
 
 
 
 
 
 
-<div class="col-sm-6">
-        <div class="py-2">
-          <h1> UIC | ART 250 | Introduction to Interactive Sound </h1>
-          <ul class="list-group">
-            <li class="list-group-item">instructor: dr. grace grace grace (he/they)</li>
-            <li class="list-group-item">time: Tuesdays / Thursdays 12:00 - 2:30pm</li>
-            <li class="list-group-item">term: Fall 2026</li>
-            <li class="list-group-item">location: (see course schedule)</li>
-          </ul>
-        </div>
+<header class="syllabus-header">
+  <h1>UIC | ART 250 | Introduction to Interactive Sound</h1>
+  <ul class="list-group">
+    <li class="list-group-item">instructor: Dr. Grace Laroy Johnson (he/they)</li>
+    <li class="list-group-item">email: glj@uic.edu</li>
+    <li class="list-group-item">time: Tuesdays / Thursdays 12:00 - 2:30pm</li>
+    <li class="list-group-item">term: Fall 2026</li>
+    <li class="list-group-item">location: (see course schedule)</li>
+  </ul>
+</header>
 
 
 <div class="md-block"><p>In this class, we will learn the basis of electronic and computer music in the visual programming environment Max/MSP. Students will develop a working understanding of the principles of sound synthesis, sample recording and playback, and gestural interfaces to construct programs for their own live electronic performances and interactive installations. The course will engage electronic music genres of drone, ambient, IDM, and techno to anchor principles of sound design, rhythmic sequencing, and composition. We will use in-class listenings to articulate strategies for working with sound. Students will earn grades through the creation of two projects: a performance or generative art midterm and a final project, which may be a performance, generative sound system, sound sculpture, or an interactive installation.</p>
 </div>
 
-<h2>LEARNING OBJECTIVES</h2>
- 
-<div class="md-block"><ul>
-<li>Develop intermediate familiarity with sound synthesis concepts</li>
-<li>Develop intermediate facility with sound synthesis applications in Max/MSP</li>
-<li>Develop idiosyncratic processes to facilitate creatively engaging with computation</li>
-<li>Produce artistic works that creatively engage sound synthesis and critical listening</li>
-<li>Productively discuss and critique peers’ work.</li>
+<h2 id="learning-objectives">LEARNING OBJECTIVES</h2>
+
+<div class="md-block"><p>By the end of this course, you will be able to:</p>
+<ul>
+<li>Build synthesis instruments in Max/MSP using oscillators, additive and subtractive synthesis, filters, amplitude modulation, LFOs, and envelopes. <em>(Module 1; Midterm)</em></li>
+<li>Structure sound in time with timers, counters, sequencers, and presets. <em>(Module 1; Midterm)</em></li>
+<li>Record, process, and play back samples. <em>(Module 2; Final Project)</em></li>
+<li>Map gestural interfaces (keyboard, mouse, game controllers, camera) to sound for live performance and installation. <em>(Module 2; Final Project)</em></li>
+<li>Describe sound, and your strategies for working with it, in a critical listening vocabulary drawn from drone, ambient, IDM, and techno. <em>(listenings; critiques)</em></li>
+<li>Give specific, usable critique and act on the critique you receive. <em>(critiques)</em></li>
 </ul>
 </div>
 
-<h3>Important Dates</h3>
+<h2 id="materials">MATERIALS</h2>
+
+<div class="md-block"><p>For this class you will need:</p>
+<ul>
+<li>a modern Windows or Mac laptop (Chromebooks, tablets, and phones do not suffice)</li>
+<li>a pair of headphones for classroom work sessions</li>
+<li>a Max/MSP subscription license for the duration of the course (provided through your course fee)</li>
+<li>other materials you may wish to use in projects (a USB game controller, a portable webcam, etc.)</li>
+</ul>
+<p><strong>Texts and tutorials:</strong> Max's built-in tutorials and reference pages, plus the patches and recorded tutorials posted to this site and Canvas. Recommended reading: Pauline Oliveros, <em>Deep Listening: A Composer's Sound Practice</em> (2005).</p>
+<p><strong>Free and open-source alternative:</strong> everything we build in Max transfers to <a href="https://puredata.info/">Pure Data</a>, a free, open-source environment created by Max's original author, Miller Puckette, so you can keep making work after the course and your license end.</p>
+<p><strong>Listening:</strong> each week includes listenings (see the schedule). Genre anchors for the course include:</p>
+<ul>
+<li>drone: Éliane Radigue, Pauline Oliveros, La Monte Young</li>
+<li>ambient and early synthesis: Laurie Spiegel, Suzanne Ciani, Brian Eno</li>
+<li>IDM: Autechre, Aphex Twin</li>
+<li>techno and house: Drexciya, Underground Resistance, Jeff Mills, Phuture and Chicago house</li>
+</ul>
+<p><strong>Hearing safety and access:</strong> protect your hearing. Keep headphone and speaker levels moderate, start every patch with the volume down, and use a <code>live.gain~</code> or other level control in everything you build. If you are d/Deaf or hard of hearing, or experience sound differently, we will work out visual, tactile, and other ways to engage with the material; let me know what works for you.</p>
+</div>
+
+<h2 id="schedule">SCHEDULE</h2>
+
+<div class="md-block"><table>
+<thead>
+<tr>
+<th>Week</th>
+<th>Topic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Welcome; Intro to Max/MSP: messages, bang, timing, randomness</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Intro to Max (cont.): lists and controlled variation; <strong>Print Poems</strong></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Module 1: Synthesizing Drones + Ambient Textures</strong></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Additive synthesis</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Subtractive synthesis, filters, amplitude modulation, LFOs</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Events, envelopes, &quot;notes&quot;</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Sequencing</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Keyboard and mouse inputs; Midterm studio</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Midterm studio; <strong>Midterm Presentations</strong></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Module 2: Working with Recorded and Live Sound</strong></td>
+</tr>
+<tr>
+<td>9</td>
+<td>Sample playback; finding and working with samples</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Game controllers as interface (group work)</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Camera as interface</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Final project development strategies</td>
+</tr>
+<tr>
+<td>13</td>
+<td><strong>Final Project Proposals</strong>; studio</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Project development strategies 2; Thanksgiving</td>
+</tr>
+<tr>
+<td>15</td>
+<td><strong>Final Project Presentations</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<h3 id="important-dates">Important Dates</h3>
 <ul class="list-group">
   
-  <li class="list-group-item">August 25, M Instruction begins.</li>
+  <li class="list-group-item">August 24, M Instruction begins.</li>
   
-  <li class="list-group-item">September 1, M Labor Day holiday. No classes.</li>
+  <li class="list-group-item">September 7, M Labor Day holiday. No classes.</li>
   
-  <li class="list-group-item">November 26, W Student Wellness Day. No Classes.</li>
+  <li class="list-group-item">November 25, W Student Wellness Day. No classes.</li>
   
-  <li class="list-group-item">November 27–28, Th–F Thanksgiving holiday. No classes.</li>
+  <li class="list-group-item">November 26–27, Th–F Thanksgiving holiday. No classes.</li>
   
-  <li class="list-group-item">December 5, F Instruction ends.</li>
+  <li class="list-group-item">December 4, F Instruction ends.</li>
   
-  <li class="list-group-item">December 8-12, M-F Final examinations.</li>
-  
-  <li class="list-group-item">December 17, W Instructor grading deadline for 16-week courses (5 p.m.)</li>
-  
-  <li class="list-group-item">December 22, M Grades available via my.UIC.edu</li>
+  <li class="list-group-item">December 7–11, M–F Final examinations.</li>
   
 </ul>
 
-<h2>GRADING, ATTENDANCE, PRIVACY, AND ACCOMODATION POLICIES</h2>
+<h2 id="grading-attendance-privacy-and-accommodation-policies">GRADING, ATTENDANCE, PRIVACY, AND ACCOMMODATION POLICIES</h2>
+
+<h3 id="grading-breakdown">Grading Breakdown</h3>
+
+<div class="md-block"><ul>
+<li>10% - Print Poems</li>
+<li>30% - Midterm</li>
+<li>40% - Final Project</li>
+<li>20% - Participation</li>
+</ul>
+</div>
+
+<h3 id="projects">Projects</h3>
+
+<div class="md-block"><p>You will earn most of your grade through three pieces of work. All are presented for collective critique, and the Midterm and Final Project are assessed with the course project rubric below.</p>
+<h3 id="print-poems-10">Print Poems (10%)</h3>
+<p>Before we make any sound, we make poems. In Week 2, use Max to compose text by rule and chance and print it to the Max console with <code>[print]</code>. We look to Mozart's musical dice game, William S. Burroughs's cut-up technique, and Judy Malloy's <em>Uncle Roger</em> as models of writing with procedures.</p>
+<h4 id="requirements">requirements</h4>
+<ul>
+<li>generate text from a vocabulary you choose, stored in messages or lists (<code>zl</code> objects)</li>
+<li>use at least one source of chance (<code>[random]</code> or <code>[drunk]</code>)</li>
+<li>use timing or counting (<code>[metro]</code>, <code>[counter]</code>) to give the poem a structure</li>
+</ul>
+<h4 id="submission">submission</h4>
+<p>Your <code>.maxpat</code> file and a copy or screenshot of a poem it produced. Print Poems are graded on completion and good-faith experimentation.</p>
+<h3 id="midterm-synthesis-performance-or-generative-sound-piece-30">Midterm: Synthesis Performance or Generative Sound Piece (30%)</h3>
+<p>Drawing on Module 1, <em>Synthesizing Drones + Ambient Textures</em>, build a Max patch that either you perform live or that performs itself, for 3–5 minutes. Think of the drone and ambient listenings: how a sound can unfold slowly, how texture can be a form.</p>
+<p>Choose one path:</p>
+<ul>
+<li><strong>Performance:</strong> you play the patch live, using keyboard and mouse controls (<code>[key]</code>, <code>[mousestate]</code>, <code>[kslider]</code>, sliders) to shape the sound in real time.</li>
+<li><strong>Generative:</strong> the patch unfolds on its own through timing, chance, and sequencing; you start it and let it play.</li>
+</ul>
+<h4 id="requirements-2">requirements</h4>
+<ul>
+<li>built from the objects and techniques we have covered, so that you can explain every part of your patch</li>
+<li>at least two Module 1 synthesis techniques: additive synthesis, subtractive synthesis and filtering, amplitude modulation, or LFO modulation</li>
+<li>envelopes (<code>[adsr~]</code>, <code>[line~]</code>, or <code>[function]</code>) shaping at least one sound</li>
+<li>a timing or sequencing structure (<code>[metro]</code> and <code>[counter]</code>, <code>[matrixctrl]</code>, or <code>[preset]</code>)</li>
+<li><strong>performance path:</strong> at least two real-time controls mapped from the keyboard or mouse; <strong>generative path:</strong> a piece that changes meaningfully over 3–5 minutes without your intervention</li>
+<li>a clearly labeled patch with a master level control (<code>[live.gain~]</code>)</li>
+</ul>
+<h4 id="submission-2">submission</h4>
+<p>Your <code>.maxpat</code> file(s) and an audio or screen recording of the piece. Present your piece at Midterm Presentations (Week 8).</p>
+<h3 id="final-project-40">Final Project (40%)</h3>
+<p>Create a performance, generative sound system, sound sculpture, or interactive installation that builds on Module 2, <em>Working with Recorded and Live Sound</em>, and brings in what you learned in Module 1.</p>
+<h4 id="requirements-3">requirements</h4>
+<ul>
+<li>sample playback (<code>[buffer~]</code>, <code>[groove~]</code>, or <code>[playlist~]</code>) using sounds you recorded or sourced, with sources credited</li>
+<li>at least one gestural or sensing interface: game controller, camera, keyboard and mouse, or another sensor</li>
+<li>at least one Module 1 synthesis or modulation technique</li>
+<li>a proposal (Week 13) describing your concept, technical plan, and equipment needs</li>
+</ul>
+<h4 id="submission-3">submission</h4>
+<p>Your patch(es), sound files, and documentation (audio or video recording, plus photos for sculptures and installations). Perform or install your work for Final Project critiques (Week 15).</p>
+</div>
+
+<h3 id="project-rubric">Project Rubric</h3>
+<p>All projects are assessed with this rubric. Each project prompt lists its own technical requirements and submission items.</p>
+<div class="table-responsive">
+<table class="table table-bordered rubric-table">
+  <thead>
+    <tr>
+      <th scope="col">Criterion (weight)</th>
+      <th scope="col">Exemplary (A)</th><th scope="col">Proficient (B)</th><th scope="col">Developing (C)</th><th scope="col">Beginning (D/F)</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+    <tr>
+      <th scope="row">Technical execution (30%)</th>
+      <td>Meets every technical requirement in the prompt and uses the module&#39;s techniques with intention, often going beyond them; the code or patch is organized and commented, and the work runs reliably.</td><td>Meets all technical requirements; some techniques are used only minimally; the code or patch is mostly organized.</td><td>Meets most requirements; one is missing or does not work as intended.</td><td>Several requirements are missing, or the work does not run.</td>
+    </tr>
+    
+    <tr>
+      <th scope="row">Experimentation and range (20%)</th>
+      <td>Clearly explores the possibilities of the techniques and materials, testing and pushing ideas well beyond a first attempt.</td><td>Shows some exploration beyond a first attempt.</td><td>Exploration is minimal or accidental.</td><td>Little or no evidence of exploration.</td>
+    </tr>
+    
+    <tr>
+      <th scope="row">Aesthetic discernment (30%)</th>
+      <td>Makes clear, deliberate choices (composition, color, motion, space, sound) that serve the work&#39;s intent, explains those choices convincingly in critique, and takes a risk.</td><td>Choices are deliberate and mostly coherent and are explained in critique.</td><td>Choices look like defaults or go unexamined; little explanation.</td><td>No evident decisions; no explanation.</td>
+    </tr>
+    
+    <tr>
+      <th scope="row">Critique (20%)</th>
+      <td>Explains code and choices clearly; gives specific, generous feedback to at least two classmates (spoken, in chat, or in writing).</td><td>Explains the work; gives feedback to at least one classmate.</td><td>Brief explanation; minimal feedback.</td><td>Absent from critique with no alternative contribution.</td>
+    </tr>
+    
+  </tbody>
+</table>
+</div>
+<p>Coding sketches and in-class exercises are graded on completion and good-faith experimentation, not perfection. Participation can take many forms: speaking, chat, private messages to me, or written responses to classmates&#39; work.</p>
+
+
+<h3 id="generative-ai">Generative AI</h3>
+
+<div class="md-block"><p>This class focuses on the craft of creative coding. A central purpose of the course is to develop an interplay between your computational thinking and aesthetic discernment. While it is possible to create aesthetically interesting works with generative AI, using AI to create your code does not support this goal. As such, no generative AI is allowed in the generation of code for this course. I will assess your understanding of the code as well as the aesthetic result.</p>
+<p>You may use AI tools the way you would use documentation or a tutor: to help you understand a concept or an error message. The code and patches you submit should be your own work, and you should be able to explain them. In critique, you will walk us through your work line by line (or, in Max, object by object). If you can’t explain part of your work yet, bring it to office hours and we’ll work through it together.</p>
+</div>
+
 
 <h5>Department of Art, UIC</h5>
 
-<h3>Contact / Credit Hour Policies</h3>
-<p></p>
 
 
-
-<h3>Grading Key</h3>
-<ul class="list-group">
+<h3 id="attendance">Attendance</h3>
   
-  <li class="list-group-item">A Work is of exceptionally high quality both technically and conceptually. The student and work exhibits ambition that is successfully realized far beyond the level required and could not be improved in any way. The student takes big risks! The student is always on time and prepared, vocal in class, inquisitive, and clearly invested in what they are thinking about and making both in class and outside of class. The student takes copious notes and refers to their notes regularly. Projects must show significant growth between class periods. The student must display significant growth over the course of the semester through risk, experimentation, and care for their work and what they are learning.</li>
-  
-  <li class="list-group-item">B Work is of good effort with creative ideas, but not accomplished to fully embody the initial conceptual or formal impetus. The student and their work display little risk in creative execution of projects and remains steadfast in their familiar ways of working and thinking. Ideas are safe and predictable. The student takes notes randomly and hardly refers to them. The student is on time but scattered and less prepared.</li>
-  
-  <li class="list-group-item">C Work is average, the assignments have been fulfilled and on time but with minimal effort. Barely meets the requirements of the assignment with little or no regard for the depth of the artist’s known potential. Predictably late and unprepared for class, often not taking any notes or making effort to remember what was said in class. The student is quiet during conversations and little work is being done outside of class.</li>
-  
-  <li class="list-group-item">D The work does not meet the assignment’s criteria, and/or is incomplete at critique time. The student has poor attendance, is absent minded in lectures and conversations, and shows little to no work being done outside of class.</li>
-  
-  <li class="list-group-item">F Failure to complete projects, or to participate in critique, or failure to arrive prepared for class routinely.</li>
-  
-</ul>
-
-
-
-<h2>MATERIALS</h2>
- 
-<div class="md-block"><p>For this class you will need:</p>
-<ul>
-<li>a modern Windows or Mac laptop (Chromebook, tablets, and phones do not suffice)</li>
-<li>a pair of headphones for classroom work sessions</li>
-<li>a Max/MSP subscription license for the duration of the course (will be provided for you through your course fee)</li>
-<li>other materials (a USB games controller, a portable webcam, etc. which you may wish to use in projects)</li>
-</ul>
-</div>
-
-<h3>Attendance</h3>
-
-  
-<p>The following had been carefully written  by the faculty of the UIC Art Department and is used in all art classes.</p>
+<p>The following has been carefully written by the faculty of the UIC Art Department and is used in all art classes.</p>
   
 <p>This is a studio course built on active participation, making together, thinking together, and learning from one another. If you are not in class, then you cannot participate. Therefore, students are expected to attend all scheduled classes for the full duration of the course. Three unexcused absences will lower your final grade by one full letter. Excessive absences would be considered four or more and may be cause for failure in the course. Two tardies, or leaving class early, or stepping out for long durations during class time (20 minutes or more) constitutes one absence. Any absence beyond two, that is not an excused absence, will affect your grade. Excused absences are only missed classes due to the death of an immediate family member, observation of a religious holiday, hospitalization, contagious sickness, or a victim of a crime, all of which should be accompanied by appropriate documentation provided to your professor within a week of the absence. All other reasons for missing class are considered unexcused.</p>
   
@@ -554,20 +813,9 @@
 <p>*Please also note that it is your responsibility to track your attendance, to remain aware of it, and to communicate with your professor if you become concerned. Your professor will be taking attendance every class period, but it is not their obligation to communicate with you if your grade is being affected by your attendance.</p>
   
  <h5>makeup</h5>
-  <p>You are responsible for looking at the website and working through the textbook in order to familiarize yourself with what was missed in class. You might also be in touch with a peer in the class to learn what was covered in the course you have missed. It is your responsibility to ask questions about subject matter you may have missed in class. I assume you are in conversation with your peers about course material regularly. Indeed I encourage the class to self-organize; take collective notes in a GoogleDoc, start a Discord, and so on, to share and learn from each other. I am happy to boost these efforts if that is helpful to you.</p>
+  <p>You are responsible for looking at the website, watching recorded tutorials, and working through the textbook in order to familiarize yourself with what was missed in class.</p>
 
-  <h3>Grading Breakdown</h3>
-
-  
-  <div class="md-block"><ul>
-<li>10% - Print Poems</li>
-<li>30% - Midterm</li>
-<li>40% - Final Project</li>
-<li>20% - Participation</li>
-</ul>
-</div>
-
-<h2>Disability Accomodations</h2>
+<h2 id="disability-accommodations">Disability Accommodations</h2>
 <p>
   >UIC is committed to full inclusion and participation of people with
   disabilities in all aspects of university life. If you face or anticipate
@@ -579,7 +827,7 @@
   of Accommodation (LOA). Upon receipt of an LOA, I will gladly work with you
   and the DRC to implement approved accommodations.
 </p>
-<h2>Inclusivity Statement</h2>
+<h2 id="inclusivity-statement">Inclusivity Statement</h2>
 <p>
   “UIC values diversity and inclusion. Regardless of age, disability, ethnicity,
   race, gender, gender identity, sexual orientation, socioeconomic status,
@@ -591,7 +839,7 @@
   me or your TA as soon as possible.”
 </p>
 
-<h2>Religious Holiday Observance Policy</h2>
+<h2 id="religious-holiday-observance-policy">Religious Holiday Observance Policy</h2>
 <p>
   In accordance with Illinois state laws and with respect for cultural
   diversity, we will make every effort to avoid scheduling examinations or
@@ -600,13 +848,13 @@
   instructor by the tenth day of the term that they will be absent unless their
   religious holiday is observed on or before the tenth day, in such case
   students must notify instructor at least five days in advance of the date when
-  he or she will be absent.
+  they will be absent.
   <a
     href="https://oae.uic.edu/religious-calendar/#:~:text=Students%20who%20wish%20to%20observe,tenth%20day%20of%20the%20semester."
     >UIC’s Policy on religious holidays and Religious Calendar</a
   >
 </p>
-<h2>Safe Space</h2>
+<h2 id="safe-space">Safe Space</h2>
 <p>
   The UIC School of Art & Art History is committed to creating a safe space in
   our classrooms that is a welcoming, supportive, and safe environment for
@@ -624,7 +872,7 @@
   >.
 </p>
 
-<h2>Image Reproduction</h2>
+<h2 id="image-reproduction">Image Reproduction</h2>
 <p>
   Images of projects created in this course may be used for educational
   purposes, including instruction in future courses and promotion of the School,
@@ -632,7 +880,7 @@
   of your work for these purposes, please discuss these with your instructor.
 </p>
 
-<h2>Cheating</h2>
+<h2 id="cheating">Cheating</h2>
 <p>
   In accordance with UIC policies, any student caught copying homework,
   plagiarizing a paper, or any copying visual material without giving
@@ -647,7 +895,7 @@
   </li>
 </ol>
 
-<h2>Digital Privacy @ CADA</h2>
+<h2 id="digital-privacy-cada">Digital Privacy @ CADA</h2>
 <p>
   The College of Architecture, Design, and the Arts (CADA) strives to safeguard
   the privacy of its faculty, students, prospective students, and employees in
@@ -669,7 +917,7 @@
   Assistant Dean Dina Taylor (dltaylor@uic.edu) or Associate Dean Cheryl Towler
   Weese (cheryltw@uic.edu).
 </p>
-<h2>Lecture Recordings</h2>
+<h2 id="lecture-recordings">Lecture Recordings</h2>
 <p>
   Occasionally, class sessions may be recorded via Zoom (or a similar platform)
   for the purposes of study / review or for students who are unable to attend an
@@ -719,7 +967,7 @@
   Student Disciplinary Policy.
 </p>
 
-<h2>Student Disciplinary Policy</h2>
+<h2 id="student-disciplinary-policy">Student Disciplinary Policy</h2>
 <p>
   The
   <a
@@ -737,7 +985,7 @@
 </p>
 <hr />
 
-<h2>UIC Resources</h2>
+<h2 id="uic-resources">UIC Resources</h2>
 <ul>
   <li>
     <a href="https://csrc.uic.edu/">UIC Commuter and Off-campus Life Center</a>
@@ -774,6 +1022,9 @@
   </li>
 </ul>
 
+</article>
+  </div>
+</main>
 
       
         </div>

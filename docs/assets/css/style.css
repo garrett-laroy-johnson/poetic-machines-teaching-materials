@@ -186,3 +186,15 @@ canvas {
     order: initial;
   }
 }
+
+/* Rubric table */
+.rubric-table th, .rubric-table td { font-size: 0.85rem; vertical-align: top; }
+
+/* Print: hide navigation so syllabi print cleanly to PDF */
+@media print {
+  .mobile-nav-toggle, .sidebar-col, .toc { display: none !important; }
+  body { padding-top: 0 !important; }
+  .row > [class*="col-"] { width: 100% !important; max-width: 100% !important; flex: 0 0 100% !important; }
+  .rubric-table { page-break-inside: avoid; }
+  h2, h3, h4 { page-break-after: avoid; }
+}
