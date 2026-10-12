@@ -11,7 +11,7 @@ instructor: Dr. Grace Laroy Johnson (he/they)
 email: glj@uic.edu
 term: Fall 2026
 time: "Tuesdays / Thursdays 12:00 - 2:30pm"
-location: (see course schedule)
+location: "Hybrid: Tuesdays online (Zoom link in Canvas), Thursdays in person"
 ---
 
 {# point to term material #}
@@ -72,6 +72,11 @@ location: (see course schedule)
 <h3>Grading Breakdown</h3>
 {% set snippet %}
 {% include "./content/breakdown.md" %}
+{% endset %}
+{% markdown snippet %}
+
+{% set snippet %}
+{% include "./content/coursework.md" %}
 {% endset %}
 {% markdown snippet %}
 

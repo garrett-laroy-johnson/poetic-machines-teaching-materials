@@ -1,4 +1,5 @@
 - 10% - Print Poems
+- 10% - Studio Exercises
 - 30% - Midterm
-- 40% - Final Project 
-- 20% - Participation
+- 40% - Final Project
+- 10% - Participation

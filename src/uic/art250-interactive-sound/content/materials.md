@@ -2,6 +2,7 @@ For this class you will need:
 
 - a modern Windows or Mac laptop (Chromebooks, tablets, and phones do not suffice)
 - a pair of headphones for classroom work sessions
+- Zoom, for Tuesday online sessions
 - a Max/MSP subscription license for the duration of the course (provided through your course fee)
 - other materials you may wish to use in projects (a USB game controller, a portable webcam, etc.)
 
