@@ -5,7 +5,7 @@
 - Pietro, *Ambient Experimentations 27* (ambient textures)
 - [Mozart's musical dice game](https://thebrickinthesky.wordpress.com/2012/07/18/mozart-musikalisches-wurfelspiel-mozarts-musical-dice-game/) (chance procedures)
 - [William S. Burroughs's cut-up technique](https://youtu.be/Rc2yU7OUMcI) (recombination)
-- [Judy Malloy, *Uncle Roger*](https://collection.eliterature.org/3/work.html?work=uncle-roger) (1986–88) (generative text)
+- [Judy Malloy, *Uncle Roger*](https://collection.eliterature.org/3/work.html?work=uncle-roger) (1986–88) (traversable work of electronic literature)
 
 **Module 1: Synthesizing Drones + Ambient Textures**
 
