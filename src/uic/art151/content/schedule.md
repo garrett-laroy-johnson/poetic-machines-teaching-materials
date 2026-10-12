@@ -1,17 +1,17 @@
-| Week | Topic |
-|---|---|
-| 1 | Intro to coding, intro to p5.js |
-| 2 | Drawing to the HTML Canvas, Coordinates, Shape, Color |
-| 3 | Variables and For Loops |
-| 4 | Interactivity and Conditional Statements |
-| 5 | Project 1 Prep; assign group presentation groups |
-| 6 | Project 1 Presentations & Critiques |
-| 7 | Group Project Prep |
-| 8 | Group Project Presentations; Transformations and Movement in Animation |
-| 9 | Functions |
-| 10 | Project 2 Prep |
-| 11 | Project 2 Presentations & Critique |
-| 12 | Performing visuals intro, MIDI controller |
-| 13 | Arrays and Objects |
-| 14 | Project 3 work time / meetings |
-| 15 | Final Project Presentations |
+| Week | Topic | Coding sketch |
+|---|---|---|
+| 1 | Getting set up: intro to p5.js | — |
+| 2 | Simple 2D shapes | Self Portrait |
+| 3 | Variables and for loops | For Loop Remixes |
+| 4 | Nested for loops and randomness | Nested For Loops + Variations |
+| 5 | Randomness and conditionals | Noise |
+| 6 | **Project 1 presentations and critique:** Generative Drawing Machine | — |
+| 7 | Interactivity and conditionals; group presentation prep | Button Interface |
+| 8 | Transformations and media | Transformations and Media |
+| 9 | Motion, animation, incrementation | Movement |
+| 10 | Work week; **Group Presentations** | — |
+| 11 | **Project 2 presentations and critique:** Animated Tableaus | — |
+| 12 | Objects | — |
+| 13 | Arrays | Objects and Arrays |
+| 14 | Project 3 prep | Project 3 Proposal |
+| 15 | **Project 3:** Immersive Virtual Exhibition in New Art City | — |

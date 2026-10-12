@@ -46,7 +46,21 @@ You may elect to continue working in a more geometric and visually abstract fash
 
 In our tutorials, we have seen two different ways of approaching animation and movement in p5. Many of you will find it convenient to choose one or the other, but both approaches can be combined in interesting ways as well.
 
-In both cases, you should aim to use coding elements which support your artistic vision, integrating elements from this module with the previous module. You do not need to use all of these, but you will likely use three or four from each module. What I am most interested in is that you have created a compelling animated sketch that evidences two weeks of work. As a review:
+In both cases, you should aim to use coding elements which support your artistic vision, integrating elements from this module with the previous module. You do not need to use all of these, but you will likely use three or four from each module. What I am most interested in is that you have created a compelling animated sketch that evidences two weeks of work.
+
+#### requirements
+
+- your sketch must be animated: do not use `noLoop()`; the composition changes over time
+- choose a narrative / game-like tableau or a generative moving tableau
+- use at least three techniques from Module 1 and at least three from Module 2 (reviewed below)
+- the work should evidence two weeks of development
+- you are present for critique and participate in others' critique
+
+#### submission
+
+Submit your p5.js editor URL and a short screen recording (15–30 seconds) of the sketch running. Projects are presented for critique in Week 11.
+
+As a review:
 
 #### Module 1: Generative art
 
@@ -103,3 +117,8 @@ How can you make use of this 3D space? Will your space be everyday or fantastica
 - This new sketch should be a star in your show. It may be a static image, a moving image, or wrapped around a 3D object.
 - You may choose to explore "Miss Sammi's Garden" to find ready-made 3D assets you can import into your space.
 - You may use sound to create atmosphere in your space.
+- Submit a 100–200 word proposal in Week 14 describing your artistic intent and the coding techniques you plan to use.
+
+#### Submission
+
+Submit the link to your space in our New Art City world, the p5.js editor URL of your new sketch, and two or three screenshots of your space. We tour and critique the exhibition together in Week 15.

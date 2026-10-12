@@ -40,6 +40,12 @@ des: "/src/uic/art151/content/description.md"
 {% endset %}
 {% markdown snippet %}
 
+<h3>Readings and Screenings</h3>
+{% set snippet %}
+{% include  "./content/screenings.md" %}
+{% endset %}
+{% markdown snippet %}
+
 <h3>Important Dates</h3>
 <ul class="list-group">
   {% for d in calendar %}
@@ -55,6 +61,11 @@ des: "/src/uic/art151/content/description.md"
 {% set snippet %}
 {% include  "./content/breakdown.md" %}
 {% endset %} 
+{% markdown snippet %}
+
+{% set snippet %}
+{% include  "./content/coursework.md" %}
+{% endset %}
 {% markdown snippet %}
 
 
