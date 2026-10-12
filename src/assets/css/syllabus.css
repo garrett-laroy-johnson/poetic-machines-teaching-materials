@@ -131,3 +131,7 @@
 /* Contents list polish */
 .syllabus-toc ul { list-style: none; padding-left: 0; margin: 0; }
 .syllabus-toc .toc-level-2 { margin-top: 0.35rem; }
+
+/* Unlisted document pages (statements) use the syllabus styles without the course sidebar */
+.statement-page { max-width: 76rem; margin: 0 auto; }
+.statement-subtitle { color: #555; font-size: 1rem; margin: -0.5rem 0 1.5rem; }

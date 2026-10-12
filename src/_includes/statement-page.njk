@@ -1,0 +1,22 @@
+---
+layout: base-no-nav.njk
+---
+{# Unlisted document pages (e.g., teaching statement): same styles as syllabi, no course sidebar. #}
+<link rel="stylesheet" href="/assets/css/syllabus.css" />
+<main class="syllabus-page statement-page">
+  <div class="syllabus-toolbar">
+    <button type="button" class="syllabus-print" onclick="window.print()">
+      <i class="fas fa-print" aria-hidden="true"></i> Print / Save as PDF
+    </button>
+  </div>
+  <div class="syllabus-layout">
+    <aside class="syllabus-toc">{{ content | toc | safe }}</aside>
+    <article class="syllabus-body">
+      <header class="syllabus-header">
+        <h1>{{ title }}</h1>
+        {% if subtitle %}<p class="statement-subtitle">{{ subtitle }}</p>{% endif %}
+      </header>
+      {{ content | headingIds | safe }}
+    </article>
+  </div>
+</main>
