@@ -1,6 +1,6 @@
 ---
 weekNum: 0
-layout: base.njk
+layout: syllabus-page.njk
 title: Syllabus
 instructor: Dr. Grace Laroy Johnson (he/they)
 email: glj@uic.edu
@@ -14,7 +14,16 @@ des: "/src/uic/art151/content/description.md"
 {% set grades = grading.uic %}
 
 {# course header #}
-{% syllabusHeader course, instructor, time, term, location %}
+<header class="syllabus-header">
+  <h1>{{ course }}</h1>
+  <ul class="list-group">
+    <li class="list-group-item">instructor: {{ instructor }}</li>
+    <li class="list-group-item">email: {{ email }}</li>
+    <li class="list-group-item">time: {{ time }}</li>
+    <li class="list-group-item">term: {{ term }}</li>
+    <li class="list-group-item">location: {{ location }}</li>
+  </ul>
+</header>
 {# course description #}
 {% set snippet %}
 {% include "./content/description.md" %} 

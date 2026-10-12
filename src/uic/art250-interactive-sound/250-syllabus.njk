@@ -4,7 +4,7 @@ weekNum: 0
 tags:
   - syllabus
   - art250-interactive-sound
-layout: base.njk
+layout: syllabus-page.njk
 title: Syllabus
 course: UIC | ART 250 | Introduction to Interactive Sound
 instructor: Dr. Grace Laroy Johnson (he/they)
@@ -20,7 +20,16 @@ location: (see course schedule)
 {% set attendance = attendance.studio %}
 
 {# course header #}
-{% syllabusHeader course, instructor, time, term, location %}
+<header class="syllabus-header">
+  <h1>{{ course }}</h1>
+  <ul class="list-group">
+    <li class="list-group-item">instructor: {{ instructor }}</li>
+    <li class="list-group-item">email: {{ email }}</li>
+    <li class="list-group-item">time: {{ time }}</li>
+    <li class="list-group-item">term: {{ term }}</li>
+    <li class="list-group-item">location: {{ location }}</li>
+  </ul>
+</header>
 {# course description #}
 {% set snippet %}
 {% include "./content/description.md"%}
