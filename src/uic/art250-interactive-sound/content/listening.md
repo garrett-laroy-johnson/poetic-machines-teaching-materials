@@ -2,7 +2,7 @@
 
 - Vangelis, [*Blade Runner* main titles](https://www.youtube.com/watch?v=BUgSJt7Q7gw&list=PLQrO-C6odG9aiuTM9aVqFM_00359gs0OM) (1982) (analog polyphonic synthesis)
 - Lauren Sarah Hayes, [*The Accusations that are Confessions*](https://www.youtube.com/watch?v=RgPaHgbaevQ) (live electronics)
-- Pietro, *Ambient Experimentations 27* (ambient textures)
+- Pietro, *Ambient Experimentations 27* (generative ambient textures)
 - [Mozart's musical dice game](https://thebrickinthesky.wordpress.com/2012/07/18/mozart-musikalisches-wurfelspiel-mozarts-musical-dice-game/) (chance procedures)
 - [William S. Burroughs's cut-up technique](https://youtu.be/Rc2yU7OUMcI) (recombination)
 - [Judy Malloy, *Uncle Roger*](https://collection.eliterature.org/3/work.html?work=uncle-roger) (1986–88) (traversable work of electronic literature)
