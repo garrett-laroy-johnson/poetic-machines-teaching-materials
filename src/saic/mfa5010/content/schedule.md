@@ -100,13 +100,15 @@ Thomas, Zach. ["Carlos Reygadas' Post Tenebras Lux: Towards a Cinema of Experien
 
 Substitute: Kristi McGuire
 
+In class screening: [Adam Curtis: _All Watched Over by Machines of Loving Grace_ (2011)](https://archive.org/details/BBC.All.Watched.Over.by.Machines.of.Loving.Grace.3of3.Monkey.in.the.Machine.PDTV). Episode 1 and first half of 2.
+
 ## 10/30/26 Week 10
 
-Dufourtmantelle, Anna. In Praise of Risk, selections. 2019.
+Dufourtmantelle, Anna. [In Praise of Risk](src\assets\pdf\in-praise-of-risk.pdf), . 2019. Read until page 88 ("At the Risk of Speech")
 
-Fields, Noa Michaela. E, selections. 2025.
+Fields, Noa Michaela. E, selections. 2025. pgs 3-14; 45-74.
 
-Guest: Noa Michaela Fields
+Guest: [Noa Michaela Fields](https://www.noamicaelafields.com/)
 
 ## 11/06/26 Week 11
 
