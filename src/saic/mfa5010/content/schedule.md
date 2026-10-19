@@ -108,6 +108,8 @@ Dufourtmantelle, Anna. [In Praise of Risk](src\assets\pdf\in-praise-of-risk.pdf)
 
 Fields, Noa Michaela. E, selections. 2025. pgs 3-14; 45-74.
 
+Fields, Noa Michaela. [For an Echodeviant Poet, Mishearing is a Method](https://lithub.com/for-an-echodeviant-poet-mishearing-is-a-method/). 2026.
+
 Guest: [Noa Michaela Fields](https://www.noamicaelafields.com/)
 
 ## 11/06/26 Week 11
